@@ -1,0 +1,108 @@
+/*
+@import url("http://fonts.googleapis.com/css?family=Lato:400,700");
+* { font-family:Lato, "Trebuchet MS", Tahoma, Arial; }
+body { font-family:Lato, "Trebuchet MS", Tahoma, Arial !important; }
+*/
+
+code { font-family:Consolas, Monospace !important; }
+
+a {
+    text-decoration: underline;
+    color: #202060;
+}
+
+html, body, form { height: 100%; }
+
+/*
+li { font-family:inherit; }
+*/
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: larger;
+	padding-bottom: 5px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	max-width: 98%;
+	padding: 2px;	
+}
+
+
+.color1 { background-color: #FAA531; }
+.color2 { background-color: #FDFFD9; }
+.color3 { background-color: #D58100; }
+
+/*
+Christine says:
+9ECEB4
+E8F9EB
+FFFDD2
+E3E1E1
+
+Scheme before Christine's suggestions
+.color1 { background-color: #D9D980; }
+.color2 { background-color: #B3B300; }
+
+Original too-dark lime scheme:
+.color1 { background-color: #B3B300; }
+.color2 { background-color: #D9D980; }
+
+Brown/rust
+.color1 { background-color: #E29336; }
+.color2 { background-color: #EFC38F; }
+
+.color1 { background-color: #FFD700; }
+.color2 { background-color: #ADDEFA; }
+
+.color1 { background-color: #179054; }
+.color2 { background-color: #CFCBAF; }
+
+.color1 { background-color: #70A0F0; }
+.color2 { background-color: #D0D0F0; }
+*/
+
+font.optional { color: #009600; }
+font.notice   { color: #A52A2A; }
+font.command { font-family:Consolas, Monospace !important;
+               color: #A52A2A;}
+font.snippet { font-family:Consolas, Monospace !important; }
+
+div.content {
+	padding-top: 5px;
+	margin-left: 85px;
+}
+
+div.navbar {
+    position:fixed;
+    bottom:0;
+    top:0;
+   	width: 75px;
+    height: 100%;
+	background-color: #FAA531;
+    float:left;
+    font-weight: bold;
+    font-size: smaller;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+ul.navmenu { margin-top: 5px; }
+div.navbar a { color: #000000;}
+div.smallFont { font-size: smaller; }
+
+/*
+b { font-weight: 700; }
+*/
+
+.solo {
+	font-weight: bold;
+	background-color: orange;	
+}
+
+.collaborative {
+    font-weight: bold;
+    background-color: lightGreen;   
+}
