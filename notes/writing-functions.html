@@ -1,24 +1,14 @@
 ---
 title: Writing Functions
-layout: default
+layout: notes
 ---
-<div class="content">
-<h1>
-CMU 15-110: Principles of Computing<br>
-Class Notes: Writing Functions
-</h1>
-<hr>
-
 <ol>
 <li><b><a href="#Vocabulary">Vocabulary</a></b></li>
 <li><b><a href="#ReturnStatements">Return Statements</a></b></li>
 <li><b><a href="#PrintVersusReturn">Print versus Return</a></b></li>
 <li><b><a href="#DifferentTypes">Different Parameter and Return Types</a></b></li>
-<li><b><a href="#FunctionComposition">Function Composition</a></b></li>
 <li><b><a href="#HelperFunctions">Helper Functions</a></b></li>
 <li><b><a href="#TestFunctions">Test Functions</a></b></li>
-<li><b><a href="#LocalScope">Local Variable Scope</a></b></li>
-<li><b><a href="#GlobalScope">Global Variable Scope</a></b></li>
 </ol>
 
 <hr>
@@ -40,7 +30,7 @@ print(f(3, 4)) # 12
 #   expression
 #   function definition (or declaration)
 #   function call
-#   parameter (or "formal parameter")
+#   parameter
 #   argument
 #   return value
 #   return type
@@ -135,21 +125,6 @@ print(isPositive(-1.234)) # False
 </div>
 </li>
 
-<br><li><a name="FunctionComposition"></a><b>Function Composition</b>
-<div class="python-code visualize">
-def f(w):
-    return 10*w
-
-def g(x, y):
-    return f(3*x) + y
-
-def h(z):
-    return f(g(z, f(z+1)))
-
-print(h(1)) # hint: try the "visualize" feature
-</div>
-</li>
-
 <br><li><a name="HelperFunctions"></a><b>Helper Functions</b>
 <div class="python-code visualize">
 def onesDigit(n):
@@ -200,77 +175,5 @@ testOnesDigit() # Crashed!  So the test function worked!
 </li>
 </ul>
 
-<br><li><a name="LocalScope"></a><b>Local Variable Scope</b>
-<div class="python-code visualize">
-def f(x):
-    print("In f, x =", x)
-    x += 5
-    return x
-
-def g(x):
-    return f(x*2) + f(x*3)
-
-print(g(2))
-
-</div>
-
-<br><b>Another example:</b>
-
-<div class="python-code visualize">
-def f(x):
-    print("In f, x =", x)
-    x += 7
-    return round(x / 3)
-
-def g(x):
-    x *= 10
-    return 2 * f(x)
-
-def h(x):
-    x += 3
-    return f(x+4) + g(x)
-
-print(h(f(1)))
-</div>
-</li>
-
-<br><li><a name="GlobalScope"></a><b>Global Variable Scope</b>
-<div class="python-code visualize">
-# In general, you should avoid using global variables.
-# You will even lose style points if you use them!
-# Still, you need to understand how they work, since others
-# will use them, and there may also be some very few occasions
-# where you should use them, too!
-
-g = 100
-
-def f(x):
-    return x + g
-
-print(f(5)) # 105
-print(f(6)) # 106
-print(g)    # 100
-
-</div>
-
-<br><b>Another example:</b>
-
-<div class="python-code visualize">
-g = 100
-
-def f(x):
-    # If we modify a global variable, we must declare it as global.
-    # Otherwise, Python will assume it is a local variable.
-    global g
-    g += 1
-    return x + g
-
-print(f(5)) # 106
-print(f(6)) # 108
-print(g)    # 102
-</div>
-</li>
-
 </ol>
-</div>
 
