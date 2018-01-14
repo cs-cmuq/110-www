@@ -1,6 +1,4 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
 ---
+This is not a full website, so there is nothing at the main index to see.
+For the 15-110 course website, please visit [this page](http://www.gisellereis.com/15110-s18/)
