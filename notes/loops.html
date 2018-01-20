@@ -89,6 +89,8 @@ print( factorial(5) )
 
 </li>
 
+<br>
+<br>
 <li><a name="while"></a><b><code>while</code> loops</b>
 
 <br>
@@ -121,6 +123,7 @@ whileExample(17)
 
 </li>
 
+<br>
 <br><li><a name="break-continue"></a><b>Controlling loops</b>
 
 <br>
@@ -158,10 +161,38 @@ print( sumIfMultiple(4, 20, 5) ) # 5 + 10 + 15 = 30
 print( sumIfMultiple(7, 17, 4) ) # 8 + 12 + 16 = 36
 </div>
 
+<br>
 <br><li><a name="prime"></a><b>Prime numbers</b>
-TODO
+
+<br>
+A number is called <em>prime</em> if it is only divisible by 1 and itself. Using
+loops, we can write a code that checks if a number is prime or not.
+
+<br>
+<div class="python-code">
+def isPrime(n):
+    if n == 1:
+        return False
+        
+    d = 2
+    while d < n:
+        if n % d == 0:
+            return False
+        d = d + 1
+    return True
+
+print( isPrime(1) )    
+print( isPrime(2) )
+print( isPrime(3) )
+print( isPrime(4) )
+print( isPrime(5) )
+print( isPrime(16) )
+print( isPrime(17) )
+<div>
+
 </li>
 
+<br>
 <br><li><a name="epidemic"></a><b>Epidemic</b>
 TODO
 </li>
