@@ -3,40 +3,39 @@ title: Loops
 layout: notes
 ---
 <ol>
-<li><b><a href="#for"><tt>for</tt> loops</a></b></li>
-<li><b><a href="#while"><tt>while</tt> loops</a></b></li>
+<li><b><a href="#for"><code>for</code> loops</a></b></li>
+<li><b><a href="#while"><code>while</code> loops</a></b></li>
 <li><b><a href="#break-continue">Controlling loops</a></b></li>
 <li><b><a href="#prime">Prime numbers</a></b></li>
 <li><b><a href="#epidemic">Epidemic</a></b></li>
 </ol>
 
 <hr>
-<ol>
 
-<li>
 Loops are commands that tell the computer to repeat a <em>block</em> of code a
 certain number of times. The exact number will depend on the command and how you
 write it.
-</li>
 
-<li><a name="for"></a><b><tt>for</tt> loops</b>
+<ol>
+
+<li><a name="for"></a><b><code>for</code> loops</b>
+
+<br><br>
+The "template" of a <code>for</code> command is:
 
 <br>
-The "template" of a <tt>for</tt> command is:
-
-<br>
-<tt>
-for loop_variable in range(...):
-  loop_body
-</tt>
+<div class="python-code">
+# for loop_variable in range(...):
+#     loop_body
+</div>
 
 <br>
 The loop variable is just like a regular variable: it stores values.
 This variable may (or may not) be used in the loop body. This body is a sequence of
 one or more commands.
 
-<br>
-Think of <tt>range(...)</tt> as a list of values. On the first
+<br><br>
+Think of <code>range(...)</code> as a list of values. On the first
 <em>iteration</em>, the loop variable stores the first value in this list. On
 the second iteration it stores the second values in the list. And so on and so
 forth. Everytime the code is repeated, the value stored in the loop variable
@@ -90,19 +89,22 @@ print( factorial(5) )
 
 </li>
 
-<li><a name="while"></a><b><tt>while</tt> loops</b>
+<li><a name="while"></a><b><code>while</code> loops</b>
 
 <br>
-The "template" of a <tt>while</tt> command is:
+The "template" of a <code>while</code> command is:
 
 <br>
-<tt>
-while condition:
-  loop_body
-</tt>
+<div class="python-code">
+# while condition:
+#     loop_body
+</div>
 
 <br>
-This is read as: while the condition is true, repeat the loop body. ATTENTION:
+This is read as: while the condition is true, repeat the loop body. 
+
+<br>
+ATTENTION:
 if the condition is <b>always</b> true, your code will run forever (it loops
 infinitely). So you better check that the condition will become false eventually!
 
@@ -122,7 +124,7 @@ whileExample(17)
 <br><li><a name="break-continue"></a><b>Controlling loops</b>
 
 <br>
-A loop can be artificially stopped by using the command <tt>break</tt>.
+A loop can be artificially stopped by using the command <code>break</code>.
 
 <br>
 <div class="python-code">
@@ -140,7 +142,7 @@ print( sumWithLimit(100, 10000) )
 </div>
 
 <br>
-<em>One</em> loop iteration can be skipped using the command <tt>continue</tt>.
+<em>One</em> loop iteration can be skipped using the command <code>continue</code>.
 
 <br>
 <div class="python-code">
