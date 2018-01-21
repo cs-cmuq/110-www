@@ -137,13 +137,36 @@ def board(n, m):
     for i in range(n):
         for j in range(m):
             print("* ", end="")
-        print("")
+        print()
     return
     
 board(3, 3)
 board(4, 6)
 board(6, 4)
 </div>
+
+<br> How to print a board where the main diagonal is composed of <code>o</code>
+characters?
+
+<br>
+<br>
+How to print a board where each position (i, j), where i and j multiples of each
+other is marked by the character <code>o</code>?
+
+<br>
+<br>
+What will the following code print?
+
+<div class="python-code">
+def whichShape(n):
+    for i in range(n):
+        for j in range(i):
+            print("* ", end=" ")
+        print()
+    return
+
+whichShape(10)
+<div>
 
 </li>
 
