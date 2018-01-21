@@ -6,6 +6,7 @@ layout: notes
 <li><b><a href="#for"><code>for</code> loops</a></b></li>
 <li><b><a href="#while"><code>while</code> loops</a></b></li>
 <li><b><a href="#break-continue">Controlling loops</a></b></li>
+<li><b><a href="#wow">Wow</a></b></li>
 <li><b><a href="#prime">Prime numbers</a></b></li>
 <li><b><a href="#epidemic">Epidemic</a></b></li>
 </ol>
@@ -68,9 +69,10 @@ def forExample3(m, n, s):
 
 forExample3(1, 51, 10)
 </div>
+</li>
 
 <br>
-<b>Accumulating results in a variable</b>
+<br><li><a name="accumulation"></a><b>Accumulating results in a variable</b>
 
 <br>
 <div class="python-code">
@@ -86,6 +88,62 @@ print( factorial(5) )
 
 <br>
 <b>IMPORTANT: do not change the value of the loop variable inside the loop!</b>
+
+<br>
+<br>
+<b>Sum the numbers from M to N</b>
+
+<br>
+<div class="python-code">
+def sumMtoN(m, n):
+    sum = 0
+    for i in range(m, n+1):
+        sum += i # Same as sum = sum + i
+    return sum
+    
+print( sumMtoN(1, 3) )
+print( sumMtoN(10, 15) )
+</div>
+
+</li>
+
+<br>
+<br><li><a name="wow"></a><b>Wow</b>
+
+<br>
+Given a number <em>n</em> write a program that prints 'Wo...ow' with <em>n</em>
+o's.
+
+<br>
+<div class="python-code">
+def wow(n):
+    print("W", end="")
+    for i in range(n):
+        print("o", end="")
+    print("w")
+    return
+    
+wow(3)
+wow(6)
+</div>
+</li>
+
+<br>
+<br>
+<li><a name="boards"></a><b>Printing boards</b>
+
+<div class="python-code">
+def board(n, m):
+    for i in range(n):
+        for j in range(m):
+            print("* ", end="")
+        print("")
+    return
+    
+board(3, 3)
+board(4, 6)
+board(6, 4)
+</div>
 
 </li>
 
@@ -160,6 +218,8 @@ def sumIfMultiple(m, n, d):
 print( sumIfMultiple(4, 20, 5) ) # 5 + 10 + 15 = 30
 print( sumIfMultiple(7, 17, 4) ) # 8 + 12 + 16 = 36
 </div>
+
+
 
 <br>
 <br><li><a name="prime"></a><b>Prime numbers</b>
