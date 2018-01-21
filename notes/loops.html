@@ -345,13 +345,52 @@ print( isPrime(17) )
 <br>
 <br>
 Suppose there was a breakout of a very contagious epidemic disease. Scientists
-suspect that every sick person contaminates, on average, 5 other people on the
-first day. How many people will be contaminated on the n<sup>th</sup> day?
+suspect that every sick person contaminates, on average, 3 other people on the
+first day. Write a program that computes the number of contaminated people on
+the n<sup>th</sup> day.
 
 <br>
 <div class="python-code">
-# Task
+def countContaminated(n):
+    total_contaminated = 1  # one sick person on the first day
+    total_contagious = 1    # this first person is contagious
+    for i in range(1,n+1):
+        # On the next day, each person contaminates 3 others, who become the new contagious people
+        total_contagious = total_contagious * 3
+        # These new contagious people are count towards the number of total contaminated
+        total_contaminated = total_contaminated + total_contagious
+    return total_contaminated
+        
+print( countContaminated(2) )
+print( countContaminated(7) )
+print( countContaminated(30) )
+print( countContaminated(365) )
 </div>
+
+<br>
+If we want to know how many days it will take until everyone in the world is
+contaminated, we don't need to keep testing with the program above. We can write
+another program that will do that for us!
+
+<br>
+<div class="python-code">
+def allContaminated():
+    population = 7600000000
+    total_contaminated = 1
+    total_contagious = 1
+    days = 0
+    while (total_contaminated < population):
+        total_contagious = total_contagious * 3
+        total_contaminated = total_contaminated + total_contagious
+        days += 1
+    return days
+    
+print(allContaminated())
+</div>
+
+<br>
+Can you parametrize that function to make it work for <em>any</em> population
+size?
 
 </li>
 
