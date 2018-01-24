@@ -1,0 +1,633 @@
+---
+title: Lists
+layout: notes
+---
+<ol>
+<li><a href="#creatingLists"><b>Creating Lists</b></a></li>
+<li><a href="#listProperties"><b>List Properties (len, min, max, sum)</b></a></li>
+<li><a href="#accessingElements"><b>Accessing Elements (Indexing and Slicing)</b></a></li>
+<li><a href="#findingElements"><b>Finding Elements</b></a></li>
+<li><a href="#addingElements"><b>Adding Elements</b></a></li>
+<li><a href="#removingElements"><b>Removing Elements</b></a></li>
+<li><a href="#swappingElements"><b>Swapping Elements</b></a></li>
+<li><a href="#loopingOverLists"><b>Looping Over Lists</b></a></li>
+<li><a href="#comparingLists"><b>Comparing Lists</b></a></li>
+<li><a href="#copyingLists"><b>Copying Lists</b></a></li>
+<li><a href="#sortingLists"><b>Sorting Lists</b></a></li>
+<li><a href="#listsWithFunctions"><b>Usings Lists with Functions</b></a></li>
+<li><a href="#listOpsAndMethods"><b>Summary of List Operations and Methods</b></a></li>
+<li><a href="#tuples"><b>Tuples (Immutable Lists)</b></a></li>
+<li><a href="#listComprehensions"><b>List Comprehensions</b></a></li>
+<li><a href="#convertingListsAndStrings"><b>Converting Between Lists and Strings</b></a></li>
+</ol>
+
+<hr>
+
+<ol>
+
+<li><a name="creatingLists"></a><b>Creating Lists</b>
+<ul>
+<li><b>Empty List</b>
+<div class="python-code">
+print("Two standard ways to create an empty list:")
+a = [ ]
+b = list()
+
+print(type(a), len(a), a)
+print(type(b), len(b), b)
+print(a == b)
+</div>
+
+</li><br><li><b>List with One Element (Singleton)</b>
+<div class="python-code">
+a = [ "hello" ]
+b = [ 42 ]
+
+print(type(a), len(a), a)
+print(type(b), len(b), b)
+print(a == b)
+</div>
+
+</li><br><li><b>List with Multiple Elements</b>
+<div class="python-code">
+a = [2, 3, 5, 7]
+b = list(range(5))
+c = ["mixed types", True, 42]
+
+print(type(a), len(a), a)
+print(type(b), len(b), b)
+print(type(c), len(c), c)
+</div>
+
+</li><br><li><b>Variable-Length List</b>
+<div class="python-code">
+n = 10
+a = [0] * n
+b = list(range(n))
+
+print(type(a), len(a), a)
+print(type(b), len(b), b)
+</div>
+</li>
+</ul>
+</li>
+
+<br><li><a name="listProperties"></a><b>List Properties (len, min, max, sum)</b>
+<div class="python-code">
+a = [ 2, 3, 5, 2 ]
+print("a = ", a)
+print("len =", len(a))
+print("min =", min(a))
+print("max =", max(a))
+print("sum =", sum(a))
+</div>
+</li>
+
+<br><li><a name="accessingElements"></a><b>Accessing Elements (Indexing and Slicing)</b>
+<div class="python-code">
+a = [2, 3, 5, 7, 11, 13]
+print("a        =", a)
+
+# Access non-negative indexes
+print("a[0]     =", a[0])
+print("a[2]     =", a[2])
+
+# Access slices a[start:end:step]
+print("a[0:2]   =", a[0:2])
+print("a[1:4]   =", a[1:4])
+print("a[1:6:2] =", a[1:6:2])
+
+# Access negative indexes (uncommon)
+print("a[-1]    =", a[-1])
+print("a[-3]    =", a[-3])
+</div>
+</li>
+
+<br><li><a name="findingElements"></a><b>Finding Elements</b>
+<ul>
+<li><b>Check for list membership:  in</b>
+<div class="python-code">
+a = [ 2, 3, 5, 2, 6, 2, 2, 7 ]
+print("a      =", a)
+print("2 in a =", (2 in a))
+print("4 in a =", (4 in a))
+</div>
+
+</li><br><li><b>
+Check for list non-membership:  not in
+</b>
+<div class="python-code">
+a = [ 2, 3, 5, 2, 6, 2, 2, 7 ]
+print("a          =", a)
+print("2 not in a =", (2 not in a))
+print("4 not in a =", (4 not in a))
+</div>
+
+</li><br><li><b>
+Count occurrences in list:  list.count(item)
+</b>
+<div class="python-code">
+a = [ 2, 3, 5, 2, 6, 2, 2, 7 ]
+print("a          =", a)
+print("a.count(1) =", a.count(1))
+print("a.count(2) =", a.count(2))
+print("a.count(3) =", a.count(3))
+</div>
+
+</li><br><li><b>
+Find index of item:  list.index(item) and list.index(item, start)
+</b>
+<ul>
+<li><b>
+Example
+</b>
+<div class="python-code">
+a = [ 2, 3, 5, 2, 6, 2, 2, 7 ]
+print("a            =", a)
+print("a.index(6)   =", a.index(6))
+print("a.index(2)   =", a.index(2))
+print("a.index(2,1) =", a.index(2,1))
+print("a.index(2,4) =", a.index(2,4))
+</div>
+
+</li><br><li><b>
+Problem: crashes when item is not in list
+</b>
+<div class="python-code">
+a = [ 2, 3, 5, 2 ]
+print("a          =", a)
+print("a.index(9) =", a.index(9)) # crashes!
+print("This line will not run!")
+</div>
+
+</li><br><li><b>
+Solution:  use (item in list)
+</b>
+<div class="python-code">
+a = [ 2, 3, 5, 2 ]
+print("a =", a)
+if (9 in a):
+    print("a.index(9) =", a.index(9))
+else:
+    print("9 not in", a)
+print("This line will run now!")
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<br><li><a name="addingElements"></a><b>Adding Elements</b>
+<ul>
+<li><b>Destructively (Modifying Lists)</b>
+<ul>
+<li><b>Add an item with list.append(item)</b>
+<div class="python-code">
+a = [ 2, 3 ]
+a.append(7)
+print(a)
+</div>
+
+</li><br><li><b>Add a list of items with list += list2</b>
+<div class="python-code">
+a = [ 2, 3 ]
+a += [ 11, 13 ]
+print(a)
+</div>
+
+</li><br><li><b>Add a list of items with list.extend(list2)</b>
+<div class="python-code">
+a = [ 2, 3 ]
+a.extend([ 17, 19 ])
+print(a)
+</div>
+
+</li><br><li><b>Insert an item at a given index</b>
+<div class="python-code">
+a = [ 2, 3, 5, 7, 11 ]
+a.insert(2, 42)  # at index 2, insert 42
+print(a)
+</div>
+
+</li></ul></li>
+<br>
+<li><b>Non-Destructively (Creating New Lists)</b>
+<ul>
+<li><b>Add an item with list1 + list2</b>
+<div class="python-code">
+a = [ 2, 3 ]
+b = a + [ 13, 17 ]
+print(a)
+print(b)
+</div>
+
+</li><br><li><b>Insert an item at a given index (with list slices)</b>
+<div class="python-code">
+a = [ 2, 3 ]
+b = a[:2] + [5] + a[2:]
+print(a)
+print(b)
+</div>
+</li>
+
+</ul>
+</li>
+
+</li><br><li><b>Destructive vs Non-Destructive Example</b>
+<div class="python-code">
+print("Destructive:")
+a = [ 2, 3 ]
+b = a
+a += [ 4 ]
+print(a)
+print(b)
+
+print("Non-Destructive:")
+a = [ 2, 3 ]
+b = a
+a = a + [ 4 ]
+print(a)
+print(b)
+</div>
+</li>
+</ul>
+</li>
+
+<br><li><a name="removingElements"></a><b>Removing Elements</b>
+<ul>
+<li><b>Destructively (Modifying Lists)</b>
+<ul>
+<li><b>Remove an item with list.remove(item)</b>
+<div class="python-code">
+a = [ 2, 3, 5, 3, 7, 6, 5, 11, 13 ]
+print("a =", a)
+
+a.remove(5)
+print("After a.remove(5), a=", a)
+
+a.remove(5)
+print("After another a.remove(5), a=", a)
+</div>
+
+</li><br><li><b>Remove an item at a given index with list.pop(index)</b>
+<div class="python-code">
+a = [ 2, 3, 4, 5, 6, 7, 8 ]
+print("a =", a)
+
+item = a.pop(3)
+print("After item = a.pop(3)")
+print("   item =", item)
+print("   a =", a)
+
+item = a.pop(3)
+print("After another item = a.pop(3)")
+print("   item =", item)
+print("   a =", a)
+
+# Remove last item with list.pop()
+item = a.pop()
+print("After item = a.pop()")
+print("   item =", item)
+print("   a =", a)
+</div>
+
+</li><br><li><b>Remove an item with slice assignment</b>
+<div class="python-code">
+a = [ 2, 3, 4, 5, 6, 7, 8 ]
+a[2:4] = [ ]
+print("a =", a)
+</div>
+</li>
+
+</li><br><li><b>Remove an item with the del operator</b>
+<div class="python-code">
+a = [ 2, 3, 4, 5, 6, 7, 8 ]
+del a[2:4]
+print("a =", a)
+</div>
+</li>
+</ul>
+</li>
+
+<br>
+<li><b>Non-Destructively (Creating New Lists)</b>
+<ul>
+
+<li><b>Remove an item at a given index (with list slices)</b>
+<div class="python-code">
+a = [ 2, 3, 5, 3, 7, 5, 11, 13 ]
+print("a =", a)
+
+b = a[:2] + a[3:]
+print("After b = a[:2] + a[3:]")
+print("   a =", a)
+print("   b =", b)
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<br><li><a name="swappingElements"></a><b>Swapping Elements</b>
+<ul>
+<li><b>Failed swap</b>
+<div class="python-code">
+a = [ 2, 3, 5, 7 ]
+print("a =", a)
+
+a[0] = a[1]
+a[1] = a[0]
+print("After failed swap of a[0] and a[1]:")
+print("   a=",a)
+</div>
+
+</li><br><li><b>Swap with a temp variable</b>
+<div class="python-code">
+a = [ 2, 3, 5, 7 ]
+print("a =", a)
+
+temp = a[0]
+a[0] = a[1]
+a[1] = temp
+print("After swapping a[0] and a[1]:")
+print("   a=",a)
+</div>
+
+</ul>
+</li>
+
+<br><li><a name="loopingOverLists"></a><b>Looping Over Lists</b>
+<ul>
+<li><b>Looping with:  for item in list</b>
+<div class="python-code">
+a = [ 2, 3, 5, 7 ]
+print("Here are the items in a:")
+for item in a:
+    print(item)
+</div>
+
+</li><br><li><b>Looping with:  for index in range(len(list))</b>
+<div class="python-code">
+a = [ 2, 3, 5, 7 ]
+print("Here are the items in a with their indexes:")
+for index in range(len(a)):
+    print("a[", index, "] =", a[index])
+</div>
+
+</li><br><li><b>Looping backward</b>
+<div class="python-code">
+a = [ 2, 3, 5, 7 ]
+print("And here are the items in reverse:")
+for index in range(len(a)):
+    revIndex = len(a)-1-index
+    print("a[", revIndex, "] =", a[revIndex])
+</div>
+
+</li><br><li><b>Looping backward with reversed(list)</b>
+<div class="python-code">
+a = [ 2, 3, 5, 7 ]
+print("And here are the items in reverse:")
+for item in reversed(a):
+    print(item)
+print(a)
+</div>
+
+</li><br><li><b>Looping backward with destructive list.reverse()</b>
+<div class="python-code">
+a = [ 2, 3, 5, 7 ]
+print("And here are the items in reverse:")
+a.reverse()
+for item in a:
+    print(item)
+print(a)
+</div>
+
+</li><br><li><b>Hazard: modifying while looping</b>
+<div class="python-code">
+a = [ 2, 3, 5, 3, 7 ]
+print("a =", a)
+
+# Failed attempt to remove all the 3's
+for index in range(len(a)):
+    if (a[index] == 3):  # this eventually crashes!
+        a.pop(index)
+
+print("This line will not run!")
+</div>
+</li>
+</ul>
+</li>
+
+<br><li><a name="comparingLists"></a><b>Comparing Lists</b>
+<div class="python-code">
+# Create some lists
+a = [ 2, 3, 5, 3, 7 ]
+b = [ 2, 3, 5, 3, 7 ]   # same as a
+c = [ 2, 3, 5, 3, 8 ]   # differs in last element
+d = [ 2, 3, 5 ]         # prefix of a
+
+print("a =", a)
+print("b =", b)
+print("c =", c)
+print("d =", d)
+
+print("------------------")
+print("a == b", (a == b))
+print("a == c", (a == c))
+print("a != b", (a != b))
+print("a != c", (a != c))
+
+print("------------------")
+print("a < c", (a < c))
+print("a < d", (a < d))
+</div>
+</li>
+
+<br><li><a name="copyingLists"></a><b>Copying Lists</b>
+<ul>
+    <li><b>Example</b>
+        <br>Making a copy of a list isn't always straightforward.  Read the the following program,
+        make a guess about its output.  Then run it.  Does it do what you expect?
+            <div class="python-code">
+            # Create a list
+            a = [ 2, 3, 5, 7 ]
+            
+            b = a
+            
+            a[0] = 42
+            b[1] = 99
+            print(a)
+            print(b)
+            </div>
+    </li>
+
+<li><b>Copy vs Alias</b>
+<br>Simply assigning a list to a new variable isn't the same as copying it. Instead, it creates an
+alias to it.  If you want a copy, you need to explicitly copy.
+<div class="python-code no-run">
+import copy
+
+# Create a list
+a = [ 2, 3 ]
+
+# Try to copy it
+b = a             # Error!  Not a copy, but an alias
+c = copy.copy(a)  # Ok
+
+# At first, things seem ok
+print("At first...")
+print("   a =", a)
+print("   b =", b)
+print("   c =", c)
+
+# Now modify a[0]
+a[0] = 42
+print("But after a[0] = 42")
+print("   a =", a)
+print("   b =", b)
+print("   c =", c)
+</div>
+
+</li><br><li><b>Other ways to copy</b>
+<div class="python-code no-run">
+import copy
+
+a = [2, 3]
+b = copy.copy(a)
+c = a[:]
+d = a + [ ]
+e = list(a)
+f = copy.deepcopy(a)
+g = sorted(a)
+
+a[0] = 42
+print(a, b, c, d, e, f, g)
+</div>
+</li>
+</ul>
+</li>
+
+<br><li><a name="sortingLists"></a><b>Sorting Lists</b>
+<ul>
+<li><b>Destructively with list.sort()</b>
+<div class="python-code">
+a = [ 7, 2, 5, 3, 5, 11, 7 ]
+print("At first, a =", a)
+a.sort()
+print("After a.sort(), a =",a)
+</div>
+
+</li><br><li><b>Non-Destructively with sorted(list)</b>
+<div class="python-code">
+a = [ 7, 2, 5, 3, 5, 11, 7 ]
+print("At first")
+print("   a =", a)
+b = sorted(a)
+print("After b = sorted(a)")
+print("   a =", a)
+print("   b =", b)
+</div>
+</li>
+</ul>
+</li>
+
+<br><li><a name="listsWithFunctions"></a><b>Usings Lists with Functions</b>
+<ul>
+<li><b>List Parameters Example: countOdds(list)</b>
+<div class="python-code">
+def countOdds(a):
+    count = 0
+    for item in a:
+        if (item % 2 == 1):
+            count += 1
+    return count
+
+print(countOdds([2, 3, 7, 8, 21, 23, 24]))
+</div>
+
+</li><br><li><b>Modifying list elements is visible to caller:  fill(list, value)</b>
+<div class="python-code">
+def fill(a, value):
+    for i in range(len(a)):
+        a[i] = value
+
+a = [1, 2, 3, 4, 5]
+print("At first, a =", a)
+fill(a, 42)
+print("After fill(a, 42), a =", a)
+</div>
+
+</li><br><li><b>Destructive vs non-destructive list modification</b>
+<div class="python-code no-run">
+import copy
+
+def destructiveRemoveAll(a, value):
+    while (value in a):
+        a.remove(value)
+
+def nonDestructiveRemoveAll(a, value):
+    a = copy.copy(a)
+    while (value in a):
+        a.remove(value)
+    return a
+
+a = [ 1, 2, 3, 4, 3, 2, 1 ]
+print("At first")
+print("   a =", a)
+
+destructiveRemoveAll(a, 2)
+print("After destructiveRemoveAll(a, 2)")
+print("   a =", a)
+
+b = nonDestructiveRemoveAll(a, 3)
+print("After b = nonDestructiveRemoveAll(a, 3)")
+print("   a =", a)
+print("   b =", b)
+</div>
+
+</li><br><li><b>Lists as Return Types</b>
+<div class="python-code">
+def evenNumbers(lo, hi):
+    result = [ ]
+    for x in range(lo, hi):
+        if (x % 2 == 0):
+            result.append(x)
+    return result
+
+print(evenNumbers(250, 310))
+</div>
+</li></ul>
+</li>
+
+<br><li><a name="listOpsAndMethods"></a><b>Summary of List Operations and Methods</b>
+<br>
+See
+<a target="_blank" href="https://docs.python.org/3/library/stdtypes.html#typesseq-mutable">this</a>
+table and
+<a target="_blank" href="https://docs.python.org/3/tutorial/datastructures.html#more-on-lists">this</a>
+list of list methods.
+</li>
+
+<br><li><a name="convertingListsAndStrings"></a><b>Converting Between Lists and Strings</b>
+<div class="python-code">
+# use list(s) to convert a string to a list of characters
+a = list("wahoo!")
+print(a)  # prints: ['w', 'a', 'h', 'o', 'o', '!']
+
+# use s1.split(s2) to convert a string to a list of strings delimited by s2
+a = "How are you doing today?".split(" ")
+print(a) # prints ['How', 'are', 'you', 'doing', 'today?']
+
+# use "".join(a) to convert a list of characters to a single string
+s = "".join(a)
+print(s)  # prints: wahoo!
+
+# "".join(a) also works on a list of strings (not just single characters)
+a = ["parsley", " ", "is", " ", "gharsley"] # by Ogden Nash!
+s = "".join(a)
+print(s)  # prints: parsley is gharsley
+</div>
+</li>
+</ol>
