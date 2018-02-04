@@ -6,7 +6,7 @@ layout: notes
 <li><a href="#technicalities"><b>Technicalities</b></a></li>
 <li><a href="#operations"><b>Operations on strings</b></a></li>
 <li><a href="#loops"><b>Loops over strings</b></a></li>
-<li><a href="#io"><b>I/O (input/output)</b></a></li>
+<li><a href="#io"><b>Basic I/O (input/output)</b></a></li>
 </ol>
 
 <hr>
@@ -128,6 +128,18 @@ print(simpsons.split(","))
 
 # anything can be the separator
 print(simpsons.split("a"))
+
+quotes = """\
+Dijkstra: Simplicity is prerequisite for reliability.
+Pirsig: Is it hard? Not if you have the right attitudes. It's having the right attitudes that is hard.
+Heraclitus: There is nothing permanent except change.
+Pirsig: For every fact there is an infinity of hypotheses.
+Dijkstra: Computer science is no more about computers than astronomy is about telescopes.
+"""
+
+# Splitting the lines of text
+lines = quotes.splitlines()
+print(lines)
 </div>
 </li>
 
@@ -206,20 +218,36 @@ href="https://docs.python.org/3/library/stdtypes.html#string-methods">API</a>
 <li><b></b>
 
 <div class="python-code">
-TODO
+word = "magnanimous"
+
+# Looping through the characters with index:
+for i in range(len(word)):
+    print(i, word[i])
+    
+# Looping through the characters without index:
+for c in word:
+    print(c, end=".")
+print() # line breaking
+
+names = "Daenerys,Snow,Cersei,Tyrion,Sansa,Arya,Jamie"
+
+# Looping through the words in a split string
+for name in names.split(","):
+    print(name)
 </div>
 </li>
 
 </ul>
 </li>
 
-<li><a name="io"></a><b>I/O (input/output)</b>
+<li><a name="io"></a><b>Basic I/O (input/output)</b>
 
 <ul>
 <li><b></b>
 
 <div class="python-code">
-TODO
+name = input("Hi, my name is Eliza. What is your name? ") # Waits for a user input
+print("Hello " + name + "! Nice to meet you.")
 </div>
 </li>
 
