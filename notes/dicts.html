@@ -1,0 +1,351 @@
+---
+title: Strings
+layout: notes
+---
+<ol>
+<li><a href="#quickExample"><b>Quick Example</b></a>
+</li><li><a href="#creatingMaps"><b>Creating Dictionaries</b></a>
+</li><li><a href="#properties"><b>Properties of Dictionaries</b></a>
+<ol>
+</li><li><a href="#mapKeysToVals"><b>Dictionaries Map Keys to Values</b></a>
+</li><li><a href="#keysAreSets"><b>Keys are Sets</b></a>
+</li><li><a href="#efficient"><b>Dictionaries are Very Efficient</b></a>
+</ol>
+</li><li><a href="#mapOperations"><b>Dictionary Operations</b></a>
+</li><li><a href="#workedExamples"><b>A Worked Example Using Dictionaries</b></a>
+</li>
+</ol>
+
+<hr>
+
+In this section we'll talk about <i>dictionaries</i>.  A dictionary is sort of like a list, except instead of indexing using numbers (like myList[5]) 
+you can set the index to be a more complicated data type, like a string (like capitals["Qatar"]).  They provide a nice way to solve a variety of problems.
+
+<hr>
+
+<ol>
+
+<li><a name="quickExample"></a><b>Quick Example</b></a>
+<br>Consider the following example that creates a dictionary that indexes cities to the state they are in.
+<div class="python-code">
+stateMap = { 'pittsburgh':'PA', 'chicago':'IL', 'seattle':'WA', 'boston':'MA' }
+city = input("Enter a city name --> ").lower()
+if (city in stateMap):
+    print(city, "is in", stateMap[city])
+else:
+    print("Sorry, never heard of it.")
+</div>
+<br><b>Another Example:</b>
+<br>Here is a simple program to allow a user to enter numbers and it remembers how many times every number has been seen.  Building this with a dictionary
+makes the problem easy.  It would be more complicated to use a list.  Run this in Pyzo and figure out how it works.
+<div class="python-code no-run">
+counts = dict()
+while True:
+    n = int(input("Enter an integer (0 to end) --> "))
+    if (n == 0): break
+    if (n in counts):
+        counts[n] += 1
+    else:
+        counts[n] = 1
+    print("I have seen", n, "a total of", counts[n], "time(s)")
+print("Done, counts:", counts)
+</div>
+
+</li><br><li><a name="creatingMaps"></a><b>Creating Dictionaries</b></a>
+<ul>
+<li><b>Create an empty dictionary</b>
+<div class="python-code">
+d = dict()
+print(d)    # prints {}
+</div>
+
+</li><br><li><b>Create an empty dictionary using braces syntax</b>
+<div class="python-code">
+d = { }
+print(d)    # prints {}
+</div>
+
+</li><br><li><b>Create a dictionary from a list of (key, value) pairs</b>
+<div class="python-code">
+pairs = [("cow", 5), ("dog", 98), ("cat", 1)]
+d = dict(pairs)
+print(d)    # unpredictable order!
+</div>
+
+</li><br><li><b>Statically-allocate a dictionary</b>
+<div class="python-code">
+d = { "cow":5, "dog":98, "cat":1 }
+print(d)    # ditto!
+</div>
+</li>
+</ul>
+
+</li><br><li><a name="properties"></a><b>Properties of Dictionaries</b></a>
+<ol>
+<li><a name="mapKeysToVals"></a><b>Dictionaries Map Keys to Values</b></a><br>
+<div class="python-code">
+ages = dict()
+key = "fred"
+value = 38
+ages[key] = value  # "fred" is the key, 38 is the value
+print(ages[key])
+</div>
+
+</li><br><li><a name="keysAreSets"></a><b>Keys are Sets</b></a>
+<br>Keys effectively function just like sets.  That means that they aren't ordered and each key can only occur once.
+<ul>
+<li><b>Keys are unordered</b>
+<div class="python-code">
+d = dict()
+d[2] = 100
+d[4] = 200
+d[8] = 300
+print(d)  # unpredictable order
+</div>
+
+</li><br><li><b>Keys are unique</b>
+<div class="python-code">
+d = dict()
+d[2] = 100
+d[2] = 200
+d[2] = 400
+print(d)  # { 2:400 }
+</div>
+
+</li>
+</ul>
+
+</li><br><li><a name="efficient"></a><b>Dictionaries are Very Efficient</b></a><br>
+Similar to sets, for the same reasons, dictionaries are very efficient.
+</li></ol>
+
+</li><br><li><a name="mapOperations"></a><b>Dictionary Operations</b></a>
+<br>
+Dictionary operations are provided via operators, functions, and methods in Python
+as follows (this is a partial list, for a full list, see
+<a target="_blank" href="https://docs.python.org/3/library/stdtypes.html#mapping-types-dict">here</a>):
+
+<ol>
+<br><li><b>Operations on a dictionary</b><br>
+
+<br>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><b>Operation</b></td>
+      <td><b>Result</b></td>
+      <td width="50%"><b>Example</b></td>
+    </tr>
+    <tr><td>
+        len(d)
+      </td><td>
+          the number of items (key-value pairs) in dictionary d
+      </td><td>
+<div class="python-code">
+d = { 1:[1,2,3,4,5], 2:"abcd" }
+print(len(d))
+</div>
+    </td></tr>
+    <tr><td>
+        d.copy()
+      </td><td>
+        new dictionary with a shallow copy of d
+      </td><td>
+<div class="python-code">
+d1 = { 1:"a" }
+d2 = d1.copy()
+d1[2] = "b"
+print(d1)
+print(d2)
+</div>
+    </td></tr>
+    <tr><td>
+        d.popitem()
+      </td><td>
+        remove and return an arbitrary (key,value) pair from d; raises KeyError if empty
+      </td><td>
+<div class="python-code">
+d = { 1:"a", 2:"b" }
+print(d.popitem())  # unpredictable!
+print(d)
+</div>
+    </td></tr>
+    <tr><td>
+        d.clear()
+      </td><td>
+        remove all items from dictionary d
+      </td><td>
+<div class="python-code">
+d = { 1:"a", 2:"b" }
+d.clear()
+print(d, len(d))
+</div>
+    </td></tr>
+    <tr><td>
+        for key in d
+      </td><td>
+        Iterate over all keys in d.
+      </td><td>
+<div class="python-code">
+d = { 1:"a", 2:"b" }
+for key in d:
+   print(key, d[key])
+</div>
+    </td></tr>
+    </tbody>
+</table>
+
+</li><br><li><b>Operations on a dictionary and a key [and value]</b><br>
+
+<br>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><b>Operation</b></td>
+      <td><b>Result</b></td>
+      <td width="50%"><b>Example</b></td>
+    </tr>
+    <tr><td>
+        key in d
+      </td><td>
+        test if d has the given key
+      </td><td>
+<div class="python-code">
+d = { 1:"a", 2:"b" }
+print(0 in d)
+print(1 in d)
+print("a" in d) # surprised?
+</div>
+    </td></tr>
+    <tr><td>
+        key not in d
+      </td><td>
+        test if d does not have the given key
+      </td><td>
+<div class="python-code">
+d = { 1:"a", 2:"b" }
+print(0 not in d)
+print(1 not in d)
+print("a" not in d)
+</div>
+    </td></tr>
+    <tr><td>
+        d[key]
+      </td><td>
+        the item of d with the given key. Raises a KeyError if key is not in the map.
+      </td><td>
+<div class="python-code">
+d = { 1:"a", 2:"b" }
+print(d[1])
+print(d[3]) # crash!
+</div>
+    </td></tr>
+    <tr><td>
+        d[key] = value
+      </td><td>
+        set d[key] to value.
+      </td><td>
+<div class="python-code">
+d = { 1:"a", 2:"b" }
+print(d[1])
+d[1] = 42
+print(d[1])
+</div>
+    </td></tr>    <tr><td>
+        get(key[,default])
+      </td><td>
+         the value for key if key is in the dictionary, else default (or None
+         if no default is provided).
+      </td><td>
+<div class="python-code">
+d = { 1:"a", 2:"b" }
+print(d.get(1))     # works like d[1] here
+print(d.get(1, 42)) # default is ignored
+print(d.get(0))     # doesn't crash!
+print(d.get(0, 42)) # default is used
+</div>
+    </td></tr>
+    <tr><td>
+        del d[key]
+      </td><td>
+        remove d[key] from d. Raises KeyError if key not in d.
+      </td><td>
+<div class="python-code">
+d = { 1:"a", 2:"b" }
+print(1 in d)
+del d[1]
+print(1 in d)
+del d[1] # crash!
+</div>
+    </td></tr>
+    </tbody>
+</table>
+
+</li><br><li><b>Operations on two dictionaries (or a dictionary and an iterable)</b><br>
+<br>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><b>Operation</b></td>
+      <td><b>Result</b></td>
+      <td width="50%"><b>Example</b></td>
+    </tr>
+    <tr><td>
+        d1.update(d2)
+      </td><td>
+        update the dictionary with the key/value pairs from other, overwriting existing keys.
+      </td><td>
+<div class="python-code">
+d1 = { 1:"a", 2:"b" }
+d2 = { 2:"c", 3:"d" }
+d1.update(d2)
+d2[4] = "e"
+print(d1)
+print(d2)
+</div>
+    </td></tr>
+    </tbody>
+</table>
+
+</ol>
+
+</li><br><li><a name="workedExamples"></a><b>A Worked Example Using Dictionaries</b></a><br>
+<ul>
+<li><a name="mostFrequent"></a><b>mostFrequent(L)</b>
+<br>Let's look at an example where we write a function to return the most frequent element in L.  (Meaning the element that occurs the most times.)
+<div class="python-code">
+def mostFrequent(L):
+    # Return most frequent element in L, resolving ties arbitrarily.
+    maxValue = None
+    maxCount = 0
+    counts = dict()
+    for element in L:
+        # Find out how many times we've seen this element before
+        if element in counts:
+            count = counts[element]
+        else:
+            count = 0
+        
+        # Increment the count and save it back to the dictionary
+        count += 1
+        counts[element] = count
+        
+        # Remember the largest count we've seen so far.
+        if (count > maxCount):
+            maxCount = count
+            maxValue = element
+    return maxValue
+
+def testMostFrequent():
+    print("Testing mostFrequent()... ", end="")
+    assert(mostFrequent([2,5,3,4,6,4,2,4,5]) == 4)
+    assert(mostFrequent([2,3,4,3,5,3,6,3,7]) == 3)
+    assert(mostFrequent([42]) == 42)
+    assert(mostFrequent([]) == None)
+    print("Passed!")
+
+testMostFrequent()
+</div>
+</ul>
+
+</ol>
