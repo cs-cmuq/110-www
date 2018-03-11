@@ -1,0 +1,99 @@
+---
+title: Food Web
+layout: notes
+---
+
+A foodweb is described in a file using pairs 'prey,predator' on each line.
+
+During the lecture on March, 11th, the class has developed a program that reads
+this foodweb and stores it in a dictionary. The program contains additional
+functions to get the predators and preys of an animal, and to find the tertiary
+consumers and producers of the web.
+
+This was tested with two input files: the <a href="lettuce-foodweb.csv">foodweb</a> 
+suggested by the students in class and 
+the <a href="Florida-foodweb.csv">foodweb</a> from Florida bay (obtained <a
+href="https://snap.stanford.edu/data/Florida-bay.html">here</a>).
+
+<hr>
+
+<ol>
+
+<li>
+<b>Source code</b>
+<div class="python-code">
+def predatorsOf(animal, fw):
+    predators = fw[animal]
+    return predators
+    
+def preysOf(animal, foodweb):
+    preys = []
+    
+    for a in foodweb:
+        predators = foodweb[a]
+        if predators == None:
+            continue
+        if animal in predators:
+            preys.append(a)
+    
+    return preys
+
+def tertiaryConsumers(foodweb):
+    tertiaryConsumers = []
+    
+    for a in foodweb:
+        if foodweb[a] == None:
+            tertiaryConsumers.append(a)
+            
+    return tertiaryConsumers
+
+def producers(foodweb):
+    producers = []
+    
+    for a in foodweb:
+        if preysOf(a, foodweb) == []:
+            producers.append(a)
+    return producers
+
+def createFoodWeb():
+    # Opening a file: you can consider it opens as a list of
+    # strings, where every string is a line in the file.
+    #file = open("lettuce-foodweb.csv")
+    file = open("Florida-foodweb.csv")
+    
+    # keys are animals
+    # value is a list of animals that eat the key
+    foodweb = dict()
+    
+    # A set of all animals in the web
+    all_animals = set()
+    
+    for line in file:
+        # Ignoring lines that are comments
+        if line.startswith('#'):
+            continue
+        # From,To
+        values = line.replace('\n','').split(",")
+        from_animal = values[0]
+        to_animal = values[1]
+        all_animals.add(from_animal)
+        all_animals.add(to_animal)
+        if from_animal in foodweb:
+            foodweb[from_animal].append(to_animal)
+        else:
+            foodweb[from_animal] = [to_animal]
+    
+    # Adding an entry for animals that have no predators
+    for a in all_animals:
+        if a not in foodweb:
+            foodweb[a] = None
+            
+    return foodweb
+    
+foodweb = createFoodWeb()
+</div>
+
+</li>
+
+</ol>
+
