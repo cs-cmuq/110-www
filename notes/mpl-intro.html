@@ -1,0 +1,170 @@
+---
+title: Matplotlib Introduction
+layout: notes
+---
+
+<ol>
+        <li><a href="#installing"><b>Installing Matplotlib</b></a></li>
+        <li><a href="#simple"><b>Simple Examples</b></a></li>
+        <li><a href="#pie"><b>Pie Charts</b></a></li>
+        <li><a href="#api"><b>The Matplotlib API and Examples</b></a></li>
+        </ol>
+
+<hr>
+
+In this segment of the course we will talk about how to produce scientific graphs using the Python library <a href="https://matplotlib.org/">Matplotlib</a>.
+Matplotlib provides a variety of functions that will allow you to quickly and easily produce a variety of useful, pretty graphs.
+
+<hr>
+
+<ol>
+
+<li>
+<a name="installing"></a>
+<b>Installing Matplotlib</b>
+<br>
+Matplotlib is not included by default with Python.  It is a separate Python library that is downloaded and installed alongside Python.  You may or may not already have it, depending on how you installed Python on your computer.  Thanks to the wonderful 15-112 TAs in Pittsburgh, however, we have an easy way to install it:
+<ol>
+    <li>Download <a href="install_matplotlib.py">install_matplotlib.py</a> and open it in Pyzo.</li>
+    <li>Run the file in Pyzo using "Run -> Run File as Script"</li>
+    <li>If you already have Matplotlib installed, you should see a simple graph appear on the screen.</li>
+    <li>If you don't have Matplotlib installed, a separate window will be launched to install it for you.  You may need to enter your password during installation.  After installation finishes, repeat step 2 again and you should see the graph.</li>
+</ol>
+<br>
+It is important to note that for the examples below, you cannot run the code in the browser.  You must copy and paste it into Pyzo.  (Brython, the browser implementation of Python we use on the notes pages, does not support Matplotlib.)
+</li>
+
+<br>
+<li>
+<a name="simple"></a>
+<b>Simple Examples</b><br>
+Consider the following basic graphing examples.
+<ul>
+<li><b>Graph of sine</b><br>
+Let's start with a basic example, graphing the sine function.
+<div class="python-code no-run no-viz">
+import matplotlib.pyplot as plt
+import math
+    
+def genRange(low, hi, step):
+    res = []
+    i = low
+    while i < hi:
+        res.append(i)
+        i += step
+    return res
+    
+def drawSimpleGraph():
+    # Generate a list containing all the values from 0 to 10 
+    # with a step of 0.1.  We'll use these as our x-values.
+    x = genRange(0,10,0.1)
+
+    # For each x value, generate the appropriate y-value.
+    sin_y = []
+    for i in x:
+        sin_y.append(math.sin(i))
+
+    # Plot the x,y values with a blue line
+    plt.plot(x,sin_y,'b')
+    plt.title("This is the title!")
+    plt.xlabel("X-Axis Label")
+    plt.ylabel("Y-Axis Label")
+
+    # Show the plot
+    plt.show()
+        
+drawSimpleGraph()
+</div>
+</li>
+
+<li>
+<b>Graph of sine and cosine</b><br>
+Let's expand our plot to include two graphs, sine and cosine.
+<div class="python-code no-run no-viz">
+import matplotlib.pyplot as plt
+import math
+    
+def genRange(low, hi, step):
+    res = []
+    i = low
+    while i < hi:
+        res.append(i)
+        i += step
+    return res
+    
+def drawSimpleGraph():
+    # Generate a list containing all the values from 0 to 10 
+    # with a step of 0.1.  We'll use these as our x-values.
+    x = genRange(0,10,0.1)
+
+    # For each x value, generate the appropriate y-values.
+    sin_y = []
+    cos_y = []
+    for i in x:
+        sin_y.append(math.sin(i))
+        cos_y.append(math.cos(i))        
+
+    # Plot sin with a blue line and cos with a red line
+    plt.plot(x, sin_y, 'b', x, cos_y, 'r')
+    plt.title("This is the title!")
+    plt.xlabel("X-Axis Label")
+    plt.ylabel("Y-Axis Label")
+
+    # Show the plot
+    plt.show()
+        
+drawSimpleGraph()
+</div>
+</li>
+</ul>
+
+<br>
+<li>
+<a name="pie"></a>
+<b>Pie Charts</b><br>
+You can also do pie charts.
+<ul>
+<li><b>Simple Pie Chart</b><br>
+Consider the following simple pie chart.  We create a list containing the size of each wedge in the chart, and the fractional area of the i'th wedge is wedge_list[i]/sum(wedge_list).
+Pay special attention to the size of the wedges in this example.  Do you understand why they are what they are?
+<div class="python-code no-run no-viz">
+import matplotlib.pyplot as plt
+import math
+    
+wedgeList = [2, 3, 2, 7]       
+plt.pie(wedgeList)
+plt.title("Sample Pie Chart")
+plt.show()       
+</div>
+</li>
+<li><b>Adding Labels</b><br>
+A pie chart without labels for each wedge can be confusing.  Let's add some labels.
+<div class="python-code no-run no-viz">
+import matplotlib.pyplot as plt
+import math
+    
+wedgeList = [2, 3, 2, 7]
+wedgeNames = ["Hates 110", "Mehh 110", "Likes 110", "Loves 110"]
+plt.pie(wedgeList, labels=wedgeNames)
+plt.title("Student opinions about 15-110")
+plt.show()      
+</div>
+You'll notice that this example has a strange looking argument to plt.pie().  It includes labels=wedgeNames.  In Python, in addition to the standard way of passing arguments that you have already learned, you can also pass arguments to a function by name.  In this case, we are specifying that we want tge function plt.pie() to receive an argument named labels, and that argument should be wedgeNames.  You will see this quite a bit when use Matplotlib.
+</li>
+</ul>
+
+<br>
+<li>
+<a name="api"></a>
+<b>The Matplotlib API and Examples</b><br>
+We're using the pyplot functionality of Matplotlib.  There is documentation for it available:
+<ul>
+    <li><a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.html">The API matplotlib.pyplot</a></li>
+    <li><a href="https://matplotlib.org/gallery/index.html">The examples page for Matplotlib</a>.  Scroll down to the Pyplot examples.</li>
+</ul>
+</li>
+
+</li>
+
+</ol>
+
