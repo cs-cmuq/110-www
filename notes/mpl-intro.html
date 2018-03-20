@@ -8,6 +8,7 @@ layout: notes
         <li><a href="#simple"><b>Simple Examples</b></a></li>
         <li><a href="#pie"><b>Pie Charts</b></a></li>
         <li><a href="#api"><b>The Matplotlib API and Examples</b></a></li>
+        <li><a href="#zooexample"><b>The Zoo Example</b></a></li>
         </ol>
 
 <hr>
@@ -162,6 +163,76 @@ We're using the pyplot functionality of Matplotlib.  There is documentation for 
     <li><a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.html">The API matplotlib.pyplot</a></li>
     <li><a href="https://matplotlib.org/gallery/index.html">The examples page for Matplotlib</a>.  Scroll down to the Pyplot examples.</li>
 </ul>
+</li>
+
+<br>
+<li>
+<a name="zooexample"></a>    
+<b>Zoo Example</b>
+<br>
+Let's apply pie charts to the Zoo example we've done before.  Remember that you'll need the list of animals with some traits is given in the file <a href="zoo.data">zoo.data</a>.
+<br><br>
+Consider the following program that produces a pie graph showing the distribution of the various types of animals within the dataset.
+<div class="python-code no-run no-viz">
+import matplotlib.pyplot as plt
+
+def select(database, trait, value):
+    result = []
+    for animal in database:
+        if database[animal][trait] == value:
+            result.append(animal)
+    return result
+
+def getAnimals(filename):
+    file = open(filename)
+    all_animals = dict()
+    traits = ['hair',
+              'feathers',
+              'eggs',
+              'milk',
+              'airborne',
+              'aquatic',
+              'predator',
+              'toothed', 
+              'backbone',
+              'breathes',
+              'venomous',
+              'fins',
+              'legs', # Numeric {0,2,4,5,6,8}
+              'tail',
+              'domestic',
+              'catsize',
+              'type'] # Numeric [1..7]
+    
+    for line in file:
+        if line.startswith("#"):
+            continue
+        values = line.strip().split(',')
+        animal_name = values[0]
+        all_animals[animal_name] = dict()
+        for v in range(len(values[1:])):
+            trait_name = traits[v]
+            trait_value = int(values[v+1])
+            all_animals[animal_name][trait_name] = trait_value
+    
+    return all_animals
+
+def pieGraphTypes(database):    
+    types = [1, 2, 3, 4, 5, 6, 7]
+    typeNames = ["Mammals", "Birds", "Reptiles", "Fish", "Amphibians", "Insects", "Sea Monsters"]
+
+    typeList = []
+    for type in types:
+        count = len(select(database, "type", type))
+        typeList.append(count)
+        
+    plt.pie(typeList, labels=typeNames, autopct="%.1f%%")
+    plt.title("Animal Types")
+    plt.show()
+
+animals = getAnimals("zoo.data")
+pieGraphTypes(animals)
+</div>
 </li>
 
 </li>
