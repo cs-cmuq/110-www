@@ -1,0 +1,113 @@
+---
+title: P and NP
+layout: notes
+---
+
+<ol>
+    <li><a href="#complexity"><b>Complexity Classes</b></a></li>
+    <li><a href="#verify"><b>Solving vs. Verifying</b></a></li>
+    <li><a href="#pnp"><b>P vs. NP</b></a></li>
+    <li><a href="#np-examples"><b>NP-Examples</b></a></li>
+    <li><a href="#solving"><b>Solving NP-Complete Problems Efficiently</b></a></li>
+    <li><a href="#consequences"><b>Consequences</b></a></li>
+</ol>
+
+<hr>
+
+<ol>
+
+    <li><a name="complexity"></a><b>Complexity Classes</b><br>
+        <ul>
+            <li>In the <a href="complexity.pdf">Efficiency unit</a> we showed that algorithms fall into different function families. 
+                Complexity families are the same idea, but generalized even more.</li>
+            <li>Specifically, we care about two main complexity classes: <b>exponential time</b> and <b>polynomial time</b>.
+                Generally we want to write algorithms that can run in polynomial time. We call these functions 'tractable'.</li>
+            <li>We'll say that a function is <b>in P</b> if it runs in polynomial (O(n**k) for some integer k) time.</li>
+        </ul>
+    </li><br>
+    <li><a name="verify"></a><b>Solving vs. Verifying</b><br>
+        <ul>
+            <li>Usually, when we are working with a problem, we want to solve the problem by writing an algorithm that finds a solution.</li>
+            <li>Sometimes, we also care about verifying solutions to a problem. Given a possible solution, how much time does it take to check whether it works?</li>
+            <li>We'll say that a function is <b>in NP</b> if it can be verified in polynomial time, regardless of how long it takes to solve.</li>
+            <li>Example: subsetSum. Given a list of n elements, is there a subset of the list where the elements sum to 0?<br><br>
+<div class="python-code">
+# Obvious solution: findSolution has to generate every possible subset to check each one's sum.
+# Therefore, it runs in exponential time. Might there be a better way?
+def findSolution(lst, sumLst = None):
+    if sumLst == None:
+        sumLst = []
+    if len(sumLst) > 0 and sum(sumLst) == 0:
+        return sumLst
+    elif len(lst) == 0:
+        return None
+    else:
+        result = findSolution(lst[1:], sumLst + [lst[0]])
+        if result == None:
+            result = findSolution(lst[1:], sumLst)
+        return result
+
+# checkSolution only needs to check if the sum is 0. This runs in polynomial time,
+# so subsetSum is in NP.
+def checkSolution(solution):
+    return sum(solution) == 0
+</div></li><br>
+        </ul>
+    </li>
+    <li><a name="pnp"></a><b>P vs. NP</b><br>
+        <ul>
+            <li>Remember: If a problem can be solved in polynomial time we say it is <b>in P</b>.  If we can verify a valid solution
+                in polynomial time (even if we can't solve it in polynomial time) then we say that problem is <b>in NP</b>.</li>
+            <li>Just because no one knows a polynomial solution to an NP problem doesn't mean one doesn't exist.  It just means we
+                don't know if one exists.  There are many problems like this, where our best known solutions runs in exponential time,
+                and we don't know if there are faster solutions.
+            <li><b>Big Idea:</b> maybe we can prove that, if we can verify in polynomial time, we can also solve in polynomial time. In other words, maybe <b>P = NP</b>. If there exists at least one problem where we can verify in polynomial time and we can prove that it cannot be solved in polynomial time, <b>P != NP</b> (though P will still be a subset of NP in this case).</li>
+            <li>P vs. NP is still unsolved, and is in fact one of the seven <a href="https://en.wikipedia.org/wiki/Millennium_Prize_Problems">Millennium Prize Problems</a>.</li>
+        </ul>
+    </li><br>
+
+    <li><a name="np-examples"></a><b>NP Problem Examples</b><br>
+        <ul>
+            <li>A great number of useful problems are in NP. These include:<br>
+                <ul>
+                    <li>Solving Sudoku</li>
+                    <li>Travelling Salesman Problem</li>
+                    <li>Graph Coloring</li>
+                    <li>Knapsack Problem</li>
+                    <li>Boolean satisfiability problem</li>
+                    <li>Scheduling</li>
+                    <li>...</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+    <li><a name="solving"></a><b>Solving NP-Complete Problems Efficiently</b><br>
+        <ul>
+            <li>We don't have efficient solutions to NP-complete problems.  In many cases, however, we can use <b>heuristics</b> to
+                estimate a solution that is good enough.</li>
+            <li>Consider the problem of scheduling final exams:
+              <ul>
+                <li>Given a set of courses, students, rooms, and student course schedules, find the shortest possible final exam schedule that guarantees no student has two exams at the same time.</li>
+                <li>This problem is NP-complete, so finding the optimal is not currently feasible.</li>
+                <li>However, we can solve for solutions that are close to optimal.  This means that while we might not be able to find the shortest possible exam schedule, we might find one that is close to the shortest.</li>
+                <li>In practice, finding a close solution is often good enough.  If this interests you, you might consider reading about <a href="https://en.wikipedia.org/wiki/Constraint_satisfaction_problem">constraint satisfaction problems</a>.</li>
+              </ul>
+             <li>The ability to identify that a problem you are solving is not efficiently solvable is an important skill for a programmer and can save you lots of wasted time.</li>
+        </ul>
+    </li>
+
+    <li><a name="consequences"></a><b>Consequences</b><br>
+        <ul>
+            <li>If P=NP, answering questions that are currently considered difficult could suddenly become much easier. 
+                Scheduling and other logistical questions could be almost entirely automated, and most mathematical work
+                could be done entirely with computers. This would also impact cryptography, as certain types of encryption
+                would be breakable in polynomial time.</li>
+            <li>If P!=NP, life would continue on as normal. However, we will also have gained a way to formally demonstrate that certain problems cannot be solved efficiently, which could reduce the number of open questions researchers investigate.</li>
+        </ul>
+    </li>
+</ol>
+
+<hr>
+Acknowledgements: Special thanks to <a href="http://krivers.net/">Kelly Rivers</a> for part of this material.
+
