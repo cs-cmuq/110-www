@@ -1,0 +1,12 @@
+Lettuce,Larvae
+Lettuce,Grasshopper
+Lettuce,Human
+Lettuce,Rabbit
+Rabbit,Eagle
+Rabbit,Human
+Rabbit,Fox
+Larvae,Bird
+Grasshopper,Rabbit
+Grasshopper,Human
+Bird,Eagle
+Bird,Human

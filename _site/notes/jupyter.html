@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>15-110: Principles of Computing</title>
+  <link rel="stylesheet" type="text/css" href="/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/112.css">
+  <link rel="stylesheet" type="text/css" href="/css/112-highlight-style.css">
+  <script src="/js/jquery-2.1.4.min.js"></script>
+  <script src="/js/highlight.pack.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script id="112-script" src="/js/112.js"></script>
+  <base target="_self">
+</head>
+<body>
+
+<div class="content">
+<h1>
+CMUQ 15-110: Principles of Computing<br>
+Class Notes: Intro to Jupyter Notebook
+</h1>
+<hr>
+<a href="http://jupyter.org/">Jupyter Notebook</a> is an app that runs on the
+browser for editing and running <em>notebook documents</em>. According to
+Jupyter's website:
+
+<blockquote>
+Notebook documents (or "notebooks", all lower case) are documents produced by
+the Jupyter Notebook App, which contain both computer code (e.g. python) and
+rich text elements (paragraph, equations, figures, links, etc.). Notebook
+documents are both human-readable documents containing the analysis description
+and the results (figures, tables, etc.) as well as executable documents which
+can be run to perform data analysis,
+</blockquote>
+
+Even though it runs on the browser, it is not on the
+internet! You will need to install it on your computer. Depending on how you
+installed python, you may already have it. To check that, see if you can find
+Jupyter on your applications, or open the terminal (or <em>cmd</em> for Windows)
+and type <code>jupyter notebook</code>.
+If that does not work and you need to install it, go <a
+href="https://jupyter.readthedocs.io/en/latest/install.html#new-to-python-and-jupyter">here</a>.
+If that does not work, come see the course staff.
+
+<br>
+<br>
+<b>You will need to have Jupyter installed for the final course project.</b>
+<br>
+<br>
+
+Once you have Jupyter, you will be able to open <a
+href="http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb">this
+notebook</a> containing some basic information about its elements.
+
+<hr>
+
+During lecture we created a few graphs concerning arthritis inflammation. You
+can find the notebook <a href="inflammation.ipynb">here</a> and the (complete)
+data <a href="inflammation-all.csv">here</a>.
+
+<hr>
+
+<b>Some useful things to know:</b>
+<br>
+
+<ul>
+<li style="margin-bottom:10px"> 
+  Each box after a <code>In []:</code> tag is called a <em>cell</em>.
+</li>
+<li style="margin-bottom:10px"> 
+  Cells can contain python code <b>or</b> explanatory text. 
+</li>
+<li style="margin-bottom:10px"> 
+  The explanatory text can be typed using <em>markdown text</em>. That's the same
+  syntax used on wiki pages, for example. <a
+  href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">This</a>
+  is a nice cheatsheet with markdown commands to make your text look nice.
+</li>
+<li style="margin-bottom:10px">
+  There are two main keyboard shortcuts to run the code or display the text in a
+  cell: <code>ctrl + Enter</code> and <code>shift + enter</code>. Using the
+  <code>shift</code> one creates a new cell.
+</li>
+<li style="margin-bottom:10px">
+  Jupyter has two <em>modes</em>: a command mode (when cells cannot be edited and
+  trying to type something down does weird things), and an edit mode (when cells
+  can be edited). In command mode the left margin of the selected cell is blue,
+  in edit mode it is green. You can switch modes by clicking in or out of a
+  cell, or by typing <code>esc</code> and <code>enter</code>.
+</li>
+<li style="margin-bottom:10px">
+  Keyboard shortcuts are our friends. Once we get used to them, they save us a
+  lot of time! To see what shortcuts are available in Jupyter, go to Help >
+  Keyboard Shortcuts.
+</li>
+<li style="margin-bottom:10px">
+  To reset a notebook (delete variables, close files, etc.) and start it from
+  scratch, go to Kernel > Restart.
+</li>
+<li style="margin-bottom:10px">
+  Googling things like "What is the markdown syntax for ...?" and "How do I
+  ... in Jupyter?" is ok.
+</li>
+</ul>
+
+<hr>
+
+<b>Why notebooks?</b>
+<br>
+
+Jupyter notebook is a nice environment for data analysis because we can, in one
+place, play around with the code, see graphs and document our analysis.
+Moreover, we can share our findings easily in a nicely formated way without
+having to worry about importing/copying things from one software to the other.
+People in the scientific community use it all the time, and so should you since
+you are on your path to becoming a scientist :)
+
+<br>
+<br>
+
+Some nice example of notebooks are a book on <a
+href="http://readiab.org/">introduction to applied bioinformatics</a>, and a course
+on <a href="http://py4life.yoavram.com/">python programming for biologists</a>
+(go to the "Lectures" tab and click on the tiny eye icons). You can browse more
+examples <a
+href="https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks">here</a>.
+
+
+
+
+</div>
+</body>
+</html>
+

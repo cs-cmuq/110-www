@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>15-110: Principles of Computing</title>
+  <link rel="stylesheet" type="text/css" href="/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/112.css">
+  <link rel="stylesheet" type="text/css" href="/css/112-highlight-style.css">
+  <script src="/js/jquery-2.1.4.min.js"></script>
+  <script src="/js/highlight.pack.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script id="112-script" src="/js/112.js"></script>
+  <base target="_self">
+</head>
+<body>
+
+<div class="content">
+<h1>
+CMUQ 15-110: Principles of Computing<br>
+Class Notes: Matplotlib Part 2
+</h1>
+<hr>
+<ol>
+        <li><a href="#subplots"><b>Subplots</b></a></li>
+        <li><a href="#histogram"><b>Histograms</b></a></li>
+        <li><a href="#pie"><b>Pie Charts</b></a></li>
+        <li><a href="#api"><b>The Matplotlib API and Examples</b></a></li>
+        </ol>
+
+<hr>
+
+In this segment of the course we will talk about how to produce scientific graphs using the Python library <a href="https://matplotlib.org/">Matplotlib</a>.
+Matplotlib provides a variety of functions that will allow you to quickly and easily produce a variety of useful, pretty graphs.
+
+<hr>
+
+<ol>
+
+<li>
+<a name="subplots"></a>
+<b>Subplots</b>
+<br>
+Sometimes you want to produce multiple different plots and display all of them at the same time, but not on the same set of axes.  We can accomplish this with subplots.
+<ul>
+<li>
+<b>Example</b>
+<br>
+Consider the following example that graphs both sin and cos in the same figure, but on different subplots.   
+<div class="python-code no-run no-viz">
+import matplotlib.pyplot as plt
+import math
+    
+def genRange(low, hi, step):
+    res = []
+    i = low
+    while i < hi:
+        res.append(i)
+        i += step
+    return res
+    
+def drawSimpleSubplots():
+    # Generate a list containing all the values from 0 to 10 
+    # with a step of 0.1.  We'll use these as our x-values.
+    x = genRange(0,10,0.1)
+
+    # For each x value, generate the appropriate y-value.
+    sin_y = []
+    cos_y = []
+    for i in x:
+        sin_y.append(math.sin(i))
+        cos_y.append(math.cos(i))
+
+    # Set the size of the plot
+    plt.figure(figsize=(14,4))
+
+    # Configure the subplot. The layout as a whole is 1 rows with 2 columns,
+    # and we are currently plotting the first location.
+    plt.subplot(121)
+
+    # Make the first plot
+    plt.title("This is the left title!")
+    plt.xlabel("X-Axis Label (left)")
+    plt.ylabel("Y-Axis Label (left)")
+    plt.plot(x,sin_y,'b')
+
+    # Switch the subplot to the 2nd subplot
+    plt.subplot(122)    
+
+    # Make the second plot
+    plt.title("This is the right title!")
+    plt.xlabel("X-Axis Label (right)")
+    plt.ylabel("Y-Axis Label (right)")
+    plt.plot(x,cos_y,'r')
+    
+    # This help avoid overlap between the two plots
+    plt.tight_layout()
+    
+    # Show the final, combined plot
+    plt.show()    
+        
+drawSimpleSubplots()
+</div>
+</li>
+<li>
+<b>pyplot.subplot</b>
+<br>
+The argument to the subplot function requires a bit more explanation.  It is three numbers: The number of rows, the number of columns, and which subplot you want to activate.  For example, plt.subplot(121) says to arrange the subplots
+in a grid with 1 row and two columns, and then activate the first subplot.  (In the case, the left one.)  plt.subplot(122) say to arrange the subplots the same way, but activate the 2nd subplot.
+<br><br>
+Consider the following example that has 4 subplots arranged in a 2x2 grid:
+<div class="python-code no-run no-viz">
+import matplotlib.pyplot as plt
+import math
+    
+def genRange(low, hi, step):
+    res = []
+    i = low
+    while i < hi:
+        res.append(i)
+        i += step
+    return res
+    
+def drawFourSubplots():
+    # Generate a list containing all the values from 0 to 10 
+    # with a step of 0.1.  We'll use these as our x-values.
+    x = genRange(0,10,0.1)
+
+    # For each x value, generate the appropriate y-value.
+    sin_y = []
+    cos_y = []
+    tan_y = []
+    x2_y = []
+    for i in x:
+        sin_y.append(math.sin(i))
+        cos_y.append(math.cos(i))
+        tan_y.append(math.tan(i))
+        x2_y.append(i**2)
+
+    # Make the first plot
+    plt.subplot(221)
+    plt.title("This is the title!")
+    plt.xlabel("X-Axis Label")
+    plt.ylabel("Y-Axis Label")
+    plt.plot(x,sin_y,'b')
+
+    # Make the second plot
+    plt.subplot(222)    
+    plt.title("This is the title!")
+    plt.xlabel("X-Axis Label")
+    plt.ylabel("Y-Axis Label")
+    plt.plot(x,cos_y,'r')
+
+    # Make the third plot
+    plt.subplot(223)    
+    plt.title("This is the title!")
+    plt.xlabel("X-Axis Label")
+    plt.ylabel("Y-Axis Label")
+    plt.plot(x,tan_y,'g')
+    
+    # Make the fourth plot
+    plt.subplot(224)    
+    plt.title("This is the title!")
+    plt.xlabel("X-Axis Label")
+    plt.ylabel("Y-Axis Label")
+    plt.plot(x,x2_y,'y')    
+    
+    # This help avoid overlap between the two plots
+    plt.tight_layout()
+    
+    # Show the final, combined plot
+    plt.show()    
+        
+drawFourSubplots()    
+</div>
+Try changing the code to be a 3x5 grid, but still only include 4 plots.  Experiment with their arrangement.
+</li>
+<li>
+<b>Documentation</b>
+<br>
+You should check the <a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplot.html#matplotlib.pyplot.subplot">Matplotlib documentation for subplot</a> for details about the argument to the subplot function.
+</li>
+</ul>
+</li>
+
+<br>
+<li>
+<a name="histogram"></a>
+<b>Histograms</b><br>
+Histograms are another useful graph that Matplotlib can produce.  A histogram takes a list of values, organizes them into bins, and then graphs how many items are in each bin.
+<ul>
+<li><b>Simple Example</b><br>
+Let's start with a basic example that takes a small list of numbers and generates a histogram using the bins [0,2), [2,4), and [4,6]:
+<div class="python-code no-run no-viz">
+import matplotlib.pyplot as plt
+
+def drawHistogram():
+    L = [1, 2, 3, 4, 4, 4, 2, 2]
+    plt.title("This is a Histogram")
+    plt.hist(L, [0,2,4,6])   
+    plt.show()
+    
+drawHistogram()
+</div>
+As you can see from the output, there is one number in the range [0,2), four numbers in the range [2,4), and three numbers in the range [4,6].
+</li>
+
+<li>
+<b>Another Way to Specify the Bins</b><br>
+Instead of including a list that tells you the start and end point of the bins, you can also just specify the total number of bins you want and Matplotlib will automatically generate the bin ranges.  In the code below, we specify that we want 3 bins.  What ranges does Matplotlib choose for the bins?  Run the code to figure it out.
+<div class="python-code no-run no-viz">
+import matplotlib.pyplot as plt
+
+def drawHistogram():
+    L = [1, 2, 3, 4, 4, 4, 2, 2]
+    plt.title("This is a Histogram")
+    plt.hist(L, 3)   
+    plt.show()
+    
+drawHistogram()
+</div>
+</li>
+<li>
+<b>Changing the Appearance</b>
+<br>
+There are a number of simple arguments you can pass to plt.hist() in order to improve the appearance of the histogram.
+From the example below, can you figure out with rwidth and color do?
+<div class="python-code no-run no-viz">
+import matplotlib.pyplot as plt
+
+def drawHistogram():
+    L = [1, 2, 3, 4, 4, 4, 2, 2]
+    plt.title("This is a Histogram")
+    plt.hist(L, 3, rwidth=0.8, color="g")   
+    plt.show()
+    
+drawHistogram()
+</div>
+
+</li>
+</ul>
+
+<br>
+<li>
+<a name="foodwebexample"></a>
+<b>Food Web Example</b><br>
+Let's apply pie charts to the food web example we've done before.  Remember that you'll need the foodweb given in the file <a href="Florida-foodweb.csv">Florida-foodweb.csv</a>.
+<br><br>
+Consider the following example that creates a histogram of the number of animals each animals has as its prey.
+<div class="python-code no-run no-viz">
+import matplotlib.pyplot as plt
+
+def createFoodWeb(filename):
+    # Opening a file: you can consider it opens as a list of
+    # strings, where every string is a line in the file.
+    file = open(filename)
+    
+    # keys are animals
+    # value is a list of animals that eat the key
+    foodweb = dict()
+    
+    # A set of all animals in the web
+    all_animals = set()
+    
+    for line in file:
+        # Ignoring lines that are comments
+        if line.startswith('#'):
+            continue
+        # From,To
+        values = line.replace('\n','').split(",")
+        from_animal = values[0]
+        to_animal = values[1]
+        all_animals.add(from_animal)
+        all_animals.add(to_animal)
+        if from_animal in foodweb:
+            foodweb[from_animal].append(to_animal)
+        else:
+            foodweb[from_animal] = [to_animal]
+    
+    # Adding an entry for animals that have no predators
+    for a in all_animals:
+        if a not in foodweb:
+            foodweb[a] = []
+            
+    return foodweb
+
+def preysOf(animal, foodweb):
+    preys = []
+    
+    for a in foodweb:
+        predators = foodweb[a]
+        if predators == None:
+            continue
+        if animal in predators:
+            preys.append(a)
+    
+    return preys
+
+def plotNumPrey(foodweb):
+    # Build a list of how many animals are the prey of each animal
+    numPreyList = []
+    for animal in foodweb:
+        numPrey = len(preysOf(animal, foodweb))
+        numPreyList.append(numPrey)
+   
+    # Plot the histogram
+    plt.hist(numPreyList, 100, rwidth=0.75)
+    plt.xlabel("Number of Animals Each Animal is a Prey of")
+    plt.ylabel("Number of Animals")
+    plt.show()
+    
+database = createFoodWeb("Florida-foodweb.csv")
+plotNumPrey(database)
+</div>
+As you can see from the graph, there are 14 animals that have no prey (a manual look at the data indicates these are things like Drift Algae) and one animal that has over 80 prey (a manual look at the data indicates this is the Water POC).
+
+</li>
+
+</li>
+
+</ol>
+
+
+</div>
+</body>
+</html>
+

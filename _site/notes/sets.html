@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>15-110: Principles of Computing</title>
+  <link rel="stylesheet" type="text/css" href="/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/112.css">
+  <link rel="stylesheet" type="text/css" href="/css/112-highlight-style.css">
+  <script src="/js/jquery-2.1.4.min.js"></script>
+  <script src="/js/highlight.pack.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script id="112-script" src="/js/112.js"></script>
+  <base target="_self">
+</head>
+<body>
+
+<div class="content">
+<h1>
+CMUQ 15-110: Principles of Computing<br>
+Class Notes: Sets
+</h1>
+<hr>
+<ol>
+    <li><a href="#quickExample"><b>Quick Example</b></a>
+    </li><li><a href="#creatingSets"><b>Creating Sets</b></a>
+    </li><li><a href="#properties"><b>Properties of Sets</b></a>
+    <ol>
+    </li><li><a href="#unordered"><b>Sets are Unordered</b></a>
+    </li><li><a href="#uniqueElements"><b>Elements are Unique</b></a>
+    </li><li><a href="#immutable"><b>Elements Must Be Immutable</b></a>
+    </li><li><a href="#efficient"><b>Sets are Very Efficient</b></a>
+    </li>
+    </ol>
+    </li><li><a href="#setOperations"><b>Set Operations</b></a>
+    </li><li><a href="#workedExample"><b>A Worked Example Using Sets</b></a>
+    </li>
+</ol>
+    
+    <hr>
+
+    <i>Sets</i> are unordered, non-duplicating collections of items that Python can use very fast.  Typically we use sets as a fast way to
+    keep track of a collection of things we have seen or want to see.  For example, if I wanted to find the list of every unique word in a long
+    document, a set would be the perfect way to do that.
+
+    <hr>
+    <ol>
+    
+    <li><a name="quickExample"></a><b>Quick Example</b></a> 
+    <div class="python-code">
+s = set([2,3,5])
+print(3 in s)          # prints True
+print(4 in s)          # prints False
+for x in range(7):
+    if (x not in s):
+        print(x)       # prints 0 1 4 6
+    </div>
+    
+    </li><br><li><a name="creatingSets"></a><b>Creating Sets</b></a> 
+    <ul>
+    <li><b>Create an empty set</b>
+    <br>If you want to create an empty set (that you will use later), you can do the following:
+    <div class="python-code">
+s = set()
+print(s)     # prints set()
+    </div>
+    
+    </li><br><li><b>Create a set from a list</b>
+    <br>Sometimes you want to create a set based on a list you already have.  In that case, you can convert a list to a new set:
+    <div class="python-code">
+s = set(["cat", "cow", "dog"])
+print(s)     # prints {'cow', 'dog', 'cat'}
+    </div>
+    
+    </li><br><li><b>Create a set from any iterable object</b>
+    <br>Actually, anything in Python that can be iterated (think: looped through) can be turned into a set.  Practice running the following example:
+    <div class="python-code">
+s = set("wahoo")
+print(s)     # surprised?
+    </div>
+</li><br><li><b>Create a statically-allocated set</b>
+<div class="python-code">
+s = { 2, 3, 5 }
+print(s)    # prints { 2, 3, 5 }
+</div>
+
+</li><br><li><b>Caution: { } is not an empty set!</b>
+<div class="python-code">
+s = { }
+print(type(s) == set)  # False!
+print(type(s))         # This is a dict (we'll learn about those soon)
+</div>
+</li>   
+    </ul>
+    
+</li><br><li><a name="properties"></a><b>Properties of Sets</b></a>
+<ol>
+<li><a name="unordered"></a><b>Sets are Unordered</b></a>
+<br> The items of a set are unordered.  That means that you can't assume anything about the order that they appear in the set, even
+if you loop through them.  For example, run the following code in Pyzo and notice the output order.  If you care about the order of things,
+you shouldn't be using a set.
+<div class="python-code no-run">
+s = set([2,4,8])
+print(s)          # prints {8, 2, 4} in standard Python
+for element in s: # prints 8, 2, 4
+    print(element)
+</div>
+
+</li><br><li><a name="uniqueElements"></a><b>Elements are Unique</b></a>
+<br>Every item in a set needs to be unique, meaning that it can't contain the same item more than once.  If you try to duplicate an item in a set,
+only one of the duplicates will actually be added to the set.
+<div class="python-code">
+s = set([2,2,2])
+print(s)          # prints {2}
+print(len(s))     # prints 1
+s.add(2)
+print(s)          # still prints {2}
+print(len(s))     # still prints 1
+</div>
+
+</li><br><li><a name="efficient"></a><b>Sets are Very Efficient</b></a>
+<br>At this point, if you've been following along well, you should be thinking "What's the point?  A set is like a list, but worse."
+And you are basically right, except for one thing.  Sets are <i>much faster</i> than lists.  Consider the following example that does
+the same thing twice.  First with a set, and second with a list.  The set version is much faster.
+<div class="python-code">
+# 0. Preliminaries
+import time
+n = 1000
+
+# 1. Create a list [2,4,6,...,n] then check for membership
+# among [1,2,3,...,n] in that list.
+
+# don't count the list creation in the timing
+a = list(range(2,n+1,2))
+
+print("Using a list... ", end="")
+start = time.time()
+count = 0
+for x in range(n+1):
+    if x in a:
+        count += 1
+end = time.time()
+elapsed1 = end - start
+print("count=", count," and time = %0.4f seconds" % elapsed1)
+
+# 2. Repeat, using a set
+print("Using a set.... ", end="")
+start = time.time()
+s = set(a)
+count = 0
+for x in range(n+1):
+    if x in s:
+        count += 1
+end = time.time()
+elapsed2 = end - start
+print("count=", count," and time = %0.4f seconds" % elapsed2)
+print("With n=%d, sets ran about %0.1f times faster than lists!" %
+      (n, elapsed1/elapsed2))
+print("Try a larger n to see an even greater savings!")
+</div>
+
+    
+    </ol>
+    
+    </li><br><li><a name="setOperations"></a><b>Set Operations</b></a>
+    Set operations are provided via operators, functions, and methods in Python
+    as follows:
+    
+    <ol>
+    <br><li><b>Operations on a set</b><br>
+    
+    <br>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><b>Operation</b></td>
+      <td><b>Result</b></td>
+      <td width="50%"><b>Example</b></td>
+    </tr>
+    <tr><td>
+        len(s)
+      </td><td>
+        cardinality (size) of set s
+      </td><td>
+<div class="python-code">
+s = { 2, 3, 2, 4, 3 }
+print(len(s))
+</div>
+    </td></tr>
+    <tr><td>
+        s.copy()
+      </td><td>
+        new set with a shallow copy of s
+      </td><td>
+<div class="python-code">
+s = { 1, 2, 3 }
+t = s.copy()
+s.add(4)
+print(s)
+print(t)
+</div>
+    </td></tr>
+    <tr><td>
+        s.pop()
+      </td><td>
+        remove and return an arbitrary element from s; raises KeyError if empty
+      </td><td>
+<div class="python-code">
+s = { 2, 4, 8 }
+print(s.pop())  # unpredictable!
+print(s)
+</div>
+    </td></tr>
+    <tr><td>
+        s.clear()
+      </td><td>
+        remove all elements from set s
+      </td><td>
+<div class="python-code">
+s = { 1, 2, 3 }
+s.clear()
+print(s, len(s))
+</div>
+    </td></tr>
+    </tbody>
+</table>
+
+    
+    </li><br><li><b>Operations on a set and an element</b><br>
+    
+    <br>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><b>Operation</b></td>
+      <td><b>Result</b></td>
+      <td width="50%"><b>Example</b></td>
+    </tr>
+    <tr><td>
+        x in s
+      </td><td>
+        test x for membership in s
+      </td><td>
+<div class="python-code">
+s = { 1, 2, 3 }
+print(0 in s)
+print(1 in s)
+</div>
+    </td></tr>
+    <tr><td>
+        x not in s
+      </td><td>
+        test x for non-membership in s
+      </td><td>
+<div class="python-code">
+s = { 1, 2, 3 }
+print(0 not in s)
+print(1 not in s)
+</div>
+    </td></tr>
+    <tr><td>
+        s.add(x)
+      </td><td>
+        add element x to set s
+      </td><td>
+<div class="python-code">
+s = { 1, 2, 3 }
+print(s, 4 in s)
+s.add(4)
+print(s, 4 in s)
+</div>
+    </td></tr>
+    <tr><td>
+        s.remove(x)
+      </td><td>
+          remove x from set s; raises KeyError if not present
+      </td><td>
+<div class="python-code">
+s = { 1, 2, 3 }
+print(s, 3 in s)
+s.remove(3)
+print(s, 3 in s)
+s.remove(3) # crashes
+</div>
+    </td></tr>
+    <tr><td>
+        s.discard(x)
+      </td><td>
+        removes x from set s if present
+      </td><td>
+<div class="python-code">
+s = { 1, 2, 3 }
+print(s, 3 in s)
+s.discard(3)
+print(s, 3 in s)
+s.discard(3) # does not crash!
+print(s, 3 in s)
+</div>
+  </td></tr>
+    </tbody>
+</table>
+
+    
+</li>
+
+<br>
+<li><b>Operations on two sets (or a set and an iterable)</b><br>
+<br>
+<table width="100%">
+  <tbody>
+    <tr>
+      <td><b>Operation</b></td>
+      <td><b>Equivalent</b></td>
+      <td><b>Result</b></td>
+      <td width="50%"><b>Example</b></td>
+    </tr>
+    <tr><td>
+        s.issubset(t)
+      </td><td>  s <= t
+      </td><td>
+        test whether every element in s is in t
+      </td><td>
+<div class="python-code">
+print({1,2} <= {1},     {1,2}.issubset({1}))
+print({1,2} <= {1,2},   {1,2}.issubset({1,2}))
+print({1,2} <= {1,2,3}, {1,2}.issubset({1,2,3}))
+</div>
+    </td></tr>
+    <tr><td>
+        s.issuperset(t)
+      </td><td>
+        s >= t
+      </td><td>
+        test whether every element in t is in s
+      </td><td>
+<div class="python-code">
+print({1,2} >= {1},     {1,2}.issuperset({1}))
+print({1,2} >= {1,2},   {1,2}.issuperset({1,2}))
+print({1,2} >= {1,2,3}, {1,2}.issuperset({1,2,3}))
+</div>
+    </td></tr>
+    <tr><td>
+        s.union(t)
+      </td><td>  s | t
+      </td><td>
+        new set with elements from both s and t
+      </td><td>
+<div class="python-code">
+print({1,2} | {1},     {1,2}.union({1}))
+print({1,2} | {1,3},   {1,2}.union({1,3}))
+s = {1,2}
+t = s | {1,3}
+print(s, t)
+</div>
+    </td></tr>
+    <tr><td>
+        s.intersection(t)
+      </td><td>  s & t
+      </td><td>
+          new set with elements common to s and t
+      </td><td>
+<div class="python-code">
+print({1,2} & {1},     {1,2}.intersection({1}))
+print({1,2} & {1,3},   {1,2}.intersection({1,3}))
+s = {1,2}
+t = s & {1,3}
+print(s, t)
+</div>
+    </td></tr>
+    <tr><td>
+        s.difference(t)
+      </td><td>  s - t
+      </td><td>
+        new set with elements in s but not in t
+      </td><td>
+<div class="python-code">
+print({1,2} - {1},     {1,2}.difference({1}))
+print({1,2} - {1,3},   {1,2}.difference({1,3}))
+s = {1,2}
+t = s - {1,3}
+print(s, t)
+</div>
+    </td></tr>
+    <tr><td>
+        s.symmetric_difference(t)
+      </td><td>  s ^ t
+      </td><td>
+        new set with elements in either s or t but not both
+      </td><td>
+<div class="python-code">
+print({1,2} ^ {1},     {1,2}.symmetric_difference({1}))
+print({1,2} ^ {1,3},   {1,2}.symmetric_difference({1,3}))
+s = {1,2}
+t = s ^ {1,3}
+print(s, t)
+
+</div>
+    </td></tr>
+    <tr><td>
+        s.update(t)
+      </td><td>  s |= t
+      </td><td>
+        modify s adding all elements found in t
+      </td><td>
+<div class="python-code">
+s = {1,2}
+t = {1,3}
+u = {2,3}
+s.update(u)
+t |= u
+print(s, t, u)
+</div>
+    </td></tr>
+    <tr><td>
+        s.intersection_update(t)
+      </td><td>  s &= t
+      </td><td>
+        modify s keeping only elements also found in t
+      </td><td>
+<div class="python-code">
+s = {1,2}
+t = {1,3}
+u = {2,3}
+s.intersection_update(u)
+t &= u
+print(s, t, u)
+</div>
+    </td></tr>
+    <tr><td>
+        s.difference_update(t)
+      </td><td>  s -= t
+      </td><td>
+        modify s removing all elements found in t
+      </td><td>
+<div class="python-code">
+s = {1,2}
+t = {1,3}
+u = {2,3}
+s.difference_update(u)
+t -= u
+print(s, t, u)
+</div>
+    </td></tr>
+    <tr><td>
+        s.symmetric_difference_update(t)
+      </td><td>  s ^= t
+      </td><td>
+        modify s keeping elements from s or t but not both
+      </td><td>
+<div class="python-code">
+s = {1,2}
+t = {1,3}
+u = {2,3}
+s.symmetric_difference_update(u)
+t ^= u
+print(s, t, u)
+</div>
+    </td></tr>
+    </tbody>
+</table>  
+
+</ol>
+
+</li>
+<br>
+<li><a name="workedExample"></a><b>A Worked Example Using Sets</b></a><br>
+<ul>
+
+  <li><a name="repeats"></a><b>repeats(L)</b>
+  <br>Let's use sets to solve a problem.  Imagine you want to find all of the repeated elements in a list. (So, you want to know which elements of the list occur more than once.)  Sets can help you do this quickly.
+    <div class="python-code">
+    def repeats(L):
+        # return a sorted list of the repeat elements in the list L
+        seen = set()
+        seenAgain = set()
+        for element in L:
+            if (element in seen):
+                seenAgain.add(element)
+            seen.add(element)
+        return sorted(seenAgain)
+    
+    def testRepeats():
+        print("Testing repeats()...", end="")
+        assert(repeats([1,2,3,2,1]) == [1,2])
+        assert(repeats([1,2,3,2,2,4]) == [2])
+        assert(repeats(list(range(100))) == [ ])
+        assert(repeats(list(range(100))*5) == list(range(100)))
+        print("Passed!")
+    
+    testRepeats()
+    </div>
+  </li>
+
+</ul>
+    
+
+
+</ol>
+
+    
+</div>
+</body>
+</html>
+
