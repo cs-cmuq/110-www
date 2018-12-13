@@ -42,14 +42,14 @@ function fillSchedule(data) {
     var row = document.createElement("tr")
 
     if (now > date) {
-      row.setAttribute("class", "table-dark")
+      row.setAttribute("class", "table-success")
     }
     else if (now <= date && !highlight_first) {
       row.setAttribute("class", "table-warning")
       highlight_first = true
     }
     else if (type == "Lab") {
-      row.setAttribute("class", "table-secondary")
+      row.setAttribute("class", "table-primary")
     }
     else if (type == "NoClass") {
       row.setAttribute("class", "table-active")
