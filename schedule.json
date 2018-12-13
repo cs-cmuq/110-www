@@ -1,0 +1,372 @@
+{
+  "schedule": [
+    {
+      "date": "2019-01-13T13:30:00",
+      "type": "Lecture",
+      "topic": "Motivation, course goals, logistics",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-01-15T13:30:00",
+      "type": "Lecture",
+      "topic": "Basic Python",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-01-17T13:30:00",
+      "type": "Lab",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-01-20T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-01-22T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-01-24T13:30:00",
+      "type": "Lab",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-01-27T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-01-29T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-01-31T13:30:00",
+      "type": "Lab",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-02-03T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-02-05T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-02-07T13:30:00",
+      "type": "Lab",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-02-10T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-02-12T13:30:00",
+      "type": "NoClass",
+      "topic": "Sports Day",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-02-14T13:30:00",
+      "type": "Lab",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-02-17T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-02-19T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-02-21T13:30:00",
+      "type": "Lab",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-02-24T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-02-26T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-02-28T13:30:00",
+      "type": "Lab",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-03-03T13:30:00",
+      "type": "NoClass",
+      "topic": "Spring Break",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-03-05T13:30:00",
+      "type": "NoClass",
+      "topic": "Spring Break",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-03-07T13:30:00",
+      "type": "NoClass",
+      "topic": "Spring Break",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-03-10T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-03-12T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-03-1413:30:00",
+      "type": "Lab",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-03-17T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-03-19T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-03-21T13:30:00",
+      "type": "Lab",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-03-24T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-03-26T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-03-28T13:30:00",
+      "type": "Lab",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-03-31T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-02T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-04T13:30:00",
+      "type": "Lab",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-07T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-09T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-11T13:30:00",
+      "type": "Lab",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-14T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-16T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-18T13:30:00",
+      "type": "Lab",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-21T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-23T13:30:00",
+      "type": "Lecture",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-25T13:30:00",
+      "type": "Lab",
+      "topic": "",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-258T13:30:00",
+      "type": "Exam",
+      "topic": "FINAL EXAM (TBD)",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    }
+  ]
+}

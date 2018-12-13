@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>15-110</title>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- For external link icon -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Makes the schedule table -->
+    <script src="js/mkSchedule.js"></script>
+
+    <style>
+    body {
+      position: relative; 
+    }
+    .section {
+      padding-top: 100px;
+    }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target="#main-navbar">
+    
+    <nav id="main-navbar" class="navbar container navbar-expand-sm navbar-dark bg-primary fixed-top">
+      <!-- Navbar content -->
+      <a class="navbar-brand" href="#main">15-110</a> <!-- Add course description and learning goals here -->
+
+      <div class="collapse navbar-collapse">
+        
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#schedule">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#staff">Staff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#assessment">Assessment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tools">Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#policy">Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://piazza.com/cmu/spring2019/15110q" target="_blank">Piazza <i class="fa fa-external-link"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://autolab.andrew.cmu.edu/courses/15110q-s19" target="_blank">Autolab <i class="fa fa-external-link"></i></a>
+          </li>
+        </ul>
+      
+      </div>
+    
+    </nav>
+    
+    <div id="main" class="container section">
+      <h2>15-110: Principles of Computing (Spring 2019)</h2>
+      <p>
+      <b>Overview</b><br>
+      TODO
+      </p>
+      <p>
+      <b>Learning goals</b><br>
+      TODO
+      </p>
+      <p>
+      <b>Pre-requisites</b><br>
+      None.
+      </p>
+      <p><b>Credits</b><br>
+      This is a 10 unit course.
+      </p>
+      <p>
+      <b>Place and time</b><br>
+      <table class="table table-sm">
+        <tbody>
+          <tr>
+            <td> Sundays and Tuesdays </td>
+            <td> 13:30 to 14:50 </td>
+            <td> TBD </td>
+            <td> <span class="badge badge-secondary">lectures</span> </td>
+          </tr>
+          <tr>
+            <td> Thursdays </td>
+            <td> 13:30 to 14:50 </td>
+            <td> TBD </td>
+            <td> <span class="badge badge-secondary">labs</span> </td>
+          </tr>
+        </tbody>
+      </table>
+      </p>
+    </div>
+    
+    <div id="schedule" class="container section">
+      <h2>Schedule</h2>
+      <p>
+      In the table below, labs are in purple, exams are in red and the next
+      lecture/lab is yellow. Grey days are in the past or have no lectures.
+      </p>
+      <table class="table table-sm" id="scheduleTable">
+      </table>
+    </div>
+      
+    <div id="staff" class="container section">
+      <h2>Staff</h2>
+      <div class="row">
+        <div class="col">
+          <div class="card border-primary">
+            <div class="card-header">Gianni di Caro (Instructor)</div>
+            <div class="card-body">
+              <p class="card-text">
+              Office: 1007 <br>
+              Office hours: by appointment <br>
+              E-mail: <a href="mailto:gdicaro@cmu.edu">gdicaro@cmu.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-primary">
+            <div class="card-header">Giselle Reis (Instructor)</div>
+            <div class="card-body">
+              <p class="card-text">
+              Office: 1008 <br>
+              Office hours: by appointment <br>
+              E-mail: <a href="mailto:giselle@cmu.edu">giselle@cmu.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col">
+          <div class="card border-primary">
+            <div class="card-header">TBD (CA)</div>
+            <div class="card-body">
+              <p class="card-text">
+              Office: <br>
+              Office hours:
+              E-mail: <a href="mailto:@andrew.cmu.edu">@andrew.cmu.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-primary">
+            <div class="card-header">TBD (CA)</div>
+            <div class="card-body">
+              <p class="card-text">
+              Office: <br>
+              Office hours:
+              E-mail: <a href="mailto:@andrew.cmu.edu">@andrew.cmu.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div><br>
+      <div class="row">
+        <div class="col">
+          <div class="card border-primary">
+            <div class="card-header">TBD (CA)</div>
+            <div class="card-body">
+              <p class="card-text">
+              Office: <br>
+              Office hours:
+              E-mail: <a href="mailto:@andrew.cmu.edu">@andrew.cmu.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-primary">
+            <div class="card-header">TBD (CA)</div>
+            <div class="card-body">
+              <p class="card-text">
+              Office: <br>
+              Office hours:
+              E-mail: <a href="mailto:@andrew.cmu.edu">@andrew.cmu.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+      
+    <div id="assessment" class="container section">
+      <h2>Assessment</h2>
+      
+      <h4>Grading</h4>
+      <p>
+        <b>Homework: x%</b> <br>
+        <b>Exam I: y%</b> <br>
+        <b>Exam II: z%</b> <br>
+        <b>Project: w%</b> <br>
+        <b>Final exam: u%</b>
+      </p>
+
+      <h4>Getting the Assignments</h4>
+      
+      <p>
+        The writeup and starter files for each assignment can be found on 
+        <a href="https://autolab.andrew.cmu.edu/courses/15110q-s19"><u>Autolab</u></a>.
+        Log in with your andrewID, select the course and then the assignment.
+        You can see the <code>pdf</code> with the instructions by clicking on
+        "View writeup".
+        The starter code and template for typing your answers are in a
+        <code>zip</code> file which can be downloaded by clicking on "Download
+        handout".
+        Uncompressing this file will create the directory
+        <code>&lt;asgn&gt;-handout</code> with the starter code.
+        <span class="text-danger"><b>If you need to download these files again, be
+        careful not to overwrite your work!</b></span>
+      </p>
+      
+      <h4>Submitting the Assignments</h4>
+
+      <p>
+        You need to submit a <code>zip</code> file containing the completed
+        started code.
+      </p>
+      <p>
+        The <code>zip</code> file needs to be submitted to
+        <a href="https://autolab.andrew.cmu.edu/courses/15110q-s19"><u>Autolab</u></a>.
+        It will immediately run a series of tests on your code and give you a
+        score with some feedback. Make sure to check it! If your code does not
+        pass all tests, you can submit it again until the deadline. <span
+        class="text-danger"><b>You are limited to a total of 10 submissions
+        for each assignment.</b></span> 
+      </p>
+
+    </div>
+      
+    <div id="tools" class="container section">
+      <h2>Tools</h2>
+      
+      <p>
+      <b>Setting up your programming environment:</b><br>
+      TODO
+    </div>
+      
+    <div id="policy" class="container section">
+      <h2 id="policy">Policy</h2>
+      <p> 
+      You are expected to comply with the 
+      <a href="http://www.cmu.edu/policies/student-and-student-life/academic-integrity.html"><u>university policy on academic integrity</u></a> (see also 
+      <a href="http://www.cmu.edu/student-affairs/theword/comm_standards/standards.html"><u>The Word</u></a> and 
+      <a href="http://www.cmu.edu/academic-integrity/understanding/cmu.html"><u>Understanding Academic Integrity</u></a>).
+      </p>
+      <p class="text-danger"><b>Collaboration is regulated by the whiteboard policy: you can bounce
+      ideas about a homework with other students, but when it comes to typing
+      it down for submission, you are on your own. You are not allowed to use
+      notes, files, pictures, etc, from any previous discussion nor previous
+      versions of this course.</b>
+      </p>
+      <p>
+      We will run a program that detects code similarity on all your homework
+      submissions. If students are found to have submitted almost the same
+      code, they will be contacted and this may result on an academic integrity
+      violation report.
+      </p>
+
+      <h4>An Invitation to Students with Learning Disabilities:</h4>
+      <p>
+      Carnegie Mellon University is committed to providing reasonable
+      accommodations for all persons with disabilities. To access
+      accommodation services you are expected to initiate the request and
+      submit a Voluntary Disclosure of Disability Form to the office of Health
+      &amp; Wellness or CaPS-Q. In order to receive services/accommodations,
+      verification of a disability is required as recommended in writing by a
+      doctor, licensed psychologist or psycho-educational specialist. The
+      office of Health &amp; Wellness, CaPS-Q and Office of Disability Resources
+      in Pittsburgh will review the information you provide. All information
+      will be considered confidential and only released to appropriate persons
+      on a need to know basis.
+      </p>
+      <p> 
+      Once the accommodations have been approved, you will be issued a Summary
+      of Accommodations Memorandum documenting the disability and describing
+      the accommodation. You are responsible for providing the Memorandum to
+      your professors at the beginning of each semester.
+      </p>
+      
+      <h4>Take Care of Yourself:</h4>
+      <p>
+      Do your best to maintain a healthy lifestyle this semester by eating
+      well, exercising, getting enough sleep and taking some time to relax.
+      This will help you achieve your goals and cope with stress.
+      </p>
+      <p>
+      All of us benefit from support during times of struggle. You are not
+      alone. There are many helpful resources available on campus and an
+      important part of the college experience is learning how to ask for
+      help. Asking for support sooner rather than later is often helpful.
+      </p>
+      <p>
+      If you or anyone you know experiences any academic stress, difficult
+      life events, or feelings like anxiety or depression, we strongly
+      encourage you to seek support. Counseling and Psychological Services
+      (CaPS-Q) is here to help: call 4454 8525 or make an appointment to see
+      the counselor by emailing 
+      <a href="mailto:student-counselling@qatar.cmu.edu">student-counselling@qatar.cmu.edu</a>. 
+      Consider reaching out to a friend, faculty or family member you trust
+      for help.
+      </p>
+      <p> 
+      If you or someone you know is feeling suicidal or in danger of
+      self-harm, call someone immediately, day or night at 5554 7913.  If the
+      situation is life threatening, call 999.</p> 
+    </div>
+     
+  </body>
+</html>
