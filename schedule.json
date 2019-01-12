@@ -11,7 +11,7 @@
     {
       "date": "2019-01-15T13:30:00",
       "type": "Lecture",
-      "topic": "Basic Python: primitive scalar object types, basic operators, variables and assignment, casting and conversions, syntactic and semantic errors, notion of functions",
+      "topic": "<b>Basic Python</b>: primitive scalar object types, basic operators, variables and assignment, casting and conversions, syntactic and semantic errors, notion of functions",
       "notes": "",
       "code": "",
       "hw": ""
@@ -27,7 +27,7 @@
     {
       "date": "2019-01-20T13:30:00",
       "type": "Lecture",
-      "topic": "Notion of non-scalar data types, basic operations with string data type (length, indexing, slicing, replacing, finding), operator overloading, conversions, basic I/O (print(), input())",
+      "topic": "<b>Non-scalar data types and strings</b>: Basic operations with string data type (length, indexing, slicing, replacing, finding), operator overloading, conversions, basic I/O (print(), input())",
       "notes": "",
       "code": "",
       "hw": ""
@@ -35,7 +35,7 @@
     {
       "date": "2019-01-22T13:30:00",
       "type": "Lecture",
-      "topic": "Boolean data types, logical operators, flow control using conditional constructs, indentation and scoping",
+      "topic": "<b>Boolean data types</b>: definitions, logical operators, flow control using conditional constructs, indentation and scoping",
       "notes": "",
       "code": "",
       "hw": ""
@@ -51,7 +51,7 @@
     {
       "date": "2019-01-27T13:30:00",
       "type": "Lecture",
-      "topic": "Iteration: Repeated actions using while loops, use of counters, break statement, scope of variables",
+      "topic": "<b>Iteration</b>: Repeated actions using while loops, use of counters, break statement, scope of variables",
       "notes": "",
       "code": "",
       "hw": ""
@@ -59,7 +59,7 @@
     {
       "date": "2019-01-29T13:30:00",
       "type": "Lecture",
-      "topic": "Iteration: Repeated actions using for loops, ranging over numbers and strings, nested loops and scoping",
+      "topic": "<b>Iteration</b>: Repeated actions using for loops, ranging over numbers and strings, nested loops and scoping",
       "notes": "",
       "code": "",
       "hw": ""
@@ -75,7 +75,7 @@
     {
       "date": "2019-02-03T13:30:00",
       "type": "Lecture",
-      "topic": "Functions for decomposition, abstraction, and reusability: definition, arguments, keyword arguments and default values, returning values, stack frames, local and global scoping",
+      "topic": "<b>Functions for decomposition, abstraction, and reusability</b>: definition, arguments, keyword arguments and default values, returning values, stack frames, local and global scoping",
       "notes": "",
       "code": "",
       "hw": ""
@@ -83,7 +83,7 @@
     {
       "date": "2019-02-05T13:30:00",
       "type": "Lecture",
-      "topic": "Special functions, modules, and import: main(), help() and docstrings, signals and exceptions, import statements, dot notation",
+      "topic": "<b>Special functions, modules, and import</b>: main(), help() and docstrings, signals and exceptions, import statements, dot notation",
       "notes": "",
       "code": "",
       "hw": ""
@@ -99,7 +99,7 @@
     {
       "date": "2019-02-10T13:30:00",
       "type": "Lecture",
-      "topic": "Non-scalar data types: tuples, mutability and lists, creating lists, retrieving and adding elements, slicing and cloning, operator overloading and concatenation, aliasing, list comprehension, methods available for lists",
+      "topic": "<b>Non-scalar data types, lists</b>: tuples, mutability and lists, creating lists, retrieving and adding elements, slicing and cloning, operator overloading and concatenation, aliasing, list comprehension, methods available for lists",
       "notes": "",
       "code": "",
       "hw": ""
@@ -131,7 +131,7 @@
     {
       "date": "2019-02-19T13:30:00",
       "type": "Lecture",
-      "topic": "Non-scalar data types: lists to represent multi-dimensional data arrays, use of the Numpy module, applications in numeric linear algebra and image processing",
+      "topic": "<b>Non-scalar data types, multi-dimensional arrays</b>: lists to represent multi-dimensional data arrays, use of the Numpy module, applications in numeric linear algebra and image processing",
       "notes": "",
       "code": "",
       "hw": ""
@@ -147,7 +147,7 @@
     {
       "date": "2019-02-24T13:30:00",
       "type": "Lecture",
-      "topic": "Structured non-scalar data types: dictionaries, creating strong paired data, iterating over the items and over the keys, accessing items, adding and removing items",
+      "topic": "<b>Structured non-scalar data types, dictionaries</b>: creating strong paired data using dictionaries, iterating over the items and over the keys, accessing items, adding and removing items",
       "notes": "",
       "code": "",
       "hw": ""
@@ -155,7 +155,7 @@
     {
       "date": "2019-02-26T13:30:00",
       "type": "Lecture",
-      "topic": "Regular expressions for searching for patterns in strings: ra module, character groups, quantifiers, extraction, position, finding multiple matches",
+      "topic": "<b>Regular expressions for searching patterns in strings</b>: Ra module, character groups, quantifiers, extraction, position, finding multiple matches",
       "notes": "",
       "code": "",
       "hw": ""
@@ -195,7 +195,7 @@
     {
       "date": "2019-03-10T13:30:00",
       "type": "Lecture",
-      "topic": "Reading and writing files: opening and closing files, error codes, paths, reading lines, writing formatted text",
+      "topic": "<b>Reading and writing files</b>: opening and closing files, error codes, paths, reading lines, writing formatted text",
       "notes": "",
       "code": "",
       "hw": ""
@@ -203,7 +203,7 @@
     {
       "date": "2019-03-12T13:30:00",
       "type": "Lecture",
-      "topic": "Files, programs, and user inputs: creating, deleting, and renaming files and folders, running programs, reading command line arguments",
+      "topic": "<b>Files, programs, and user inputs</b>: creating, deleting, and renaming files and folders, running programs, reading command line arguments",
       "notes": "",
       "code": "",
       "hw": ""
@@ -219,7 +219,7 @@
     {
       "date": "2019-03-17T13:30:00",
       "type": "Lecture",
-      "topic": "Object-oriented programming: abstract data types and classes, methods, instantiation, designing modular and reusable programs using abstract data types",
+      "topic": "<b>Object-oriented programming</b>: abstract data types and classes, methods, instantiation, designing modular and reusable programs using abstract data types",
       "notes": "",
       "code": "",
       "hw": ""
@@ -227,7 +227,7 @@
     {
       "date": "2019-03-19T13:30:00",
       "type": "Lecture",
-	"topic": "Object-oriented programming: inheritance, encapsulation and information hiding, iterators",
+	"topic": "<b>Object-oriented programming</b>: inheritance, encapsulation and information hiding, iterators",
       "notes": "",
       "code": "",
       "hw": ""
@@ -243,7 +243,7 @@
     {
       "date": "2019-03-24T13:30:00",
       "type": "Lecture",
-      "topic": "Divide-and-conquer paradigm: divide-conquer-combine, from iteration to recursion, advantages and challenges, factorial and binary search examples",
+      "topic": "<b>Divide-and-conquer paradigm</b>: divide-conquer-combine, from iteration to recursion, mathematical induction, advantages and challenges, factorial and binary search examples",
       "notes": "",
       "code": "",
       "hw": ""
@@ -251,7 +251,7 @@
     {
       "date": "2019-03-26T13:30:00",
       "type": "Lecture",
-      "topic": "Divide-and-conquer paradigm: mergesort and quicksort examples, tower of Hanoi, memory and time requirements",
+      "topic": "<b>Divide-and-conquer paradigm</b>: mergesort and quicksort examples, fractals, tower of Hanoi, memory and time requirements",
       "notes": "",
       "code": "",
       "hw": ""
@@ -267,7 +267,7 @@
     {
       "date": "2019-03-31T13:30:00",
       "type": "Lecture",
-      "topic": "Efficiency of algorithms: notion of complexity, number of operations, worst case behavior, big O notation, basic examples of linear, log-linear, log, polynomial, exponential complexities",
+      "topic": "<b>Efficiency of algorithms</b>: notion of complexity, number of operations, worst case behavior, big O notation, basic examples of linear, log-linear, log, polynomial, exponential complexities",
       "notes": "",
       "code": "",
       "hw": ""
@@ -275,7 +275,7 @@
     {
       "date": "2019-04-02T13:30:00",
       "type": "Lecture",
-      "topic": "Efficiency of algorithms: complexity analysis of different algorithms for search and sorting tasks",
+      "topic": "<b>Efficiency of algorithms</b>: complexity analysis of different algorithms for search and sorting tasks",
       "notes": "",
       "code": "",
       "hw": ""
@@ -291,7 +291,7 @@
     {
       "date": "2019-04-07T13:30:00",
       "type": "Lecture",
-      "topic": "Data visualization and animation using Matplotlib: overview, main functionalities, data plotting ",
+      "topic": "<b>Data visualization and animation using Matplotlib</b>: overview, main functionalities, data plotting ",
       "notes": "",
       "code": "",
       "hw": ""
@@ -299,7 +299,7 @@
     {
       "date": "2019-04-09T13:30:00",
       "type": "Lecture",
-      "topic": "Data visualization and animation using Matplotlib: complex data plots, basic animations",
+      "topic": "<b>Data visualization and animation using Matplotlib</b>: complex data plots, basic animations",
       "notes": "",
       "code": "",
       "hw": ""
@@ -315,7 +315,7 @@
     {
       "date": "2019-04-14T13:30:00",
       "type": "Lecture",
-      "topic": "Simulation models: agent-based models, Cellular Automata for deterministic simulation of spatially distributed process",
+      "topic": "<b>Simulation models</b>: agent-based models, Cellular Automata for deterministic simulation of spatially distributed process",
       "notes": "",
       "code": "",
       "hw": ""
@@ -323,7 +323,7 @@
     {
       "date": "2019-04-16T13:30:00",
       "type": "Lecture",
-      "topic": "Simulation models: random number generation in a computer, notion of Monte Carlo techniques, Genetic Algorithms for solving complex optimization problems",
+      "topic": "<b>Simulation models</b>: random number generation in a computer, notion of Monte Carlo techniques, Genetic Algorithms for solving complex optimization problems",
       "notes": "",
       "code": "",
       "hw": ""
@@ -339,7 +339,7 @@
     {
       "date": "2019-04-21T13:30:00",
       "type": "Lecture",
-      "topic": "Combinatorial models: knapsack optimization problems, practical applications, greedy approaches, dynamic programming approach, complexity",
+      "topic": "<b>Combinatorial models</b>: knapsack optimization problems, practical applications, greedy approaches, dynamic programming approach, complexity",
       "notes": "",
       "code": "",
       "hw": ""
@@ -347,7 +347,7 @@
     {
       "date": "2019-04-23T13:30:00",
       "type": "Lecture",
-      "topic": "Combinatorial models: graph optimization problems, finding the shortest path, finding the min-cut, practical applications, complexity",
+      "topic": "<b>Combinatorial models</b>: graph optimization problems, finding the shortest path, finding the min-cut, practical applications, complexity",
       "notes": "",
       "code": "",
       "hw": ""
