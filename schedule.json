@@ -19,7 +19,7 @@
     {
       "date": "2019-01-17T13:30:00",
       "type": "Lab",
-      "topic": "How to use the Spyder editor, experimenting with basic python concepts, code debugging, Autolab and Autograder",
+      "topic": "Lab: How to use the Spyder editor, experimenting with basic python concepts, code debugging, Autolab and Autograder",
       "notes": "",
       "code": "",
       "hw": ""
@@ -43,7 +43,7 @@
     {
       "date": "2019-01-24T13:30:00",
       "type": "Lab",
-      "topic": "Use of all primitive data types, program branching and decision-making using conditionals, basic I/O",
+      "topic": "Lab: Use of all primitive data types, program branching and decision-making using conditionals, basic I/O",
       "notes": "",
       "code": "",
       "hw": ""
@@ -67,7 +67,7 @@
     {
       "date": "2019-01-31T13:30:00",
       "type": "Lab",
-      "topic": "Flow control using while and for loops, variable scope",
+      "topic": "Lab: Flow control using while and for loops, variable scope",
       "notes": "",
       "code": "",
       "hw": ""
@@ -91,7 +91,7 @@
     {
       "date": "2019-02-07T13:30:00",
       "type": "Lab",
-      "topic": "Functions, testing and debugging with built-in tools, use and creation of imported modules (Numpy)",
+      "topic": "Lab: Functions, testing and debugging with built-in tools, use and creation of imported modules (Numpy)",
       "notes": "",
       "code": "",
       "hw": ""
@@ -115,15 +115,15 @@
     {
       "date": "2019-02-14T13:30:00",
       "type": "Lab",
-      "topic": "Operations on and manipulation of lists data types",
+      "topic": "Lab: Operations on and manipulation of lists data types",
       "notes": "",
       "code": "",
       "hw": ""
     },
     {
       "date": "2019-02-17T13:30:00",
-      "type": "Partial assessment test I",
-      "topic": "All topics considered so far in the course",
+      "type": "Exam",
+      "topic": "Partial assessment test I: All topics considered so far in the course",
       "notes": "",
       "code": "",
       "hw": ""
@@ -139,7 +139,7 @@
     {
       "date": "2019-02-21T13:30:00",
       "type": "Lab",
-      "topic": "Multi-dimensional data arrays, use of Numpy functionalities",
+      "topic": "Lab: Multi-dimensional data arrays, use of Numpy functionalities",
       "notes": "",
       "code": "",
       "hw": ""
@@ -163,7 +163,7 @@
     {
       "date": "2019-02-28T13:30:00",
       "type": "Lab",
-      "topic": "Use of dictionaries and regular expressions for structuring and searching data",
+      "topic": "Lab: Use of dictionaries and regular expressions for structuring and searching data",
       "notes": "",
       "code": "",
       "hw": ""
@@ -211,7 +211,7 @@
     {
       "date": "2019-03-14T13:30:00",
       "type": "Lab",
-      "topic": "Using I/O from/to files and command line to manipulate bases of data",
+      "topic": "Lab: Using I/O from/to files and command line to manipulate bases of data",
       "notes": "",
       "code": "",
       "hw": ""
@@ -235,7 +235,7 @@
     {
       "date": "2019-03-21T13:30:00",
       "type": "Lab",
-      "topic": "Designing code using object-oriented programming",
+      "topic": "Lab: Designing code using object-oriented programming",
       "notes": "",
       "code": "",
       "hw": ""
@@ -259,7 +259,7 @@
     {
       "date": "2019-03-28T13:30:00",
       "type": "Lab",
-      "topic": "Application of the divide-and-conquer paradigm, use of recursion",
+      "topic": "Lab: Application of the divide-and-conquer paradigm, use of recursion",
       "notes": "",
       "code": "",
       "hw": ""
@@ -282,8 +282,8 @@
     },
     {
       "date": "2019-04-04T13:30:00",
-      "type": "Partial assessment test II",
-      "topic": "Focus on the topics considered from the first assessment test up to now",
+      "type": "Exam",
+      "topic": "Partial assessment test II: Focus on the topics considered from the first assessment test up to now",
       "notes": "",
       "code": "",
       "hw": ""
@@ -307,7 +307,7 @@
     {
       "date": "2019-04-11T13:30:00",
       "type": "Lab",
-      "topic": "Use of Matplotlib for data visualization and animation",
+      "topic": "Lab: Use of Matplotlib for data visualization and animation",
       "notes": "",
       "code": "",
       "hw": ""
@@ -331,7 +331,7 @@
     {
       "date": "2019-04-18T13:30:00",
       "type": "Lab",
-      "topic": "Implementing simulation models in application scenarios of interest",
+      "topic": "Lab: Implementing simulation models in application scenarios of interest",
       "notes": "",
       "code": "",
       "hw": ""
@@ -355,7 +355,7 @@
     {
       "date": "2019-04-25T13:30:00",
       "type": "Lab",
-      "topic": "",
+      "topic": "Lab: Algorithms for combinatorial models",
       "notes": "",
       "code": "",
       "hw": ""
