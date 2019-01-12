@@ -24,16 +24,8 @@
       "code": "",
       "hw": ""
     },
-    {
-      "date": "",
-      "type": "Lecture",
-      "topic": "",
-      "notes": "",
-      "code": "",
-      "hw": ""
-    },
 
-    {
+      {
       "date": "2019-01-20T13:30:00",
       "type": "Lecture",
       "topic": "<b>Non-scalar data types, strings</b>: Basic operations with string data type (length, indexing, slicing, replacing, finding), operator overloading, conversions, basic I/O (print(), input())",
