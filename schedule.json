@@ -39,7 +39,7 @@
       "topic": "<b>Boolean data types</b>: definitions, logical operators, flow control using conditional constructs, indentation and scoping",
       "notes": "",
       "code": "",
-      "hw": ""
+      "hw": "hw01 due (basic python)"
     },
     {
       "date": "2019-01-24T13:30:00",
@@ -63,7 +63,7 @@
       "topic": "<b>Iteration</b>: Repeated actions using for loops, ranging over numbers and strings, nested loops and scoping",
       "notes": "",
       "code": "",
-      "hw": ""
+      "hw": "hw02 due (strings and booleans)"
     },
     {
       "date": "2019-01-31T13:30:00",
@@ -87,7 +87,7 @@
       "topic": "<b>Special functions, modules, and import</b>: main(), help() and docstrings, signals and exceptions, import statements, dot notation",
       "notes": "",
       "code": "",
-      "hw": ""
+      "hw": "hw03 due (iteration)"
     },
     {
       "date": "2019-02-07T13:30:00",
@@ -119,7 +119,7 @@
       "topic": "Lab: Operations on and manipulation of lists data types",
       "notes": "",
       "code": "",
-      "hw": ""
+      "hw": "hw04 due (functions, imports, modules)"
     },
     {
       "date": "2019-02-17T13:30:00",
@@ -156,10 +156,10 @@
     {
       "date": "2019-02-26T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Regular expressions for searching patterns in strings</b>: Ra module, character groups, quantifiers, extraction, position, finding multiple matches",
+      "topic": "<b>Regular expressions for searching patterns in strings</b>: <code>Re</code> module, character groups, quantifiers, extraction, position, finding multiple matches",
       "notes": "",
       "code": "",
-      "hw": ""
+      "hw": "hw05 due (tuples, lists, multi-dimensional arrays)"
     },
     {
       "date": "2019-02-28T13:30:00",
@@ -207,7 +207,7 @@
       "topic": "<b>Files, programs, and user inputs</b>: creating, deleting, and renaming files and folders, running programs, reading command line arguments",
       "notes": "",
       "code": "",
-      "hw": ""
+      "hw": "hw06 due (dictionaries, regex)"
     },
     {
       "date": "2019-03-14T13:30:00",
@@ -231,7 +231,7 @@
 	"topic": "<b>Object-oriented programming</b>: inheritance, encapsulation and information hiding, iterators",
       "notes": "",
       "code": "",
-      "hw": ""
+      "hw": "hw07 due (files)"
     },
     {
       "date": "2019-03-21T13:30:00",
@@ -255,7 +255,7 @@
       "topic": "<b>Divide-and-conquer paradigm</b>: mergesort and quicksort examples, fractals, tower of Hanoi, memory and time requirements",
       "notes": "",
       "code": "",
-      "hw": ""
+      "hw": "hw08 due (object-oriented programming)"
     },
     {
       "date": "2019-03-28T13:30:00",
@@ -279,7 +279,7 @@
       "topic": "<b>Efficiency of algorithms</b>: complexity analysis of different algorithms for search and sorting tasks",
       "notes": "",
       "code": "",
-      "hw": ""
+      "hw": "hw09 due (divide-and-conquer)"
     },
     {
       "date": "2019-04-04T13:30:00",
@@ -303,7 +303,7 @@
       "topic": "<b>Data visualization and animation using Matplotlib</b>: complex data plots, basic animations",
       "notes": "",
       "code": "",
-      "hw": ""
+      "hw": "hw10 due (efficiency)"
     },
     {
       "date": "2019-04-11T13:30:00",
@@ -335,7 +335,7 @@
       "topic": "Lab: Implementing simulation models in application scenarios of interest",
       "notes": "",
       "code": "",
-      "hw": ""
+      "hw": "project checkpoint"
     },
     {
       "date": "2019-04-21T13:30:00",
@@ -359,7 +359,7 @@
       "topic": "Lab: Algorithms for combinatorial models",
       "notes": "",
       "code": "",
-      "hw": ""
+      "hw": "project due"
     },
     {
       "date": "2019-04-28T13:30:00",
