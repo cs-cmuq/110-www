@@ -79,7 +79,7 @@ function fillSchedule(data) {
     var td = document.createElement("td")
     var notes_link = ""
     if (notes != "") {
-      notes_link = "<a href=\"" + notes + "\">Notes</a>"
+      notes_link = "<a href=\"" + notes + "\">Lecture PDF</a>"
     }
     var code_link = ""
     if (code != "") {
