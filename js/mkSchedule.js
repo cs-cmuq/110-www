@@ -78,6 +78,7 @@ function fillSchedule(data) {
     var code = day.code
     var td = document.createElement("td")
     var notes_link = ""
+    // to change to allow multiple note files
     if (notes != "") {
       notes_link = "<a href=\"" + notes + "\">Lecture PDF</a>"
     }
