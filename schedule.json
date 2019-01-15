@@ -11,8 +11,8 @@
     {
       "date": "2019-01-15T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Basic Python</b>: primitive scalar object types, basic operators, variables and assignment, casting and conversions, syntactic and semantic errors, notion of functions",
-      "notes": "",
+      "topic": "<b>Basic Python</b>: programming languages, primitive scalar object types, basic operators, variables and assignment, casting and conversions, syntactic and semantic errors, notion of functions, basic style rules",
+	"notes": "lectures/110-2-BasicPython.pdf",
       "code": "",
       "hw": ""
     },
