@@ -28,15 +28,15 @@
       {
       "date": "2019-01-20T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Non-scalar data types, strings</b>: Basic operations with string data type (length, indexing, slicing, replacing, finding), operator overloading, conversions, basic I/O (print(), input())",
-      "notes": "",
+      "topic": "<b>Non-scalar data types, strings</b>: Binary representations, character encoding, strings data types, quoting, operators, operator overloading, indexing",
+      "notes": "lectures/110-4-Strings.pdf",
       "code": "",
       "hw": ""
     },
     {
       "date": "2019-01-22T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Boolean data types</b>: definitions, logical operators, flow control using conditional constructs, indentation and scoping",
+      "topic": "<b>Strings and Boolean data types, conditionals </b>: Operations on strings (length, indexing, slicing, replacing, finding), basic I/O, conversions, boolean variables and logical operators, flow control using conditional constructs, indentation and scoping",
       "notes": "",
       "code": "",
       "hw": "hw01 due (basic python)"
