@@ -37,7 +37,7 @@
       "date": "2019-01-22T13:30:00",
       "type": "Lecture",
       "topic": "<b>Strings and Boolean data types, conditionals </b>: Operations on strings (length, indexing, slicing, replacing, finding), basic I/O, conversions, boolean variables and logical operators, flow control using conditional constructs, indentation and scoping",
-      "notes": "",
+      "notes": "lectures/110-5-StringsBoolCond.pdf",
       "code": "",
       "hw": "hw01 due (basic python)"
     },
