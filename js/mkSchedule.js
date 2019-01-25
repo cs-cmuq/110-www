@@ -80,7 +80,8 @@ function fillSchedule(data) {
     var notes_link = ""
     // to change to allow multiple note files
     if (notes != "") {
-      notes_link = "<a href=\"" + notes + "\">Lecture PDF</a>"
+	//notes_link = "<a href=\"" + notes + "\">Lecture PDF</a>"
+	notes_link = notes
     }
     var code_link = ""
     if (code != "") {
