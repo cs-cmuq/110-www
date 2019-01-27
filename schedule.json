@@ -52,7 +52,7 @@
     {
       "date": "2019-01-27T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Iteration</b>: Repeated actions using while loops, use of counters, break statement, scope of variables",
+      "topic": "<b>Non-scalar data types, lists</b>: tuples, mutability and lists, creating lists, retrieving and adding elements, slicing and cloning, operator overloading and concatenation, aliasing, list comprehension, methods available for lists",
       "notes": "",
       "code": "",
       "hw": ""
@@ -60,7 +60,7 @@
     {
       "date": "2019-01-29T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Iteration</b>: Repeated actions using for loops, ranging over numbers and strings, nested loops and scoping",
+      "topic": "<b>Non-scalar data types, multi-dimensional arrays</b>: lists to represent multi-dimensional data arrays, use of the Numpy module, applications in numeric linear algebra and image processing",
       "notes": "",
       "code": "",
       "hw": "hw02 due (strings and booleans)"
@@ -68,7 +68,7 @@
     {
       "date": "2019-01-31T13:30:00",
       "type": "Lab",
-      "topic": "Lab: Flow control using while and for loops, variable scope",
+      "topic": "Lab: Operations on and manipulation of lists data types",
       "notes": "",
       "code": "",
       "hw": ""
@@ -76,7 +76,7 @@
     {
       "date": "2019-02-03T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Functions for decomposition, abstraction, and reusability</b>: definition, arguments, keyword arguments and default values, returning values, stack frames, local and global scoping",
+      "topic": "<b>Iteration</b>: Repeated actions using while loops, use of counters, break statement, scope of variables",
       "notes": "",
       "code": "",
       "hw": ""
@@ -84,15 +84,15 @@
     {
       "date": "2019-02-05T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Special functions, modules, and import</b>: main(), help() and docstrings, signals and exceptions, import statements, dot notation",
+      "topic": "<b>Iteration</b>: Repeated actions using for loops, ranging over numbers and strings, nested loops and scoping",
       "notes": "",
       "code": "",
-      "hw": "hw03 due (iteration)"
+      "hw": "hw03 due (tuples, lists, multi-dimensional arrays)"
     },
     {
       "date": "2019-02-07T13:30:00",
       "type": "Lab",
-      "topic": "Lab: Functions, testing and debugging with built-in tools, use and creation of imported modules (Numpy)",
+      "topic": "Lab: Flow control using while and for loops, variable scope",
       "notes": "",
       "code": "",
       "hw": ""
@@ -100,7 +100,7 @@
     {
       "date": "2019-02-10T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Non-scalar data types, lists</b>: tuples, mutability and lists, creating lists, retrieving and adding elements, slicing and cloning, operator overloading and concatenation, aliasing, list comprehension, methods available for lists",
+      "topic": "<b>Functions for decomposition, abstraction, and reusability</b>: definition, arguments, keyword arguments and default values, returning values, stack frames, local and global scoping",
       "notes": "",
       "code": "",
       "hw": ""
@@ -116,10 +116,10 @@
     {
       "date": "2019-02-14T13:30:00",
       "type": "Lab",
-      "topic": "Lab: Operations on and manipulation of lists data types",
+      "topic": "Lab: Functions, testing and debugging with built-in tools, use and creation of imported modules (Numpy)",
       "notes": "",
       "code": "",
-      "hw": "hw04 due (functions, imports, modules)"
+      "hw": "hw04 due (iteration)"
     },
     {
       "date": "2019-02-17T13:30:00",
@@ -132,7 +132,7 @@
     {
       "date": "2019-02-19T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Non-scalar data types, multi-dimensional arrays</b>: lists to represent multi-dimensional data arrays, use of the Numpy module, applications in numeric linear algebra and image processing",
+      "topic": "<b>Special functions, modules, and import</b>: main(), help() and docstrings, signals and exceptions, import statements, dot notation",
       "notes": "",
       "code": "",
       "hw": ""
@@ -159,7 +159,7 @@
       "topic": "<b>Regular expressions for searching patterns in strings</b>: <code>Re</code> module, character groups, quantifiers, extraction, position, finding multiple matches",
       "notes": "",
       "code": "",
-      "hw": "hw05 due (tuples, lists, multi-dimensional arrays)"
+      "hw": "hw05 due (functions, imports, modules)"
     },
     {
       "date": "2019-02-28T13:30:00",
