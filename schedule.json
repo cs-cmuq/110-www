@@ -60,8 +60,8 @@
     {
       "date": "2019-01-29T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Non-scalar data types, lists</b>: retrieving, adding, and removing elements, slicing and cloning, operator overloading and concatenation, utility methods available for lists",
-      "notes": "",
+      "topic": "<b>Non-scalar data types, lists</b>: mutability vs. immutability, aliasing vs. cloning, retrieving, adding, and removing elements, slicing and cloning, operator overloading and concatenation, utility methods and functions available for lists, key function for comparison",
+      "notes": "<a href=\"lectures/110-7-ListsTuples-2.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": "hw02 due (strings and booleans)"
     },
