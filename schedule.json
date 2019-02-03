@@ -76,15 +76,15 @@
     {
       "date": "2019-02-03T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Iteration</b>: Repeated actions using while loops, use of counters, break statement, scope of variables",
-      "notes": "",
+	"topic": "<b>Iteration</b>: Repeated actions using for loops (definite loops), range(), scoping, examples of typical use, continue statement",
+      "notes": "<a href=\"lectures/110-8-Iteration-1.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
     },
     {
       "date": "2019-02-05T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Iteration</b>: Repeated actions using for loops, ranging over numbers and strings, nested loops and scoping",
+      "topic": "<b>Iteration</b>: break statement, scope of variables, nested loops, matrix data, while loops (indefinite loops), use of sentinel variables",
       "notes": "",
       "code": "",
       "hw": "hw03 due (tuples, lists)"
