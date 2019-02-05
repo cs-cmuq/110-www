@@ -84,8 +84,8 @@
     {
       "date": "2019-02-05T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Iteration</b>: break statement, scope of variables, nested loops, matrix data, while loops (indefinite loops), use of sentinel variables",
-      "notes": "",
+      "topic": "<b>Iteration</b>: break statement, scope of variables, nested loops, matrix data structure, while loops (indefinite loops), use of sentinel variables, never ending loops",
+      "notes": "<a href=\"lectures/110-9-Iteration-2.pdf\">Lecture PDF</a><br><a href=\"lectures/110-9-Iteration-2-split.pdf\">Lecture PDF (split slides) </a>",
       "code": "",
       "hw": "hw03 due (tuples, lists)"
     },
