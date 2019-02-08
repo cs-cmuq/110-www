@@ -93,14 +93,14 @@
       "date": "2019-02-07T13:30:00",
       "type": "Lab",
       "topic": "Lab: Flow control using while and for loops, variable scope",
-      "notes": "",
+      "notes": "Textbook Chapter 4, first section, and Chapter 7, second section",
       "code": "",
       "hw": ""
     },
     {
       "date": "2019-02-10T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Functions for decomposition, abstraction, and reusability</b>: definition, arguments, keyword arguments and default values, returning values, stack frames, local and global scoping",
+      "topic": "<b>Functions for decomposition, abstraction, and reusability</b>: functions as subprograms, function definition, arguments, local and global scoping, stack frames, default argument values, keyword arguments, returning values, modifying arguments",
       "notes": "",
       "code": "",
       "hw": ""
@@ -116,15 +116,15 @@
     {
       "date": "2019-02-14T13:30:00",
       "type": "Lab",
-      "topic": "Lab: Functions, testing and debugging with built-in tools, use and creation of imported modules (Numpy)",
+      "topic": "Lab: Functions, use of arguments, returning and modifying values, scopes",
       "notes": "",
       "code": "",
       "hw": "hw04 due (iteration)"
     },
     {
       "date": "2019-02-17T13:30:00",
-      "type": "Exam",
-      "topic": "MIDTERM EXAM I: All topics considered so far in the course",
+      "type": "Lecture",
+	"topic": "<b>Functions for decomposition, abstraction, and reusability</b>: Useful built-in functions, documenting a function and docstrings, creating and using modules, import statements, dot notation, special functions, useful modules (numpy, math)",
       "notes": "",
       "code": "",
       "hw": ""
@@ -132,15 +132,15 @@
     {
       "date": "2019-02-19T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Special functions, modules, and import</b>: main(), help() and docstrings, signals and exceptions, import statements, dot notation",
+      "topic": "<b> Preparation to the midterm exam I:</b> Overview and practice of topics so far, Q&A",
       "notes": "",
       "code": "",
       "hw": ""
     },
     {
       "date": "2019-02-21T13:30:00",
-      "type": "Lab",
-      "topic": "Lab: Multi-dimensional data arrays, use of Numpy functionalities",
+      "type": "Exam",
+      "topic": "MIDTERM EXAM I: All topics considered so far in the course",
       "notes": "",
       "code": "",
       "hw": ""
