@@ -100,8 +100,8 @@
     {
       "date": "2019-02-10T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Functions for decomposition, abstraction, and reusability</b>: functions as subprograms, function definition, arguments, local and global scoping, stack frames, default argument values, keyword arguments, returning values, modifying arguments",
-      "notes": "",
+      "topic": "<b>Functions for decomposition, abstraction, and reusability</b>: functions as subprograms, function definition, functions for task decomposition, code modularity and code reusability, arguments, local scoping, stack frames, returning values, modifying arguments",
+      "notes": "<a href=\"lectures/110-10-Functions-1.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
     },
@@ -124,7 +124,7 @@
     {
       "date": "2019-02-17T13:30:00",
       "type": "Lecture",
-	"topic": "<b>Functions for decomposition, abstraction, and reusability</b>: Useful built-in functions, documenting a function and docstrings, creating and using modules, import statements, dot notation, special functions, useful modules (numpy, math)",
+	"topic": "<b>Functions for decomposition, abstraction, and reusability</b>: Default argument values, keyword arguments, useful built-in functions, documenting a function and docstrings, creating and using modules, import statements, dot notation, special functions, useful modules (numpy, math)",
       "notes": "",
       "code": "",
       "hw": ""
