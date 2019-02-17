@@ -116,7 +116,7 @@
     {
       "date": "2019-02-14T13:30:00",
       "type": "Lab",
-      "topic": "Lab: Functions, use of arguments, returning and modifying values, scopes",
+      "topic": "Lab: Functions, use positional, keyword, and arbitrary number of arguments, returning and modifying values, scopes",
       "notes": "<a href=\"lectures/110-11-Lab.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": "hw04 due (iteration)"
@@ -124,8 +124,8 @@
     {
       "date": "2019-02-17T13:30:00",
       "type": "Lecture",
-	"topic": "<b>Functions for decomposition, abstraction, and reusability</b>: Default argument values, keyword arguments, useful built-in functions, documenting a function and docstrings, creating and using modules, import statements, dot notation, special functions, useful modules (numpy, math)",
-      "notes": "",
+	"topic": "<b>Functions for decomposition, abstraction, and reusability</b>:  abstraction, specifications, documenting a function with docstrings, inline comments, creating and using modules, import statements, dot notation, useful modules (numpy, math)",
+      "notes": "<a href=\"lectures/110-12-Functions-2.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
     },
