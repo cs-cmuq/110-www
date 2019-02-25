@@ -148,7 +148,7 @@
     {
       "date": "2019-02-24T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Associative data type, dictionaries 1</b>: creating strong paired data using dictionaries, lists vs. dictionaries, type restrictions, initialization, access, updating, removal of entries",
+      "topic": "<b>Associative data type, dictionaries 1</b>: creating labeled data using dictionaries, lists vs. dictionaries, type restrictions, initialization, access, updating, removal of entries",
       "notes": "<a href=\"lectures/110-13-Dictionaries.pdf\">Lecture PDF</a><br>Textbook Chapter 6",
       "code": "",
       "hw": ""
@@ -158,7 +158,7 @@
 	"type": "Lecture",	
 	"topic": "<b>Non-scalar data types, multi-dimensional arrays</b>: lists to represent multi-dimensional data arrays, use of the Numpy module, applications in numeric linear algebra and image processing",
 	"topic": "<b>Regular expressions for searching patterns in strings</b>: <code>Re</code> module, character groups, quantifiers, extraction, position, finding multiple matches",
-	"topic": "<b>Dictionaries 2, Sets</b>iterating over the items and over the keys, accessing, adding and removing items using class methods, useful operations on dictionary data, definition of sets, sets vs. lists vs. dictionaries, operatorions on sets, available methods",
+	"topic": "<b>Dictionaries 2, Sets</b>: iterating over the items and over the keys, accessing, adding and removing items using class methods, useful operations on dictionary data, definition of sets, sets vs. lists vs. dictionaries, operatorions on sets, available methods",
       "notes": "",
       "code": "",
       "hw": "hw05 due (functions, imports, modules)"
