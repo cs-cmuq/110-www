@@ -148,7 +148,7 @@
     {
       "date": "2019-02-24T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Associative data type, dictionaries 1</b>: creating labeled data using dictionaries, lists vs. dictionaries, type restrictions, initialization, access, updating, removal of entries",
+      "topic": "<b>Associative data types, dictionaries 1</b>: creating labeled data using dictionaries, lists vs. dictionaries, type restrictions, initialization, access, updating, removal of entries",
       "notes": "<a href=\"lectures/110-13-Dictionaries.pdf\">Lecture PDF</a><br>Textbook Chapter 6",
       "code": "",
       "hw": ""
