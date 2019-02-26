@@ -158,8 +158,8 @@
 	"type": "Lecture",	
 	"topic": "<b>Non-scalar data types, multi-dimensional arrays</b>: lists to represent multi-dimensional data arrays, use of the Numpy module, applications in numeric linear algebra and image processing",
 	"topic": "<b>Regular expressions for searching patterns in strings</b>: <code>Re</code> module, character groups, quantifiers, extraction, position, finding multiple matches",
-	"topic": "<b>Dictionaries 2, Sets</b>: iterating over the items and over the keys, accessing, adding and removing items using class methods, useful operations on dictionary data, definition of sets, sets vs. lists vs. dictionaries, operatorions on sets, available methods",
-      "notes": "",
+	"topic": "<b>Dictionaries 2, Sets</b>: dictionaries as hashed types, modalities for creating dictionaries, accessing, adding, modifying and removing items using class methods, methods for inspecting a dictionary, view objects, iterating over the items and over the keys, useful operations on dictionary data, definition of sets, sets vs. lists vs. dictionaries, modalities for creating a set, operations on sets, available methods and functions",
+      "notes": "<a href=\"lectures/110-14-DictionariesSets.pdf\">Lecture PDF</a><br><a href=\"lectures/L14.py\">Python code used in lecture</a>",
       "code": "",
       "hw": "hw05 due (functions, imports, modules)"
     },
