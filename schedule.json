@@ -197,7 +197,7 @@
     {
       "date": "2019-03-10T13:30:00",
       "type": "Lecture",
-      "topic": "<b>I/O with files</b>: data storage and files, storage media, text and binary files, opening and closing files,  record structure, reading files, writing text files</tt>",
+      "topic": "<b>I/O with files</b>: Data storage and files, storage media, text and binary files, opening and closing files,  record structure, reading files, writing text files",
       "notes": "<a href=\"lectures/110-15-FilesIO-1.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
@@ -205,7 +205,7 @@
     {
       "date": "2019-03-12T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Output string formatting with <tt>str.format, interaction with the filesystem, exceptions and assertions</b>: operations on the file system with the <tt>os</tt> module, exceptions and assertions, file exceptions, try-except-else-finally construct, flow control, use case study",
+      "topic": "<b>Output string formatting with <tt>str.format</tt>, interaction with the filesystem, exceptions and assertions</b>: operations on the file system with the <tt>os</tt> module, exceptions and assertions, file exceptions, try-except-else-finally construct, flow control, use case study",
       "notes": "",
       "code": "",
       "hw": "hw06 due (dictionaries, sets)"
