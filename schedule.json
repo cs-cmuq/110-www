@@ -221,15 +221,21 @@
     {
       "date": "2019-03-17T13:30:00",
       "type": "Lecture",
-	"topic": "<b>Generating, downloading, manipulating, and sharing data</b>: generation of random numbers, basic statistical data manipulation, data visualization with the <tt>pyplot</tt> module, CSV data format, downloading and parsing CSV files, plotting data", 
-      "notes": "",
+	"topic": "<b>Downloading, manipulating, and sharing data</b>: CSV data format, downloading and parsing CSV files using <tt>csv</tt> module", 
+      "notes": "<a href=\"lectures/110-17-CVS-files.pdf\">Lecture PDF</a>
+             <ul>
+             <li><a href=\"lectures/L17.py\">Python code</a></li>
+             <li><a href=\"lectures/L17.ipynb\">Jupiter notebook file of the lecture</a></li>
+             <li><a href=\"lectures/csv.zip\">Zipped folder with used CSV files</a></li>
+             <li>Textbook Chapter 16, section 1</li>
+             </ul>",
       "code": "",
       "hw": ""
     },
     {
       "date": "2019-03-19T13:30:00",
       "type": "Lecture",
-	"topic": "<b>Generating, downloading, manipulating, and sharing data</b>: JSON data format, downloading and parsing JSON files, visualizing data in interactive plots and charts",
+	"topic": "<b>Downloading, manipulating, and sharing data</b>: Writing CSV data files, basic statistical data manipulation, basic data visualization with the <tt>pyplot</tt> module, JSON data format, downloading, parsing, and writing JSON files",
       "notes": "",
       "code": "",
       "hw": "hw07 due (files)"
