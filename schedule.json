@@ -222,7 +222,7 @@
       "date": "2019-03-17T13:30:00",
       "type": "Lecture",
 	"topic": "<b>Downloading, manipulating, and sharing data</b>: CSV data format, downloading and parsing CSV files using <tt>csv</tt> module", 
-      "notes": "<a href=\"lectures/110-17-CVS-files.pdf\">Lecture PDF</a><ul><li><a href=\"lectures/L17.py\">Python code</a></li><li><a href=\"lectures/L17.ipynb\">Jupiter notebook file of the lecture</a></li><li><a href=\"lectures/csv.zip\">Zipped folder with used CSV files</a></li><li>Textbook Chapter 16, section 1</li></ul>",
+      "notes": "<a href=\"lectures/110-17-CVS-files.pdf\">Lecture PDF</a><br><a href=\"lectures/L17.py\">Python code</a><br><a href=\"lectures/L17.ipynb\">Jupiter notebook file of the lecture</a><br><a href=\"lectures/csv.zip\">Zipped folder with used CSV files</a><br>Textbook Chapter 16, section 1",
       "code": "",
       "hw": ""
     },
