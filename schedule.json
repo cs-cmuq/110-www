@@ -229,8 +229,8 @@
     {
       "date": "2019-03-19T13:30:00",
       "type": "Lecture",
-	"topic": "<b>Downloading, manipulating, and sharing data</b>: Writing CSV data files, basic statistical data manipulation, basic data visualization with the <tt>pyplot</tt> module, JSON data format, downloading, parsing, and writing JSON files",
-      "notes": "",
+	"topic": "<b>Downloading, manipulating, and sharing data</b>: Writing CSV data files, list format, dictionary format",
+      "notes": "<a href=\"lectures/110-18-CSV-files-2.pdf\">Lecture PDF</a><br><a href=\"lectures/L18.py\">- Python code</a><br><a href=\"lectures/L18.ipynb\">- Jupiter notebook</a>",
       "code": "",
       "hw": "hw07 due (files)"
     },
