@@ -245,8 +245,8 @@
     {
       "date": "2019-03-24T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Object-oriented programming</b>: abstract data types and classes, methods, instantiation, designing modular and reusable programs using abstract data types",
-      "notes": "",
+      "topic": "<b>Object-oriented programming</b>: genral concepts behind object-oriented design and programming, abstract data types and classes, methods, object instantiation, designing modular and reusable programs using abstract data types, constructor-initializer-destructor, self reference variable",
+      "notes": "<a href=\"lectures/110-19-OO-1.pdf\">Lecture PDF</a><br><a href=\"lectures/L19.py\">- Python code</a><br><a href=\"lectures/L19.ipynb\">- Jupiter notebook</a>",
       "code": "",
       "hw": ""
     },
