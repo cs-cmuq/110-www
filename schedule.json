@@ -230,7 +230,7 @@
       "date": "2019-03-19T13:30:00",
       "type": "Lecture",
 	"topic": "<b>Downloading, manipulating, and sharing data</b>: Writing CSV data files, list format, dictionary format",
-      "notes": "<a href=\"lectures/110-18-CSV-files-2.pdf\">Lecture PDF</a><br><a href=\"lectures/L18.py\">- Python code</a><br><a href=\"lectures/L18.ipynb\">- Jupiter notebook</a>",
+      "notes": "<a href=\"lectures/110-18-CSV-files-2.pdf\">Notebook PDF</a><br><a href=\"lectures/L18.py\">- Python code</a><br><a href=\"lectures/L18.ipynb\">- Jupiter notebook</a>",
       "code": "",
       "hw": "hw07 due (files)"
     },
@@ -253,8 +253,8 @@
     {
       "date": "2019-03-26T13:30:00",
       "type": "Lecture",
-	"topic": "<b>Object-oriented programming</b>: inheritance, encapsulation and information hiding, iterators",
-      "notes": "",
+	"topic": "<b>Object-oriented programming</b>: OO software design, encapsulation and information hiding, inheritance, polymorphism and method overloading",
+      "notes": "<a href=\"lectures/110-20-OO-2.pdf\">Notebook PDF</a><br><a href=\"lectures/L20.py\">- Python code</a><br><a href=\"lectures/L20.ipynb\">- Jupiter notebook</a>",
       "code": "",
       "hw": "hw08 due (csv files)"
     },
