@@ -269,8 +269,8 @@
     {
       "date": "2019-03-31T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Recursion, Divide-and-conquer paradigm</b>: recursive definitions, recursion in computing, base ad recursive cases, advantages and challenges, management of stack frames, memoization, decrease-and-conquer vs. divide-and-conquer, examples (factorial, list tree, Fibonacci numbers, binary search, fractals)",
-      "notes": "",
+      "topic": "<b>Recursion, Divide-and-conquer paradigm</b>: recursive definitions, recursion in computing, base ad recursive cases, advantages and challenges, management of stack frames, memoization, decrease-and-conquer vs. divide-and-conquer, examples (factorial, exponentiation, list tree, Fibonacci numbers, binary search, fractals)",
+      "notes": "<a href=\"lectures/110-21-Recursion.pdf\">Notebook PDF</a><br><a href=\"lectures/L21.py\">- Python code</a><br><a href=\"lectures/L21.ipynb\">- Jupiter notebook</a>",
       "code": "",
       "hw": ""
     },
@@ -280,7 +280,7 @@
       "topic": "<b>Preparation to the midterm exam II:</b> Overview and practice of topics so far",
       "notes": "",
       "code": "",
-      "hw": "hw09 due (object-oriented programming)"
+      "hw": "hw09 due on 04/06 (object-oriented programming)"
     },
     {
       "date": "2019-04-04T13:30:00",
