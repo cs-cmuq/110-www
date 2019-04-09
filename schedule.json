@@ -302,7 +302,7 @@
       "date": "2019-04-09T13:30:00",
       "type": "Lecture",
       "topic": "<b>Data visualization and animation using Matplotlib</b>: complex data plots, basic animations",
-      "notes": "",
+      "notes": "<a href=\"lectures/notebook-matplotlib-sample.ipynb\">Graph examples</a><br><a href=\"lectures/animal-analysis.ipynb\">Animal analysis</a>",
       "code": "",
       "hw": ""
     },
