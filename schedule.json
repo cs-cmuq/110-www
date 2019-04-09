@@ -293,8 +293,8 @@
     {
       "date": "2019-04-07T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Data visualization and animation using Matplotlib</b>: overview, main functionalities, data plotting ",
-      "notes": "",
+      "topic": "<b>Project description, data visualization using Matplotlib</b>: overview, main functionalities, data plotting, example of a class for data management, inspection and visualization",
+      "notes": "<a href=\"lectures/L22.ipynb\">Jupiter notebook</a>",
       "code": "",
       "hw": "project start"
     },
