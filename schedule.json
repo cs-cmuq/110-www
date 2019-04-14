@@ -333,7 +333,7 @@
     {
       "date": "2019-04-18T13:30:00",
       "type": "Lab",
-      "topic": "Lab: Implementation of algorithms and empirical analysis of complexity",
+      "topic": "Lab: Monte Carlo simulation, use of random numbers, visualization",
       "notes": "",
       "code": "",
       "hw": "project checkpoint"
