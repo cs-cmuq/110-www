@@ -317,15 +317,15 @@
     {
       "date": "2019-04-14T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Efficiency of algorithms</b>: notion of complexity, number of operations, worst case behavior, big O notation, basic examples of linear, log-linear, log, polynomial, exponential complexities",
-      "notes": "",
+      "topic": "<b>Monte Carlo Simulation</b>: concepts behind Monte Carlo simulation techniques, gambling game example, random number generation in a computer, <tt>random</tt> module, visualization examples",
+      "notes": "<a href=\"lectures/110-24-Simulation-1.pdf\">Lecture PDF</a><br><a href=\"lectures/L24.ipynb\">Jupiter notebook</a>",
       "code": "",
       "hw": ""
     },
     {
       "date": "2019-04-16T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Efficiency of algorithms</b>: complexity analysis of different algorithms for search and sorting tasks",
+      "topic": "<b>Monte Carlo Simulation</b>: more examples of Monte Carlo, estimate of pi, complex visualizations, computing integrals and areas ",
       "notes": "",
       "code": "",
       "hw": ""
