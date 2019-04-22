@@ -341,8 +341,8 @@
     {
       "date": "2019-04-21T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Combinatorial models</b>: knapsack optimization problems, practical applications, greedy approaches, dynamic programming approach, complexity",
-      "notes": "",
+      "topic": "<b>Efficiency and complexity</b>: algorithm design, effieciency, running time, abstract measure of running time, size and value dependence, worst-case analysis, asymptotic running time behavior, large input size and <i>big O</i> notation for time complexity, examples of growth rates",
+      "notes": "<a href=\"lectures/110-26-Complexity.pdf\">Lecture PDF</a><br><a href=\"lectures/L26.ipynb\">Jupiter notebook</a>",
       "code": "",
       "hw": ""
     },
