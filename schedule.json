@@ -351,8 +351,8 @@
       "type": "Lab",
       "topic": "<b>Presentation of projects</b>",
       "notes": "",
-      "code": "",
-      "hw": ""
+	"code": "",
+	"hw": "project due"
     },
     {
       "date": "2019-04-25T13:30:00",
@@ -360,7 +360,7 @@
       "topic": "<b>Presentation of projects</b>",
       "notes": "",
       "code": "",
-      "hw": "project due"
+      "hw": ""
     },
     {
       "date": "2019-05-01T08:30:00",
