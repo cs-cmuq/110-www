@@ -366,7 +366,7 @@
       "date": "2019-05-01T08:30:00",
       "type": "Exam",
       "topic": "<b>FINAL EXAM: 8:30 - 11:30am (room 2062)</b>",
-      "notes": "",
+      "notes": "<a href=\"lectures/reference-card-1.pdf\">Pyhton reference card I</a><br><a href=\"lectures/reference-card-2.pdf\">Pyhton reference card II</a><br><a href=\"lectures/reference-card-3.pdf\">Pyhton reference card III</a>",
       "code": "",
       "hw": ""
     }
