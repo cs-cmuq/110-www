@@ -1,7 +1,7 @@
 {
   "schedule": [
     {
-      "date": "2019-08-25T15:00:00",
+      "date": "2019-01-13T13:30:00",
       "type": "Lecture",
       "topic": "Course overview and goals, logistics, software, introduction to computing and to computers",
 	"notes": "<a href=\"lectures/110-1-Intro.pdf\">Lecture PDF</a>",
@@ -9,14 +9,14 @@
       "hw": ""
     },
     {
-      "date": "2019-08-27T15:00:00",
+      "date": "2019-01-15T13:30:00",
       "type": "Lecture",
       "topic": "<b>Basic Python</b>: programming languages, primitive scalar object types, basic operators, variables and assignment, casting and conversions, syntactic and semantic errors, notion of functions, basic style rules",
 	"notes": "<a href=\"lectures/110-2-BasicPython.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""    },
     {
-      "date": "2019-08-29T15:00:00",
+      "date": "2019-01-17T13:30:00",
       "type": "Lab",
       "topic": "Lab: How to use the Spyder editor, experimenting with basic python concepts, solving problems, code debugging, Autolab and Autograder",
       "notes": "<a href=\"lectures/110-3-Lab.pdf\">Lecture PDF</a>",
@@ -25,7 +25,7 @@
     },
 
       {
-      "date": "2019-09-01T15:00:00",
+      "date": "2019-01-20T13:30:00",
       "type": "Lecture",
       "topic": "<b>Non-scalar data types, strings</b>: Binary representations, character encoding, strings data types, quoting, operators, operator overloading, indexing",
       "notes": "<a href=\"lectures/110-4-Strings.pdf\">Lecture PDF</a>",
@@ -33,7 +33,7 @@
       "hw": ""
     },
     {
-      "date": "2019-09-03T15:00:00",
+      "date": "2019-01-22T13:30:00",
       "type": "Lecture",
       "topic": "<b>Strings and Boolean data types, conditionals </b>: Operations on strings (length, indexing, slicing, replacing, finding), conversions, boolean variables, relational operators, logical operators, flow control using conditional constructs, indentation and scoping",
       "notes": "<a href=\"lectures/110-5-StringsBoolCond.pdf\">Lecture PDF</a>",
@@ -41,7 +41,7 @@
       "hw": "hw01 due (basic python)"
     },
     {
-      "date": "2019-09-05T15:00:00",
+      "date": "2019-01-24T13:30:00",
       "type": "Lab",
       "topic": "Lab: Use of all primitive data types, operators (numeric, relational, logical) program branching and decision-making using conditionals",
       "notes": "Textbook Chapters 2 and 5 (except sections using Lists)",
@@ -49,7 +49,7 @@
       "hw": ""
     },
     {
-      "date": "2019-09-08T15:00:00",
+      "date": "2019-01-27T13:30:00",
       "type": "Lecture",
 	"topic": "<b>Non-scalar data types, lists</b>: data structures, tuples, mutability and lists, general access and modification operations on lists, indexing and slicing, aliasing effects",
       "notes": "<a href=\"lectures/110-6-ListsTuples-1.pdf\">Lecture PDF</a>",
@@ -57,7 +57,7 @@
       "hw": ""
     },
     {
-      "date": "2019-09-10T15:00:00",
+      "date": "2019-01-29T13:30:00",
       "type": "Lecture",
       "topic": "<b>Non-scalar data types, lists</b>: mutability vs. immutability, aliasing vs. cloning, retrieving, adding, and removing elements, slicing and cloning, operator overloading and concatenation, utility methods and functions available for lists, key function for comparison",
       "notes": "<a href=\"lectures/110-7-ListsTuples-2.pdf\">Lecture PDF</a>",
@@ -65,7 +65,7 @@
       "hw": "hw02 due (strings and booleans)"
     },
     {
-      "date": "2019-09-12T15:00:00",
+      "date": "2019-01-31T13:30:00",
       "type": "Lab",
       "topic": "Lab: Operations on and manipulation of lists data types",
       "notes": "Textbook Chapter 4 (except sections using loops)",
@@ -73,7 +73,7 @@
       "hw": ""
     },
     {
-      "date": "2019-09-15T15:00:00",
+      "date": "2019-02-03T13:30:00",
       "type": "Lecture",
 	"topic": "<b>Iteration</b>: Repeated actions using for loops (definite loops), range(), scoping, examples of typical use, continue statement",
       "notes": "<a href=\"lectures/110-8-Iteration-1.pdf\">Lecture PDF</a>",
@@ -81,7 +81,7 @@
       "hw": ""
     },
     {
-      "date": "2019-09-17T15:00:00",
+      "date": "2019-02-05T13:30:00",
       "type": "Lecture",
       "topic": "<b>Iteration</b>: break statement, scope of variables, nested loops, matrix data structure, while loops (indefinite loops), use of sentinel variables, never ending loops",
       "notes": "<a href=\"lectures/110-9-Iteration-2.pdf\">Lecture PDF</a><br><a href=\"lectures/110-9-Iteration-2-split.pdf\">Lecture PDF (split slides) </a>",
@@ -89,7 +89,7 @@
       "hw": "hw03 due (tuples, lists)"
     },
     {
-      "date": "2019-09-19T15:00:00",
+      "date": "2019-02-07T13:30:00",
       "type": "Lab",
       "topic": "Lab: Flow control using while and for loops, variable scope",
       "notes": "Textbook Chapter 4, first section, and Chapter 7, second section",
@@ -97,7 +97,7 @@
       "hw": ""
     },
     {
-      "date": "2019-09-22T15:00:00",
+      "date": "2019-02-10T13:30:00",
       "type": "Lecture",
       "topic": "<b>Functions for decomposition, abstraction, and reusability</b>: functions as subprograms, function definition, functions for task decomposition, code modularity and code reusability, arguments, local scoping, stack frames, returning values, modifying arguments",
       "notes": "<a href=\"lectures/110-10-Functions-1.pdf\">Lecture PDF</a>",
@@ -105,7 +105,7 @@
       "hw": ""
     },
     {
-      "date": "2019-09-24T15:00:00",
+      "date": "2019-02-12T13:30:00",
       "type": "NoClass",
       "topic": "Sports Day",
       "notes": "",
@@ -113,7 +113,7 @@
       "hw": ""
     },
     {
-      "date": "2019-09-26T15:00:00",
+      "date": "2019-02-14T13:30:00",
       "type": "Lab",
       "topic": "Lab: Functions, use positional, keyword, and arbitrary number of arguments, returning and modifying values, scopes",
       "notes": "<a href=\"lectures/110-11-Lab.pdf\">Lecture PDF</a>",
@@ -121,7 +121,7 @@
       "hw": "hw04 due (iteration)"
     },
     {
-      "date": "2019-09-29T15:00:00",
+      "date": "2019-02-17T13:30:00",
       "type": "Lecture",
 	"topic": "<b>Functions for decomposition, abstraction, and reusability</b>:  abstraction, specifications, documenting a function with docstrings, inline comments, creating and using modules, import statements, dot notation, useful modules (numpy, math)",
       "notes": "<a href=\"lectures/110-12-Functions-2.pdf\">Lecture PDF</a><br>Textbook Chapter 8",
@@ -129,7 +129,7 @@
       "hw": ""
     },
     {
-      "date": "2019-10-01T15:00:00",
+      "date": "2019-02-19T13:30:00",
       "type": "Lecture",
       "topic": "<b> Preparation to the midterm exam I:</b> Overview and practice of topics so far, (better) use of Spyder, Q&A",
       "notes": "<a href=\"lectures/reference-card.pdf\">Pyhton reference card</a>",
@@ -137,7 +137,7 @@
       "hw": ""
     },
     {
-      "date": "2019-10-03T15:00:00",
+      "date": "2019-02-21T13:30:00",
       "type": "Exam",
       "topic": "MIDTERM EXAM I: All topics considered so far in the course",
       "notes": "",
@@ -145,7 +145,7 @@
       "hw": ""
     },
     {
-      "date": "2019-10-06T15:00:00",
+      "date": "2019-02-24T13:30:00",
       "type": "Lecture",
       "topic": "<b>Associative data types, dictionaries</b>: creating labeled data using dictionaries, lists vs. dictionaries, type restrictions, initialization, access, updating, removal of entries",
       "notes": "<a href=\"lectures/110-13-Dictionaries.pdf\">Lecture PDF</a><br>Textbook Chapter 6",
@@ -153,7 +153,7 @@
       "hw": ""
     },
     {
-      "date": "2019-10-08T15:00:00",
+      "date": "2019-02-26T13:30:00",
 	"type": "Lecture",	
 	"topic": "<b>Non-scalar data types, multi-dimensional arrays</b>: lists to represent multi-dimensional data arrays, use of the Numpy module, applications in numeric linear algebra and image processing",
 	"topic": "<b>Regular expressions for searching patterns in strings</b>: <code>Re</code> module, character groups, quantifiers, extraction, position, finding multiple matches",
@@ -163,7 +163,7 @@
       "hw": "hw05 due (functions, imports, modules)"
     },
     {
-      "date": "2019-10-10T15:00:00",
+      "date": "2019-02-28T13:30:00",
       "type": "Lab",
       "topic": "Lab: Use of dictionaries and sets for structuring and searching data",
       "notes": "",
@@ -171,31 +171,31 @@
       "hw": ""
     },
     {
-      "date": "2019-10-13T15:00:00",
+      "date": "2019-03-03T13:30:00",
       "type": "NoClass",
-      "topic": "Fall Break",
+      "topic": "Spring Break",
       "notes": "",
       "code": "",
       "hw": ""
     },
     {
-      "date": "2019-10-15T15:00:00",
+      "date": "2019-03-05T13:30:00",
       "type": "NoClass",
-      "topic": "Fall Break",
+      "topic": "Spring Break",
       "notes": "",
       "code": "",
       "hw": ""
     },
     {
-      "date": "2019-10-17T15:00:00",
+      "date": "2019-03-07T13:30:00",
       "type": "NoClass",
-      "topic": "Fall Break",
+      "topic": "Spring Break",
       "notes": "",
       "code": "",
       "hw": ""
     },
     {
-      "date": "2019-10-20T15:00:00",
+      "date": "2019-03-10T13:30:00",
       "type": "Lecture",
       "topic": "<b>I/O with files</b>: Data storage and files, storage media, text and binary files, opening and closing files,  record structure, reading files, writing text files",
       "notes": "<a href=\"lectures/110-15-FilesIO-1.pdf\">Lecture PDF</a><br>Textbook Chapter 10, sections 1,2",
@@ -203,7 +203,7 @@
       "hw": ""
     },
     {
-      "date": "2019-10-22T15:00:00",
+      "date": "2019-03-12T13:30:00",
       "type": "Lecture",
       "topic": "<b>I/O with files</b>: Output string formatting with <tt>str.format</tt>, interaction with the filesystem, exceptions and assertions</b>: operations on the file system with the <tt>os</tt> module, exceptions and assertions, file exceptions, try-except-else-finally construct, flow control",
       "notes": "<a href=\"lectures/110-16-FilesIO-2.pdf\">Lecture PDF</a><br>Textbook Chapter 10, section 3",
@@ -211,7 +211,7 @@
       "hw": "hw06 due (dictionaries, sets)"
     },
     {
-      "date": "2019-10-24T15:00:00",
+      "date": "2019-03-14T13:30:00",
       "type": "Lab",
       "topic": "Lab: Using I/O from/to files to process, store, and share information",
       "notes": "",
@@ -219,23 +219,23 @@
       "hw": ""
     },
     {
-      "date": "2019-10-27T15:00:00",
+      "date": "2019-03-17T13:30:00",
       "type": "Lecture",
 	"topic": "<b>Downloading, manipulating, and sharing data</b>: CSV data format, downloading and parsing CSV files using <tt>csv</tt> module", 
-      "notes": "<a href=\"lectures/110-17-CSV-files.pdf\">Notebook PDF</a><br><a href=\"lectures/L17.py\">- Python code</a><br><a href=\"lectures/L17.ipynb\">- Jupiter notebook</a><br><a href=\"lectures/csv.zip\">- Zipped folder with used CSV files</a><br>- Textbook Chapter 16, section 1",
+      "notes": "<a href=\"lectures/110-17-CSV-files.pdf\">Lecture PDF</a><br><a href=\"lectures/L17.py\">- Python code</a><br><a href=\"lectures/L17.ipynb\">- Jupiter notebook</a><br><a href=\"lectures/csv.zip\">- Zipped folder with used CSV files</a><br>- Textbook Chapter 16, section 1",
       "code": "",
       "hw": ""
     },
     {
-      "date": "2019-10-29T15:00:00",
+      "date": "2019-03-19T13:30:00",
       "type": "Lecture",
 	"topic": "<b>Downloading, manipulating, and sharing data</b>: Writing CSV data files, list format, dictionary format",
-      "notes": "<a href=\"lectures/110-18-CSV-files-2.pdf\">Notebook PDF</a><br><a href=\"lectures/L18.py\">- Python code</a><br><a href=\"lectures/L18.ipynb\">- Jupiter notebook</a>",
+      "notes": "<a href=\"lectures/110-18-CSV-files-2.pdf\">Lecture PDF</a><br><a href=\"lectures/L18.py\">- Python code</a><br><a href=\"lectures/L18.ipynb\">- Jupiter notebook</a>",
       "code": "",
       "hw": "hw07 due (files)"
     },
     {
-      "date": "2019-10-31T15:00:00",
+      "date": "2019-03-21T13:30:00",
       "type": "Lab",
       "topic": "Lab: Data I/O using CSV data formats",
       "notes": "",
@@ -243,23 +243,23 @@
       "hw": ""
     },
     {
-      "date": "2019-11-03T15:00:00",
+      "date": "2019-03-24T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Object-oriented programming</b>: general concepts behind object-oriented design and programming, abstract data types and classes, methods, object instantiation, designing modular and reusable programs using abstract data types, constructor-initializer-destructor, self reference variable",
+      "topic": "<b>Object-oriented programming</b>: genral concepts behind object-oriented design and programming, abstract data types and classes, methods, object instantiation, designing modular and reusable programs using abstract data types, constructor-initializer-destructor, self reference variable",
       "notes": "<a href=\"lectures/110-19-OO-1.pdf\">Lecture PDF</a><br><a href=\"lectures/L19.py\">- Python code</a><br><a href=\"lectures/L19.ipynb\">- Jupiter notebook</a>",
       "code": "",
       "hw": ""
     },
     {
-      "date": "2019-11-05T15:00:00",
+      "date": "2019-03-26T13:30:00",
       "type": "Lecture",
-	"topic": "<b>Object-oriented programming</b>: OO software design, encapsulation and information hiding, inheritance, polymorphism and method overloading",
-      "notes": "<a href=\"lectures/110-20-OO-2.pdf\">Notebook PDF</a><br><a href=\"lectures/L20.py\">- Python code</a><br><a href=\"lectures/L20.ipynb\">- Jupiter notebook</a><br>- Textbook Chapter 9",
+	"topic": "<b>Object-oriented programming</b>: inheritance, encapsulation and information hiding, iterators",
+      "notes": "",
       "code": "",
       "hw": "hw08 due (csv files)"
     },
     {
-      "date": "2019-11-07T15:00:00",
+      "date": "2019-03-28T13:30:00",
       "type": "Lab",
       "topic": "Lab: Designing code using object-oriented programming",
       "notes": "",
@@ -267,23 +267,23 @@
       "hw": ""
     },
     {
-      "date": "2019-11-10T15:00:00",
+      "date": "2019-03-31T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Recursion, Divide-and-conquer paradigm</b>: recursive definitions, recursion in computing, base ad recursive cases, advantages and challenges, management of stack frames, memoization, decrease-and-conquer vs. divide-and-conquer, examples (factorial, exponentiation, list tree, Fibonacci numbers, binary search, fractals)",
-      "notes": "<a href=\"lectures/110-21-Recursion.pdf\">Lecture PDF</a><br><a href=\"lectures/L21.py\">- Python code</a><br><a href=\"lectures/L21.ipynb\">- Jupiter notebook</a>",
+      "topic": "<b>Divide-and-conquer paradigm</b>: divide-conquer-combine, from iteration to recursion, mathematical induction, advantages and challenges, factorial and binary search examples",
+      "notes": "",
       "code": "",
       "hw": ""
     },
     {
-      "date": "2019-11-12T15:00:00",
+      "date": "2019-04-02T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Preparation to the midterm exam II:</b> Overview and practice of topics so far",
-      "notes": "<a href=\"lectures/reference-card-1.pdf\">Pyhton reference card I</a><br><a href=\"lectures/reference-card-2.pdf\">Pyhton reference card II</a>",
+      "topic": "<b>Divide-and-conquer paradigm</b>: mergesort and quicksort examples, fractals, tower of Hanoi, memory and time requirements",
+      "notes": "",
       "code": "",
-      "hw": "hw09 due on 04/06 (object-oriented programming)"
+      "hw": "hw09 due (object-oriented programming)"
     },
     {
-      "date": "2019-11-14T15:00:00",
+      "date": "2019-04-04T13:30:00",
       "type": "Exam",
       "topic": "MIDTERM EXAM II: Focus on the topics considered from the first assessment test up to now",
       "notes": "",
@@ -291,71 +291,63 @@
       "hw": ""
     },
     {
-      "date": "2019-11-17T15:00:00",
+      "date": "2019-04-07T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Project description, data visualization using Matplotlib</b>: overview, main functionalities, data plotting, example of a class for data management, inspection and visualization",
-      "notes": "<a href=\"lectures/L22.ipynb\">Jupiter notebook</a>",
+      "topic": "<b>Data visualization and animation using Matplotlib</b>: overview, main functionalities, data plotting ",
+      "notes": "",
       "code": "",
       "hw": "project start"
     },
     {
-      "date": "2019-11-19T15:00:00",
+      "date": "2019-04-09T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Data visualization and animation using Matplotlib</b>: creating graphs to analyse data",
-      "notes": "<a href=\"lectures/notebook-matplotlib-sample.ipynb\">Graph examples</a><br><a href=\"lectures/animal-analysis.ipynb\">Animal analysis</a>",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2019-11-21T15:00:00",
-      "type": "Lab",
-      "topic": "Lab: Use of Matplotlib for data visualization",
+      "topic": "<b>Data visualization and animation using Matplotlib</b>: complex data plots, basic animations",
       "notes": "",
       "code": "",
       "hw": ""
     },
     {
-      "date": "2019-11-24T15:00:00",
-      "type": "Lecture",
-      "topic": "<b>Monte Carlo Simulation</b>: concepts behind Monte Carlo simulation techniques, gambling game example, random number generation in a computer, <tt>random</tt> module, visualization examples",
-      "notes": "<a href=\"lectures/110-24-Simulation-1.pdf\">Lecture PDF</a><br><a href=\"lectures/L24.ipynb\">Jupiter notebook</a>",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2019-11-26T15:00:00",
-      "type": "Lecture",
-      "topic": "<b>Monte Carlo Simulation</b>: more examples of use of random numbers and Monte Carlo, estimate of pi, complex visualizations, computing areas, <tt>numpy</tt> methods",
-      "notes": "<a href=\"lectures/110-25-Simulation-2.pdf\">Lecture PDF</a><br><a href=\"lectures/L25.ipynb\">Jupiter notebook</a>",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2019-11-28T15:00:00",
+      "date": "2019-04-11T13:30:00",
       "type": "Lab",
-      "topic": "Lab: Monte Carlo simulation, use of random numbers, visualization",
-      "notes": "<a href=\"lectures/L26-extras.ipynb\">Jupiter notebook (extra material)</a>",
+      "topic": "Lab: Use of Matplotlib for data visualization and animation",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-14T13:30:00",
+      "type": "Lecture",
+      "topic": "<b>Efficiency of algorithms</b>: notion of complexity, number of operations, worst case behavior, big O notation, basic examples of linear, log-linear, log, polynomial, exponential complexities",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-16T13:30:00",
+      "type": "Lecture",
+      "topic": "<b>Efficiency of algorithms</b>: complexity analysis of different algorithms for search and sorting tasks",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2019-04-18T13:30:00",
+      "type": "Lab",
+      "topic": "Lab: Implementation of algorithms and empirical analysis of complexity",
+      "notes": "",
       "code": "",
       "hw": "project checkpoint"
     },
     {
-      "date": "2019-12-01T15:00:00",
+      "date": "2019-04-21T13:30:00",
       "type": "Lecture",
-      "topic": "<b>Efficiency and complexity</b>: algorithm design, effieciency, running time, abstract measure of running time, size and value dependence, worst-case analysis, asymptotic running time behavior, large input size and <i>big O</i> notation for time complexity, examples of growth rates",
-      "notes": "<a href=\"lectures/110-26-Complexity.pdf\">Lecture PDF</a><br><a href=\"lectures/L26.ipynb\">Jupiter notebook</a>",
+      "topic": "<b>Combinatorial models</b>: knapsack optimization problems, practical applications, greedy approaches, dynamic programming approach, complexity",
+      "notes": "",
       "code": "",
       "hw": ""
     },
     {
-      "date": "2019-12-03T15:00:00",
-      "type": "Lab",
-      "topic": "<b>Presentation of projects</b>",
-      "notes": "",
-	"code": "",
-	"hw": "project due"
-    },
-    {
-      "date": "2019-12-05T15:00:00",
+      "date": "2019-04-23T13:30:00",
       "type": "Lab",
       "topic": "<b>Presentation of projects</b>",
       "notes": "",
@@ -363,10 +355,18 @@
       "hw": ""
     },
     {
-      "date": "2019-12-08T08:30:00",
+      "date": "2019-04-25T13:30:00",
+      "type": "Lab",
+      "topic": "<b>Presentation of projects</b>",
+      "notes": "",
+      "code": "",
+      "hw": "project due"
+    },
+    {
+      "date": "2019-05-01T08:30:00",
       "type": "Exam",
-      "topic": "<b>FINAL EXAM: 8:30 - 11:30am (room 2062)</b>",
-      "notes": "<a href=\"lectures/reference-card-1.pdf\">Pyhton reference card I</a><br><a href=\"lectures/reference-card-2.pdf\">Pyhton reference card II</a><br><a href=\"lectures/reference-card-3.pdf\">Pyhton reference card III</a>",
+      "topic": "FINAL EXAM (room 2062)",
+      "notes": "",
       "code": "",
       "hw": ""
     }
