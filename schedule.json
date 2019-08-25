@@ -96,39 +96,6 @@
       "code": "",
       "hw": ""
     },
-    {
-      "date": "2019-09-22T15:00:00",
-      "type": "Lecture",
-      "topic": "<b>Functions for decomposition, abstraction, and reusability</b>: functions as subprograms, abstraction, function definition, functions for task decomposition, code modularity and code reusability, arguments, local scoping, stack frames, returning values, modifying arguments",
-      "notes": "<a href=\"lectures/110-10-Functions-1.pdf\">Lecture PDF</a>",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2019-09-24T15:00:00",
-      "type": "Lecture",
-      "topic": "Functions for decomposition, abstraction, and reusability</b>: positional, keyword, and arbitrary
-number of arguments,  specifications, documenting a function with docstrings, inline comments, creating and using modules, import statements, dot notation, useful modules (numpy, math)",
-      "notes": "<a href=\"lectures/110-12-Functions-2.pdf\">Lecture PDF</a><br>Textbook Chapter 8",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2019-09-26T15:00:00",
-      "type": "Lab",
-      "topic": "Lab: Functions and moduels, Preparation for the midterm exam I",
-      "notes": "<a href=\"lectures/110-11-Lab.pdf\">Lecture PDF</a>",
-      "code": "",
-      "hw": "hw04 due (iteration)"
-    },
-    {
-      "date": "2019-09-29T15:00:00",
-      "type": "Exam",
-      "topic": "MIDTERM EXAM I (written): All topics considered so far in the course",
-      "notes": "<a href=\"lectures/reference-card.pdf\">Pyhton reference card</a>",	
-      "code": "",
-      "hw": ""
-    },
 
   ]
 }
