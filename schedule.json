@@ -106,8 +106,7 @@
     {
       "date": "2019-09-24T15:00:00",
       "type": "Lecture",
-      "topic": "Functions for decomposition, abstraction, and reusability</b>: positional, keyword, and arbitrary
-number of arguments,  specifications, documenting a function with docstrings, inline comments, creating and using modules, import statements, dot notation, useful modules (numpy, math)",
+      "topic": "Functions for decomposition, abstraction, and reusability</b>: positional, keyword, and arbitrary number of arguments,  specifications, documenting a function with docstrings, inline comments, creating and using modules, import statements, dot notation, useful modules (numpy, math)",
       "notes": "<a href=\"lectures/110-12-Functions-2.pdf\">Lecture PDF</a><br>Textbook Chapter 8",
       "code": "",
       "hw": ""
