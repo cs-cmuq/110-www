@@ -3,7 +3,7 @@
     {
       "date": "2019-08-25T15:00:00",
       "type": "Lecture",
-      "topic": "Course overview and goals, logistics, software, introduction to computing and to computers",
+      "topic": "Course overview and goals, introduction to computing, logistics, software",
 	"notes": "<a href=\"lectures/110-F19-1-Intro.pdf\">Lecture PDF</a>",
 	"code": "",
       "hw": ""
@@ -11,14 +11,14 @@
     {
       "date": "2019-08-27T15:00:00",
       "type": "Lecture",
-      "topic": "<b>Basic Python</b>: programming languages, primitive scalar object types, basic operators, variables and assignment, casting and conversions, syntactic and semantic errors, notion of functions, basic style rules",
-	"notes": "<a href=\"lectures/110-F19-2-BasicPython.pdf\">Lecture PDF</a>",
+      "topic": "<b>Computers and Programming Fundamentals</b>: introduction to computer architecture and functioning of a computer, declarative vs. imperative knowledge in programming languages, natural vs. formal languages, compilers vs. interpreters",
+	"notes": "<a href=\"lectures/110-F19-2-ComputerBasics.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""    },
     {
       "date": "2019-08-29T15:00:00",
-      "type": "Lab",
-      "topic": "Lab: How to use the Spyder editor, experimenting with basic python concepts, solving problems, code debugging, Autolab and Autograder",
+      "type": "Lecture/Lab",
+	"topic": "<b>Basic Python</b>: primitive scalar object types, basic operators, variables and assignment, casting and conversions, notion of functions, how to use the Spyder editor, experimenting with basic python concepts, code debugging, Autolab and Autograder, basic style rules",
       "notes": "<a href=\"lectures/110-F19-3-Lab.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
