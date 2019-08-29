@@ -19,7 +19,7 @@
       "date": "2019-08-29T15:00:00",
       "type": "Lecture/Lab",
 	"topic": "<b>Basic Python</b>: primitive scalar object types, basic operators, variables and assignment, casting and conversions, notion of functions, how to use the Jupyter notebook files and the Spyder editor, experimenting with basic python concepts, code debugging, basic style rules",
-	"notes": "<a href=\"lectures/110-F19-3-BasicPyhton.pdf\">- Lecture PDF</a><br><a href=\"lectures/110-F19-3-BasicPyhton.ipynb\">- Notebook</a>",
+	"notes": "<a href=\"lectures/110-F19-3-BasicPython.pdf\">- Lecture PDF</a><br><a href=\"lectures/110-F19-3-BasicPython.ipynb\">- Notebook</a>",
       "code": "",
       "hw": ""
     },
