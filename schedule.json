@@ -39,7 +39,6 @@
 	"notes": "<a href=\"lectures/110-F19-5-StringsBoolCond.pdf\">Lecture PDF</a>",
 	"notes": "",
       "code": "",
-	"hw": "hw01 due (basic python)",
 	"hw": ""
     },
     {
@@ -48,8 +47,9 @@
       "topic": "Lab: Use of all primitive data types, operators (numeric, relational, logical) program branching and decision-making using conditionals",
 	"notes": "Textbook Chapters 2 and 5 (except sections using Lists)",
 	"notes": "",
-      "code": "",
-      "hw": ""
+	"code": "",	
+	"hw": "",
+	"hw": "hw01 due (basic concepts & python)"
     },
     {
       "date": "2019-09-08T15:00:00",
