@@ -28,7 +28,7 @@
 	  "type": "Lecture",
 	  "topic": "<b>Non-scalar data types, strings</b>: Binary representations, character encoding, strings data types, quoting, operators, operator overloading, indexing",
 	  "topic": "<b>Variables</b>: simple algorithms, assignment operator, variables, high-level vs. machine-level handling of variables and information data, address references and variable identifiers, type casting and conversions, basic ideas on code debugging and style rules",
-	  "notes": "<a href=\"lectures/110-F19-4-Variables.pdf\">Lecture PDF</a><br><a href=\"lectures/110-F19-4-Variables.ipynb\">Notebook</a>",
+	  "notes": "<a href=\"lectures/110-F19-4-Variables.pdf\">Lecture PDF</a><br><br><a href=\"lectures/110-F19-4-Variables.ipynb\">Notebook</a>",
       "code": "",
       "hw": ""
     },
