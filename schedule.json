@@ -36,8 +36,8 @@
       "date": "2019-09-03T15:00:00",
       "type": "Lecture",
       "topic": "<b>Strings and Boolean data types, conditionals </b>: Operations on strings (length, indexing, slicing, replacing, finding), conversions, boolean variables, relational operators, logical operators, flow control using conditional constructs, indentation and scoping",
-	"notes": "<a href=\"lectures/110-F19-5-StringsBoolCond.pdf\">Lecture PDF</a>",
-	"notes": "",
+      "topic": "<b>Boolean data types, conditionals </b>: Boolean variables, relational operators, logical operators, flow control using conditional constructs, indentation and scoping",
+	"notes": "<a href=\"lectures/110-F19-5-BoolCond.pdf\">Lecture PDF</a><br><br><a href=\"lectures/110-F19-5-BoolCondExamples.ipynb\">Notebook</a>",
       "code": "",
 	"hw": ""
     },
