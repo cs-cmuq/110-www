@@ -61,7 +61,7 @@
     {
       "date": "2019-09-10T15:00:00",
       "type": "Lecture",
-	"topic": "<b>String data types 2</b>: immutability, indexing but not modifying, notion of methods, useful string methods (properties and use)",
+	"topic": "<b>String data types 2</b>: immutability, indexing but not modifying, notion of methods, useful string methods (properties and use), encoding (integer to binary and vice versa)",
 	"notes": "<a href=\"lectures/110-F19-8-Strings-2.pdf\">Lecture PDF</a>",
       "code": "",
 	"hw": ""
