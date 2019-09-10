@@ -53,20 +53,17 @@
     {
       "date": "2019-09-08T15:00:00",
       "type": "Lecture",
-	"topic": "<b>Non-scalar data types, lists</b>: data structures, tuples, mutability and lists, general access and modification operations on lists, indexing and slicing, aliasing effects",
-      "topic": "<b>String data types</b>: Notation, overloaded operators, non-scalar types and indexing, slicing, slicing with a stride, useful built-in functions",
-	"notes": "<a href=\"lectures/110-F19-7-Strings.pdf\">Lecture PDF</a>",
+      "topic": "<b>String data types 1</b>: Notation, overloaded operators, non-scalar types and indexing, slicing, slicing with a stride",
+	"notes": "<a href=\"lectures/110-F19-7-Strings-1.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
     },
     {
       "date": "2019-09-10T15:00:00",
       "type": "Lecture",
-      "topic": "<b>Non-scalar data types, lists</b>: mutability vs. immutability, aliasing vs. cloning, retrieving, adding, and removing elements, slicing and cloning, operator overloading and concatenation, utility methods and functions available for lists, key function for comparison",
-	"notes": "<a href=\"lectures/110-F19-7-ListsTuples-2.pdf\">Lecture PDF</a>",
-	"notes": "",
+	"topic": "<b>String data types 2</b>: immutability, indexing but not modifying, notion of methods, useful string methods (properties and use)",
+	"notes": "<a href=\"lectures/110-F19-8-Strings-2.pdf\">Lecture PDF</a>",
       "code": "",
-	"hw": "hw02 due (strings and booleans)",
 	"hw": ""
     },
     {
@@ -75,12 +72,16 @@
       "topic": "Lab: Operations on and manipulation of lists data types",
 	"notes": "Textbook Chapter 4 (except sections using loops)",
 	"notes": "",
-      "code": "",
+	"code": "",
+	"hw": "hw02 due (basic python and conditionals)",
+
       "hw": ""
     },
     {
       "date": "2019-09-15T15:00:00",
-      "type": "Lecture",
+	"type": "Lecture",
+	"topic": "<b>Lists and Tuples</b>: mutability vs. immutability, aliasing vs. cloning, retrieving, adding, and removing elements, slicing and cloning, operator overloading and concatenation, utility methods and functions available for lists, key function for comparison",
+	"topic": "<b>Non-scalar data types, lists</b>: data structures, tuples, mutability and lists, general access and modification operations on lists, indexing and slicing, aliasing effects",
 	"topic": "<b>Iteration</b>: Repeated actions using for loops (definite loops), range(), scoping, examples of typical use, continue statement",
 	"notes": "<a href=\"lectures/110-F19-8-Iteration-1.pdf\">Lecture PDF</a>",
 	"notes": "",
