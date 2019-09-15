@@ -69,7 +69,7 @@
     {
       "date": "2019-09-12T15:00:00",
       "type": "Lab",
-      "topic": "Lab: Operations on and manipulation of lists data types",
+      "topic": "Lab: Operations on and manipulation of string data types",
 	"notes": "Textbook Chapter 4 (except sections using loops)",
 	"notes": "",
 	"code": "",
@@ -80,11 +80,11 @@
     {
       "date": "2019-09-15T15:00:00",
 	"type": "Lecture",
-	"topic": "<b>Lists and Tuples</b>: mutability vs. immutability, aliasing vs. cloning, retrieving, adding, and removing elements, slicing and cloning, operator overloading and concatenation, utility methods and functions available for lists, key function for comparison",
+	"topic": "<b>Lists and Tuples</b>: syntax, assignment, indexing and slicingmutability vs. immutability, aliasing vs. cloning, retrieving, adding, and removing elements, slicing and cloning, operator overloading and concatenation, utility methods and functions available for lists, key function for comparison",
 	"topic": "<b>Non-scalar data types, lists</b>: data structures, tuples, mutability and lists, general access and modification operations on lists, indexing and slicing, aliasing effects",
 	"topic": "<b>Iteration</b>: Repeated actions using for loops (definite loops), range(), scoping, examples of typical use, continue statement",
-	"notes": "<a href=\"lectures/110-F19-8-Iteration-1.pdf\">Lecture PDF</a>",
-	"notes": "",
+	"topic": "<b>Lists and Tuples</b>: syntax, assignment, indexing and slicing, access information by index and by content, general concepts on data structures",
+	"notes": "<a href=\"lectures/110-F19-10-TuplesLists-1.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
     },
