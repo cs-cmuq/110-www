@@ -101,7 +101,8 @@
     {
       "date": "2019-09-19T15:00:00",
       "type": "Lab",
-      "topic": "Lab: Flow control using while and for loops, variable scope",
+	"topic": "Lab: Flow control using while and for loops, variable scope",
+	"topic": "Lab: tuples and lists",
 	"notes": "Textbook Chapter 4, first section, and Chapter 7, second section",
 	"notes": "",
       "code": "",
