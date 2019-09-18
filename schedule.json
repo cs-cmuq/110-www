@@ -92,9 +92,8 @@
       "type": "Lecture",
 	"topic": "<b>Iteration</b>: break statement, scope of variables, nested loops, matrix data structure, while loops (indefinite loops), use of sentinel variables, never ending loops",
 	"topic": "<b>Lists and Tuples 2</b>: mutability vs. immutability, aliasing vs. cloning, retrieving, adding, and removing elements, slicing and cloning, operator overloading and concatenation, utility methods and functions available for lists, key function for comparison",
-
-	"notes": "<a href=\"lectures/110-F19-9-Iteration-2.pdf\">Lecture PDF</a><br><a href=\"lectures/110-9-Iteration-2-split.pdf\">Lecture PDF (split slides) </a>",
-	"notes": "",
+	"topic": "<b>Lists and Tuples 2</b>: mutability vs. immutability, more on indexing and slicing, updating lists, operator overloading and concatenation and product",
+	"notes": "<a href=\"lectures/110-F19-11-TuplesLists-2.pdf\">Lecture PDF</a>",
       "code": "",
 	"hw": "hw03 due (tuples, lists)",
 	"hw": ""
