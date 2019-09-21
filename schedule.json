@@ -73,7 +73,7 @@
 	"notes": "Textbook Chapter 4 (except sections using loops)",
 	"notes": "",
 	"code": "",
-	"hw": "hw02 due (basic python and conditionals)",
+	"hw": "hw02 due (basic python and conditionals)"
     },
     {
       "date": "2019-09-15T15:00:00",
@@ -90,7 +90,7 @@
 	"topic": "<b>Lists and Tuples 2</b>: mutability vs. immutability, more on indexing and slicing, updating lists, operator overloading, concatenation and product",
 	"notes": "<a href=\"lectures/110-F19-11-TuplesLists-2.pdf\">Lecture PDF</a>",
       "code": "",
-	"hw": "hw03 due (strings)",
+	"hw": "hw03 due (strings)"
     },
     {
       "date": "2019-09-19T15:00:00",
@@ -129,8 +129,7 @@
 	"notes": "<a href=\"lectures/110-F19-11-Lab.pdf\">Lecture PDF</a>",
 	"notes": "",
       "code": "",
-	"hw": "hw04 due (list and tuples)",
-	"hw": ""
+	"hw": "hw04 due (list and tuples)"
     },
     {
       "date": "2019-09-29T15:00:00",
