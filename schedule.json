@@ -105,7 +105,7 @@
     {
       "date": "2019-09-22T15:00:00",
       "type": "Lecture",
-	"topic": "<b>Lists and Tuples 3</b>: retrieving, adding, and removing elements using methods, slicing and cloning, aliasing vs. cloning, methods and utility functions available for lists, key function for comparison",	
+	"topic": "<b>Lists and Tuples 3</b>: retrieving, adding, and removing elements using methods, slicing and cloning, aliasing vs. cloning, methods and utility functions available for lists, key function for comparison",
 	"notes": "<a href=\"lectures/110-F19-12-TuplesLists-3.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
