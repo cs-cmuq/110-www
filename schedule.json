@@ -105,10 +105,8 @@
     {
       "date": "2019-09-22T15:00:00",
       "type": "Lecture",
-	"topic": "<b>Lists and Tuples 3</b>: retrieving, adding, and removing elements using methods, slicing and cloning, aliasing vs. cloning, methods and utility functions available for lists, key function for comparison",
-	
-	"notes": "<a href=\"lectures/110-F19-10-Functions-1.pdf\">Lecture PDF</a>",
-	"notes": "",
+	"topic": "<b>Lists and Tuples 3</b>: retrieving, adding, and removing elements using methods, slicing and cloning, aliasing vs. cloning, methods and utility functions available for lists, key function for comparison",	
+	"notes": "<a href=\"lectures/110-F19-12-TuplesLists-3.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
     },
@@ -116,7 +114,7 @@
       "date": "2019-09-24T15:00:00",
       "type": "Lecture",
 	"topic": "Functions for decomposition, abstraction, and reusability</b>: positional, keyword, and arbitrary number of arguments,  specifications, documenting a function with docstrings, inline comments, creating and using modules, import statements, dot notation, useful modules (numpy, math)",
-	"topic": "<b>Iteration 1</b>: Repeated actions using for loops (definite loops), range(), examples of typical use, continue statement, break statement, while loops (indefinite loops), use of sentinel variables, never ending loops",
+	"topic": "<b>Lists 4, Iteration 1</b>: Utility functions for lists, key function for comparisions, repeated actions using for loops (definite loops), range(), examples of typical use, continue statement, break statement, while loops (indefinite loops), use of sentinel variables, never ending loops", // 
 	"notes": "<a href=\"lectures/110-F19-12-Functions-2.pdf\">Lecture PDF</a><br>Textbook Chapter 8",
 	"notes": "",
       "code": "",
