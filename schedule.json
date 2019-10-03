@@ -105,7 +105,7 @@
     {
       "date": "2019-09-22T15:00:00",
       "type": "Lecture",
-	"topic": "<b>Lists and Tuples 3</b>: retrieving, adding, and removing elements using methods, slicing and cloning, aliasing vs. cloning, methods and utility functions available for lists, key function for comparison",
+	"topic": "<b>Lists and Tuples 3</b>: retrieving, adding, and removing elements using methods, slicing and cloning, aliasing vs. cloning, methods and utility functions available for lists",
 	"notes": "<a href=\"lectures/110-F19-12-TuplesLists-3.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
@@ -114,17 +114,15 @@
       "date": "2019-09-24T15:00:00",
       "type": "Lecture",
 	"topic": "Functions for decomposition, abstraction, and reusability</b>: positional, keyword, and arbitrary number of arguments,  specifications, documenting a function with docstrings, inline comments, creating and using modules, import statements, dot notation, useful modules (numpy, math)",
-	"topic": "<b>Lists 4, Iteration 1</b>: Utility functions for lists, key function for comparisions, repeated actions using for loops (definite loops), range(), examples of typical use, continue statement, break statement, while loops (indefinite loops), use of sentinel variables, never ending loops",
-	"notes": "<a href=\"lectures/110-F19-12-Functions-2.pdf\">Lecture PDF</a><br>Textbook Chapter 8",
-	"notes": "",
+	"topic": "<b>Lists and Tuples 4</b>: more on list methods, reversing, sorting, min and max, key functions for compariso, list and string methods", 
+	"notes": "<a href=\"lectures/110-F19-13-TuplesLists-4.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
     },
     {
       "date": "2019-09-26T15:00:00",
       "type": "Lab",
-	"topic": "Lab: Lists and tuples, Basic Iteration, Preparation for the midterm exam I",
-	"notes": "<a href=\"lectures/110-F19-11-Lab.pdf\">Lecture PDF</a>",
+	"topic": "Preparation for the midterm exam I, Review of all homework so far",
 	"notes": "",
       "code": "",
 	"hw": "hw04 due (list and tuples)"
@@ -143,18 +141,18 @@
       "type": "Lecture",
 	"topic": "<b>Associative data types, dictionaries</b>: creating labeled data using dictionaries, lists vs. dictionaries, type restrictions, initialization, access, updating, removal of entries",
 	"topic": "<b>Iteration 2, Intro to Functions </b>: more on loop constructs, scope of variables, nested loops, matrix data structure, functions as subprograms, abstraction, function definition, functions for task decomposition, code modularity and code reusability",
-	"notes": "<a href=\"lectures/110-F19-13-Dictionaries.pdf\">Lecture PDF</a><br>Textbook Chapter 6",
-	"notes": "",
+	"topic": "<b>Iteration 1</b>: Repeated actions using for loops (definite loops), structure and properties of a for construct, examples of typical use, using not using the loop variable, range() generator",
+	"notes": "<a href=\"lectures/110-F19-14-Iteration-1.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
     },
     {
       "date": "2019-10-03T15:00:00",
-	"type": "Lab",
 	"type": "Lecture",
       "topic": "Lab: Use of functions, dictionaries and sets for structuring and searching data",
 	"topic": "<b>Functions for decomposition, abstraction, and reusability</b>: arguments, local scoping, stack frames, returning values, modifying arguments, positional, keyword, and arbitrary number of arguments,  specifications, documenting a function with docstrings, inline comments, creating and using modules, import statements, dot notation, useful modules (numpy, math)",
-	"notes": "",
+	"topic": "<b>Iteration 2</b>: While loops (indefinite loops), sentinel variables, break and continue statements, nested loops, more examples on using loops",
+	"notes": "<a href=\"lectures/110-F19-15-Iteration-2.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
     },
