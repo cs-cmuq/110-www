@@ -164,7 +164,7 @@
 	"topic": "<b>Dictionaries, Sets</b>: dictionaries as hashed types, modalities for creating dictionaries, accessing, adding, modifying and removing items using class methods, methods for inspecting a dictionary, view objects, iterating over the items and over the keys, useful operations on dictionary data, definition of sets, sets vs. lists vs. dictionaries, modalities for creating a set, operations on sets, available methods and functions",
 	"topic": "<b>Iteration 3</b>: Nested for and while loops, break and continue statements, changinng loops variables, more examples of use, matrix data structure",
 	"notes": "<a href=\"lectures/110-F19-14-DictionariesSets.pdf\">Lecture PDF</a><br><br><a href=\"lectures/L14.py\">Python code used in lecture</a>",
-	"notes": "<a href=\"lectures/110-F19-16-Iteration-3.pdf\">Lecture PDF</a>",
+	"notes": "<a href=\"lectures/110-F19-16-Iteration-3.pdf\">Lecture PDF</a><br><br><a href=\"lectures/110-F19-16-Functions-1.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
     },      
