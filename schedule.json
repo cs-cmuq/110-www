@@ -176,7 +176,6 @@
 	"topic": "<b>Dictionaries, Sets</b>: dictionaries as hashed types, modalities for creating dictionaries, accessing, adding, modifying and removing items using class methods, methods for inspecting a dictionary, view objects, iterating over the items and over the keys, useful operations on dictionary data, definition of sets, sets vs. lists vs. dictionaries, modalities for creating a set, operations on sets, available methods and functions",
 	"topic": "Functions for decomposition, abstraction, and reusability</b>: use of functions, categories of functions, returning values, scope of function variables, control flow when calling a function, modifying input (mutable) parameters, positional and keyword parameters, use of keyword parameters for setting default values, passing an arbitrary number of arguments",
 	"notes": "<a href=\"lectures/110-F19-17-Functions-1.pdf\">Lecture PDF</a>",
-	"notes": "",
       "code": "",
 	"hw": "hw05 due (functions, imports, modules)",
 	"hw": ""
