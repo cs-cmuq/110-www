@@ -289,7 +289,7 @@
     {
       "date": "2019-11-12T15:00:00",
       "type": "Lecture",
-      "topic": "<b>Preparation to the midterm exam II:</b> Overview and practice of topics so far",
+      "topic": "<b>Preparation to the midterm exam |II:</b> Overview and practice of topics so far",
 	"notes": "<a href=\"lectures/reference-card-1.pdf\">Pyhton reference card I</a><br><a href=\"lectures/reference-card-2.pdf\">Pyhton reference card II</a>",
 	"notes": "",
       "code": "",
@@ -299,7 +299,7 @@
     {
       "date": "2019-11-14T15:00:00",
       "type": "Exam",
-      "topic": "MIDTERM EXAM II: Focus on the topics considered from the first assessment test up to now",
+      "topic": "MIDTERM EXAM III: Focus on the topics considered from Midterm II up to now",
       "notes": "",
       "code": "",
       "hw": ""
