@@ -224,7 +224,7 @@
     },
     {
       "date": "2019-10-27T15:00:00",
-      "type": "Lecture",
+      "type": "Exam",
 	"topic": "MIDTERM EXAM II (programming): All topics considered so far in the course (little on dictionaries)",
 	"notes": "<a href=\"lectures/110-F19-17-CSV-files.pdf\">Notebook PDF</a><br><a href=\"lectures/L17.py\">- Python code</a><br><a href=\"lectures/L17.ipynb\">- Jupiter notebook</a><br><a href=\"lectures/csv.zip\">- Zipped folder with used CSV files</a><br>- Textbook Chapter 16, section 1",
 	"notes": "",
