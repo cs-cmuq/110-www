@@ -215,8 +215,10 @@
     {
       "date": "2019-10-20T15:00:00",
       "type": "Lecture",
-      "topic": "<b>I/O with files</b>: Data storage and files, storage media, text and binary files, opening and closing files,  record structure, reading files, writing text files",
+	"topic": "<b>I/O with files</b>: Data storage and files, storage media, text and binary files, opening and closing files,  record structure, reading files, writing text files",
+	"topic": "<b>Functionsm modules</b>: Functions for abstraction, docstrings, commens, arguments, modules, import statement, examples of useful modules",
 	"notes": "<a href=\"lectures/110-F19-15-FilesIO-1.pdf\">Lecture PDF</a><br>Textbook Chapter 10, sections 1,2",
+	"notes": "<a href=\"lectures/110-F19-18-FunctionModules.pdf\">Lecture PDF</a>",
 	"notes": "",
       "code": "",
       "hw": ""
@@ -224,9 +226,10 @@
     {
       "date": "2019-10-22T15:00:00",
       "type": "Lecture",
-      "topic": "<b>I/O with files</b>: Output string formatting with <tt>str.format</tt>, interaction with the filesystem, exceptions and assertions</b>: operations on the file system with the <tt>os</tt> module, exceptions and assertions, file exceptions, try-except-else-finally construct, flow control",
+	"topic": "<b>I/O with files</b>: Output string formatting with <tt>str.format</tt>, interaction with the filesystem, exceptions and assertions</b>: operations on the file system with the <tt>os</tt> module, exceptions and assertions, file exceptions, try-except-else-finally construct, flow control",
+	"topic": "<b>Dictionaries</b>: dictionaries as hashed types, modalities for creating dictionaries, accessing, adding, modifying and removing items using class methods, methods for inspecting a dictionary, view objects, iterating over the items and over the keys, useful operations on dictionary data, definition of sets, sets vs. lists vs. dictionaries, modalities for creating a set, operations on sets, available methods and functions",
 	"notes": "<a href=\"lectures/110-F19-16-FilesIO-2.pdf\">Lecture PDF</a><br>Textbook Chapter 10, section 3",
-	"notes": "",
+	"notes": "<a href=\"lectures/110-F19-19-Dictionaries.pdf\">Lecture PDF</a>",
       "code": "",
 	"hw": "hw06 due (dictionaries, sets)",
 	"hw": ""
