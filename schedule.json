@@ -253,8 +253,7 @@
       "date": "2019-11-03T15:00:00",
 	"type": "Lecture",
 	"topic": "<b>Sets 1</b>: Definition of sets, sets vs. lists vs. dictionaries, modalities for creating a set, operations on sets, available methods and functions",
-	"notes": "<a href=\"lectures/110-F19-19-OO-1.pdf\">Lecture PDF</a><br><a href=\"lectures/L19.py\">- Python code</a><br><a href=\"lectures/L19.ipynb\">- Jupiter notebook</a>",
-	"notes": "",
+	"notes": "<a href=\"lectures/110-F19-21-Sets.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
     },
