@@ -217,8 +217,8 @@
     {
       "date": "2019-10-24T15:00:00",
 	"type": "Lecture",
-	"topic": "<b>Dictionaries 2</b>: initialization and creation of dictionaries, useful operations on dictionary data, available methods and functions",
-	"notes": "<a href=\"lectures/110-F19-19-Dictionaries-2.pdf\">Lecture PDF</a>",
+	"topic": "<b>Practice for exam</b>: Practice on topics so far, more on dictionaries",
+	"notes": "",
       "code": "",
       "hw": ""
     },
@@ -234,26 +234,25 @@
     },
     {
       "date": "2019-10-29T15:00:00",
-      "type": "Lecture",
-	"topic": "<b>Downloading, manipulating, and sharing data</b>: Writing CSV data files, list format, dictionary format",
-	"notes": "<a href=\"lectures/110-F19-18-CSV-files-2.pdf\">Notebook PDF</a><br><a href=\"lectures/L18.py\">- Python code</a><br><a href=\"lectures/L18.ipynb\">- Jupiter notebook</a>",
-	"notes": "",
+	"type": "Lecture",
+	"topic": "<b>Dictionaries 2</b>: More practice on dictionaries, review of techniques for iterating over the elements of a dictionary, addition and removal of elements, useful methods for sorting and finding max/mix",
+	"notes": "<a href=\"lectures/110-F19-20-Dictionaries-2.pdf\">Lecture PDF</a>",
       "code": "",
 	"hw": "hw07 due (files)",
 	"hw": ""
     },
     {
       "date": "2019-10-31T15:00:00",
-      "type": "Lab",
-      "topic": "Lab: Data I/O using CSV data formats",
-      "notes": "",
+	"type": "Lecture",
+	"topic": "<b>Dictionaries 3</b>: More practice on dictionaries, initialization and creation of dictionaries, useful operations on dictionary data, review of available methods and functions",
+      "notes": "check slides of 29/10",
       "code": "",
       "hw": ""
     },
     {
       "date": "2019-11-03T15:00:00",
-      "type": "Lecture",
-      "topic": "<b>Object-oriented programming</b>: general concepts behind object-oriented design and programming, abstract data types and classes, methods, object instantiation, designing modular and reusable programs using abstract data types, constructor-initializer-destructor, self reference variable",
+	"type": "Lecture",
+	"topic": "<b>Sets 1</b>: Definition of sets, sets vs. lists vs. dictionaries, modalities for creating a set, operations on sets, available methods and functions",
 	"notes": "<a href=\"lectures/110-F19-19-OO-1.pdf\">Lecture PDF</a><br><a href=\"lectures/L19.py\">- Python code</a><br><a href=\"lectures/L19.ipynb\">- Jupiter notebook</a>",
 	"notes": "",
       "code": "",
@@ -262,7 +261,7 @@
     {
       "date": "2019-11-05T15:00:00",
       "type": "Lecture",
-	"topic": "<b>Object-oriented programming</b>: OO software design, encapsulation and information hiding, inheritance, polymorphism and method overloading",
+	"topic": "<b>Sets 2</b>: ",
 	"notes": "<a href=\"lectures/110--=F19-20-OO-2.pdf\">Notebook PDF</a><br><a href=\"lectures/L20.py\">- Python code</a><br><a href=\"lectures/L20.ipynb\">- Jupiter notebook</a><br>- Textbook Chapter 9",
 	"notes": "",
       "code": "",
@@ -272,7 +271,7 @@
     {
       "date": "2019-11-07T15:00:00",
       "type": "Lab",
-      "topic": "Lab: Designing code using object-oriented programming",
+      "topic": "Lab: Sets, dictionaries, lists (structured data types)",
       "notes": "",
       "code": "",
       "hw": ""
@@ -280,7 +279,8 @@
     {
       "date": "2019-11-10T15:00:00",
       "type": "Lecture",
-      "topic": "<b>Recursion, Divide-and-conquer paradigm</b>: recursive definitions, recursion in computing, base ad recursive cases, advantages and challenges, management of stack frames, memoization, decrease-and-conquer vs. divide-and-conquer, examples (factorial, exponentiation, list tree, Fibonacci numbers, binary search, fractals)",
+	"topic": "<b>Recursion, Divide-and-conquer paradigm</b>: recursive definitions, recursion in computing, base ad recursive cases, advantages and challenges, management of stack frames, memoization, decrease-and-conquer vs. divide-and-conquer, examples (factorial, exponentiation, list tree, Fibonacci numbers, binary search, fractals)",
+	"topic": "To be redefined",
 	"notes": "<a href=\"lectures/110-F19-21-Recursion.pdf\">Lecture PDF</a><br><a href=\"lectures/L21.py\">- Python code</a><br><a href=\"lectures/L21.ipynb\">- Jupiter notebook</a>",
 	"notes": "",
       "code": "",
@@ -289,7 +289,8 @@
     {
       "date": "2019-11-12T15:00:00",
       "type": "Lecture",
-      "topic": "<b>Preparation to the midterm exam |II:</b> Overview and practice of topics so far",
+	"topic": "<b>Preparation to the midterm exam |II:</b> Overview and practice of topics so far",
+	"topic": "To be redefined",
 	"notes": "<a href=\"lectures/reference-card-1.pdf\">Pyhton reference card I</a><br><a href=\"lectures/reference-card-2.pdf\">Pyhton reference card II</a>",
 	"notes": "",
       "code": "",
@@ -307,7 +308,8 @@
     {
       "date": "2019-11-17T15:00:00",
       "type": "Lecture",
-      "topic": "<b>Project description, data visualization using Matplotlib</b>: overview, main functionalities, data plotting, example of a class for data management, inspection and visualization",
+	"topic": "<b>Project description, data visualization using Matplotlib</b>: overview, main functionalities, data plotting, example of a class for data management, inspection and visualization",
+	"topic": "To be redefined",
 	"notes": "<a href=\"lectures/L22.ipynb\">Jupiter notebook</a>",
 	"notes": "",
       "code": "",
@@ -316,7 +318,8 @@
     {
       "date": "2019-11-19T15:00:00",
       "type": "Lecture",
-      "topic": "<b>Data visualization and animation using Matplotlib</b>: creating graphs to analyse data",
+	"topic": "<b>Data visualization and animation using Matplotlib</b>: creating graphs to analyse data",
+	"topic": "To be redefined",
 	"notes": "<a href=\"lectures/notebook-matplotlib-sample.ipynb\">Graph examples</a><br><a href=\"lectures/animal-analysis.ipynb\">Animal analysis</a>",
 	"notes": "",
       "code": "",
@@ -325,7 +328,8 @@
     {
       "date": "2019-11-21T15:00:00",
       "type": "Lab",
-      "topic": "Lab: Use of Matplotlib for data visualization",
+	"topic": "Lab: Use of Matplotlib for data visualization",
+	"topic": "To be redefined",
       "notes": "",
       "code": "",
       "hw": ""
@@ -333,7 +337,8 @@
     {
       "date": "2019-11-24T15:00:00",
       "type": "Lecture",
-      "topic": "<b>Monte Carlo Simulation</b>: concepts behind Monte Carlo simulation techniques, gambling game example, random number generation in a computer, <tt>random</tt> module, visualization examples",
+	"topic": "<b>Monte Carlo Simulation</b>: concepts behind Monte Carlo simulation techniques, gambling game example, random number generation in a computer, <tt>random</tt> module, visualization examples",
+	"topic": "To be redefined",
 	"notes": "<a href=\"lectures/110-F19-24-Simulation-1.pdf\">Lecture PDF</a><br><a href=\"lectures/L24.ipynb\">Jupiter notebook</a>",
 	"notes": "",
       "code": "",
@@ -342,7 +347,8 @@
     {
       "date": "2019-11-26T15:00:00",
       "type": "Lecture",
-      "topic": "<b>Monte Carlo Simulation</b>: more examples of use of random numbers and Monte Carlo, estimate of pi, complex visualizations, computing areas, <tt>numpy</tt> methods",
+	"topic": "<b>Monte Carlo Simulation</b>: more examples of use of random numbers and Monte Carlo, estimate of pi, complex visualizations, computing areas, <tt>numpy</tt> methods",
+	"topic": "To be redefined",
 	"notes": "<a href=\"lectures/110-F19-25-Simulation-2.pdf\">Lecture PDF</a><br><a href=\"lectures/L25.ipynb\">Jupiter notebook</a>",
 	"notes": "",
       "code": "",
@@ -351,7 +357,8 @@
     {
       "date": "2019-11-28T15:00:00",
       "type": "Lab",
-      "topic": "Lab: Monte Carlo simulation, use of random numbers, visualization",
+	"topic": "Lab: Monte Carlo simulation, use of random numbers, visualization",
+	"topic": "To be redefined",
 	"notes": "<a href=\"lectures/L26-extras.ipynb\">Jupiter notebook (extra material)</a>",
 	"notes": "",
       "code": "",
@@ -360,7 +367,8 @@
     {
       "date": "2019-12-01T15:00:00",
       "type": "Lecture",
-      "topic": "<b>Efficiency and complexity</b>: algorithm design, effieciency, running time, abstract measure of running time, size and value dependence, worst-case analysis, asymptotic running time behavior, large input size and <i>big O</i> notation for time complexity, examples of growth rates",
+	"topic": "<b>Efficiency and complexity</b>: algorithm design, effieciency, running time, abstract measure of running time, size and value dependence, worst-case analysis, asymptotic running time behavior, large input size and <i>big O</i> notation for time complexity, examples of growth rates",
+	"topic": "To be redefined",
 	"notes": "<a href=\"lectures/110-F19-26-Complexity.pdf\">Lecture PDF</a><br><a href=\"lectures/L26.ipynb\">Jupiter notebook</a>",
 	"notes": "",
       "code": "",
@@ -368,16 +376,18 @@
     },
     {
       "date": "2019-12-03T15:00:00",
-      "type": "Lab",
-      "topic": "<b>Presentation of projects</b>",
+      "type": "Lecture",
+	"topic": "<b>Presentation of projects</b>",
+	"topic": "To be redefined",
       "notes": "",
 	"code": "",
 	"hw": "project due"
     },
     {
       "date": "2019-12-05T15:00:00",
-      "type": "Lab",
-      "topic": "<b>Presentation of projects</b>",
+      "type": "Lecture",
+	"topic": "<b>Presentation of projects</b>",
+	"topic": "To be redefined",
       "notes": "",
       "code": "",
       "hw": ""
