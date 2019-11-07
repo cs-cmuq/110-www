@@ -261,8 +261,7 @@
       "date": "2019-11-05T15:00:00",
       "type": "Lecture",
 	"topic": "<b>Sets 2, Files 1</b>: ",
-	"notes": "<a href=\"lectures/110--=F19-20-OO-2.pdf\">Notebook PDF</a><br><a href=\"lectures/L20.py\">- Python code</a><br><a href=\"lectures/L20.ipynb\">- Jupiter notebook</a><br>- Textbook Chapter 9",
-	"notes": "",
+	"notes": "For sets refer to slides of 03/11<br><a href=\"lectures/110-F19-22-FilesIO.pdf\">",
       "code": "",
 	"hw": "hw08 due (csv files)",
 	"hw": ""
@@ -295,7 +294,7 @@
 	"notes": "<a href=\"lectures/reference-card-1.pdf\">Pyhton reference card I</a><br><a href=\"lectures/reference-card-2.pdf\">Pyhton reference card II</a>",
 	"notes": "",
       "code": "",
-	"hw": "hw07 due"
+	"hw": "hw07 due (13/11)"
     },
     {
       "date": "2019-11-14T15:00:00",
