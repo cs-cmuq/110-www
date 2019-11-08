@@ -269,7 +269,7 @@
     {
       "date": "2019-11-07T15:00:00",
 	"type": "Lecture",
-	"topic": "<b>Files 2</b>: ", "Text vs. Binary files, examples of the different formats, hierarchy of text data (bits, bytes, fieds, records, file), open methods, opening modes, read method, read text and binary files",
+	"topic": "<b>Files 2</b>: Text vs. Binary files, examples of the different formats, hierarchy of text data (bits, bytes, fieds, records, file), open methods, opening modes, read method, read text and binary files",
 	"notes": "<a href=\"lectures/110-F19-23-FilesIO-2.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
