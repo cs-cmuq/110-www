@@ -297,15 +297,7 @@
 	"hw": "hw07 due (13/11)"
     },
     {
-      "date": "2019-11-14T15:00:00",
-      "type": "Exam",
-      "topic": "HOMEWORK EXAM I (Questions from all homeworks so far)",
-      "notes": "",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2019-11-17T15:00:00",
+	"date": "2019-11-14T15:00:00",
       "type": "Lecture",
 	"topic": "<b>Project description, data visualization using Matplotlib</b>: overview, main functionalities, data plotting, example of a class for data management, inspection and visualization",
 	"topic": "To be redefined",
@@ -315,6 +307,15 @@
       "code": "",
       "hw": ""
     },
+      {
+	"date": "2019-11-17T15:00:00",
+      "type": "Exam",
+      "topic": "HOMEWORK EXAM I (Questions from all homeworks so far)",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+
     {
       "date": "2019-11-19T15:00:00",
       "type": "Lecture",
@@ -328,20 +329,20 @@
     },
     {
 	"date": "2019-11-21T15:00:00",
-	"type": "Exam",
-	"topic": "MIDTERM EXAM III (All topics covered so far)",
-      "notes": "",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2019-11-24T15:00:00",
       "type": "Lecture",
 	"topic": "<b>Monte Carlo Simulation</b>: concepts behind Monte Carlo simulation techniques, gambling game example, random number generation in a computer, <tt>random</tt> module, visualization examples",
 	"topic": "To be redefined",
 	"topic": "<b>Graphics and Plotting 3</b>: ",
 	"notes": "<a href=\"lectures/110-F19-24-Simulation-1.pdf\">Lecture PDF</a><br><a href=\"lectures/L24.ipynb\">Jupiter notebook</a>",
 	"notes": "",
+      "code": "",
+      "hw": ""
+    },
+      {
+	"date": "2019-11-24T15:00:00",
+	"type": "Exam",
+	"topic": "MIDTERM EXAM III (All topics covered so far)",
+      "notes": "",
       "code": "",
       "hw": ""
     },
