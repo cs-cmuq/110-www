@@ -277,11 +277,8 @@
     {
       "date": "2019-11-10T15:00:00",
       "type": "Lecture",
-	"topic": "<b>Recursion, Divide-and-conquer paradigm</b>: recursive definitions, recursion in computing, base ad recursive cases, advantages and challenges, management of stack frames, memoization, decrease-and-conquer vs. divide-and-conquer, examples (factorial, exponentiation, list tree, Fibonacci numbers, binary search, fractals)",
-	"topic": "To be redefined",
-	"topic": "<b>Files 3</b>: ",
-	"notes": "<a href=\"lectures/110-F19-21-Recursion.pdf\">Lecture PDF</a><br><a href=\"lectures/L21.py\">- Python code</a><br><a href=\"lectures/L21.ipynb\">- Jupiter notebook</a>",
-	"notes": "",
+	"topic": "<b>Files 3</b>: Methods for reading files using bytes and lines, positioning the read/write head, methods for writing files, examples of use, closing files, handling exceptions with try-except-else-finally construct",
+	"notes": "<a href=\"lectures/110-F19-24-FilesIO-3.pdf\">Lecture PDF</a>",
       "code": "",
       "hw": ""
     },
