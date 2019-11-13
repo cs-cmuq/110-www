@@ -287,11 +287,10 @@
       "type": "Lecture",
 	"topic": "<b>Preparation to the midterm exam |II:</b> Overview and practice of topics so far",
 	"topic": "To be redefined",
-	"topic": "<b>Files 4</b>: ",
+	"topic": "<b>Files 4</b>: Practice on files and exceptions, string formatting with str.format() method",
 	"notes": "<a href=\"lectures/reference-card-1.pdf\">Pyhton reference card I</a><br><a href=\"lectures/reference-card-2.pdf\">Pyhton reference card II</a>",
-	"notes": "",
+	"notes": "<a href=\"lectures/110-F19-25-FilesIO-4.pdf\">Lecture PDF</a>",
       "code": "",
-	"hw": "hw07 due (13/11)"
     },
     {
 	"date": "2019-11-14T15:00:00",
@@ -301,8 +300,8 @@
 	"topic": "<b>Graphics and Plotting 1</b>: ",
 	"notes": "<a href=\"lectures/L22.ipynb\">Jupiter notebook</a>",
 	"notes": "",
-      "code": "",
-      "hw": ""
+	"code": "",
+	"hw": "hw07 due"
     },
       {
 	"date": "2019-11-17T15:00:00",
