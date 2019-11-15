@@ -297,7 +297,7 @@
 	"topic": "<b>Project description, data visualization using Matplotlib</b>: overview, main functionalities, data plotting, example of a class for data management, inspection and visualization",
 	"topic": "To be redefined",
 	"topic": "<b>Graphics and Plotting 1</b>: ",
-	"topic": "<b>Review of topics, Files 5</b>: File system, hierarchical structure, paths, folders/directories, os module, operations on files and folders with the os methods, CSV data format, CSV and Excel, methods for dealing with CSV files from the csv module (optional)",
+	"topic": "<b>Review of topics, Files 5</b>: File system, hierarchical tree structure, paths, folders/directories, os module, operations on files and folders with the os methods, CSV data format, CSV and Excel, methods for dealing with CSV files from the csv module (optional)",
 	"notes": "<a href=\"lectures/110-F19-26-FilesIO-5.pdf\">Lecture PDF</a>",
 	"code": "",
 	"hw": "hw07 due"
