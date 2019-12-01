@@ -1,0 +1,11 @@
+from year, to year, where, state (optional), country (optional) 
+1987, 1990, Springfield
+1990, 1991, Summerfield
+1991, 1991, Winterfield
+1991, 1995, Albuquerque, NM
+1996, 2000, El Paso, Texas
+2000, 2004, Paris, Texas, USA
+2004, 2007, Paris, , France
+2008, 2012, Rostok, , Russia
+2012, 2015, Istanbul, , Turkey
+2015, 2019, Doha, Qatar
