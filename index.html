@@ -67,9 +67,6 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#overview">Overview</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#schedule">Schedule</a>
           </li>
           <li class="nav-item">
@@ -78,8 +75,8 @@
           <li class="nav-item">
             <a class="nav-link" href="#grading">Grading</a>
           </li>
-	  <li class="nav-item">
-            <a class="nav-link" href="#homework">Homework</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#assignments">Assignments</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#tools">Tools</a>
@@ -88,133 +85,85 @@
             <a class="nav-link" href="#policy">Policies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://piazza.com/cmu/spring2019/15110q" target="_blank">Piazza <i class="fa fa-external-link"></i></a>
+            <a class="nav-link" href="https://piazza.com/cmu/spring2020/15110q" target="_blank">Piazza <i class="fa fa-external-link"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://autolab.andrew.cmu.edu/courses/15110q-s19" target="_blank">Autolab <i class="fa fa-external-link"></i></a>
+            <a class="nav-link" href="https://autolab.andrew.cmu.edu/courses/15110q-s20" target="_blank">Autolab <i class="fa fa-external-link"></i></a>
           </li>
         </ul>
       </div>
     </nav>
 
     <br><p>
-    <div id="overview" class="container section">
+    <div id="main" class="container section">
+      <h1><b>15-110: Principles of Computing (Spring 2020)</b></h1>
+      <img class="img-thumbnail float-right ml-4" style="margin-top: 50px; width:600px" alt="And football about foots and balls." src="cover-o.png">
+      <p class="text-justify">
+      <h2><b>Overview</b></h2>
 
-        <div class="image-txt-container">
-          <p style="float: left; min-width: 0px; vertical-align: middle;">
-	    <h1><b>15-110: Principles of Computing <br> (Fall 2019)</b></h1></p>             
-          <p><img  style="padding-left: 20px"; src="cover-o.png"; width="330"></p>  
-        </div>
-
-	<!-- <h1><b>15-110: Principles of Computing (Spring 2019)</b></h1>
-      <br> -->
-      <p>
-        <h2><b>Overview</b></h2>
-      <p>
-        As defined P. Denning et al. in an 1989 ACM report on
-        <i>Computing as a Discipline</i>, <u>computing</u> is the
-        "systematic study of algorithmic processes that describe and
-        transform information: their theory, analysis, design,
-        efficiency, implementation, and application. The fundamental
-        question underlying all computing is <i>what can be
-        (efficiently) automated?</i>". This course precisely aims at
-        introducing the science (and the art) of computing to students
-        with little or no prior background in the matter.
+      <p class="text-justify">
+        <i>Computing</i> can be defined as the study of computational
+        processes that manipulate information. A <i>computational
+        process</i> is one that can be automated, and thus executed by a
+        computer. Therefore, one of the main underlying questions is:
+        <b>what can be (efficiently) automated?</b>
+        This course aims at introducing the science (and the art) of
+        computing to students with little or no prior background in
+        this subject.
       </p>
         
-      <p>
-        Given the inherent vastity of the topics involved in
-        computing, the course will focus on a subset of the core
-        aspects of computing, providing a brief, yet substantial
-        introduction to many topics. The goal is to provide an idea of
-        what's possible and how to realize it when it's useful (or,
-        most often, necessary) to employ computation and computers to
-        accomplish a complex goal.
+      <p class="text-justify">
+        Given the great amount of topics involved in
+        computing, the course will focus on a subset of its core
+        aspects, providing a brief, yet substantial introduction to
+        many concepts. The goal is to provide an idea of what can be
+        automated, and how to realize when it is useful (or, most often,
+        necessary) to employ computation and computers to accomplish a
+        complex goal.  
       </p>
 
-      <p>
-        The course will balance the discussion of concepts central to
-        design and understand computation with their practical
-        implementation and testing using a specific <i>programming
-        language</i>, <u>Python</u>. The choice of python is motivated
-        by its widespread use, relative simplicity, availability of
-        tools for scientific, graphical, and web programming, among
-        others.
-      </p>
-      
-      <p>
+      <p class="text-justify">
         The course will take the student along the way that starts
         from a complex, possibly large problem to solve, and then move
-        step by step to its <u>abstraction</u>, to its formalization into an
-        <u>algorithmic recipe</u>, to the encoding of the algorithm using the
-        <u>constructs of the python language</u>, to the run-time <u>execution</u>
-        and <u>error correction</u> of the programming code, to the
-        <u>efficiency analysis</u> of the developed algorithm and
-        code. A number of <i>practical application scenarios</i> will be
-        considered to ground the concepts to problems of interest.
+        step by step to its <i>abstraction</i>, to its formalization into an
+        <i>algorithmic recipe</i>, to the encoding of the algorithm using the
+        <i>constructs of the python language</i>, to the run-time
+        <i>execution</i> and <i>error correction</i> of the
+        programming code, to the <i>efficiency analysis</i> of the
+        developed algorithm and code. 
       </p>
 
-      <p>
-        In a nutshell, the course will tackle the following topics:
+      <h2><b>Learning goals</b></h2>
+      
+      <p class="text-justify">
         <ul>
-          <li> Problem analysis: abstraction and representation </li>
-          <li> Concepts central to design and understand algorithms</li>
-          <li> Fundamental concepts of programming: </li>
-          <ul>
-            <li> Knowledge representation (data types and structures)</li>
-            <li> Flow control (conditionals, iteration, recursion)</li>
-            <li> Data organization (lists, matrices, dictionaries)</li>
-            <li> Decomposition, reusability, information hiding (modules, functions, class objects)</li>
-          </ul>
-          <li> Python programming language to implement the above general concepts</li>
-          <li> Computational problem-solving techniques (divide-and-conquer, greedy, dynamic programming)</li>
-          <li> Correctness and efficiency of algorithms (testing, error finding, algorithmic complexity, optimization) </li>
-          <li> Data visualization, animation, and statistical analysis </li>
-          <li> Simulation models (deterministic and stochastic approaches) </li>
+          <li> Understand what classes of problems computers are good at or are necessary for. </li>
+          <li> Be able to analyze and abstract a given problem in a way which is amenable
+               to an algorithmic solution. </li>
+          <li> Design algorithmic solutions. </li>
+          <li> Judge the effectiveness of an algorithmic solution, and ways to improve it. </li>
+          <li> Apply fundamental algorithmic solution techniques when
+               relevant. </li>
+          <li> Code algorithmic solutions in Python. </li>
+          <li> Debug and test Python code. </li>
         </ul>
       </p>
-      
-      <p>
-        While the theoretical understanding of the concepts is always fundamental, the course
-        emphasizes <u>hands-on</u>, meaning that learning will be mostly driven by the repeated
-        implementation and application in python of the general concepts.<br><p> <u>Almost every class will
-        feature some hands-on and/or solving excercises together with the teacher.</u>
-	<br><p>
-	Homework will progressively and incrementally address more complicated problems, asking for
-	designing and implementing relatively <i>large and complex code</i>.
-	    
-	<!-- <u>Weekly lab classes and programming homework</u> will support this way of proceeding.  In
-        the final three weeks, a <u>project</u> work will be devoloped by the students, that will
-        allow to face the challenge of designing and implementing a relatively <i>large and complex 
-        code</i>. --!>
-      </p>      
+
+      <p class="text-justify">
+        The Python constructs introduced throughout the course
+        include, but are not limited to:
+        <ul>
+          <li> Basic datatypes (integer, strings, booleans, floating
+          point numbers) </li>
+          <li> Arithmetic operations </li>
+          <li> Conditionals </li>
+          <li> Iteration/loops </li>
+          <li> Composite datatypes (lists and dictionaries) </li>
+          <li> Functions </li>
+          <li> Input/Output and file processing libraries </li>
+        </ul>
       </p>
-    </div>
-    </p>
-    <div id="goals" class="container section">
-      <h2><b>Learning goals</b></h2>
-      <p>
-	<ul>
-	  <li> To achieve a broad understanding and a practical expertise of what computing is, and, more
-        in general, of what computer science is.</li>
-	  <li>To develop the knowledge of what classes of problems computers are good at or are necessary
-	  for.</li>
-	  <li>To build the ability to analyze and abstract a given problem to represent it in a way which is ameneable
-	  to an algorithmic solution. </li>
-	  <li>To acquire the skills to step from a problem description, to a problem abstraction, to
-	    an effective algorithm, to an optimized computer program.</li>
-	  <li>To acquire the basic knowledge of some fundamental algorithmic solution techniques.</i>
-	  <li>To reach a proficiency level programming in Python using both
-	    procedural and  object-oriented techniques.</li>
-	  <li>To become a skilled practioner for using computer programming to read, write, and process
-	  complex data.</li>
-	  <li>To achieve a clear understanding of the time and memory requirements of a specific
-	  algorithm, and, more in general, of the inherent limits of what a specific computer can solve.
-	    </li>
-	  <li>To know how to effectively use python programming for general-purpose tasks such as
-	    data visualization and design and execution of simulated experiments.
-	</ul>
-      </p>
+
     </div>
 
     <div id="requisites" class="container section">
@@ -262,8 +211,8 @@
     <div id="schedule" class="container section">
       <h2><b>Schedule (Subject to changes)</b></h2>
       <p>
-	In the table below, labs are in blue, exams are in red and the next
-	lecture/lab is orange. Green days are in the past, and grey days have no lectures.
+        In the table below, labs are in blue, exams are in red and the next
+        lecture/lab is orange. Green days are in the past, and grey days have no lectures.
       </p>
       <table class="table" id="scheduleTable">
       </table>
@@ -296,7 +245,7 @@
             </div>
           </div>
         </div>
-	-->
+        -->
       </div><br>
       <div class="row">
         <div class="col">
@@ -308,8 +257,8 @@
               Office hours:
               <ul>
                 <li> Sunday: 12:00pm - 1:00pm </li>
-		<li> Tuesday: 12:00pm - 1:00pm </li>
-		<li> Thursday: 12:00pm - 1:30pm </li>
+                <li> Tuesday: 12:00pm - 1:00pm </li>
+                <li> Thursday: 12:00pm - 1:30pm </li>
               E-mail: <a href="mailto:apozdera@andrew.cmu.edu">apozdera@andrew.cmu.edu</a>
               </p>
             </div>
@@ -324,7 +273,7 @@
               Office hours:
               <ul>
                 <li> Saturday: 1:00pm - 2:30pm </li>
-		<li> Tuesday: 10:00am - 11:30am </li>
+                <li> Tuesday: 10:00am - 11:30am </li>
               </ul>
               E-mail: <a href="mailto:maimoons@andrew.cmu.edu">maimoons@andrew.cmu.edu</a>
               </p>
@@ -342,7 +291,7 @@
               Office hours:
               <ul>
                 <li> Sunday: 12:pm - 1:30pm </li>
-		<li> Tuesday: 12:00pm - 1:30pm </li>
+                <li> Tuesday: 12:00pm - 1:30pm </li>
               </ul>
               E-mail: <a href="mailto:smohanad@andrew.cmu.edu">smohanand@andrew.cmu.edu</a>
               </p>
@@ -358,7 +307,7 @@
               Office hours:
               <ul>
                 <li> Sunday: 9:30am - 11:00am</li>
-		<li> Monday: 9:30am - 11:00am</li>
+                <li> Monday: 9:30am - 11:00am</li>
               </ul>
               E-mail: <a href="ma1@andrew.cmu.edu">ma1@andrew.cmu.edu</a>
               </p>
@@ -375,10 +324,10 @@
               Office: ARC <br>
               Office hours:
               <ul>
-		<li> Wednesday: 3:00pm - 4:30pm</li>
-		<li> Thursday: 10:30am - 12:00pm</li>
+                <li> Wednesday: 3:00pm - 4:30pm</li>
+                <li> Thursday: 10:30am - 12:00pm</li>
               </ul>
-	      E-mail: <a href="mailto:kkiyer@qatar.cmu.edu">kiyer@andrew.cmu.edu</a>
+              E-mail: <a href="mailto:kkiyer@qatar.cmu.edu">kiyer@andrew.cmu.edu</a>
               </p>
             </div>
           </div>
@@ -391,10 +340,10 @@
               Office: ARC <br>
               Office hours:
               <ul>
-		<li> Tuesday: 5:00pm - 6:30pm</li>
-		<li> Thursday: 1:00pm - 2:30pm</li>
+                <li> Tuesday: 5:00pm - 6:30pm</li>
+                <li> Thursday: 1:00pm - 2:30pm</li>
               </ul>
-	      E-mail: <a href="mailto:warda@qatar.cmu.edu">warda@qatar.cmu.edu</a>
+              E-mail: <a href="mailto:warda@qatar.cmu.edu">warda@qatar.cmu.edu</a>
               </p>
             </div>
           </div>
@@ -405,23 +354,23 @@
     <div id="grading" class="container section">
       <h2><b>Grading</b></h2>
       <p>
-	Grading will be based on both homework and in-class exams.  Both homework and exams can
+        Grading will be based on both homework and in-class exams.  Both homework and exams can
 consist of coding a solution to a given problem, completing and understanding given code, answering
 general questions about computers and computing.<br><p>
-	
-	<i>Homework exams</i> will consists of questions only including questions selected from
-	previous homework assignments. <i>Midterm exams</i> will include questions about all the
-	topics considered in the course up to that point. The <i>final exam</i> will include
-	questions about anything studied during the course.<br>
-	
+        
+        <i>Homework exams</i> will consists of questions only including questions selected from
+        previous homework assignments. <i>Midterm exams</i> will include questions about all the
+        topics considered in the course up to that point. The <i>final exam</i> will include
+        questions about anything studied during the course.<br>
+        
         <div class="image-txt-container">
           <ul style="float: left; min-width: 350px; vertical-align: middle;">
             <li><b>Homework: 40%</b> </li>
             <li><b>Midterm I: 10%</b> </li>
             <li><b>Midterm II: 10%</b> </li>
-	    <li><b>Midterm III: 10%</b> </li>
-	    <li><b>Homework Exam I: 5%</b> </li>
-	    <li><b>Homework Exam II: 5%</b> </li>
+            <li><b>Midterm III: 10%</b> </li>
+            <li><b>Homework Exam I: 5%</b> </li>
+            <li><b>Homework Exam II: 5%</b> </li>
             <!-- <li><b>Project: 20%</b> </li> -->
             <li><b>Final exam: 20%</b></li>
           </ul>     
@@ -430,8 +379,8 @@ general questions about computers and computing.<br><p>
       </p>
     </div>
 
-    <div id="homework" class="container section">
-      <h2><b>Homework assignments</b></h2>
+    <div id="assignments" class="container section">
+      <h2><b>Assignments</b></h2>
       <p>
         There will be <i>weekly</i> homework assignments.
       </p>
