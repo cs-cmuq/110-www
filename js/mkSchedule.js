@@ -57,6 +57,9 @@ function fillSchedule(data) {
     else if (type == "Exam") {
       row.setAttribute("class", "table-danger")
     }
+    else if (type == "AsgnDue") {
+      row.setAttribute("class", "table-info")
+    }
 
     // Date
     var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
