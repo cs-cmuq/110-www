@@ -81,14 +81,12 @@ function fillSchedule(data) {
     var code = day.code
     var td = document.createElement("td")
     var notes_link = ""
-    // to change to allow multiple note files
     if (notes != "") {
-	//notes_link = "<a href=\"" + notes + "\">Lecture PDF</a>"
-	notes_link = notes
+	notes_link = "<a href=\"" + notes + "\">[pdf]</a>"
     }
     var code_link = ""
     if (code != "") {
-      code_link = "<a href=\"" + code + "\">Code</a>"
+      code_link = "<a href=\"" + code + "\">[python]</a>"
     }
     var content = ""
     if (code_link != "" && notes_link != "") {
