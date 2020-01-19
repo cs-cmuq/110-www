@@ -27,15 +27,15 @@
     {
       "date": "2020-01-19T13:30:00",
       "type": "Lecture",
-      "topic": "Pseudo-code",
-      "notes": "",
+      "topic": "Simplifying instructions and abstraction",
+      "notes": "lectures/03-abstraction.pdf",
       "code": "",
       "hw": ""
     },
     {
       "date": "2020-01-21T13:30:00",
       "type": "Lecture",
-      "topic": "From pseudo-code to python (variables, types)",
+      "topic": "First steps in Python",
       "notes": "",
       "code": "",
       "hw": ""
