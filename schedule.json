@@ -35,7 +35,7 @@
     {
       "date": "2020-01-21T13:30:00",
       "type": "Lecture",
-      "topic": "First steps in Python",
+      "topic": "From algorithms to python",
       "notes": "",
       "code": "",
       "hw": ""
@@ -59,7 +59,7 @@
     {
       "date": "2020-01-26T13:30:00",
       "type": "Lecture",
-      "topic": "Programming environment (IDE, features, printing vs return, debugging)",
+      "topic": "Arithmetic",
       "notes": "",
       "code": "",
       "hw": ""
@@ -67,7 +67,7 @@
     {
       "date": "2020-01-28T13:30:00",
       "type": "Lecture",
-      "topic": "Arithmetic",
+      "topic": "Conditionals",
       "notes": "",
       "code": "",
       "hw": ""
@@ -91,7 +91,7 @@
     {
       "date": "2020-02-04T13:30:00",
       "type": "Lecture",
-      "topic": "Conditionals",
+      "topic": "Code tracing & debugging",
       "notes": "",
       "code": "",
       "hw": ""
@@ -107,7 +107,7 @@
     {
       "date": "2020-02-09T13:30:00",
       "type": "Lecture",
-      "topic": "Code tracing & debugging",
+      "topic": "Problem solving practice",
       "notes": "",
       "code": "",
       "hw": ""
