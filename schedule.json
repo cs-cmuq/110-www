@@ -41,7 +41,7 @@
       "hw": ""
     },
     {
-      "date": "2020-01-22T11:59:00",
+      "date": "2020-01-22T23:59:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
@@ -71,6 +71,14 @@
       "notes": "",
       "code": "",
       "hw": ""
+    },
+    {
+      "date": "2020-01-29T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "code": "",     
+      "hw": "hw02 due"
     },
     {
       "date": "2020-01-30T13:30:00",
@@ -121,6 +129,14 @@
       "hw": ""
     },
     {
+      "date": "2020-02-12T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "code": "",     
+      "hw": "hw03 due"
+    },
+    {
       "date": "2020-02-13T13:30:00",
       "type": "Lab",
       "topic": "Quiz + programming",
@@ -145,6 +161,14 @@
       "hw": ""
     },
     {
+      "date": "2020-02-19T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "code": "",     
+      "hw": "hw04 due"
+    },
+    {
       "date": "2020-02-20T13:30:00",
       "type": "Lab",
       "topic": "Quiz + loops practice",
@@ -167,6 +191,14 @@
       "notes": "",
       "code": "",
       "hw": ""
+    },
+    {
+      "date": "2020-02-26T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "code": "",     
+      "hw": "hw05 due"
     },
     {
       "date": "2020-02-27T13:30:00",
@@ -241,6 +273,14 @@
       "hw": ""
     },
     {
+      "date": "2020-03-18T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "code": "",     
+      "hw": "hw06 due"
+    },
+    {
       "date": "2020-03-19T13:30:00",
       "type": "Lab",
       "topic": "Quiz + lists practice",
@@ -265,6 +305,14 @@
       "hw": ""
     },
     {
+      "date": "2020-03-25T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "code": "",     
+      "hw": "hw07 due"
+    },
+    {
       "date": "2020-03-26T13:30:00",
       "type": "Lab",
       "topic": "Quiz + dictionaries practice",
@@ -287,6 +335,14 @@
       "notes": "",
       "code": "",
       "hw": ""
+    },
+    {
+      "date": "2020-04-01T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "code": "",     
+      "hw": "hw08 due"
     },
     {
       "date": "2020-04-02T13:30:00",
