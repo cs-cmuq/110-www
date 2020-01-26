@@ -86,7 +86,7 @@ function fillSchedule(data) {
     }
     var code_link = ""
     if (code != "") {
-      code_link = "<a href=\"" + code + "\">[python]</a>"
+      code_link = "<a href=\"" + code + "\">[ipynb]</a>"
     }
     var content = ""
     if (code_link != "" && notes_link != "") {
