@@ -68,8 +68,8 @@
       "date": "2020-01-28T13:30:00",
       "type": "Lecture",
       "topic": "Conditionals",
-      "notes": "",
-      "code": "",
+      "notes": "lectures/06-conditionals.pdf",
+      "code": "lectures/06-conditionals.ipynb",
       "hw": ""
     },
     {
