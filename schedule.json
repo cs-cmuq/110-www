@@ -19,7 +19,7 @@
     {
       "date": "2020-01-16T13:30:00",
       "type": "Lab",
-      "topic": "Quiz",
+      "topic": "lab01: Quiz",
       "notes": "",
       "code": "",
       "hw": ""
@@ -51,7 +51,7 @@
     {
       "date": "2020-01-23T13:30:00",
       "type": "Lab",
-      "topic": "Quiz + using autolab",
+      "topic": "lab02: Quiz + using autolab",
       "notes": "",
       "code": "",     
       "hw": ""
@@ -83,7 +83,7 @@
     {
       "date": "2020-01-30T13:30:00",
       "type": "Lab",
-      "topic": "Quiz + programming",
+      "topic": "lab03: Quiz + conditionals practice",
       "notes": "",
       "code": "",
       "hw": ""
@@ -107,7 +107,7 @@
     {
       "date": "2020-02-06T13:30:00",
       "type": "Lab",
-      "topic": "Quiz + conditionals practice",
+      "topic": "lab04: Quiz + for loops practice",
       "notes": "",
       "code": "",
       "hw": ""
@@ -139,7 +139,7 @@
     {
       "date": "2020-02-13T13:30:00",
       "type": "Lab",
-      "topic": "Quiz + loops practice",
+      "topic": "lab05: Quiz + while loops practice",
       "notes": "",
       "code": "",
       "hw": ""
@@ -171,7 +171,7 @@
     {
       "date": "2020-02-20T13:30:00",
       "type": "Lab",
-      "topic": "Quiz + lists practice",
+      "topic": "lab06: Quiz + lists practice",
       "notes": "",
       "code": "",
       "hw": ""
@@ -203,7 +203,7 @@
     {
       "date": "2020-02-27T13:30:00",
       "type": "Lab",
-      "topic": "Quiz + problem solving",
+      "topic": "lab07: Quiz + problem solving",
       "notes": "",
       "code": "",
       "hw": ""
@@ -251,7 +251,7 @@
     {
       "date": "2020-03-12T13:30:00",
       "type": "Lab",
-      "topic": "Quiz + functions practice",
+      "topic": "lab08: Quiz + functions practice",
       "notes": "",
       "code": "",
       "hw": ""
@@ -283,7 +283,7 @@
     {
       "date": "2020-03-19T13:30:00",
       "type": "Lab",
-      "topic": "Quiz + strings practice",
+      "topic": "lab09: Quiz + strings practice",
       "notes": "",
       "code": "",
       "hw": ""
@@ -315,7 +315,7 @@
     {
       "date": "2020-03-26T13:30:00",
       "type": "Lab",
-      "topic": "Quiz + dictionaries practice",
+      "topic": "lab10: Quiz + dictionaries practice",
       "notes": "",
       "code": "",
       "hw": ""
@@ -347,7 +347,7 @@
     {
       "date": "2020-04-02T13:30:00",
       "type": "Lab",
-      "topic": "Quiz + file practice",
+      "topic": "lab11: Quiz + file practice",
       "notes": "",
       "code": "",
       "hw": ""
@@ -372,7 +372,7 @@
     {
       "date": "2020-04-09T13:30:00",
       "type": "Lab",
-      "topic": "Quiz + jupyter practice",
+      "topic": "lab12: Quiz + jupyter practice",
       "notes": "",
       "code": "",
       "hw": ""
@@ -396,7 +396,7 @@
     {
       "date": "2020-04-16T13:30:00",
       "type": "Lab",
-      "topic": "Quiz + programming",
+      "topic": "lab13: Quiz + programming",
       "notes": "",
       "code": "",
       "hw": ""
