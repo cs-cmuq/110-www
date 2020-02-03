@@ -99,7 +99,7 @@
     {
       "date": "2020-02-04T13:30:00",
       "type": "Lecture",
-      "topic": "Loops I",
+      "topic": "For Loops",
       "notes": "",
       "code": "",
       "hw": ""
@@ -115,7 +115,7 @@
     {
       "date": "2020-02-09T13:30:00",
       "type": "Lecture",
-      "topic": "Loops II",
+      "topic": "While Loops",
       "notes": "",
       "code": "",
       "hw": ""
