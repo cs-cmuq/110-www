@@ -100,8 +100,8 @@
       "date": "2020-02-04T13:30:00",
       "type": "Lecture",
       "topic": "For Loops",
-      "notes": "",
-      "code": "",
+      "notes": "lectures/07-for-loops.pdf",
+      "code": "lectures/07-for-loops.ipynb",
       "hw": ""
     },
     {
