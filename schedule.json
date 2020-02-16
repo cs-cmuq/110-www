@@ -148,14 +148,14 @@
       "date": "2020-02-16T13:30:00",
       "type": "Lecture",
       "topic": "Code tracing & debugging",
-      "notes": "",
-      "code": "",
+      "notes": "lectures/09-trace-debug.pdf",
+      "code": "lectures/09-trace-debug.ipynb",
       "hw": ""
     },
     {
       "date": "2020-02-18T13:30:00",
       "type": "Lecture",
-      "topic": "Problem solving",
+      "topic": "Lists I",
       "notes": "",
       "code": "",
       "hw": ""
@@ -171,7 +171,7 @@
     {
       "date": "2020-02-20T13:30:00",
       "type": "Lab",
-      "topic": "lab06: Quiz + programming practice",
+      "topic": "lab06: Quiz + lists practice",
       "notes": "",
       "code": "",
       "hw": ""
@@ -179,7 +179,7 @@
     {
       "date": "2020-02-23T13:30:00",
       "type": "Lecture",      
-      "topic": "Lists I",
+      "topic": "Lists II",
       "notes": "",
       "code": "",
       "hw": ""
@@ -187,7 +187,7 @@
     {
       "date": "2020-02-25T13:30:00",
       "type": "Lecture",      
-      "topic": "Lists II",
+      "topic": "Problem solving",
       "notes": "",
       "code": "",
       "hw": ""
