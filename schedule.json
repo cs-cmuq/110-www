@@ -156,8 +156,8 @@
       "date": "2020-02-18T13:30:00",
       "type": "Lecture",
       "topic": "Lists I",
-      "notes": "",
-      "code": "",
+      "notes": "lectures/10-lists-I.pdf",
+      "code": "lectures/10-lists-I.ipynb",
       "hw": ""
     },
     {
