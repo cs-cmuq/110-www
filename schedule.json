@@ -243,15 +243,15 @@
     {
       "date": "2020-03-10T13:30:00",
       "type": "Lecture",
-      "topic": "Functions",
+      "topic": "<strike>Functions</strike> class canceled",
       "notes": "",
       "code": "",
       "hw": ""
     },
     {
       "date": "2020-03-12T13:30:00",
-      "type": "Lab",
-      "topic": "lab08: Quiz + functions practice",
+      "type": "Lecture",
+      "topic": "Functions",
       "notes": "",
       "code": "",
       "hw": ""
