@@ -292,8 +292,8 @@
       "date": "2020-03-22T13:30:00",
       "type": "Lecture",
       "topic": "Dictionaries I",
-      "notes": "",
-      "code": "",
+      "notes": "lectures/16-dict-I.pdf",
+      "code": "lectures/16-dict-I.ipynb",
       "hw": ""
     },
     {
