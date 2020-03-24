@@ -283,7 +283,7 @@
     {
       "date": "2020-03-19T13:30:00",
       "type": "Lab",
-      "topic": "lab09: Quiz + strings practice",
+      "topic": "lab08: Quiz + strings practice",
       "notes": "",
       "code": "",
       "hw": ""
@@ -315,7 +315,7 @@
     {
       "date": "2020-03-26T13:30:00",
       "type": "Lab",
-      "topic": "lab10: Quiz + dictionaries practice",
+      "topic": "lab09: Quiz + dictionaries practice",
       "notes": "",
       "code": "",
       "hw": ""
@@ -347,7 +347,7 @@
     {
       "date": "2020-04-02T13:30:00",
       "type": "Lab",
-      "topic": "lab11: Quiz + file practice",
+      "topic": "lab10: Quiz + file practice",
       "notes": "",
       "code": "",
       "hw": ""
@@ -372,7 +372,7 @@
     {
       "date": "2020-04-09T13:30:00",
       "type": "Lab",
-      "topic": "lab12: Quiz + jupyter practice",
+      "topic": "lab11: Quiz + jupyter practice",
       "notes": "",
       "code": "",
       "hw": ""
@@ -396,7 +396,7 @@
     {
       "date": "2020-04-16T13:30:00",
       "type": "Lab",
-      "topic": "lab13: Quiz + programming",
+      "topic": "lab12: Quiz + programming",
       "notes": "",
       "code": "",
       "hw": ""
@@ -428,7 +428,7 @@
     {
       "date": "2020-04-26T08:30:00",
       "type": "Exam",
-      "topic": "<b>Final exam: 8:30 to 11:30 @ 2052</b>",
+      "topic": "<b>Final exam: 8:30 to 11:30</b>",
       "notes": "",
       "code": "",
       "hw": ""
