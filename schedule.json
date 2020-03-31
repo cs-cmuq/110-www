@@ -332,8 +332,8 @@
       "date": "2020-03-31T13:30:00",
       "type": "Lecture",
       "topic": "Matplotlib",
-      "notes": "",
-      "code": "",
+      "notes": "lectures/19-matplotlib.pdf",
+      "code": "lectures/19-matplotlib.html",
       "hw": ""
     },
     {
