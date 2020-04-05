@@ -354,17 +354,17 @@
     },
     {
       "date": "2020-04-05T13:30:00",
-      "type": "Exam",
-      "topic": "Midterm III",
-      "notes": "",
-      "code": "",
+      "type": "Lecture",
+      "topic": "Jupyter",
+      "notes": "lectures/20-jupyter.pdf",
+      "code": "lectures/20-jupyter.ipynb",
       "hw": ""
     },
 
     {
       "date": "2020-04-07T13:30:00",
-      "type": "Lecture",
-      "topic": "Jupyter",
+      "type": "Exam",
+      "topic": "Midterm III <b>coding interviews scheduled individually</b>",
       "notes": "",
       "code": "",
       "hw": ""
