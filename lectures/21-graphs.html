@@ -12810,7 +12810,7 @@ pSgiIlJIpSgiIlJIpSgiIlLo/wEC/LtFe75L/wAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Alternatively, the values of this dictionary could be another dictionary labelled by nodes, whole value is a boolean indicating whether there is an edge between the key nodes. This representation is called <em>adjacency matrix</em>.</p>
+<p>Alternatively, the values of this dictionary could be another dictionary labelled by nodes, whole value is a boolean indicating whether there is an edge between the key nodes, or the edge weigth. This representation is called <em>adjacency matrix</em>.</p>
 <p>The adjacency matrix for the graph above is:</p>
 
 </div>
@@ -12848,7 +12848,7 @@ pSgiIlJIpSgiIlJIpSgiIlLo/wEC/LtFe75L/wAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Case-study:-food-web">Case study: food web<a class="anchor-link" href="#Case-study:-food-web">&#182;</a></h2><p>A food web is a networks of preys and predators. This can be naturally represented as a graph by taking each animal to be a node, and edges to be the prey/predator relation. Since this relation is unidirectional, the graph will be directed. The direction chosen is arbitrary, but of course it needs to be consistent. Let's adopt the following convention: there exists an edge from animal A to B if A <em>feeds on</em> B (that is, A is B's predator).</p>
+<h2 id="Case-study:-food-web">Case study: food web<a class="anchor-link" href="#Case-study:-food-web">&#182;</a></h2><p>A food web is a networks of preys and predators. This can be naturally represented as a graph by taking each animal to be a node, and edges to be the prey/predator relation. Since this relation is unidirectional, the graph will be directed. The direction chosen is arbitrary, but of course it needs to be consistent. Let's adopt the following convention: there exists an edge from animal A to B if A <em>is eaten by</em> B (that is, B is A's predator).</p>
 <p>We will use adjacency lists to represent our food web. They keys will be the animals and the values will be a list of that animal's preys.</p>
 
 </div>
@@ -12868,10 +12868,11 @@ pSgiIlJIpSgiIlJIpSgiIlLo/wEC/LtFe75L/wAAAABJRU5ErkJggg==
     <span class="n">vals</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">)</span>
     <span class="n">prey</span> <span class="o">=</span> <span class="n">vals</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
     <span class="n">predator</span> <span class="o">=</span> <span class="n">vals</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-    <span class="k">if</span> <span class="n">predator</span> <span class="ow">in</span> <span class="n">foodweb</span><span class="p">:</span>
-        <span class="n">foodweb</span><span class="p">[</span><span class="n">predator</span><span class="p">]</span> <span class="o">+=</span> <span class="p">[</span><span class="n">prey</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">prey</span> <span class="ow">in</span> <span class="n">foodweb</span><span class="p">:</span>
+        <span class="n">foodweb</span><span class="p">[</span><span class="n">prey</span><span class="p">]</span> <span class="o">+=</span> <span class="p">[</span><span class="n">predator</span><span class="p">]</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="n">foodweb</span><span class="p">[</span><span class="n">predator</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">prey</span><span class="p">]</span>
+        <span class="n">foodweb</span><span class="p">[</span><span class="n">prey</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="n">predator</span><span class="p">]</span>
+        
 </pre></div>
 
 </div>
@@ -12925,8 +12926,8 @@ pSgiIlJIpSgiIlJIpSgiIlLo/wEC/LtFe75L/wAAAABJRU5ErkJggg==
 <ul>
 <li><code>preysOf(animal, fw)</code>: the nodes that point to <code>animal</code> in graph <code>fw</code></li>
 <li><code>predatorsOf(animal, fw)</code>: the nodes that <code>animal</code> points to in graph <code>fw</code></li>
-<li><code>apexPredators(fw)</code>: the nodes that have zero incoming edges in graph <code>fw</code></li>
-<li><code>producers(fw)</code>: the nodes that have zero outgoing edges in graph <code>fw</code></li>
+<li><code>apexPredators(fw)</code>: the nodes that have zero outgoing edges in graph <code>fw</code></li>
+<li><code>producers(fw)</code>: the nodes that have zero incoming edges in graph <code>fw</code></li>
 </ul>
 
 </div>
