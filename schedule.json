@@ -389,8 +389,8 @@
       "date": "2020-04-14T13:30:00",
       "type": "Lecture",
       "topic": "Divide and conquer",
-      "notes": "",
-      "code": "",
+      "notes": "lectures/22-divide-and-conquer.pdf",
+      "code": "lectures/22-divide-and-conquer.ipynb",
       "hw": ""
     },
     {
