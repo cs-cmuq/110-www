@@ -405,8 +405,8 @@
       "date": "2020-04-19T13:30:00",
       "type": "Lecture",
       "topic": "Complexity",
-      "notes": "lecture/23-complexity.pdf",
-      "code": "lecture/23-complexity.html",
+      "notes": "lectures/23-complexity.pdf",
+      "code": "lectures/23-complexity.html",
       "hw": ""
     },
     {
