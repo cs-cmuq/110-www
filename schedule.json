@@ -412,7 +412,7 @@
     {
       "date": "2020-04-21T13:30:00",
       "type": "Lecture",
-      "topic": "Computer architecture",
+      "topic": "How stuff works",
       "notes": "",
       "code": "",
       "hw": ""
@@ -420,7 +420,7 @@
     {
       "date": "2020-04-23T13:30:00",
       "type": "Lab",
-      "topic": "TBD",
+      "topic": "Answer questions for final",
       "notes": "",
       "code": "",
       "hw": ""
@@ -428,7 +428,7 @@
     {
       "date": "2020-04-26T08:30:00",
       "type": "Exam",
-      "topic": "<b>Final exam: 8:30 to 11:30</b>",
+      "topic": "<b>Final exam (coding interviews scheduled individually)</b>",
       "notes": "",
       "code": "",
       "hw": ""
