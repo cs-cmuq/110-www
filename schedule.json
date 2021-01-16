@@ -1,7 +1,7 @@
 {
   "schedule": [
     {
-      "date": "2020-01-12T13:30:00",
+      "date": "2020-01-17T13:30:00",
       "type": "Lecture",
       "topic": "What is an algorithm?",
       "notes": "lectures/01-algorithm.pdf",
@@ -9,7 +9,7 @@
       "hw": ""
     },
     {
-      "date": "2020-01-14T13:30:00",
+      "date": "2020-01-19T13:30:00",
       "type": "Lecture",
       "topic": "Algorithms and abstraction",
       "notes": "lectures/02-algorithm2.pdf",
@@ -17,7 +17,7 @@
       "hw": ""    
     },
     {
-      "date": "2020-01-16T13:30:00",
+      "date": "2020-01-21T13:30:00",
       "type": "Lab",
       "topic": "lab01: Quiz",
       "notes": "",
@@ -25,7 +25,7 @@
       "hw": ""
     },
     {
-      "date": "2020-01-19T13:30:00",
+      "date": "2020-01-24T13:30:00",
       "type": "Lecture",
       "topic": "Simplifying instructions and abstraction",
       "notes": "lectures/03-abstraction.pdf",
@@ -33,7 +33,7 @@
       "hw": ""
     },
     {
-      "date": "2020-01-21T13:30:00",
+      "date": "2020-01-26T13:30:00",
       "type": "Lecture",
       "topic": "From algorithms to python",
       "notes": "lectures/04-algo-to-python.pdf",
@@ -41,7 +41,7 @@
       "hw": ""
     },
     {
-      "date": "2020-01-22T23:59:00",
+      "date": "2020-01-28T23:59:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
@@ -49,7 +49,7 @@
       "hw": "hw01 due"
     },
     {
-      "date": "2020-01-23T13:30:00",
+      "date": "2020-01-28T13:30:00",
       "type": "Lab",
       "topic": "lab02: Quiz + using autolab",
       "notes": "",
@@ -57,7 +57,7 @@
       "hw": ""
     },
     {
-      "date": "2020-01-26T13:30:00",
+      "date": "2020-01-31T13:30:00",
       "type": "Lecture",
       "topic": "Arithmetic",
       "notes": "lectures/05-arithmetic.pdf",
@@ -65,7 +65,7 @@
       "hw": ""
     },
     {
-      "date": "2020-01-28T13:30:00",
+      "date": "2020-02-02T13:30:00",
       "type": "Lecture",
       "topic": "Conditionals",
       "notes": "lectures/06-conditionals.pdf",
@@ -73,7 +73,7 @@
       "hw": ""
     },
     {
-      "date": "2020-01-29T23:59:00",
+      "date": "2020-02-04T23:59:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
@@ -81,7 +81,7 @@
       "hw": "hw02 due"
     },
     {
-      "date": "2020-01-30T13:30:00",
+      "date": "2020-02-04T13:30:00",
       "type": "Lab",
       "topic": "lab03: Quiz + conditionals practice",
       "notes": "",
@@ -89,39 +89,15 @@
       "hw": ""
     },
     {
-      "date": "2020-02-02T13:30:00",
-      "type": "Exam",
-      "topic": "Midterm I",
-      "notes": "",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2020-02-04T13:30:00",
+      "date": "2020-02-07T13:30:00",
       "type": "Lecture",
       "topic": "For Loops",
       "notes": "lectures/07-for-loops.pdf",
       "code": "lectures/07-for-loops.ipynb",
       "hw": ""
-    },
-    {
-      "date": "2020-02-06T13:30:00",
-      "type": "Lab",
-      "topic": "lab04: Quiz + for loops practice",
-      "notes": "",
-      "code": "",
-      "hw": ""
-    },
+    },   
     {
       "date": "2020-02-09T13:30:00",
-      "type": "Lecture",
-      "topic": "While Loops",
-      "notes": "lectures/08-while-loops.pdf",
-      "code": "lectures/08-while-loops.ipynb",
-      "hw": ""
-    },
-    {
-      "date": "2020-02-11T13:30:00",
       "type": "NoClass",
       "topic": "Sports Day", 
       "notes": "",
@@ -129,17 +105,17 @@
       "hw": ""
     },
     {
-      "date": "2020-02-12T23:59:00",
-      "type": "AsgnDue",
-      "topic": "",
+      "date": "2020-02-11T13:30:00",
+      "type": "Lab",
+      "topic": "lab04: Quiz + for loops practice",
       "notes": "",
-      "code": "",     
-      "hw": "hw03 due"
+      "code": "",
+      "hw": ""
     },
     {
-      "date": "2020-02-13T13:30:00",
-      "type": "Lab",
-      "topic": "lab05: Quiz + while loops practice",
+      "date": "2020-02-14T13:30:00",
+      "type": "Exam",
+      "topic": "Midterm I",
       "notes": "",
       "code": "",
       "hw": ""
@@ -147,13 +123,37 @@
     {
       "date": "2020-02-16T13:30:00",
       "type": "Lecture",
+      "topic": "While Loops",
+      "notes": "lectures/08-while-loops.pdf",
+      "code": "lectures/08-while-loops.ipynb",
+      "hw": ""
+    },
+    {
+      "date": "2020-02-18T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "code": "",     
+      "hw": "hw03 due"
+    },
+    {
+      "date": "2020-02-18T13:30:00",
+      "type": "Lab",
+      "topic": "lab05: Quiz + while loops practice",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2020-02-21T13:30:00",
+      "type": "Lecture",
       "topic": "Code tracing & debugging",
       "notes": "lectures/09-trace-debug.pdf",
       "code": "lectures/09-trace-debug.ipynb",
       "hw": ""
     },
     {
-      "date": "2020-02-18T13:30:00",
+      "date": "2020-02-23T13:30:00",
       "type": "Lecture",
       "topic": "Lists I",
       "notes": "lectures/10-lists-I.pdf",
@@ -161,7 +161,7 @@
       "hw": ""
     },
     {
-      "date": "2020-02-19T23:59:00",
+      "date": "2020-02-25T23:59:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
@@ -169,7 +169,7 @@
       "hw": "hw04 due"
     },
     {
-      "date": "2020-02-20T13:30:00",
+      "date": "2020-02-25T13:30:00",
       "type": "Lab",
       "topic": "lab06: Quiz + lists practice",
       "notes": "",
@@ -177,7 +177,31 @@
       "hw": ""
     },
     {
-      "date": "2020-02-23T13:30:00",
+      "date": "2020-02-28T13:30:00",
+      "type": "NoClass",
+      "topic": "Spring break",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2020-03-02T13:30:00",
+      "type": "NoClass",
+      "topic": "Spring break",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2020-03-04T13:30:00",
+      "type": "NoClass",
+      "topic": "Spring break",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2020-03-07T13:30:00",
       "type": "Lecture",      
       "topic": "Lists II",
       "notes": "lectures/11-lists-II.pdf",
@@ -185,7 +209,7 @@
       "hw": ""
     },      
     {
-      "date": "2020-02-25T13:30:00",
+      "date": "2020-03-09T13:30:00",
       "type": "Lecture",      
       "topic": "Problem solving",
       "notes": "lectures/12-problem-solving.pdf",
@@ -193,7 +217,7 @@
       "hw": ""
     },
     {
-      "date": "2020-02-26T23:59:00",
+      "date": "2020-03-11T23:59:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
@@ -201,7 +225,7 @@
       "hw": "hw05 due"
     },
     {
-      "date": "2020-02-27T13:30:00",
+      "date": "2020-03-11T13:30:00",
       "type": "Lab",
       "topic": "lab07: Quiz + lists practice",
       "notes": "",
@@ -209,31 +233,7 @@
       "hw": ""
     },
     {
-      "date": "2020-03-01T13:30:00",
-      "type": "NoClass",
-      "topic": "Spring break",
-      "notes": "",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2020-03-03T13:30:00",
-      "type": "NoClass",
-      "topic": "Spring break",
-      "notes": "",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2020-03-05T13:30:00",
-      "type": "NoClass",
-      "topic": "Spring break",
-      "notes": "",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2020-03-08T13:30:00",
+      "date": "2020-03-14T13:30:00",
       "type": "Exam",
       "topic": "Midterm II",
       "notes": "",
@@ -241,15 +241,7 @@
       "hw": ""
     },
     {
-      "date": "2020-03-10T13:30:00",
-      "type": "Lecture",
-      "topic": "<strike>Functions</strike> &nbsp; <b>class cancelled</b>",
-      "notes": "",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2020-03-12T13:30:00",
+      "date": "2020-03-16T13:30:00",
       "type": "Lecture",
       "topic": "Functions",
       "notes": "lectures/13-functions.pdf",
@@ -257,7 +249,15 @@
       "hw": ""
     },
     {
-      "date": "2020-03-15T13:30:00",
+      "date": "2020-03-18T13:30:00",
+      "type": "Lab",
+      "topic": "lab08: Quiz + functions practice",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2020-03-21T13:30:00",
       "type": "Lecture",
       "topic": "Strings I",
       "notes": "lectures/14-strings-I.pdf",
@@ -265,43 +265,11 @@
       "hw": ""
     },
     {
-      "date": "2020-03-17T13:30:00",
+      "date": "2020-03-23T13:30:00",
       "type": "Lecture",
       "topic": "Strings II",
       "notes": "lectures/15-strings-II.pdf",
       "code": "lectures/15-strings-II.ipynb",
-      "hw": ""
-    },
-    {
-      "date": "2020-03-18T23:59:00",
-      "type": "AsgnDue",
-      "topic": "",
-      "notes": "",
-      "code": "",     
-      "hw": "hw06 due"
-    },
-    {
-      "date": "2020-03-19T13:30:00",
-      "type": "Lab",
-      "topic": "lab08: Quiz + strings practice",
-      "notes": "",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2020-03-22T13:30:00",
-      "type": "Lecture",
-      "topic": "Dictionaries I",
-      "notes": "lectures/16-dict-I.pdf",
-      "code": "lectures/16-dict-I.ipynb",
-      "hw": ""
-    },
-    {
-      "date": "2020-03-24T13:30:00",
-      "type": "Lecture",
-      "topic": "Dictionaries II",
-      "notes": "lectures/17-dict-II.pdf",
-      "code": "lectures/17-dict-II.ipynb",
       "hw": ""
     },
     {
@@ -310,30 +278,30 @@
       "topic": "",
       "notes": "",
       "code": "",     
-      "hw": "hw07 due"
+      "hw": "hw06 due"
     },
     {
-      "date": "2020-03-26T13:30:00",
+      "date": "2020-03-25T13:30:00",
       "type": "Lab",
-      "topic": "lab09: Quiz + dictionaries practice",
+      "topic": "lab09: Quiz + strings practice",
       "notes": "",
       "code": "",
       "hw": ""
     },
     {
-      "date": "2020-03-29T13:30:00",
+      "date": "2020-03-28T13:30:00",
       "type": "Lecture",
-      "topic": "I/O & file processing",
-      "notes": "lectures/18-files.pdf",
-      "code": "lectures/18-files.ipynb",
+      "topic": "Dictionaries I",
+      "notes": "lectures/16-dict-I.pdf",
+      "code": "lectures/16-dict-I.ipynb",
       "hw": ""
     },
     {
-      "date": "2020-03-31T13:30:00",
+      "date": "2020-03-30T13:30:00",
       "type": "Lecture",
-      "topic": "Matplotlib",
-      "notes": "lectures/19-matplotlib.pdf",
-      "code": "lectures/19-matplotlib.html",
+      "topic": "Dictionaries II",
+      "notes": "lectures/17-dict-II.pdf",
+      "code": "lectures/17-dict-II.ipynb",
       "hw": ""
     },
     {
@@ -342,10 +310,42 @@
       "topic": "",
       "notes": "",
       "code": "",     
+      "hw": "hw07 due"
+    },
+    {
+      "date": "2020-04-01T13:30:00",
+      "type": "Lab",
+      "topic": "lab10: Quiz + dictionaries practice",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2020-04-04T13:30:00",
+      "type": "Lecture",
+      "topic": "I/O & file processing",
+      "notes": "lectures/18-files.pdf",
+      "code": "lectures/18-files.ipynb",
+      "hw": ""
+    },
+    {
+      "date": "2020-04-06T13:30:00",
+      "type": "Lecture",
+      "topic": "Matplotlib",
+      "notes": "lectures/19-matplotlib.pdf",
+      "code": "lectures/19-matplotlib.html",
+      "hw": ""
+    },
+    {
+      "date": "2020-04-08T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "code": "",     
       "hw": "hw08 due"
     },
     {
-      "date": "2020-04-02T13:30:00",
+      "date": "2020-04-08T13:30:00",
       "type": "Lab",
       "topic": "lab10: Quiz + file practice",
       "notes": "",
@@ -353,7 +353,7 @@
       "hw": ""
     },
     {
-      "date": "2020-04-05T13:30:00",
+      "date": "2020-04-11T13:30:00",
       "type": "Lecture",
       "topic": "Jupyter",
       "notes": "lectures/20-jupyter.pdf",
@@ -362,7 +362,7 @@
     },
 
     {
-      "date": "2020-04-07T13:30:00",
+      "date": "2020-04-13T13:30:00",
       "type": "Exam",
       "topic": "Midterm III <b>coding interviews scheduled individually</b>",
       "notes": "",
@@ -370,15 +370,15 @@
       "hw": ""
     },
     {
-      "date": "2020-04-09T13:30:00",
+      "date": "2020-04-15T13:30:00",
       "type": "Lab",
-      "topic": "lab11: Quiz + jupyter practice",
+      "topic": "lab12: Quiz + jupyter practice",
       "notes": "",
       "code": "",
       "hw": ""
     },
     {
-      "date": "2020-04-12T13:30:00",
+      "date": "2020-04-18T13:30:00",
       "type": "Lecture",
       "topic": "Graphs",
       "notes": "lectures/21-graphs.pdf",
@@ -386,7 +386,7 @@
       "hw": ""
     },
     {
-      "date": "2020-04-14T13:30:00",
+      "date": "2020-04-20T13:30:00",
       "type": "Lecture",
       "topic": "Divide and conquer",
       "notes": "lectures/22-divide-and-conquer.pdf",
@@ -394,34 +394,18 @@
       "hw": ""
     },
     {
-      "date": "2020-04-16T13:30:00",
+      "date": "2020-04-22T13:30:00",
       "type": "Lab",
-      "topic": "lab12: Quiz + programming",
+      "topic": "lab13: Quiz + programming",
       "notes": "",
       "code": "",
       "hw": ""
     },
     {
-      "date": "2020-04-19T13:30:00",
+      "date": "2020-04-25T13:30:00",
       "type": "Lecture",
-      "topic": "Complexity",
-      "notes": "lectures/23-complexity.pdf",
-      "code": "lectures/23-complexity.html",
-      "hw": ""
-    },
-    {
-      "date": "2020-04-21T13:30:00",
-      "type": "Lecture",
-      "topic": "How stuff works",
+      "topic": "How stuff works, Q&A",
       "notes": "lectures/24-how-stuff-works.pdf",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2020-04-23T13:30:00",
-      "type": "Lab",
-      "topic": "Answer questions for final",
-      "notes": "",
       "code": "",
       "hw": ""
     },
