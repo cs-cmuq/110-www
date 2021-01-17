@@ -4,7 +4,8 @@
       "date": "2020-01-17T13:30:00",
       "type": "Lecture",
       "topic": "Introduction, fundamental concepts",
-      "notes": "<a href=\"lectures/110-F21-1-Intro.pdf\">Lecture PDF</a><br><br><a href=\"lectures/01-algorithm.pdf\">Technical notes</a>",
+      "notes": "lectures/01-algorithm.pdf",
+      "slides": "lectures/110-F21-1-Intro.pdf",
       "code": "",
       "hw": ""
     },
@@ -12,7 +13,7 @@
       "date": "2020-01-19T13:30:00",
       "type": "Lecture",
       "topic": "Algorithms and abstraction",
-      "notes": "<a href=\"lectures/02-algorithm2.pdf\">Technical notes</a>",
+      "notes": "lectures/02-algorithm2.pdf",
       "code": "",
       "hw": ""    
     },
@@ -28,7 +29,7 @@
       "date": "2020-01-24T13:30:00",
       "type": "Lecture",
       "topic": "Simplifying instructions and abstraction",
-      "notes": "<a href=\"lectures/03-abstraction.pdf\">Technical notes</a>",
+      "notes": "lectures/03-abstraction.pdf",
       "code": "",
       "hw": ""
     },
