@@ -14,6 +14,7 @@
       "type": "Lecture",
       "topic": "Algorithms and abstraction",
       "notes": "lectures/02-algorithm2.pdf",
+      "slides": "",
       "code": "",
       "hw": ""    
     },
@@ -22,6 +23,7 @@
       "type": "Lab",
       "topic": "lab01: Quiz",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -30,6 +32,7 @@
       "type": "Lecture",
       "topic": "Simplifying instructions and abstraction",
       "notes": "lectures/03-abstraction.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -38,6 +41,7 @@
       "type": "Lecture",
       "topic": "From algorithms to python",
       "notes": "lectures/04-algo-to-python.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -46,6 +50,7 @@
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
+      "slides": "",
       "code": "",     
       "hw": "hw01 due"
     },
@@ -54,6 +59,7 @@
       "type": "Lab",
       "topic": "lab02: Quiz + using autolab",
       "notes": "",
+      "slides": "",
       "code": "",     
       "hw": ""
     },
@@ -62,6 +68,7 @@
       "type": "Lecture",
       "topic": "Arithmetic",
       "notes": "lectures/05-arithmetic.pdf",
+      "slides": "",
       "code": "lectures/05-arithmetic.ipynb",
       "hw": ""
     },
@@ -70,6 +77,7 @@
       "type": "Lecture",
       "topic": "Conditionals",
       "notes": "lectures/06-conditionals.pdf",
+      "slides": "",
       "code": "lectures/06-conditionals.ipynb",
       "hw": ""
     },
@@ -78,6 +86,7 @@
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
+      "slides": "",
       "code": "",     
       "hw": "hw02 due"
     },
@@ -86,6 +95,7 @@
       "type": "Lab",
       "topic": "lab03: Quiz + conditionals practice",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -94,6 +104,7 @@
       "type": "Lecture",
       "topic": "For Loops",
       "notes": "lectures/07-for-loops.pdf",
+      "slides": "",
       "code": "lectures/07-for-loops.ipynb",
       "hw": ""
     },   
@@ -102,6 +113,7 @@
       "type": "NoClass",
       "topic": "Sports Day", 
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -110,6 +122,7 @@
       "type": "Lab",
       "topic": "lab04: Quiz + for loops practice",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -118,6 +131,7 @@
       "type": "Exam",
       "topic": "Midterm I",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -126,6 +140,7 @@
       "type": "Lecture",
       "topic": "While Loops",
       "notes": "lectures/08-while-loops.pdf",
+      "slides": "",
       "code": "lectures/08-while-loops.ipynb",
       "hw": ""
     },
@@ -134,6 +149,7 @@
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
+      "slides": "",
       "code": "",     
       "hw": "hw03 due"
     },
@@ -142,6 +158,7 @@
       "type": "Lab",
       "topic": "lab05: Quiz + while loops practice",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -150,6 +167,7 @@
       "type": "Lecture",
       "topic": "Code tracing & debugging",
       "notes": "lectures/09-trace-debug.pdf",
+      "slides": "",
       "code": "lectures/09-trace-debug.ipynb",
       "hw": ""
     },
@@ -158,6 +176,7 @@
       "type": "Lecture",
       "topic": "Lists I",
       "notes": "lectures/10-lists-I.pdf",
+      "slides": "",
       "code": "lectures/10-lists-I.ipynb",
       "hw": ""
     },
@@ -166,6 +185,7 @@
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
+      "slides": "",
       "code": "",     
       "hw": "hw04 due"
     },
@@ -174,6 +194,7 @@
       "type": "Lab",
       "topic": "lab06: Quiz + lists practice",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -182,6 +203,7 @@
       "type": "NoClass",
       "topic": "Spring break",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -190,6 +212,7 @@
       "type": "NoClass",
       "topic": "Spring break",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -198,6 +221,7 @@
       "type": "NoClass",
       "topic": "Spring break",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -206,6 +230,7 @@
       "type": "Lecture",      
       "topic": "Lists II",
       "notes": "lectures/11-lists-II.pdf",
+      "slides": "",
       "code": "lectures/11-lists-II.ipynb",
       "hw": ""
     },      
@@ -214,6 +239,7 @@
       "type": "Lecture",      
       "topic": "Problem solving",
       "notes": "lectures/12-problem-solving.pdf",
+      "slides": "",
       "code": "lectures/12-problem-solving.ipynb",
       "hw": ""
     },
@@ -222,6 +248,7 @@
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
+      "slides": "",
       "code": "",     
       "hw": "hw05 due"
     },
@@ -230,6 +257,7 @@
       "type": "Lab",
       "topic": "lab07: Quiz + lists practice",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -238,6 +266,7 @@
       "type": "Exam",
       "topic": "Midterm II",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -246,6 +275,7 @@
       "type": "Lecture",
       "topic": "Functions",
       "notes": "lectures/13-functions.pdf",
+      "slides": "",
       "code": "lectures/13-functions.ipynb",
       "hw": ""
     },
@@ -254,6 +284,7 @@
       "type": "Lab",
       "topic": "lab08: Quiz + functions practice",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -262,6 +293,7 @@
       "type": "Lecture",
       "topic": "Strings I",
       "notes": "lectures/14-strings-I.pdf",
+      "slides": "",
       "code": "lectures/14-strings-I.ipynb",
       "hw": ""
     },
@@ -270,6 +302,7 @@
       "type": "Lecture",
       "topic": "Strings II",
       "notes": "lectures/15-strings-II.pdf",
+      "slides": "",
       "code": "lectures/15-strings-II.ipynb",
       "hw": ""
     },
@@ -278,6 +311,7 @@
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
+      "slides": "",
       "code": "",     
       "hw": "hw06 due"
     },
@@ -286,6 +320,7 @@
       "type": "Lab",
       "topic": "lab09: Quiz + strings practice",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -294,6 +329,7 @@
       "type": "Lecture",
       "topic": "Dictionaries I",
       "notes": "lectures/16-dict-I.pdf",
+      "slides": "",
       "code": "lectures/16-dict-I.ipynb",
       "hw": ""
     },
@@ -302,6 +338,7 @@
       "type": "Lecture",
       "topic": "Dictionaries II",
       "notes": "lectures/17-dict-II.pdf",
+      "slides": "",
       "code": "lectures/17-dict-II.ipynb",
       "hw": ""
     },
@@ -310,6 +347,7 @@
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
+      "slides": "",
       "code": "",     
       "hw": "hw07 due"
     },
@@ -318,6 +356,7 @@
       "type": "Lab",
       "topic": "lab10: Quiz + dictionaries practice",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -326,6 +365,7 @@
       "type": "Lecture",
       "topic": "I/O & file processing",
       "notes": "lectures/18-files.pdf",
+      "slides": "",
       "code": "lectures/18-files.ipynb",
       "hw": ""
     },
@@ -334,6 +374,7 @@
       "type": "Lecture",
       "topic": "Matplotlib",
       "notes": "lectures/19-matplotlib.pdf",
+      "slides": "",
       "code": "lectures/19-matplotlib.html",
       "hw": ""
     },
@@ -342,6 +383,7 @@
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
+      "slides": "",
       "code": "",     
       "hw": "hw08 due"
     },
@@ -350,6 +392,7 @@
       "type": "Lab",
       "topic": "lab10: Quiz + file practice",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -358,6 +401,7 @@
       "type": "Lecture",
       "topic": "Jupyter",
       "notes": "lectures/20-jupyter.pdf",
+      "slides": "",
       "code": "lectures/20-jupyter.ipynb",
       "hw": ""
     },
@@ -367,6 +411,7 @@
       "type": "Exam",
       "topic": "Midterm III <b>coding interviews scheduled individually</b>",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -375,6 +420,7 @@
       "type": "Lab",
       "topic": "lab12: Quiz + jupyter practice",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -383,6 +429,7 @@
       "type": "Lecture",
       "topic": "Graphs",
       "notes": "lectures/21-graphs.pdf",
+      "slides": "",
       "code": "lectures/21-graphs.ipynb",
       "hw": ""
     },
@@ -391,6 +438,7 @@
       "type": "Lecture",
       "topic": "Divide and conquer",
       "notes": "lectures/22-divide-and-conquer.pdf",
+      "slides": "",
       "code": "lectures/22-divide-and-conquer.ipynb",
       "hw": ""
     },
@@ -399,6 +447,7 @@
       "type": "Lab",
       "topic": "lab13: Quiz + programming",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -407,6 +456,7 @@
       "type": "Lecture",
       "topic": "How stuff works, Q&A",
       "notes": "lectures/24-how-stuff-works.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -415,6 +465,7 @@
       "type": "Exam",
       "topic": "<b>Final exam (coding interviews scheduled individually)</b>",
       "notes": "",
+      "slides": "",
       "code": "",
       "hw": ""
     }
