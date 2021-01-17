@@ -79,21 +79,29 @@ function fillSchedule(data) {
     // Handout
     var notes = day.notes
     var code = day.code
+    var slides = day.slides
     var td = document.createElement("td")
     var notes_link = ""
     if (notes != "") {
-	notes_link = "<a href=\"" + notes + "\">[pdf]</a>"
+	notes_link = "<a href=\"" + notes + "\">[Technical notes]</a>"
     }
     var code_link = ""
     if (code != "") {
-      code_link = "<a href=\"" + code + "\">[ipynb]</a>"
+      code_link = "<a href=\"" + code + "\">[Notebook]</a>"
+    }
+    var slides_link = ""
+    if (slides != "") {
+      slides_link = "<a href=\"" + slides + "\">[Lecture PDF]</a>"
     }
     var content = ""
     if (code_link != "" && notes_link != "") {
-      content = notes_link + ", " + code_link
+      content = code_link + ", " + notes_link
+    }
+    else if (slides_link != "" && notes_link != "") {
+      content = slides_link + ", " + notes_link
     }
     else {
-      content = notes_link + code_link
+      content = code_link + notes_link
     }
     td.innerHTML = content
     row.appendChild(td)
