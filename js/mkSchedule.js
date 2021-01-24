@@ -100,6 +100,9 @@ function fillSchedule(data) {
     else if (slides_link != "" && notes_link != "") {
       content = slides_link + ", " + notes_link
     }
+    else if (slides_link != "") {
+      content = slides_link
+    }
     else {
       content = code_link + notes_link
     }
