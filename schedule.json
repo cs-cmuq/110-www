@@ -77,8 +77,7 @@
       "type": "Lecture",
       "topic": "Conditionals",
       "notes": "lectures/06-conditionals.pdf",
-      "slides": "",
-      "code": "lectures/06-conditionals.ipynb",
+      "slides":   "slides": "lectures/110-S21-7-Bool_Conditionals.pdf",
       "hw": ""
     },
     {
