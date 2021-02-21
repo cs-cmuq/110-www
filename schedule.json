@@ -167,8 +167,7 @@
       "type": "Lecture",
       "topic": "Code tracing & debugging",
       "notes": "lectures/09-trace-debug.pdf",
-      "slides": "",
-      "code": "lectures/09-trace-debug.ipynb",
+      "slides": "lectures/110-S21-9-WhileLoops.pdf",
       "hw": ""
     },
     {
