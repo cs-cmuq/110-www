@@ -230,17 +230,17 @@
       "type": "Lecture",      
       "topic": "Lists II",
       "notes": "lectures/11-lists-II.pdf",
-      "slides": "",
-      "code": "lectures/11-lists-II.ipynb",
+      "slides": "lectures/110-S21-12-Lists_2.pdf",
+      "code": "",
       "hw": ""
     },      
     {
       "date": "2020-03-09T13:30:00",
       "type": "Lecture",      
-      "topic": "Problem solving",
+      "topic": "Lists III, Problem solving",
       "notes": "lectures/12-problem-solving.pdf",
       "slides": "",
-      "code": "lectures/12-problem-solving.ipynb",
+      "code": "lectures/110-S21-13-Lists_3.pdf",
       "hw": ""
     },
     {
@@ -250,7 +250,7 @@
       "notes": "",
       "slides": "",
       "code": "",     
-      "hw": "hw05 due"
+      "hw": ""
     },
     {
       "date": "2020-03-11T13:30:00",
@@ -461,7 +461,7 @@
       "hw": ""
     },
     {
-      "date": "2020-04-26T08:30:00",
+      "date": "2020-05-02T13:30:00",
       "type": "Exam",
       "topic": "<b>Final exam (coding interviews scheduled individually)</b>",
       "notes": "",
