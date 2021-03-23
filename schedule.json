@@ -302,8 +302,8 @@
       "type": "Lecture",
       "topic": "Strings II",
       "notes": "lectures/15-strings-II.pdf",
-      "slides": "",
-      "code": "lectures/15-strings-II.ipynb",
+      "slides": "lectures/110-S21-16-Strings_2.pdf",
+	"code": "",
       "hw": ""
     },
     {
