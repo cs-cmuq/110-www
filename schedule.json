@@ -362,20 +362,20 @@
     },
     {
       "date": "2020-04-04T13:30:00",
-      "type": "Lecture",
-      "topic": "I/O & file processing",
-      "notes": "lectures/18-files.pdf",
+      "type": "NoClass",
+      "topic": "Day Break",
+      "notes": "",
       "slides": "",
-      "code": "lectures/18-files.ipynb",
+      "code": "",
       "hw": ""
     },
     {
       "date": "2020-04-06T13:30:00",
       "type": "Lecture",
-      "topic": "Matplotlib",
-      "notes": "lectures/19-matplotlib.pdf",
+      "topic": "Jupyter notebooks",
+      "notes": "lectures/110-S21-19-Jupyter_notebooks.pdf",
       "slides": "",
-      "code": "lectures/19-matplotlib.html",
+      "code": "lectures/110-S21-19-Jupyter_notebooks.ipynb",
       "hw": ""
     },
     {
@@ -389,8 +389,8 @@
     },
     {
       "date": "2020-04-08T13:30:00",
-      "type": "Lab",
-      "topic": "lab10: Quiz + file practice",
+      "type": "Lecture",
+      "topic": "I/O Files + notebooks practice",
       "notes": "",
       "slides": "",
       "code": "",
