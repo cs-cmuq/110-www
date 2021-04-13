@@ -97,7 +97,7 @@ function fillSchedule(data) {
     if (code_link != "" && notes_link != "" && slides_link != "") {
       content = code_link + ", " + slides_link + ", " + notes_link
     }
-    if (code_link != "" && notes_link != "") {
+    else if (code_link != "" && notes_link != "") {
       content = code_link + ", " + notes_link
     }
     else if (slides_link != "" && notes_link != "") {
