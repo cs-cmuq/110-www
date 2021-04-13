@@ -410,8 +410,8 @@
       "type": "Lecture + Lab",
       "topic": "Matplotlib I + lab12: Quiz files",
       "notes": "lectures/19-matplotlib.pdf",
-      "slides": "",
-      "code": "",
+      "slides": "lectures/110-S21-Matplotlib-1.pdf",
+      "code": "lectures/110-S21-Matplotlib-1.ipynb",
       "hw": ""
     },
     {
