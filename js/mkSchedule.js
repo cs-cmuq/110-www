@@ -94,6 +94,9 @@ function fillSchedule(data) {
       slides_link = "<a href=\"" + slides + "\">[Lecture PDF]</a>"
     }
     var content = ""
+    if (code_link != "" && notes_link != "" && slides_link != "") {
+      content = code_link + ", " + slides_link + ", " + notes_link
+    }
     if (code_link != "" && notes_link != "") {
       content = code_link + ", " + notes_link
     }
