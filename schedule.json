@@ -1,4 +1,4 @@
-{
+s{
   "schedule": [
     {
       "date": "2020-01-17T13:30:00",
@@ -428,14 +428,14 @@
       "type": "Lecture",
       "topic": "Matplotlib II",
       "notes": "",
-      "slides": "",
-      "code": "",
+      "slides": "lectures/110-S21-Matplotlib-2.pdf",
+      "code": "lectures/110-S21-Matplotlib-2.ipynb",
       "hw": ""
     },
     {
       "date": "2020-04-20T13:30:00",
       "type": "Lab",
-      "topic": "Lab11: Matplotlib + Project checkpoint",
+      "topic": "Matplotlib + Project checkpoint",
       "notes": "",
       "slides": "",
       "code": "",
@@ -444,7 +444,7 @@
     {
       "date": "2020-04-22T13:30:00",
       "type": "Lab",
-      "topic": "Lab12: Quiz + Problem solving in python",
+      "topic": "Problem solving in python",
       "notes": "",
       "slides": "",
       "code": "",
