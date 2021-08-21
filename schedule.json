@@ -5,7 +5,7 @@
       "type": "Lecture",
       "topic": "Introduction, fundamental concepts",
       "notes": "lectures/01-algorithm.pdf",
-      "slides": "lectures/110-S21-1-Intro.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -14,7 +14,7 @@
       "type": "Lecture",
       "topic": "Algorithms and abstraction",
       "notes": "lectures/02-algorithm2.pdf",
-      "slides": "lectures/110-S21-2-Algorithms.pdf",
+      "slides": "",
       "code": "",
       "hw": ""    
     },
@@ -22,7 +22,7 @@
       "date": "2021-08-26T14:30:00",
       "type": "Lab",
       "topic": "lab01: Quiz",
-      "slides": "lectures/110-S21-3-Algorithms_2.pdf",
+      "slides": "",
       "notes": "",
       "code": "",
       "hw": ""
@@ -32,7 +32,7 @@
       "type": "Lecture",
       "topic": "Simplifying instructions and abstraction",
       "notes": "lectures/03-abstraction.pdf",
-      "slides": "lectures/110-S21-4-Abstraction.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -41,7 +41,7 @@
       "type": "Lecture",
       "topic": "From algorithms to python",
       "notes": "lectures/04-algo-to-python.pdf",
-      "slides": "lectures/110-S21-5-SimplePython.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -68,7 +68,7 @@
       "type": "Lecture",
       "topic": "Arithmetic",
       "notes": "lectures/05-arithmetic.pdf",
-      "slides": "lectures/110-S21-6-Types_Arithmetics.pdf",
+      "slides": "",
 	"code": "",
       "hw": ""
     },
@@ -77,7 +77,7 @@
       "type": "Lecture",
       "topic": "Conditionals",
       "notes": "lectures/06-conditionals.pdf",
-      "slides": "lectures/110-S21-7-Bool_Conditionals.pdf",
+      "slides": "",
       "code": "",     
       "hw": ""
     },
@@ -113,7 +113,7 @@
       "type": "Lecture",
       "topic": "For Loops",
       "notes": "lectures/07-for-loops.pdf",
-      "slides": "lectures/110-S21-8-ForLoops.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },   
@@ -140,7 +140,7 @@
       "type": "Lecture",
       "topic": "While Loops",
       "notes": "lectures/08-while-loops.pdf",
-      "slides": "lectures/110-S21-9-WhileLoops.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -167,7 +167,7 @@
       "type": "Lecture",
       "topic": "Code tracing & debugging",
       "notes": "lectures/09-trace-debug.pdf",
-      "slides": "lectures/110-S21-10-Debug_Loops.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -176,7 +176,7 @@
       "type": "Lecture",
       "topic": "Lists I",
       "notes": "lectures/10-lists-I.pdf",
-      "slides": "lectures/110-S21-11-Lists_1.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -203,7 +203,7 @@
       "type": "Lecture",      
       "topic": "Lists II",
       "notes": "lectures/11-lists-II.pdf",
-      "slides": "lectures/110-S21-12-Lists_2.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },      
@@ -212,7 +212,7 @@
       "type": "Lecture",      
       "topic": "Lists III, Problem solving",
       "notes": "lectures/12-problem-solving.pdf",
-      "slides": "lectures/110-S21-13-Lists_3.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -275,7 +275,7 @@
       "type": "Lecture",
       "topic": "Functions",
       "notes": "lectures/13-functions.pdf",
-      "slides": "lectures/110-S21-14-Functions.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -293,7 +293,7 @@
       "type": "Lecture",
       "topic": "Strings I",
       "notes": "lectures/14-strings-I.pdf",
-      "slides": "lectures/110-S21-15-Strings_1.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -302,7 +302,7 @@
       "type": "Lecture",
       "topic": "Strings II",
       "notes": "lectures/15-strings-II.pdf",
-      "slides": "lectures/110-S21-16-Strings_2.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -329,7 +329,7 @@
       "type": "Lecture",
       "topic": "Dictionaries I",
       "notes": "lectures/16-dict-I.pdf",
-      "slides": "lectures/110-S21-17-Dictionaries_1.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -338,7 +338,7 @@
       "type": "Lecture",
       "topic": "Dictionaries II",
       "notes": "lectures/17-dict-II.pdf",
-      "slides": "lectures/110-S21-18-Dictionaries_2.pdf",
+      "slides": "",
       "code": "",
       "hw": ""
     },
@@ -410,7 +410,7 @@
       "type": "Lecture",
       "topic": "Matplotlib I",
       "notes": "lectures/19-matplotlib.pdf",
-      "slides": "lectures/110-S21-Matplotlib-1.pdf",
+      "slides": "",
       "code": "lectures/110-S21-Matplotlib-1.ipynb",
       "hw": ""
     },
@@ -437,7 +437,7 @@
       "type": "Lecture",
       "topic": "Matplotlib II",
       "notes": "lectures/19-matplotlib.pdf",
-      "slides": "lectures/110-S21-Matplotlib-2.pdf",
+      "slides": "",
       "code": "lectures/110-S21-Matplotlib-2.ipynb",
       "hw": ""
     },
