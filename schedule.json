@@ -476,7 +476,7 @@
       "slides": "",
       "code": "",
       "hw": ""
-    }
+    },
     {
       "date": "2021-11-28T23:59:00",
       "type": "AsgnDue",
@@ -485,7 +485,6 @@
       "slides": "",
       "code": "",     
       "hw": "<b>Project notebook due (final version)</b>"
-    },
-
+    }
   ]
 }
