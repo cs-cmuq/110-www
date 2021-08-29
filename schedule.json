@@ -22,7 +22,7 @@
       "date": "2021-08-26T14:30:00",
       "type": "Lab",
       "topic": "lab01: Quiz",
-      "slides": "",
+      "slides": "lectures/110-F21-Lab-1.pdf",
       "notes": "",
       "code": "",
       "hw": ""
@@ -32,7 +32,7 @@
       "type": "Lecture",
       "topic": "Simplifying instructions and abstraction",
       "notes": "lectures/03-abstraction.pdf",
-      "slides": "",
+      "slides": "lectures/110-F21-4-Algorithms.pdf",
       "code": "",
       "hw": ""
     },
