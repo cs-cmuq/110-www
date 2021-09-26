@@ -167,7 +167,7 @@
       "type": "Lecture",
       "topic": "Code tracing & debugging",
       "notes": "lectures/09-trace-debug.pdf",
-      "slides": "",
+      "slides": "lectures/110-F21-10-Debug_Loops.pdf",",
       "code": "",
       "hw": ""
     },
