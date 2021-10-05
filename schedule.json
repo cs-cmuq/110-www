@@ -212,7 +212,7 @@
       "type": "Lecture",      
       "topic": "Lists III, Problem solving",
       "notes": "lectures/12-problem-solving.pdf",
-      "slides": "",
+      "slides": "lectures/110-F21-13-Lists_3.pdf",
       "code": "",
       "hw": ""
     },
@@ -263,15 +263,6 @@
     },
     {
       "date": "2021-10-17T14:30:00",
-      "type": "Exam",
-      "topic": "Midterm II",
-      "notes": "",
-      "slides": "",
-      "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2021-10-19T14:30:00",
       "type": "Lecture",
       "topic": "Functions",
       "notes": "lectures/13-functions.pdf",
@@ -280,9 +271,18 @@
       "hw": ""
     },
     {
+      "date": "2021-10-19T14:30:00",
+      "type": "Lecture",
+      "topic": "Lab: Functions + Mideterm review",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
       "date": "2021-10-21T14:30:00",
-      "type": "Lab",
-      "topic": "lab08: Quiz + functions practice",
+      "type": "Exam",
+      "topic": "Midterm II",
       "notes": "",
       "slides": "",
       "code": "",
