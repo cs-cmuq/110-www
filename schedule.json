@@ -266,14 +266,14 @@
       "type": "Lecture",
       "topic": "Functions",
       "notes": "lectures/13-functions.pdf",
-      "slides": "",
+      "slides": "lectures/110-F21-14-Functions.pdf",
       "code": "",
       "hw": ""
     },
     {
       "date": "2021-10-19T14:30:00",
       "type": "Lecture",
-      "topic": "Lab: Functions + Mideterm review",
+      "topic": "Lab: Functions + Midterm review",
       "notes": "",
       "slides": "",
       "code": "",
