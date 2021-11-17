@@ -366,7 +366,7 @@
       "topic": "Jupyter notebooks",
       "notes": "lectures/110-S21-19-Jupyter_notebooks.pdf",
       "slides": "",
-      "code": "lectures/110-S21-19-Jupyter_notebooks.ipynb",
+      "code": "lectures/110-F21-19-Intro_notebooks.ipynb",
       "hw": ""
     },
     {
@@ -425,20 +425,20 @@
     },
     {
       "date": "2021-11-21T14:30:00",
+      "type": "Lecture",
+      "topic": "Midterm review",
+      "notes": "",
+      "slides": "",
+      "code": "lectures/110-S21-Matplotlib-2.ipynb",
+      "hw": ""
+    },
+    {
+      "date": "2021-11-23T14:30:00",
       "type": "Exam",
       "topic": "Midterm III",
       "notes": "",
       "slides": "",
       "code": "",
-      "hw": ""
-    },
-    {
-      "date": "2021-11-23T14:30:00",
-      "type": "Lecture",
-      "topic": "Matplotlib II",
-      "notes": "lectures/19-matplotlib.pdf",
-      "slides": "",
-      "code": "lectures/110-S21-Matplotlib-2.ipynb",
       "hw": ""
     },
     {
