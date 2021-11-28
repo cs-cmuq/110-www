@@ -456,17 +456,17 @@
       "topic": "lab: Problem solving in python",
       "notes": "",
       "slides": "",
-      "code": "",
+      "code": "lectures/Final_hints.ipynb",
       "hw": ""
     },
     {
-      "date": "2021-11-28T23:59:00",
+      "date": "2021-11-29T23:00:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
       "slides": "",
       "code": "",     
-      "hw": "Project notebook due (first version)"
+      "hw": "Project notebook due"
     },
     {
       "date": "2021-12-05T14:30:00",
