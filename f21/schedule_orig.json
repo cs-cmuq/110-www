@@ -1,0 +1,473 @@
+{
+  "schedule": [
+    {
+      "date": "2021-08-22T14:30:00",
+      "type": "Lecture",
+      "topic": "Introduction, fundamental concepts",
+      "notes": "lectures/01-algorithm.pdf",
+      "slides": "lectures/110-S21-1-Intro.pdf",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-08-24T14:30:00",
+      "type": "Lecture",
+      "topic": "Algorithms and abstraction",
+      "notes": "lectures/02-algorithm2.pdf",
+      "slides": "lectures/110-S21-2-Algorithms.pdf",
+      "code": "",
+      "hw": ""    
+    },
+    {
+      "date": "2021-08-26T14:30:00",
+      "type": "Lab",
+      "topic": "lab01: Quiz",
+      "slides": "lectures/110-S21-3-Algorithms_2.pdf",
+      "notes": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-08-29T14:30:00",
+      "type": "Lecture",
+      "topic": "Simplifying instructions and abstraction",
+      "notes": "lectures/03-abstraction.pdf",
+      "slides": "lectures/110-S21-4-Abstraction.pdf",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-08-31T14:30:00",
+      "type": "Lecture",
+      "topic": "From algorithms to python",
+      "notes": "lectures/04-algo-to-python.pdf",
+      "slides": "lectures/110-S21-5-SimplePython.pdf",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-09-02T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "slides": "",
+      "code": "",     
+      "hw": "hw01 due"
+    },
+    {
+      "date": "2021-09-02T14:30:00",
+      "type": "Lab",
+      "topic": "lab02: Quiz + using autolab",
+      "notes": "",
+      "slides": "",
+      "code": "",     
+      "hw": ""
+    },
+    {
+      "date": "2021-09-05T14:30:00",
+      "type": "Lecture",
+      "topic": "Arithmetic",
+      "notes": "lectures/05-arithmetic.pdf",
+      "slides": "lectures/110-S21-6-Types_Arithmetics.pdf",
+	"code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-09-07T14:30:00",
+      "type": "Lecture",
+      "topic": "Conditionals",
+      "notes": "lectures/06-conditionals.pdf",
+      "slides": "lectures/110-S21-7-Bool_Conditionals.pdf",
+      "code": "",     
+      "hw": ""
+    },
+    {
+      "date": "2021-09-09T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "slides": "",
+      "code": "",     
+      "hw": "hw02 due"
+    },
+    {
+      "date": "2021-09-09T14:30:00",
+      "type": "Lab",
+      "topic": "lab03: Quiz + conditionals practice",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-09-12T14:30:00",
+      "type": "NoClass",
+      "topic": "Break, no classes", 
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-09-14T14:30:00",
+      "type": "Lecture",
+      "topic": "For Loops",
+      "notes": "lectures/07-for-loops.pdf",
+      "slides": "lectures/110-S21-8-ForLoops.pdf",
+      "code": "",
+      "hw": ""
+    },   
+    {
+      "date": "2021-09-16T14:30:00",
+      "type": "Lab",
+      "topic": "lab04: Quiz + for loops practice",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-09-19T14:30:00",
+      "type": "Exam",
+      "topic": "Midterm I",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-09-21T14:30:00",
+      "type": "Lecture",
+      "topic": "While Loops",
+      "notes": "lectures/08-while-loops.pdf",
+      "slides": "lectures/110-S21-9-WhileLoops.pdf",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-09-23T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "slides": "",
+      "code": "",     
+      "hw": "hw03 due"
+    },
+    {
+      "date": "2021-09-23T14:30:00",
+      "type": "Lab",
+      "topic": "lab05: Quiz + while loops practice",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-09-26T14:30:00",
+      "type": "Lecture",
+      "topic": "Code tracing & debugging",
+      "notes": "lectures/09-trace-debug.pdf",
+      "slides": "lectures/110-S21-10-Debug_Loops.pdf",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-09-28T14:30:00",
+      "type": "Lecture",
+      "topic": "Lists I",
+      "notes": "lectures/10-lists-I.pdf",
+      "slides": "lectures/110-S21-11-Lists_1.pdf",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-09-30T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "slides": "",
+      "code": "",     
+      "hw": "hw04 due"
+    },
+    {
+      "date": "2021-09-30T14:30:00",
+      "type": "Lab",
+      "topic": "lab06: Quiz + lists practice",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-10-03T14:30:00",
+      "type": "Lecture",      
+      "topic": "Lists II",
+      "notes": "lectures/11-lists-II.pdf",
+      "slides": "lectures/110-S21-12-Lists_2.pdf",
+      "code": "",
+      "hw": ""
+    },      
+    {
+      "date": "2021-10-05T14:30:00",
+      "type": "Lecture",      
+      "topic": "Lists III, Problem solving",
+      "notes": "lectures/12-problem-solving.pdf",
+      "slides": "lectures/110-S21-13-Lists_3.pdf",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-10-07T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "slides": "",
+      "code": "",     
+      "hw": ""
+    },
+    {
+      "date": "2021-10-07T14:30:00",
+      "type": "Lab",
+      "topic": "lab07: Quiz + lists practice",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-10-10T14:30:00",
+      "type": "NoClass",
+      "topic": "Spring break",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-10-10T14:30:00",
+      "type": "NoClass",
+      "topic": "Spring break",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-10-10T14:30:00",
+      "type": "NoClass",
+      "topic": "Spring break",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-10-17T14:30:00",
+      "type": "Exam",
+      "topic": "Midterm II",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-10-19T14:30:00",
+      "type": "Lecture",
+      "topic": "Functions",
+      "notes": "lectures/13-functions.pdf",
+      "slides": "lectures/110-S21-14-Functions.pdf",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-10-21T14:30:00",
+      "type": "Lab",
+      "topic": "lab08: Quiz + functions practice",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-10-24T14:30:00",
+      "type": "Lecture",
+      "topic": "Strings I",
+      "notes": "lectures/14-strings-I.pdf",
+      "slides": "lectures/110-S21-15-Strings_1.pdf",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-10-26T14:30:00",
+      "type": "Lecture",
+      "topic": "Strings II",
+      "notes": "lectures/15-strings-II.pdf",
+      "slides": "lectures/110-S21-16-Strings_2.pdf",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-10-28T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "slides": "",
+      "code": "",     
+      "hw": "hw06 due"
+    },
+    {
+      "date": "2021-10-28T14:30:00",
+      "type": "Lab",
+      "topic": "lab09: Quiz + strings practice",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-10-31T14:30:00",
+      "type": "Lecture",
+      "topic": "Dictionaries I",
+      "notes": "lectures/16-dict-I.pdf",
+      "slides": "lectures/110-S21-17-Dictionaries_1.pdf",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-11-02T14:30:00",
+      "type": "Lecture",
+      "topic": "Dictionaries II",
+      "notes": "lectures/17-dict-II.pdf",
+      "slides": "lectures/110-S21-18-Dictionaries_2.pdf",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-11-04T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "slides": "",
+      "code": "",     
+      "hw": "hw07 due"
+    },
+    {
+      "date": "2021-11-04T14:30:00",
+      "type": "Lab",
+      "topic": "lab10: Quiz + dictionaries practice",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-11-07T14:30:00",
+      "type": "Lecture",
+      "topic": "I/O & file processing",
+      "notes": "lectures/18-files.pdf",
+      "slides": "",
+      "code": "lectures/18-files.ipynb",
+      "hw": ""
+    },
+    {
+      "date": "2021-11-09T14:30:00",
+      "type": "Lecture",
+      "topic": "Matplotlib",
+      "notes": "lectures/19-matplotlib.pdf",
+      "slides": "",
+      "code": "lectures/19-matplotlib.html",
+      "hw": ""
+    },
+    {
+      "date": "2021-11-11T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "slides": "",
+      "code": "",     
+      "hw": "hw08 due"
+    },
+    {
+      "date": "2021-11-11T14:30:00",
+      "type": "Lab",
+      "topic": "lab10: Quiz + file practice",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-11-14T14:30:00",
+      "type": "Lecture",
+      "topic": "Jupyter",
+      "notes": "lectures/20-jupyter.pdf",
+      "slides": "",
+      "code": "lectures/20-jupyter.ipynb",
+      "hw": ""
+    },
+
+    {
+      "date": "2021-11-16T14:30:00",
+      "type": "Exam",
+      "topic": "Midterm III <b>coding interviews scheduled individually</b>",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-11-18T14:30:00",
+      "type": "Lab",
+      "topic": "lab12: Quiz + jupyter practice",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-11-21T14:30:00",
+      "type": "Lecture",
+      "topic": "Graphs",
+      "notes": "lectures/21-graphs.pdf",
+      "slides": "",
+      "code": "lectures/21-graphs.ipynb",
+      "hw": ""
+    },
+    {
+      "date": "2021-11-23T14:30:00",
+      "type": "Lecture",
+      "topic": "Divide and conquer",
+      "notes": "lectures/22-divide-and-conquer.pdf",
+      "slides": "",
+      "code": "lectures/22-divide-and-conquer.ipynb",
+      "hw": ""
+    },
+    {
+      "date": "2021-11-25T14:30:00",
+      "type": "Lab",
+      "topic": "lab13: Quiz + programming",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-11-28T14:30:00",
+      "type": "Lecture",
+      "topic": "How stuff works, Q&A",
+      "notes": "lectures/24-how-stuff-works.pdf",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    },
+    {
+      "date": "2021-12-05T14:30:00",
+      "type": "Exam",
+      "topic": "<b>Final exam (coding interviews scheduled individually)</b>",
+      "notes": "",
+      "slides": "",
+      "code": "",
+      "hw": ""
+    }
+  ]
+}

@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+  <head>
+     <link rel="shortcut icon"
+          type="image/xicon"
+           href="https://web2.qatar.cmu.edu/cs/15110/favicon.png">
+     
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133148527-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-133148527-1');
+    </script>
+    <title>15-110</title>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- For external link icon -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Makes the schedule table -->
+    <script>document.write('<script src="js/mkSchedule.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>
+
+    <!--<script src="js/mkSchedule.js?<?=time()?"></script> -->
+
+    <style>
+    body {
+    position: relative;
+    font-size: 110%;
+    }
+    .section {
+      padding-top: 30px;
+    }
+    p {
+    //font-size: 110%;
+    }
+    .image-txt-container {
+    display:flex;
+    align-items:center;
+    flex-direction: row;
+    }
+    .navbar-custom {
+    color: #FFFFFF;
+    background-color: #FF8C11;
+    text-color: #CC3333;
+    }
+    </style>
+  </head>
+  <body data-spy="scroll" data-target="#main-navbar">
+    
+    <nav id="main-navbar" class="navbar container navbar-expand-sm navbar-dark fixed-top navbar-custom">
+      <!-- Navbar content -->
+      <a class="navbar-brand" href="#main">15-110</a> <!-- Add course description and learning goals here -->
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#schedule">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#staff">Staff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#grading">Grading</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#assignments">Assignments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tools">Tools</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#policy">Policies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://piazza.com/class/ksbs0bt7vsg3yo" target="_blank">Piazza <i class="fa fa-external-link"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://autolab.andrew.cmu.edu/courses/15110q-f21/" target="_blank">Autolab <i class="fa fa-external-link"></i></a>
+          </li>
+	  <li class="nav-item">
+            <a class="nav-link" href="https://canvas.cmu.edu/courses/23267" target="_blank">Canvas <i class="fa fa-external-link"></i></a>
+          </li>
+          <!--<li class="nav-item">
+            <a class="nav-link" href="https://www.gradescope.com/courses/80225" target="_blank">Gradescope <i class="fa fa-external-link"></i></a>
+          </li>
+	  -->
+        </ul>
+      </div>
+    </nav>
+
+    <br><p>
+    <div id="main" class="container section">
+      <h1><b>15-110: Principles of Computing (Fall 2021)</b></h1>
+      <img class="img-thumbnail float-right ml-4" style="margin-top: 50px; width:600px" alt="CS quote" src="cover-o.png">
+      <p class="text-justify">
+      <h2><b>Overview</b></h2>
+
+      <p class="text-justify">
+        <i>Computing</i> can be defined as the study of computational
+        processes that manipulate information. A <i>computational
+        process</i> is one that can be automated, and thus executed by a
+        computer. Therefore, one of the main underlying questions is:
+        <b>what can be (efficiently) automated?</b>
+        This course aims at introducing the science (and the art) of
+        computing to students with little or no prior background in
+        this subject.
+      </p>
+        
+      <p class="text-justify">
+        Given the great amount of topics involved in
+        computing, the course will focus on a subset of its core
+        aspects, providing a brief, yet substantial introduction to
+        many concepts. The goal is to provide an idea of what can be
+        automated, and how to realize when it is useful (or, most often,
+        necessary) to employ computation and computers to accomplish a
+        complex goal.  
+      </p>
+
+      <p class="text-justify">
+        The course will take the student along the way that starts
+        from a complex, possibly large problem to solve, and then move
+        step by step to its <i>abstraction</i>, to its formalization into an
+        <i>algorithmic recipe</i>, to the encoding of the algorithm using the
+        <i>constructs of the python language</i>, to the run-time
+        <i>execution</i> and <i>error correction</i> of the
+        programming code, to the <i>efficiency analysis</i> of the
+        developed algorithm and code. 
+      </p>
+
+      <h2><b>Learning goals</b></h2>
+      
+      <p class="text-justify">
+        <ul>
+          <li> Understand what classes of problems computers are good at or are necessary for. </li>
+          <li> Be able to analyze and abstract a given problem in a way which is amenable
+               to an algorithmic solution. </li>
+          <li> Design algorithmic solutions. </li>
+          <li> Judge the effectiveness of an algorithmic solution, and ways to improve it. </li>
+          <li> Apply fundamental algorithmic solution techniques when
+               relevant. </li>
+          <li> Code algorithmic solutions in Python. </li>
+          <li> Debug and test Python code. </li>
+        </ul>
+      </p>
+
+      <p class="text-justify">
+        The Python constructs introduced throughout the course
+        include, but are not limited to:
+        <ul>
+          <li> Basic datatypes (integer, strings, booleans, floating
+          point numbers) </li>
+          <li> Arithmetic operations </li>
+          <li> Conditionals </li>
+          <li> Iteration/loops </li>
+          <li> Composite datatypes (lists and dictionaries) </li>
+          <li> Functions </li>
+          <li> Input/Output and file processing libraries </li>
+        </ul>
+      </p>
+
+    </div>
+
+    <div id="requisites" class="container section">
+        <h2><b>Pre-requisites</b></h2>
+      <p>
+        None.
+      </p>
+    </div>
+
+    <div id="credits" class="container section">
+        <h2><b>Credits</b></h2>
+      <p>
+        This is a 10 unit course.
+      </p>
+    </div>
+
+    <div id="logistics" class="container section">
+        <h2><b>Place and time</b></h2>
+      <p>
+      <table class="table table-sm">
+        <tbody>
+          <tr>
+            <td> Sundays and Tuesdays </td>
+            <td> 14:30 to 15:45 </td>
+            <td> Room 2163 </td>
+            <td> <span class="badge badge-secondary">lectures</span> </td>
+          </tr>
+          <tr>
+            <td> Thursdays </td>
+            <td> 14:30 to 15:45 </td>
+            <td> Room 2163 </td>
+            <td> <span class="badge badge-secondary">labs + quizzes</span> </td>
+          </tr>
+        </tbody>
+      </table>
+      </p>
+    </div>
+    
+    <div id="schedule" class="container section">
+      <h2><b>Schedule (Subject to changes)</b></h2>
+      <p>
+        In the table below, labs are in blue, exams are in red and the next
+        lecture/lab is orange. Green days are in the past, and grey days have no lectures.
+      </p>
+      <table class="table" id="scheduleTable">
+      </table>
+    </div>
+      
+    <div id="staff" class="container section">
+      <h2><b>Staff</b></h2>
+      <div class="row">
+        <div class="col">
+          <div class="card border-warning">
+            <div class="card-header">Gianni Di Caro (Teacher)</div>
+            <div class="card-body">
+              <p class="card-text">
+              Office: 1007 <br>
+              Office hours: by appointment <br>
+              E-mail: <a href="mailto:gdicaro@cmu.edu">gdicaro@cmu.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--<div class="col">
+          <div class="card border-warning">
+            <div class="card-header">Giselle Reis (Teacher)</div>
+            <div class="card-body">
+              <p class="card-text">
+              Office: 1008 <br>
+              Office hours: by appointment <br>
+              E-mail: <a href="mailto:giselle@cmu.edu">giselle@cmu.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        -->
+      </div><br>
+
+      
+      <div class="row">
+        <div class="col">
+          <div class="card border-warning">
+            <div class="card-header">Rama Sulaiman (CA)</div>
+            <div class="card-body">
+              <p class="card-text">
+              Office: ARC/Zoom <br>
+              Office hours: <br>
+              <ul>
+		<li> Sundays: 1:00pm - 2:00pm</li>
+                <li> Tuesdays: 12:00pm - 1:00pm </li>
+              </ul>
+              E-mail: <a href="mailto: rsulaima@andrew.cmu.edu">rsulaima@andrew.cmu.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-warning">
+            <div class="card-header">Danagul Azimzhanova (CA)</div>
+            <div class="card-body">
+              <p class="card-text">
+              Office: ARC/Zoom <br>
+              Office hours: <br>
+              <ul>
+                <li> Tuesdays: 1:00am - 2:00pm </li>
+		<li> Wednesdays: 1:00pm - 2:00pm </li>
+              </ul>
+              E-mail: <a href="mailto:dazimzha@andrew.cmu.edu">dazimzha@andrew.cmu.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div><br>
+      
+      <div class="row">
+        <div class="col">
+          <div class="card border-warning">
+            <div class="card-header">Andrei-Horia Pacurar (CA)</div>
+            <div class="card-body">
+              <p class="card-text">
+              Office: ARC/Zoom <br>
+              Office hours: <br>
+              <ul>
+		<li> Wednesdays: 4:00pm - 5:00pm  </li>
+		<li> Thursdays: 4:00pm - 5:00pm  </li>
+              </ul>
+              E-mail: <a href="mailto:apacurar@andrew.cmu.edu"> apacurar@andrew.cmu.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-warning">
+            <div class="card-header">Nadim Bou Alwan (CA)</div>
+            <div class="card-body">
+              <p class="card-text">
+              Office: ARC/Zoom <br>
+              Office hours: <br>
+              <ul>
+		<li> Sundays: 3:30pm - 4:30pm </li>
+		<li> Tuesdays: 1:00pm - 2:00pm </li>
+              </ul>
+              E-mail: <a href="mailto:nboualwa@andrew.cmu.edu">nboualwa@andrew.cmu.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div><br>
+
+      <div class="row">
+        <div class="col">
+          <div class="card border-warning">
+            <div class="card-header">Temoor Tanveer (CA)</div>
+            <div class="card-body">
+              <p class="card-text">
+              Office: ARC/Zoom <br>
+              Office hours: <br>
+              <ul>
+                <li> Mondays: 5:00pm - 6:00pm </li>
+		<li> Wednesdays: 5:00pm - 6:00pm </li>
+              </ul>
+              E-mail: <a href="mailto:ttanveer@andrew.cmu.edu">ttanveer@andrew.cmu.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+	<div class="col">
+          <div class="card border-warning">
+            <div class="card-header">Zhijie Xu (CA)</div>
+            <div class="card-body">
+              <p class="card-text">
+              Office: ARC/Zoom <br>
+              Office hours: <br>
+              <ul>
+		<li> Mondays: 1:00pm - 2:00pm </li>
+		<li> Thursdays: 8:30pm - 9:30pm </li>
+              </ul>
+              E-mail: <a href="mailto:zhijiex@andrew.cmu.edu"> zhijiex@andrew.cmu.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div><br>
+
+
+      <br>
+
+    <div id="grading" class="container section">
+      <h2><b>Grading</b></h2>
+        
+          <ul>
+            <li><b>Homeworks: 15%</b> </li>
+            <ul>
+              <li> Weekly, except on exam weeks </li>
+              <li> <span class="text-danger"> To be solved individually </span> (check the course policy on collaboration) </li>
+              <li> Check the schedule for dates and deadlines </li>
+            </ul>
+            <li><b>Quizzes: 25%</b> </li>
+            <ul>
+              <li> Weekly </li>
+              <li> Administered at the beginning of the lecture or lab </li>
+              <li> Individual and closed book, written  </li>
+            </ul>
+            <li><b>Three midterms: 30%</b> (10% each) </li>
+            <ul>
+              <li> Administered during normal class hours </li>
+              <li> Individual and closed book, written </li>
+            </ul>
+            <li><b>Project: 10%</b> </li>
+            <li><b>Final exam: 20%</b></li>
+          </ul>     
+    </div>
+
+    <div id="assignments" class="container section">
+      <h2><b>Homework Assignments</b></h2>
+        
+      <h3>Getting the Assignments</h3>
+      <p>
+        The writeup and starter files for each homework assignment can be found on 
+        <a href="https://autolab.andrew.cmu.edu/courses/15110q-f21">Autolab</a>.
+        Log in with your andrewID, select the course and then the assignment.
+        You can see the <code>pdf</code> with the instructions by clicking on
+        "View writeup".
+        The starter code and template for typing your answers are in a
+        <code>zip</code> file which can be downloaded by clicking on "Download
+        handout".
+        Uncompressing this file will create the directory
+        <code>&lt;asgn&gt;-handout</code> with the starter code.
+        <span class="text-danger"><b>If you need to download these files again, be
+        careful not to overwrite your work!</b></span>
+      </p>
+
+      <p>
+        We <b>strongly</b> suggest that you create one folder for each
+        assignment inside a folder dedicated for this course on your
+        machine. Submissions containing code from previous
+        assignments, or old code from the current assignment will not
+        be reconsidered.
+      </p>
+      <br>
+
+      <h3>Submitting the Assignments</h3>
+
+      <p>
+        You need to submit a <code>.py</code> or a <code>zip</code> file containing the completed
+        solution.
+      </p>
+
+      <p>
+        The file with your solution needs to be submitted to
+        <a href="https://autolab.andrew.cmu.edu/courses/15110q-f21">Autolab</a>.
+        It will immediately run a series of tests on your code and give you a
+        score with some feedback. Make sure to check it! If your code does not
+        pass all tests, you can submit it again until the deadline. <span
+        class="text-danger"><b>You are limited to a total of 10 submissions
+        for each assignment.</b></span> 
+      </p>
+
+      <p>
+        The score received on Autolab may not reflect your final score
+        for the assignment, since the course staff will check the code
+        for <a href="resources/style.pdf">style</a> and for code similarity between students, to
+        ensure that you are not violating rules of academic integrity.
+      </p>
+
+    </div>
+
+
+    <div id="quizzes" class="container section">
+      <h2><b>Quizzes (in-class)</b></h2>
+
+      <p>
+        The text with the questions of each Quiz will be available on
+        <a href="https://canvas.cmu.edu/courses/23267">Canvas</a>.
+        Log in with your andrewID, select the course and then the Quiz assignment.
+        You will find the <code>pdf</code> with the questions. A paper version of the Quiz will be
+        provided in the classroom.</p>
+
+      <p><span class="text-danger"><b>Quizzes must be answered exclusively using pen and paper!
+	You are not allowed to use devices, computers, books, notes, ... </b></span></p>
+
+      <p>At the end of the time given for answering the questions, you will use your phone to scan your answers on the
+	paper and you will submit on Canvas the scanned document in a <code>pdf</code> format.
+      </p>
+      
+    </div>
+      
+    
+    <div id="tools" class="container section">
+      <h2><b>Tools</b></h2>
+      <p>
+      Set up your your programming environment by installing
+      the <a href="https://www.anaconda.com/products/individual">Anaconda</a> distribution (Pyhton 3.8 version):
+      <ul>
+	<li> <a href="https://repo.anaconda.com/archive/Anaconda3-2020.11-MacOSX-x86_64.pkg">For MacOS </a></li>
+        <li> <a href="https://repo.anaconda.com/archive/Anaconda3-2020.11-Windows-x86_64.exe">For Windows </a></li>
+        <li> <a href="https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh">For Linux </a></li>
+      </ul>
+      
+      The download is big, so make sure you are at a place with fast and 
+      reliable internet connection.
+
+      Once installed, you can start the <code>Anaconda-Navigator</code> and launch from there
+      the <code>Spyder</code> editor, which you will use to develop and test your python code.
+      </p>
+
+      <p>We will use <b>Piazza</b> for communications and Q&A. You will receive an email to
+      register in the <a href="https://piazza.com/class/ksbs0bt7vsg3yo">Piazza course board</a>.
+    </div>
+    
+      
+    <div id="policy" class="container section">
+      <h2><b>Policies</b></h2>
+      <p> 
+      You are expected to comply with the 
+      <a href="http://www.cmu.edu/policies/student-and-student-life/academic-integrity.html"><u>university policy on academic integrity</u></a> (see also 
+      <a href="http://www.cmu.edu/student-affairs/theword/comm_standards/standards.html"><u>The Word</u></a> and 
+      <a href="http://www.cmu.edu/academic-integrity/understanding/cmu.html"><u>Understanding Academic Integrity</u></a>).
+      </p>
+      <p class="text-danger"><b>Collaboration is regulated by the whiteboard policy: you can bounce
+      ideas about a homework with other students, but when it comes to typing
+      it down for submission, you are on your own. You are not allowed to use
+      notes, files, pictures, etc, from any previous discussion nor previous
+      versions of this course.</b>
+      </p>
+      <p>
+      We will run a program that detects code similarity on all your homework
+      submissions. If students are found to have submitted almost the same
+      code, they will be contacted and this may result on an academic integrity
+      violation report.
+      </p><br>
+
+      <h3>An Invitation to Students with Learning Disabilities:</h3>
+      <p>
+      Carnegie Mellon University is committed to providing reasonable
+      accommodations for all persons with disabilities. To access
+      accommodation services you are expected to initiate the request and
+      submit a Voluntary Disclosure of Disability Form to the office of Health
+      &amp; Wellness or CaPS-Q. In order to receive services/accommodations,
+      verification of a disability is required as recommended in writing by a
+      doctor, licensed psychologist or psycho-educational specialist. The
+      office of Health &amp; Wellness, CaPS-Q and Office of Disability Resources
+      in Pittsburgh will review the information you provide. All information
+      will be considered confidential and only released to appropriate persons
+      on a need to know basis.
+      </p>
+      <p> 
+      Once the accommodations have been approved, you will be issued a Summary
+      of Accommodations Memorandum documenting the disability and describing
+      the accommodation. You are responsible for providing the Memorandum to
+      your professors at the beginning of each semester.
+      </p><br>
+      
+      <h3>Take Care of Yourself:</h3>
+      <p>
+      Do your best to maintain a healthy lifestyle this semester by eating
+      well, exercising, getting enough sleep and taking some time to relax.
+      This will help you achieve your goals and cope with stress.
+      </p>
+      <p>
+      All of us benefit from support during times of struggle. You are not
+      alone. There are many helpful resources available on campus and an
+      important part of the college experience is learning how to ask for
+      help. Asking for support sooner rather than later is often helpful.
+      </p>
+      <p>
+      If you or anyone you know experiences any academic stress, difficult
+      life events, or feelings like anxiety or depression, we strongly
+      encourage you to seek support. Counseling and Psychological Services
+      (CaPS-Q) is here to help: call 4454 8525 or make an appointment to see
+      the counselor by emailing 
+      <a href="mailto:student-counselling@qatar.cmu.edu">student-counselling@qatar.cmu.edu</a>. 
+      Consider reaching out to a friend, faculty or family member you trust
+      for help.
+      </p>
+      <p> 
+      If you or someone you know is feeling suicidal or in danger of
+      self-harm, call someone immediately, day or night at 5554 7913.  If the
+      situation is life threatening, call 999.</p> 
+    </div>
+     
+  </body>
+</html>
