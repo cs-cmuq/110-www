@@ -77,47 +77,36 @@ function fillSchedule(data) {
     row.appendChild(td)
 
     // Handout
-    var notes = day.notes
-    var code = day.code
-    var slides = day.slides
     var td = document.createElement("td")
+    
     var notes_link = ""
-    if (notes != "") {
-	notes_link = "<a href=\"" + notes + "\">[Technical notes]</a>"
+    if (day['notes']) {
+	notes_link = "<a href=\"" + day.notes + "\">Notes</a>"
     }
+    
     var code_link = ""
-    if (code != "") {
-      code_link = "<a href=\"" + code + "\">[Notebook]</a>"
+    if (day['code']) {
+      code_link = "<a href=\"" + day.code + "\">Notebook</a>"
     }
+    
     var slides_link = ""
-    if (slides != "") {
-      slides_link = "<a href=\"" + slides + "\">[Lecture PDF]</a>"
+    if (day['slides']) {
+      slides_link = "<a href=\"" + day.slides + "\">Lecture Slides</a>"
     }
-    var content = ""
-    if (code_link != "" && notes_link != "" && slides_link != "") {
-      content = code_link + ", " + slides_link + ", " + notes_link
-    }
-    else if (code_link != "" && notes_link != "") {
-      content = code_link + ", " + notes_link
-    }
-    else if (slides_link != "" && notes_link != "") {
-      content = slides_link + ", " + notes_link
-    }
-    else if (slides_link != "") {
-      content = slides_link
-    }
-    else {
-      content = code_link + notes_link
-    }
+
+    var content = [notes_link, slides_link, code_link].filter(function(link){return link != ""}).join(", ")
     td.innerHTML = content
     row.appendChild(td)
-    
+   
     // Homework
-    var hw = day.hw
     var td = document.createElement("td")
-    td.innerHTML = hw
+    var hw_link = ""
+    if (day['hw']) {
+      hw_link = "<a href=\"" + day.hw + "\">Assignment files</a>"
+    }
+    td.innerHTML = hw_link
     row.appendChild(td)
-  
+    
     tbody.appendChild(row)
   }
   document.getElementById("scheduleTable").appendChild(tbody)
