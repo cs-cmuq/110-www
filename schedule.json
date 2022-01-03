@@ -3,47 +3,47 @@
     {
       "date": "2022-01-09T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Course intro & problem solving"
     },
     {
       "date": "2022-01-11T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Algorithms"
     },
     {
       "date": "2022-01-13T14:30:00",
       "type": "Lab",
-      "topic": ""
+      "topic": "<b>Quiz 01</b></br>Lab 01: problem solving"
     },
     {
       "date": "2022-01-16T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Simplifying instructions & Abstraction"
     },
     {
       "date": "2022-01-18T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Intro to Python"
     },
     {
       "date": "2022-01-20T14:30:00",
       "type": "Lab",
-      "topic": ""
+      "topic": "<b>Quiz 02</b></br>Lab 02: using IDE & gradescope"
     },
     {
       "date": "2022-01-23T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Arithmetic"
     },
     {
       "date": "2022-01-25T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Conditionals"
     },
     {
       "date": "2022-01-27T14:30:00",
       "type": "Lab",
-      "topic": ""
+      "topic": "<b>Quiz 03</b></br>Lab 03: arithmetic and conditionals"
     },
     {
       "date": "2022-01-30T14:30:00",
@@ -52,58 +52,58 @@
     },
     {
       "date": "2022-02-01T14:30:00",
-      "type": "Lecture",
-      "topic": ""
+      "type": "Exam",
+      "topic": "<b>Midterm I</b>"
     },
     {
       "date": "2022-02-03T14:30:00",
-      "type": "Lab",
-      "topic": ""
+      "type": "Lecture",
+      "topic": "Loops: for (exceptionally held at lab location)"
     },
     {
       "date": "2022-02-06T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Loops: while"
     },   
     {
       "date": "2022-02-08T14:30:00",
-      "type": "Lecture",
-      "topic": ""
+      "type": "NoClass",
+      "topic": "SPORTS DAY"
     },
     {
       "date": "2022-02-10T14:30:00",
       "type": "Lab",
-      "topic": ""
+      "topic": "<b>Quiz 04</b></br>Lab 04: loops"
     },
     {
       "date": "2022-02-13T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Code tracing & Debugging"
     },
     {
       "date": "2022-02-15T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Lists I"
     },
     {
       "date": "2022-02-17T14:30:00",
       "type": "Lab",
-      "topic": ""
+      "topic": "<b>Quiz 05</b></br>Lab 05: code tracing and lists"
     },
     {
       "date": "2022-02-20T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Lists II"
     },
     {
       "date": "2022-02-22T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Problem solving"
     },
     {
       "date": "2022-02-24T14:30:00",
       "type": "Lab",
-      "topic": ""
+      "topic": "<b>Quiz 06</b></br>Lab 06: more lists"
     },
     {
       "date": "2022-02-27T14:30:00",
@@ -122,58 +122,58 @@
     },
     {
       "date": "2022-03-06T14:30:00",
-      "type": "Lecture",
-      "topic": ""
+      "type": "Exam",
+      "topic": "<b>Midterm II</b>"
     },
     {
       "date": "2022-03-08T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Functions"
     },
     {
       "date": "2022-03-10T14:30:00",
       "type": "Lab",
-      "topic": ""
+      "topic": "Lab 07: functions"
     },
     {
       "date": "2022-03-13T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Strings I"
     },
     {
       "date": "2022-03-15T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Strings II"
     },
     {
       "date": "2022-03-17T14:30:00",
       "type": "Lab",
-      "topic": ""
+      "topic": "<b>Quiz 07</b></br>Lab 08: strings"
     },
     {
       "date": "2022-03-20T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Dictionaries I"
     },
     {
       "date": "2022-03-22T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Dictionaries II"
     },
     {
       "date": "2022-03-24T14:30:00",
       "type": "Lab",
-      "topic": ""
+      "topic": "<b>Quiz 08</b></br>Lab 09: dictionaries"
     },
     {
       "date": "2022-03-27T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "I/O & Files"
     },
     {
       "date": "2022-03-29T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Matplotlib"
     },
     {
       "date": "2022-03-31T14:30:00",
@@ -183,47 +183,47 @@
     {
       "date": "2022-04-03T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Jupyter"
     },
     {
       "date": "2022-04-05T14:30:00",
-      "type": "Lecture",
-      "topic": ""
+      "type": "Exam",
+      "topic": "<b>Midterm III</b>"
     },
     {
       "date": "2022-04-07T14:30:00",
       "type": "Lab",
-      "topic": ""
+      "topic": "Lab 10: Jupyter and Matplotlib"
     },
     {
       "date": "2022-04-10T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Graphs"
     },
     {
       "date": "2022-04-12T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Divide & Conquer"
     },
     {
       "date": "2022-04-14T14:30:00",
       "type": "Lab",
-      "topic": ""
+      "topic": "<b>Quiz 09</b></br>Lab 11: graph traversal"
     },
     {
       "date": "2022-04-17T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "Complexity"
     },
     {
       "date": "2022-04-19T14:30:00",
       "type": "Lecture",
-      "topic": ""
+      "topic": "TBD"
     },
     {
       "date": "2022-04-21T14:30:00",
       "type": "Lab",
-      "topic": ""
+      "topic": "Project presentations"
     },
     {
       "date": "2022-04-24T14:30:00",
