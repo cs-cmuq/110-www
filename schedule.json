@@ -23,7 +23,7 @@
     {
       "date": "2022-01-18T14:30:00",
       "type": "Lecture",
-      "topic": "Intro to Python"
+      "topic": "Intro to Python<br><b>Homework 01 due</b>"
     },
     {
       "date": "2022-01-20T14:30:00",
@@ -38,7 +38,7 @@
     {
       "date": "2022-01-25T14:30:00",
       "type": "Lecture",
-      "topic": "Conditionals"
+      "topic": "Conditionals<br><b>Homework 02 due</b>"
     },
     {
       "date": "2022-01-27T14:30:00",
@@ -63,7 +63,7 @@
     {
       "date": "2022-02-06T14:30:00",
       "type": "Lecture",
-      "topic": "Loops: while"
+      "topic": "Loops: while<br><b>Homework 03 due</b>"
     },   
     {
       "date": "2022-02-08T14:30:00",
@@ -83,7 +83,7 @@
     {
       "date": "2022-02-15T14:30:00",
       "type": "Lecture",
-      "topic": "Lists I"
+      "topic": "Lists I<br><b>Homework 04 due</b>"
     },
     {
       "date": "2022-02-17T14:30:00",
@@ -98,7 +98,7 @@
     {
       "date": "2022-02-22T14:30:00",
       "type": "Lecture",
-      "topic": "Problem solving"
+      "topic": "Problem solving<br><b>Homework 05 due</b>"
     },
     {
       "date": "2022-02-24T14:30:00",
@@ -158,7 +158,7 @@
     {
       "date": "2022-03-22T14:30:00",
       "type": "Lecture",
-      "topic": "Dictionaries II"
+      "topic": "Dictionaries II<br><b>Homework 06 due</b>"
     },
     {
       "date": "2022-03-24T14:30:00",
@@ -173,7 +173,7 @@
     {
       "date": "2022-03-29T14:30:00",
       "type": "Lecture",
-      "topic": "Matplotlib"
+      "topic": "Matplotlib<br><b>Homework 07 due</b>"
     },
     {
       "date": "2022-03-31T14:30:00",
@@ -203,7 +203,7 @@
     {
       "date": "2022-04-12T14:30:00",
       "type": "Lecture",
-      "topic": "Divide & Conquer"
+      "topic": "Divide & Conquer<br><b>Project Checkpoint</b>"
     },
     {
       "date": "2022-04-14T14:30:00",
@@ -218,7 +218,7 @@
     {
       "date": "2022-04-19T14:30:00",
       "type": "Lecture",
-      "topic": "TBD"
+      "topic": "TBD<br><b>Project due</b>"
     },
     {
       "date": "2022-04-21T14:30:00",
