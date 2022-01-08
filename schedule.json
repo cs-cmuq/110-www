@@ -4,7 +4,8 @@
       "date": "2022-01-09T14:30:00",
       "type": "Lecture",
       "topic": "Course intro & problem solving",
-      "notes": "lectures/01-algorithm.pdf"
+      "notes": "lectures/01-algorithm.pdf",
+      "hw": "handouts/hw01.zip"
     },
     {
       "date": "2022-01-11T14:30:00",

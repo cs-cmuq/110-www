@@ -102,7 +102,9 @@ function fillSchedule(data) {
     var td = document.createElement("td")
     var hw_link = ""
     if (day['hw']) {
-      hw_link = "<a href=\"" + day.hw + "\">Assignment files</a>"
+      parts = day.hw.split("/") 
+      link_name = parts[parts.length-1]
+      hw_link = "<a href=\"" + day.hw + "\">" + link_name + "</a>"
     }
     td.innerHTML = hw_link
     row.appendChild(td)
