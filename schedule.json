@@ -16,7 +16,7 @@
     {
       "date": "2022-01-13T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 01</b></br>Lab 01: problem solving"
+      "topic": "<b>Quiz 01</b></br>"
     },
     {
       "date": "2022-01-16T14:30:00",
@@ -26,7 +26,7 @@
     {
       "date": "2022-01-18T14:30:00",
       "type": "Lecture",
-      "topic": "Intro to Python<br><b>Homework 01 due</b>"
+      "topic": "Intro to Python<br><b>Homework 01 due</b> - problem solving"
     },
     {
       "date": "2022-01-19T19:00:00",
@@ -36,7 +36,7 @@
     {
       "date": "2022-01-20T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 02</b></br>Lab 02: using IDE & gradescope"
+      "topic": "<b>Quiz 02</b></br>Lab 01: using IDE & gradescope"
     },
     {
       "date": "2022-01-23T14:30:00",
@@ -46,7 +46,7 @@
     {
       "date": "2022-01-25T14:30:00",
       "type": "Lecture",
-      "topic": "Conditionals<br><b>Homework 02 due</b>"
+      "topic": "Conditionals<br><b>Homework 02 due</b> - arithmetic"
     },
     {
       "date": "2022-01-26T19:00:00",
@@ -56,7 +56,7 @@
     {
       "date": "2022-01-27T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 03</b></br>Lab 03: arithmetic and conditionals"
+      "topic": "<b>Quiz 03</b></br>Lab 02: arithmetic and conditionals"
     },
     {
       "date": "2022-01-30T14:30:00",
@@ -76,7 +76,7 @@
     {
       "date": "2022-02-06T14:30:00",
       "type": "Lecture",
-      "topic": "Loops: while<br><b>Homework 03 due</b>"
+      "topic": "Loops: while<br><b>Homework 03 due</b> - conditionals"
     },   
     {
       "date": "2022-02-08T14:30:00",
@@ -91,7 +91,7 @@
     {
       "date": "2022-02-10T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 04</b></br>Lab 04: loops"
+      "topic": "<b>Quiz 04</b></br>Lab 03: loops"
     },
     {
       "date": "2022-02-13T14:30:00",
@@ -101,7 +101,7 @@
     {
       "date": "2022-02-15T14:30:00",
       "type": "Lecture",
-      "topic": "Lists I<br><b>Homework 04 due</b>"
+      "topic": "Lists I<br><b>Homework 04 due</b> - loops"
     },
     {
       "date": "2022-02-16T19:00:00",
@@ -111,7 +111,7 @@
     {
       "date": "2022-02-17T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 05</b></br>Lab 05: code tracing and lists"
+      "topic": "<b>Quiz 05</b></br>Lab 04: code tracing and lists"
     },
     {
       "date": "2022-02-20T14:30:00",
@@ -121,7 +121,7 @@
     {
       "date": "2022-02-22T14:30:00",
       "type": "Lecture",
-      "topic": "Problem solving<br><b>Homework 05 due</b>"
+      "topic": "Problem solving<br><b>Homework 05 due</b> - code tracing and lists"
     },
     {
       "date": "2022-02-23T19:00:00",
@@ -131,7 +131,7 @@
     {
       "date": "2022-02-24T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 06</b></br>Lab 06: more lists"
+      "topic": "<b>Quiz 06</b></br>Lab 05: more lists"
     },
     {
       "date": "2022-02-27T14:30:00",
@@ -161,7 +161,7 @@
     {
       "date": "2022-03-10T14:30:00",
       "type": "Lab",
-      "topic": "Lab 07: functions"
+      "topic": "Lab 06: functions"
     },
     {
       "date": "2022-03-13T14:30:00",
@@ -176,7 +176,7 @@
     {
       "date": "2022-03-17T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 07</b></br>Lab 08: strings"
+      "topic": "<b>Quiz 07</b></br>Lab 07: strings"
     },
     {
       "date": "2022-03-20T14:30:00",
@@ -186,7 +186,7 @@
     {
       "date": "2022-03-22T14:30:00",
       "type": "Lecture",
-      "topic": "Dictionaries II<br><b>Homework 06 due</b>"
+      "topic": "Dictionaries II<br><b>Homework 06 due</b> - strings"
     },
     {
       "date": "2022-03-23T19:00:00",
@@ -196,7 +196,7 @@
     {
       "date": "2022-03-24T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 08</b></br>Lab 09: dictionaries"
+      "topic": "<b>Quiz 08</b></br>Lab 08: dictionaries"
     },
     {
       "date": "2022-03-27T14:30:00",
@@ -206,7 +206,7 @@
     {
       "date": "2022-03-29T14:30:00",
       "type": "Lecture",
-      "topic": "Matplotlib<br><b>Homework 07 due</b>"
+      "topic": "Matplotlib<br><b>Homework 07 due</b> - dictionaries"
     },
     {
       "date": "2022-03-30T19:00:00",
@@ -231,7 +231,7 @@
     {
       "date": "2022-04-07T14:30:00",
       "type": "Lab",
-      "topic": "Lab 10: Jupyter and Matplotlib"
+      "topic": "Lab 09: Jupyter and Matplotlib"
     },
     {
       "date": "2022-04-10T14:30:00",
@@ -246,7 +246,7 @@
     {
       "date": "2022-04-14T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 09</b></br>Lab 11: graph traversal"
+      "topic": "<b>Quiz 09</b></br>Lab 10: graph traversal"
     },
     {
       "date": "2022-04-17T14:30:00",
