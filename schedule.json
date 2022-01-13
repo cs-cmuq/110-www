@@ -29,6 +29,11 @@
       "topic": "Intro to Python<br><b>Homework 01 due</b>"
     },
     {
+      "date": "2022-01-19T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Homework 01 interview</b>"
+    },
+    {
       "date": "2022-01-20T14:30:00",
       "type": "Lab",
       "topic": "<b>Quiz 02</b></br>Lab 02: using IDE & gradescope"
@@ -42,6 +47,11 @@
       "date": "2022-01-25T14:30:00",
       "type": "Lecture",
       "topic": "Conditionals<br><b>Homework 02 due</b>"
+    },
+    {
+      "date": "2022-01-26T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Homework 02 interview</b>"
     },
     {
       "date": "2022-01-27T14:30:00",
@@ -74,6 +84,11 @@
       "topic": "SPORTS DAY"
     },
     {
+      "date": "2022-02-09T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Homework 03 interview</b>"
+    },
+    {
       "date": "2022-02-10T14:30:00",
       "type": "Lab",
       "topic": "<b>Quiz 04</b></br>Lab 04: loops"
@@ -89,6 +104,11 @@
       "topic": "Lists I<br><b>Homework 04 due</b>"
     },
     {
+      "date": "2022-02-16T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Homework 04 interview</b>"
+    },
+    {
       "date": "2022-02-17T14:30:00",
       "type": "Lab",
       "topic": "<b>Quiz 05</b></br>Lab 05: code tracing and lists"
@@ -102,6 +122,11 @@
       "date": "2022-02-22T14:30:00",
       "type": "Lecture",
       "topic": "Problem solving<br><b>Homework 05 due</b>"
+    },
+    {
+      "date": "2022-02-23T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Homework 05 interview</b>"
     },
     {
       "date": "2022-02-24T14:30:00",
@@ -164,6 +189,11 @@
       "topic": "Dictionaries II<br><b>Homework 06 due</b>"
     },
     {
+      "date": "2022-03-23T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Homework 06 interview</b>"
+    },
+    {
       "date": "2022-03-24T14:30:00",
       "type": "Lab",
       "topic": "<b>Quiz 08</b></br>Lab 09: dictionaries"
@@ -177,6 +207,11 @@
       "date": "2022-03-29T14:30:00",
       "type": "Lecture",
       "topic": "Matplotlib<br><b>Homework 07 due</b>"
+    },
+    {
+      "date": "2022-03-30T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Homework 07 interview</b> (to be rescheduled)"
     },
     {
       "date": "2022-03-31T14:30:00",
