@@ -63,11 +63,13 @@ function fillSchedule(data) {
 
     // Date
     var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-    var m = months[date.getMonth()] 
+    var m = months[date.getMonth()]
+    var weekDay = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+    var wd = weekDay[date.getDay()]
     var d = date.getDate()
     if (d < 10) {d = "0" + d}
     var td = document.createElement("td")
-    td.innerHTML = m + " " + d
+    td.innerHTML = wd + ", " + m + " " + d
     row.appendChild(td)
 
     // Topic
