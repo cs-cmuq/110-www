@@ -22,7 +22,8 @@
       "date": "2022-01-16T14:30:00",
       "type": "Lecture",
       "topic": "Simplifying instructions & Abstraction",
-      "notes": "lectures/03-abstraction.pdf"
+      "notes": "lectures/03-abstraction.pdf",
+      "hw": "handouts/hw02.zip"
     },
     {
       "date": "2022-01-18T14:30:00",
