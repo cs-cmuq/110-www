@@ -28,7 +28,8 @@
     {
       "date": "2022-01-18T14:30:00",
       "type": "Lecture",
-      "topic": "Intro to Python<br><b>Homework 01 due</b> - problem solving"
+      "topic": "Intro to Python<br><b>Homework 01 due</b> - problem solving",
+      "notes": "lectures/04-algo-to-python.pdf"
     },
     {
       "date": "2022-01-19T19:00:00",
