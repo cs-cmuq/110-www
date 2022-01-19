@@ -39,7 +39,8 @@
     {
       "date": "2022-01-20T14:30:00",
       "type": "Lab",
-      "topic": "Lab 01: using IDE & gradescope"
+      "topic": "Lab 01: using IDE & gradescope",
+      "hw": "handouts/lab01.zip"
     },
     {
       "date": "2022-01-23T14:30:00",
