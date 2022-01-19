@@ -39,7 +39,7 @@
     {
       "date": "2022-01-20T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 02</b></br>Lab 01: using IDE & gradescope"
+      "topic": "Lab 01: using IDE & gradescope"
     },
     {
       "date": "2022-01-23T14:30:00",
@@ -59,7 +59,7 @@
     {
       "date": "2022-01-27T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 03</b></br>Lab 02: arithmetic and conditionals"
+      "topic": "Lab 02: arithmetic and conditionals"
     },
     {
       "date": "2022-01-30T14:30:00",
@@ -94,7 +94,7 @@
     {
       "date": "2022-02-10T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 04</b></br>Lab 03: loops"
+      "topic": "Lab 03: loops"
     },
     {
       "date": "2022-02-13T14:30:00",
@@ -114,7 +114,7 @@
     {
       "date": "2022-02-17T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 05</b></br>Lab 04: code tracing and lists"
+      "topic": "Lab 04: code tracing and lists"
     },
     {
       "date": "2022-02-20T14:30:00",
@@ -134,7 +134,7 @@
     {
       "date": "2022-02-24T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 06</b></br>Lab 05: more lists"
+      "topic": "Lab 05: more lists"
     },
     {
       "date": "2022-02-27T14:30:00",
@@ -179,7 +179,7 @@
     {
       "date": "2022-03-17T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 07</b></br>Lab 07: strings"
+      "topic": "Lab 07: strings"
     },
     {
       "date": "2022-03-20T14:30:00",
@@ -199,7 +199,7 @@
     {
       "date": "2022-03-24T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 08</b></br>Lab 08: dictionaries"
+      "topic": "Lab 08: dictionaries"
     },
     {
       "date": "2022-03-27T14:30:00",
@@ -249,7 +249,7 @@
     {
       "date": "2022-04-14T14:30:00",
       "type": "Lab",
-      "topic": "<b>Quiz 09</b></br>Lab 10: graph traversal"
+      "topic": "Lab 10: graph traversal"
     },
     {
       "date": "2022-04-17T14:30:00",
