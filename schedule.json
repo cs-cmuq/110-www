@@ -46,7 +46,8 @@
       "date": "2022-01-23T14:30:00",
       "type": "Lecture",
       "topic": "Arithmetic",
-      "notes": "lectures/05-arithmetic.pdf"
+      "notes": "lectures/05-arithmetic.pdf",
+      "hw": "handouts/hw03.zip"
     },
     {
       "date": "2022-01-25T14:30:00",
