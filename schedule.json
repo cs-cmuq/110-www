@@ -52,7 +52,8 @@
     {
       "date": "2022-01-25T14:30:00",
       "type": "Lecture",
-      "topic": "Conditionals<br><b>Homework 02 due</b> - arithmetic"
+      "topic": "Conditionals<br><b>Homework 02 due</b> - arithmetic",
+      "notes": "lectures/06-conditionals.pdf"
     },
     {
       "date": "2022-01-26T19:00:00",
@@ -62,7 +63,8 @@
     {
       "date": "2022-01-27T14:30:00",
       "type": "Lab",
-      "topic": "Lab 02: arithmetic and conditionals"
+      "topic": "Lab 02: arithmetic and conditionals",
+      "hw": "handouts/lab02.zip"
     },
     {
       "date": "2022-01-30T14:30:00",
