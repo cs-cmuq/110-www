@@ -84,7 +84,8 @@
     {
       "date": "2022-02-03T14:30:00",
       "type": "Lecture",
-      "topic": "Loops: for (in room 1185)"
+      "topic": "Loops: for (in room 1185)",
+      "notes": "lectures/07-for-loops.pdf"
     },
     {
       "date": "2022-02-06T14:30:00",
