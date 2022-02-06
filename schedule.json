@@ -90,7 +90,8 @@
     {
       "date": "2022-02-06T14:30:00",
       "type": "Lecture",
-      "topic": "Loops: while<br><b>Homework 03 due</b> - conditionals"
+      "topic": "Loops: while<br><b>Homework 03 due</b> - conditionals",
+      "notes": "lectures/08-while-loops.pdf"
     },   
     {
       "date": "2022-02-08T14:30:00",
