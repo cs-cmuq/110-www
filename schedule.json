@@ -107,7 +107,8 @@
     {
       "date": "2022-02-10T14:30:00",
       "type": "Lab",
-      "topic": "Lab 03: loops"
+      "topic": "Lab 03: loops",
+      "hw": "handouts/lab03.zip"
     },
     {
       "date": "2022-02-13T14:30:00",
