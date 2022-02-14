@@ -114,7 +114,8 @@
       "date": "2022-02-13T14:30:00",
       "type": "Lecture",
       "topic": "Code tracing & Debugging",
-      "notes": "lectures/09-trace-debug.pdf"
+      "notes": "lectures/09-trace-debug.pdf",
+      "hw": "handouts/hw05.zip"
     },
     {
       "date": "2022-02-15T14:30:00",
