@@ -120,7 +120,8 @@
     {
       "date": "2022-02-15T14:30:00",
       "type": "Lecture",
-      "topic": "Lists I<br><b>Homework 04 due</b> - loops"
+      "topic": "Lists I<br><b>Homework 04 due</b> - loops",
+      "notes": "lectures/10-lists-I.pdf"
     },
     {
       "date": "2022-02-16T19:00:00",
