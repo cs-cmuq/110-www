@@ -131,7 +131,8 @@
     {
       "date": "2022-02-17T14:30:00",
       "type": "Lab",
-      "topic": "Lab 04: code tracing and lists"
+      "topic": "Lab 04: code tracing and lists",
+      "hw": "handouts/lab04.zip"
     },
     {
       "date": "2022-02-20T14:30:00",
