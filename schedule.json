@@ -137,7 +137,8 @@
     {
       "date": "2022-02-20T14:30:00",
       "type": "Lecture",
-      "topic": "Lists II"
+      "topic": "Lists II",
+      "notes": "lectures/11-lists-II.pdf"
     },
     {
       "date": "2022-02-22T14:30:00",
