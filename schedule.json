@@ -143,7 +143,8 @@
     {
       "date": "2022-02-22T14:30:00",
       "type": "Lecture",
-      "topic": "Problem solving<br><b>Homework 05 due</b> - code tracing and lists"
+      "topic": "Problem solving<br><b>Homework 05 due</b> - code tracing and lists",
+      "notes": "lectures/12-problem-solving.pdf"
     },
     {
       "date": "2022-02-23T19:00:00",
