@@ -154,7 +154,8 @@
     {
       "date": "2022-02-24T14:30:00",
       "type": "Lab",
-      "topic": "Lab 05: more lists"
+      "topic": "Lab 05: more lists",
+      "hw": "handouts/lab05.zip"
     },
     {
       "date": "2022-02-27T14:30:00",
