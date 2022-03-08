@@ -79,7 +79,7 @@
     {
       "date": "2022-02-02T10:00:00",
       "type": "Exam",
-      "topic": "<b>Midterm I interviews</b> (no lecture)"
+      "topic": "<b>Midterm I interviews</b>"
     },
     {
       "date": "2022-02-03T14:30:00",
@@ -175,12 +175,18 @@
     {
       "date": "2022-03-06T14:30:00",
       "type": "Exam",
-      "topic": "<b>Midterm II</b>"
+      "topic": "<b>Midterm II interviews</b> (no lecture)"
+    },
+    {
+      "date": "2022-03-07T14:30:00",
+      "type": "Exam",
+      "topic": "<b>Midterm II interviews</b>"
     },
     {
       "date": "2022-03-08T14:30:00",
       "type": "Lecture",
-      "topic": "Functions"
+      "topic": "Functions",
+      "notes": "lectures/13-functions.pdf"
     },
     {
       "date": "2022-03-10T14:30:00",
