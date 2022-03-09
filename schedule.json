@@ -191,7 +191,8 @@
     {
       "date": "2022-03-10T14:30:00",
       "type": "Lab",
-      "topic": "Lab 06: functions"
+      "topic": "Lab 06: functions",
+      "hw": "handouts/lab06.zip"
     },
     {
       "date": "2022-03-13T14:30:00",
