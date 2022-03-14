@@ -198,7 +198,8 @@
       "date": "2022-03-13T14:30:00",
       "type": "Lecture",
       "topic": "Strings I",
-      "notes": "lectures/14-strings-I.pdf"
+      "notes": "lectures/14-strings-I.pdf",
+      "hw": "handouts/hw06.zip"
     },
     {
       "date": "2022-03-15T14:30:00",
