@@ -204,7 +204,8 @@
     {
       "date": "2022-03-15T14:30:00",
       "type": "Lecture",
-      "topic": "Strings II"
+      "topic": "Strings II",
+      "notes": "lectures/15-strings-II.pdf"
     },
     {
       "date": "2022-03-17T14:30:00",
