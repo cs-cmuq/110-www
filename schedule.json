@@ -241,12 +241,7 @@
     {
       "date": "2022-03-29T14:30:00",
       "type": "Lecture",
-      "topic": "Matplotlib<br><b>Homework 07 due</b> - dictionaries"
-    },
-    {
-      "date": "2022-03-30T19:00:00",
-      "type": "AsgnDue",
-      "topic": "<b>Homework 07 interview</b> (to be rescheduled)"
+      "topic": "Matplotlib<br><b>Homework 07 due at 12pm</b> - dictionaries<br><b>Homework 07 interviews at 1pm</b>"
     },
     {
       "date": "2022-03-31T14:30:00",
