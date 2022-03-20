@@ -216,7 +216,8 @@
     {
       "date": "2022-03-20T14:30:00",
       "type": "Lecture",
-      "topic": "Dictionaries I"
+      "topic": "Dictionaries I",
+      "notes": "lectures/16-dict-I.pdf"
     },
     {
       "date": "2022-03-22T14:30:00",
