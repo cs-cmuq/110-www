@@ -223,7 +223,8 @@
     {
       "date": "2022-03-22T14:30:00",
       "type": "Lecture",
-      "topic": "Dictionaries II<br><b>Homework 06 due</b> - strings"
+      "topic": "Dictionaries II<br><b>Homework 06 due</b> - strings",
+      "notes": "lectures/17-dict-II.pdf"
     },
     {
       "date": "2022-03-23T19:00:00",
