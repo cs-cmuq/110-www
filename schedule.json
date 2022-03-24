@@ -234,7 +234,8 @@
     {
       "date": "2022-03-24T14:30:00",
       "type": "Lab",
-      "topic": "Lab 08: dictionaries"
+      "topic": "Lab 08: dictionaries",
+      "hw": "handouts/lab08.zip"
     },
     {
       "date": "2022-03-27T14:30:00",
