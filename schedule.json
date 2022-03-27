@@ -240,7 +240,8 @@
     {
       "date": "2022-03-27T14:30:00",
       "type": "Lecture",
-      "topic": "I/O & Files"
+      "topic": "I/O & Files",
+      "notes": "lectures/18-files.pdf"
     },
     {
       "date": "2022-03-29T14:30:00",
