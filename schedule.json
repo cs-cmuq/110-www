@@ -261,7 +261,12 @@
     {
       "date": "2022-04-05T14:30:00",
       "type": "Exam",
-      "topic": "<b>Midterm III</b>"
+      "topic": "<b>Midterm III interviews</b> (no lecture)"
+    },
+    {
+      "date": "2022-04-06T14:30:00",
+      "type": "Exam",
+      "topic": "<b>Midterm III interviews</b>"
     },
     {
       "date": "2022-04-07T14:30:00",
