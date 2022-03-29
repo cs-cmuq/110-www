@@ -246,7 +246,8 @@
     {
       "date": "2022-03-29T14:30:00",
       "type": "Lecture",
-      "topic": "Matplotlib<br><b>Homework 07 due at 12pm</b> - dictionaries<br><b>Homework 07 interviews at 1pm</b>"
+      "topic": "Matplotlib<br><b>Homework 07 due at 12pm</b> - dictionaries<br><b>Homework 07 interviews at 1pm</b>",
+      "notes": "lectures/19-matplotlib.pdf"
     },
     {
       "date": "2022-03-31T14:30:00",
