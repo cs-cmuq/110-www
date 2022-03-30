@@ -257,7 +257,8 @@
     {
       "date": "2022-04-03T14:30:00",
       "type": "Lecture",
-      "topic": "Jupyter"
+      "topic": "Jupyter",
+      "hw": "handouts/project.pdf"
     },
     {
       "date": "2022-04-05T14:30:00",
@@ -285,6 +286,11 @@
       "topic": "Divide & Conquer<br><b>Project checkpoint</b>"
     },
     {
+      "date": "2022-04-13T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Project checkpoint interview</b>"
+    },
+    {
       "date": "2022-04-14T14:30:00",
       "type": "Lab",
       "topic": "Lab 10: graph traversal"
@@ -295,14 +301,19 @@
       "topic": "Complexity"
     },
     {
+      "date": "2022-04-18T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Project due</b>"
+    },
+    {
       "date": "2022-04-19T14:30:00",
       "type": "Lecture",
-      "topic": "TBD<br><b>Project due</b>"
+      "topic": "Project presentations (room 2152)"
     },
     {
       "date": "2022-04-21T14:30:00",
       "type": "Lab",
-      "topic": "Project presentations"
+      "topic": "Project presentations (room 1185)"
     },
     {
       "date": "2022-04-24T14:30:00",
