@@ -258,6 +258,7 @@
       "date": "2022-04-03T14:30:00",
       "type": "Lecture",
       "topic": "Jupyter",
+      "notes": "lectures/20-jupyter.zip",
       "hw": "handouts/project.pdf"
     },
     {
