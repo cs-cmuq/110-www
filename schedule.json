@@ -284,7 +284,12 @@
     {
       "date": "2022-04-12T14:30:00",
       "type": "Lecture",
-      "topic": "Divide & Conquer<br><b>Project checkpoint interview</b>"
+      "topic": "Divide & Conquer<br>"
+    },
+    {
+      "date": "2022-04-13T13:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Project checkpoint interview</b>"
     },
     {
       "date": "2022-04-14T14:30:00",
