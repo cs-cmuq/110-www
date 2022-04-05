@@ -274,7 +274,8 @@
     {
       "date": "2022-04-07T14:30:00",
       "type": "Lab",
-      "topic": "Lab 09: Jupyter and Matplotlib"
+      "topic": "Lab 09: Jupyter and Matplotlib",
+      "hw": "handouts/lab09.zip"
     },
     {
       "date": "2022-04-10T14:30:00",
