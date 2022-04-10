@@ -280,7 +280,8 @@
     {
       "date": "2022-04-10T14:30:00",
       "type": "Lecture",
-      "topic": "Graphs"
+      "topic": "Graphs",
+      "notes": "lectures/21-graphs.zip"
     },
     {
       "date": "2022-04-12T14:30:00",
