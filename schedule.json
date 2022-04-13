@@ -297,7 +297,8 @@
     {
       "date": "2022-04-14T14:30:00",
       "type": "Lab",
-      "topic": "Lab 10: graph traversal"
+      "topic": "Lab 10: graph traversal",
+      "hw": "handouts/lab10.zip"
     },
     {
       "date": "2022-04-17T14:30:00",
