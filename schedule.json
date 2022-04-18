@@ -303,7 +303,8 @@
     {
       "date": "2022-04-17T14:30:00",
       "type": "Lecture",
-      "topic": "Complexity"
+      "topic": "Complexity",
+      "notes": "lectures/23-complexity.pdf"
     },
     {
       "date": "2022-04-18T19:00:00",
