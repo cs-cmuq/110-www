@@ -124,7 +124,6 @@ function fillSchedule(data) {
     td.innerHTML = hw
     row.appendChild(td)
 
-      
     // Practice
     var practice = day.practice
     var td = document.createElement("td")
@@ -133,7 +132,6 @@ function fillSchedule(data) {
 	practice_link = "<a href=\"" + practice + "\">[Excercises]</a>"
 	content = practice_link
     }
-    
     td.innerHTML = content
     row.appendChild(td)
   
