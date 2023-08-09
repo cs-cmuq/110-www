@@ -5,10 +5,10 @@
       "type": "Lecture",
       "topic": "Introduction, fundamental concepts",
       "notes": "lectures/01-algorithm.pdf",
-      "slides": "",
+      "slides": "lectures/01-algorithm.pdf",
       "noteb": "",
       "hw": "",
-      "practice": ""
+      "practice": "lectures/01-algorithm.pdf"
     },
     {
       "date": "2023-08-22T14:30:00",

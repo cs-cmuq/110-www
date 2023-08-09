@@ -123,11 +123,18 @@ function fillSchedule(data) {
     var td = document.createElement("td")
     td.innerHTML = hw
     row.appendChild(td)
-  
+
+      
     // Practice
     var practice = day.practice
     var td = document.createElement("td")
-    td.innerHTML = hw
+    var content = ""
+    if (practice != "") {
+	practice_link = "<a href=\"" + practice + "\">[Excercises]</a>"
+	content = practice_link
+    }
+    
+    td.innerHTML = content
     row.appendChild(td)
   
     tbody.appendChild(row)
