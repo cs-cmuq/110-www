@@ -5,7 +5,7 @@
       "type": "Lecture",
       "topic": "Introduction, fundamental concepts",
       "notes": "lectures/01-algorithm.pdf",
-      "slides": "lectures/110-F21-1-Intro.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -15,7 +15,7 @@
       "type": "Lecture",
       "topic": "Algorithms and abstraction",
       "notes": "lectures/02-algorithm2.pdf",
-      "slides": "lectures/110-F21-2-Algorithms.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -24,7 +24,7 @@
       "date": "2023-08-24T14:30:00",
       "type": "Lab",
       "topic": "lab01: Quiz",
-      "slides": "lectures/110-F21-Lab-1.pdf",
+      "slides": "",
       "notes": "",
       "noteb": "",
       "hw": "",
@@ -35,7 +35,7 @@
       "type": "Lecture",
       "topic": "Simplifying instructions and abstraction",
       "notes": "lectures/03-abstraction.pdf",
-      "slides": "lectures/110-F21-4-Abstraction.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -45,19 +45,9 @@
       "type": "Lecture",
       "topic": "From algorithms to python",
       "notes": "lectures/04-algo-to-python.pdf",
-      "slides": "lectures/110-F21-5-SimplePython.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-08-31T23:59:00",
-      "type": "AsgnDue",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",     
-      "hw": "hw01 due",
       "practice": ""
     },
     {
@@ -75,7 +65,7 @@
       "type": "Lecture",
       "topic": "Arithmetic",
       "notes": "lectures/05-arithmetic.pdf",
-      "slides": "lectures/110-F21-6-Types_Arithmetics.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -85,7 +75,7 @@
       "type": "Lecture",
       "topic": "Conditionals",
       "notes": "lectures/06-conditionals.pdf",
-      "slides": "lectures/110-F21-7-Bool_Conditionals.pdf",
+      "slides": "",
       "noteb": "",     
       "hw": "",
       "practice": ""
@@ -125,7 +115,7 @@
       "type": "Lecture",
       "topic": "For Loops",
       "notes": "lectures/07-for-loops.pdf",
-      "slides": "lectures/110-F21-8-ForLoops.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -155,7 +145,7 @@
       "type": "Lecture",
       "topic": "While Loops",
       "notes": "lectures/08-while-loops.pdf",
-      "slides": "lectures/110-F21-9-WhileLoops.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -185,7 +175,7 @@
       "type": "Lecture",
       "topic": "Code tracing & debugging",
       "notes": "lectures/09-trace-debug.pdf",
-      "slides": "lectures/110-F21-10-Debug_Loops.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -195,7 +185,7 @@
       "type": "Lecture",
       "topic": "Lists I",
       "notes": "lectures/10-lists-I.pdf",
-      "slides": "lectures/110-F21-11-Lists_1.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -225,7 +215,7 @@
       "type": "Lecture",      
       "topic": "Lists II",
       "notes": "lectures/11-lists-II.pdf",
-      "slides": "lectures/110-F21-12-Lists_2.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -235,7 +225,7 @@
       "type": "Lecture",      
       "topic": "Lists III, Problem solving",
       "notes": "lectures/12-problem-solving.pdf",
-      "slides": "lectures/110-F21-13-Lists_3.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -295,7 +285,7 @@
       "type": "Lecture",
       "topic": "Functions",
       "notes": "lectures/13-functions.pdf",
-      "slides": "lectures/110-F21-14-Functions.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -325,7 +315,7 @@
       "type": "Lecture",
       "topic": "Strings I",
       "notes": "lectures/14-strings-I.pdf",
-      "slides": "lectures/110-F21-15-Strings_1.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -335,7 +325,7 @@
       "type": "Lecture",
       "topic": "Strings II",
       "notes": "lectures/15-strings-II.pdf",
-      "slides": "lectures/110-F21-16-Strings_2.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -365,7 +355,7 @@
       "type": "Lecture",
       "topic": "Dictionaries I",
       "notes": "lectures/16-dict-I.pdf",
-      "slides": "lectures/110-F21-17-Dictionaries_1.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -375,7 +365,7 @@
       "type": "Lecture",
       "topic": "Dictionaries II",
       "notes": "lectures/17-dict-II.pdf",
-      "slides": "lectures/110-F21-18-Dictionaries_2.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "practice": ""
@@ -406,7 +396,7 @@
       "topic": "Jupyter notebooks",
       "notes": "lectures/110-S21-19-Jupyter_notebooks.pdf",
       "slides": "",
-      "noteb": "lectures/110-F21-19-Intro_notebooks.ipynb",
+      "noteb": "",
       "hw": "",
       "practice": ""
     },
@@ -416,7 +406,7 @@
       "topic": "I/O Files I",
       "notes": "lectures/110-S21-20-IO_Files.pdf",
       "slides": "",
-      "noteb": "lectures/110-S21-20-IO_Files.ipynb",
+      "noteb": "",
       "hw": "",
       "practice": ""
     },
@@ -444,9 +434,9 @@
       "date": "2023-11-14T14:30:00",
       "type": "Lecture",
       "topic": "I/O Files II + notebook practice",
-      "notes": "lectures/110-S21-20-IO_Files.pdf",
+      "notes": "",
       "slides": "",
-      "noteb": "lectures/110-S21-20-IO_Files.ipynb",
+      "noteb": "",
       "hw": "",
       "practice": ""
     },
@@ -456,7 +446,7 @@
       "topic": "Matplotlib I",
       "notes": "lectures/19-matplotlib.pdf",
       "slides": "",
-      "noteb": "lectures/110-S21-Matplotlib-1.ipynb",
+      "noteb": "",
       "hw": "",
       "practice": ""
     },
@@ -476,7 +466,7 @@
       "topic": "Midterm review",
       "notes": "",
       "slides": "",
-      "noteb": "lectures/110-S21-Matplotlib-2.ipynb",
+      "noteb": "",
       "hw": "",
       "practice": ""
     },
@@ -506,7 +496,7 @@
       "topic": "lab: Problem solving in python",
       "notes": "",
       "slides": "",
-      "noteb": "lectures/Final_hints.ipynb",
+      "noteb": "",
       "hw": "",
       "practice": ""
     },
