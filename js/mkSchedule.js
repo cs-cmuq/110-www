@@ -25,9 +25,15 @@ function fillSchedule(data) {
   
   var th_asg = document.createElement("th")
   th_asg.setAttribute("scope", "col")
-  th_asg.innerHTML = "Assignment"
+  th_asg.innerHTML = "HW due"
   thead.appendChild(th_asg)
-  
+
+  var th_practice = document.createElement("th")
+  th_practice.setAttribute("scope", "col")
+  th_practice.innerHTML = "Practice excercises"
+  thead.appendChild(th_practice)
+
+    
   document.getElementById("scheduleTable").appendChild(thead)
 
   var tbody = document.createElement("tbody")
@@ -63,13 +69,11 @@ function fillSchedule(data) {
 
     // Date
     var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-    var m = months[date.getMonth()]
-    var weekDay = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
-    var wd = weekDay[date.getDay()]
+    var m = months[date.getMonth()] 
     var d = date.getDate()
     if (d < 10) {d = "0" + d}
     var td = document.createElement("td")
-    td.innerHTML = wd + ", " + m + " " + d
+    td.innerHTML = m + " " + d
     row.appendChild(td)
 
     // Topic
@@ -79,38 +83,55 @@ function fillSchedule(data) {
     row.appendChild(td)
 
     // Handout
+    var notes = day.notes
+    var noteb = day.noteb
+    var slides = day.slides
     var td = document.createElement("td")
-    
     var notes_link = ""
-    if (day['notes']) {
-	notes_link = "<a href=\"" + day.notes + "\">Notes</a>"
+    if (notes != "") {
+	notes_link = "<a href=\"" + notes + "\">[Technical notes]</a>"
     }
-    
-    var code_link = ""
-    if (day['code']) {
-      code_link = "<a href=\"" + day.code + "\">Notebook</a>"
+    var noteb_link = ""
+    if (noteb != "") {
+      noteb_link = "<a href=\"" + code + "\">[Notebook]</a>"
     }
-    
     var slides_link = ""
-    if (day['slides']) {
-      slides_link = "<a href=\"" + day.slides + "\">Lecture Slides</a>"
+    if (slides != "") {
+      slides_link = "<a href=\"" + slides + "\">[Lecture PDF]</a>"
     }
-
-    var content = [notes_link, slides_link, code_link].filter(function(link){return link != ""}).join(", ")
+    var content = ""
+    if (noteb_link != "" && notes_link != "" && slides_link != "") {
+      content = noteb_link + ", " + slides_link + ", " + notes_link
+    }
+    else if (noteb_link != "" && notes_link != "") {
+      content = noteb_link + ", " + notes_link
+    }
+    else if (slides_link != "" && notes_link != "") {
+      content = slides_link + ", " + notes_link
+    }
+    else if (slides_link != "") {
+      content = slides_link
+    }
+    else {
+      content = noteb_link + notes_link
+    }
     td.innerHTML = content
     row.appendChild(td)
-   
-    // Homework
-    var td = document.createElement("td")
-    var hw_link = ""
-    if (day['hw']) {
-      parts = day.hw.split("/") 
-      link_name = parts[parts.length-1]
-      hw_link = "<a href=\"" + day.hw + "\">" + link_name + "</a>"
-    }
-    td.innerHTML = hw_link
-    row.appendChild(td)
     
+    // Homework
+    var hw = day.hw
+    var td = document.createElement("td")
+    td.innerHTML = hw
+    row.appendChild(td)
+  
+    tbody.appendChild(row)
+
+    // Practice
+    var practice = day.practice
+    var td = document.createElement("td")
+    td.innerHTML = hw
+    row.appendChild(td)
+  
     tbody.appendChild(row)
   }
   document.getElementById("scheduleTable").appendChild(tbody)
