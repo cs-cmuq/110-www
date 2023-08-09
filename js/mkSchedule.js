@@ -93,7 +93,7 @@ function fillSchedule(data) {
     }
     var noteb_link = ""
     if (noteb != "") {
-      noteb_link = "<a href=\"" + code + "\">[Notebook]</a>"
+      noteb_link = "<a href=\"" + noteb + "\">[Notebook]</a>"
     }
     var slides_link = ""
     if (slides != "") {
