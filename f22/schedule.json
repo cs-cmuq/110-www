@@ -1,0 +1,330 @@
+{
+  "schedule": [
+    {
+      "date": "2022-01-09T14:30:00",
+      "type": "Lecture",
+      "topic": "Course intro & problem solving",
+      "notes": "lectures/01-algorithm.pdf",
+      "hw": "handouts/hw01.zip"
+    },
+    {
+      "date": "2022-01-11T14:30:00",
+      "type": "Lecture",
+      "topic": "Algorithms",
+      "notes": "lectures/02-algorithm2.pdf"
+    },
+    {
+      "date": "2022-01-13T14:30:00",
+      "type": "Lab",
+      "topic": "<b>Quiz 01</b></br>"
+    },
+    {
+      "date": "2022-01-16T14:30:00",
+      "type": "Lecture",
+      "topic": "Simplifying instructions & Abstraction",
+      "notes": "lectures/03-abstraction.pdf",
+      "hw": "handouts/hw02.zip"
+    },
+    {
+      "date": "2022-01-18T14:30:00",
+      "type": "Lecture",
+      "topic": "Intro to Python<br><b>Homework 01 due</b> - problem solving",
+      "notes": "lectures/04-algo-to-python.pdf"
+    },
+    {
+      "date": "2022-01-19T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Homework 01 interview</b>"
+    },
+    {
+      "date": "2022-01-20T14:30:00",
+      "type": "Lab",
+      "topic": "Lab 01: using IDE & gradescope",
+      "hw": "handouts/lab01.zip"
+    },
+    {
+      "date": "2022-01-23T14:30:00",
+      "type": "Lecture",
+      "topic": "Arithmetic",
+      "notes": "lectures/05-arithmetic.pdf",
+      "hw": "handouts/hw03.zip"
+    },
+    {
+      "date": "2022-01-25T14:30:00",
+      "type": "Lecture",
+      "topic": "Conditionals<br><b>Homework 02 due</b> - arithmetic",
+      "notes": "lectures/06-conditionals.pdf"
+    },
+    {
+      "date": "2022-01-26T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Homework 02 interview</b>"
+    },
+    {
+      "date": "2022-01-27T14:30:00",
+      "type": "Lab",
+      "topic": "Lab 02: arithmetic and conditionals",
+      "hw": "handouts/lab02.zip"
+    },
+    {
+      "date": "2022-01-30T14:30:00",
+      "type": "NoClass",
+      "topic": "BREAK"
+    },
+    {
+      "date": "2022-02-01T10:00:00",
+      "type": "Exam",
+      "topic": "<b>Midterm I interviews</b> (no lecture)"
+    },
+    {
+      "date": "2022-02-02T10:00:00",
+      "type": "Exam",
+      "topic": "<b>Midterm I interviews</b>"
+    },
+    {
+      "date": "2022-02-03T14:30:00",
+      "type": "Lecture",
+      "topic": "Loops: for (in room 1185)",
+      "notes": "lectures/07-for-loops.pdf"
+    },
+    {
+      "date": "2022-02-06T14:30:00",
+      "type": "Lecture",
+      "topic": "Loops: while<br><b>Homework 03 due</b> - conditionals",
+      "notes": "lectures/08-while-loops.pdf",
+      "hw": "handouts/hw04.zip"
+    },   
+    {
+      "date": "2022-02-08T14:30:00",
+      "type": "NoClass",
+      "topic": "SPORTS DAY"
+    },
+    {
+      "date": "2022-02-09T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Homework 03 interview</b>"
+    },
+    {
+      "date": "2022-02-10T14:30:00",
+      "type": "Lab",
+      "topic": "Lab 03: loops",
+      "hw": "handouts/lab03.zip"
+    },
+    {
+      "date": "2022-02-13T14:30:00",
+      "type": "Lecture",
+      "topic": "Code tracing & Debugging",
+      "notes": "lectures/09-trace-debug.pdf",
+      "hw": "handouts/hw05.zip"
+    },
+    {
+      "date": "2022-02-15T14:30:00",
+      "type": "Lecture",
+      "topic": "Lists I<br><b>Homework 04 due</b> - loops",
+      "notes": "lectures/10-lists-I.pdf"
+    },
+    {
+      "date": "2022-02-16T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Homework 04 interview</b>"
+    },
+    {
+      "date": "2022-02-17T14:30:00",
+      "type": "Lab",
+      "topic": "Lab 04: code tracing and lists",
+      "hw": "handouts/lab04.zip"
+    },
+    {
+      "date": "2022-02-20T14:30:00",
+      "type": "Lecture",
+      "topic": "Lists II",
+      "notes": "lectures/11-lists-II.pdf"
+    },
+    {
+      "date": "2022-02-22T14:30:00",
+      "type": "Lecture",
+      "topic": "Problem solving<br><b>Homework 05 due</b> - code tracing and lists",
+      "notes": "lectures/12-problem-solving.pdf"
+    },
+    {
+      "date": "2022-02-23T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Homework 05 interview</b>"
+    },
+    {
+      "date": "2022-02-24T14:30:00",
+      "type": "Lab",
+      "topic": "Lab 05: more lists",
+      "hw": "handouts/lab05.zip"
+    },
+    {
+      "date": "2022-02-27T14:30:00",
+      "type": "NoClass",
+      "topic": "SPRING BREAK"
+    },
+    {
+      "date": "2022-03-01T14:30:00",
+      "type": "NoClass",
+      "topic": "SPRING BREAK"
+    },      
+    {
+      "date": "2022-03-03T14:30:00",
+      "type": "NoClass",
+      "topic": "SPRING BREAK"
+    },
+    {
+      "date": "2022-03-06T14:30:00",
+      "type": "Exam",
+      "topic": "<b>Midterm II interviews</b> (no lecture)"
+    },
+    {
+      "date": "2022-03-07T14:30:00",
+      "type": "Exam",
+      "topic": "<b>Midterm II interviews</b>"
+    },
+    {
+      "date": "2022-03-08T14:30:00",
+      "type": "Lecture",
+      "topic": "Functions",
+      "notes": "lectures/13-functions.pdf"
+    },
+    {
+      "date": "2022-03-10T14:30:00",
+      "type": "Lab",
+      "topic": "Lab 06: functions",
+      "hw": "handouts/lab06.zip"
+    },
+    {
+      "date": "2022-03-13T14:30:00",
+      "type": "Lecture",
+      "topic": "Strings I",
+      "notes": "lectures/14-strings-I.pdf",
+      "hw": "handouts/hw06.zip"
+    },
+    {
+      "date": "2022-03-15T14:30:00",
+      "type": "Lecture",
+      "topic": "Strings II",
+      "notes": "lectures/15-strings-II.pdf"
+    },
+    {
+      "date": "2022-03-17T14:30:00",
+      "type": "Lab",
+      "topic": "Lab 07: strings",
+      "hw": "handouts/lab07.zip"
+    },
+    {
+      "date": "2022-03-20T14:30:00",
+      "type": "Lecture",
+      "topic": "Dictionaries I",
+      "notes": "lectures/16-dict-I.pdf",
+      "hw": "handouts/hw07.zip"
+    },
+    {
+      "date": "2022-03-22T14:30:00",
+      "type": "Lecture",
+      "topic": "Dictionaries II<br><b>Homework 06 due</b> - strings",
+      "notes": "lectures/17-dict-II.pdf"
+    },
+    {
+      "date": "2022-03-23T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Homework 06 interview</b>"
+    },
+    {
+      "date": "2022-03-24T14:30:00",
+      "type": "Lab",
+      "topic": "Lab 08: dictionaries",
+      "hw": "handouts/lab08.zip"
+    },
+    {
+      "date": "2022-03-27T14:30:00",
+      "type": "Lecture",
+      "topic": "I/O & Files",
+      "notes": "lectures/18-files.pdf"
+    },
+    {
+      "date": "2022-03-29T14:30:00",
+      "type": "Lecture",
+      "topic": "Matplotlib<br><b>Homework 07 due at 12pm</b> - dictionaries<br><b>Homework 07 interviews at 1pm</b>",
+      "notes": "lectures/19-matplotlib.pdf"
+    },
+    {
+      "date": "2022-03-31T14:30:00",
+      "type": "NoClass",
+      "topic": "BREAK"
+    },
+    {
+      "date": "2022-04-03T14:30:00",
+      "type": "Lecture",
+      "topic": "Jupyter",
+      "notes": "lectures/20-jupyter.zip",
+      "hw": "handouts/project.pdf"
+    },
+    {
+      "date": "2022-04-05T14:30:00",
+      "type": "Exam",
+      "topic": "<b>Midterm III interviews</b> (no lecture)"
+    },
+    {
+      "date": "2022-04-06T14:30:00",
+      "type": "Exam",
+      "topic": "<b>Midterm III interviews</b>"
+    },
+    {
+      "date": "2022-04-07T14:30:00",
+      "type": "Lab",
+      "topic": "Lab 09: Jupyter and Matplotlib",
+      "hw": "handouts/lab09.zip"
+    },
+    {
+      "date": "2022-04-10T14:30:00",
+      "type": "Lecture",
+      "topic": "Graphs",
+      "notes": "lectures/21-graphs.zip"
+    },
+    {
+      "date": "2022-04-12T14:30:00",
+      "type": "Lecture",
+      "topic": "Divide & Conquer<br>",
+      "notes": "lectures/22-divide-and-conquer.pdf"
+    },
+    {
+      "date": "2022-04-13T13:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Project checkpoint interview</b>"
+    },
+    {
+      "date": "2022-04-14T14:30:00",
+      "type": "Lab",
+      "topic": "Lab 10: graph traversal",
+      "hw": "handouts/lab10.zip"
+    },
+    {
+      "date": "2022-04-17T14:30:00",
+      "type": "Lecture",
+      "topic": "Complexity",
+      "notes": "lectures/23-complexity.pdf"
+    },
+    {
+      "date": "2022-04-18T19:00:00",
+      "type": "AsgnDue",
+      "topic": "<b>Project due</b>"
+    },
+    {
+      "date": "2022-04-19T14:30:00",
+      "type": "Lecture",
+      "topic": "Project presentations (room 2152)"
+    },
+    {
+      "date": "2022-04-21T14:30:00",
+      "type": "Lab",
+      "topic": "Project presentations (room 1185)"
+    },
+    {
+      "date": "2022-04-24T14:30:00",
+      "type": "Exam",
+      "topic": "<b>Final Exam</b> (date and time to be announced)"
+    }
+  ]
+}
