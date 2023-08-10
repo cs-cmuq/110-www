@@ -28,9 +28,14 @@ function fillSchedule(data) {
   th_asg.innerHTML = "HW due"
   thead.appendChild(th_asg)
 
+  var th_lab = document.createElement("th")
+  th_lab.setAttribute("scope", "col")
+  th_lab.innerHTML = "Lab tests"
+  thead.appendChild(th_lab)
+    
   var th_practice = document.createElement("th")
   th_practice.setAttribute("scope", "col")
-  th_practice.innerHTML = "Practice excercises"
+  th_practice.innerHTML = "Practice"
   thead.appendChild(th_practice)
 
     
@@ -124,12 +129,23 @@ function fillSchedule(data) {
     td.innerHTML = hw
     row.appendChild(td)
 
+    // Lab
+    var lab = day.lab
+    var td = document.createElement("td")
+    var content = ""
+    if (lab != "") {
+	lab_link = "<a href=\"" + lab + "\">[Lab]</a>"
+	content = lab_link
+    }
+    td.innerHTML = content
+    row.appendChild(td)
+      
     // Practice
     var practice = day.practice
     var td = document.createElement("td")
     var content = ""
     if (practice != "") {
-	practice_link = "<a href=\"" + practice + "\">[Excercises]</a>"
+	practice_link = "<a href=\"" + practice + "\">Excercises</a>"
 	content = practice_link
     }
     td.innerHTML = content

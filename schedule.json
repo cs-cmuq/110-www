@@ -8,6 +8,7 @@
       "slides": "lectures/110-F23-1-Intro.pdf",
       "noteb": "",
       "hw": "",
+      "lab": "",
       "practice": ""
     },
     {
@@ -17,16 +18,20 @@
       "notes": "lectures/02-algorithm2.pdf",
       "slides": "lectures/110-F23-2-Algorithms.pdf",
       "noteb": "",
-      "hw": ""    
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-08-26T14:30:00",
       "type": "Lab",
-      "topic": "lab01: Quiz",
-      "slides": "lectures/110-F23-Lab-1.pdf",
+      "topic": "Quiz01 + Lab01",
       "notes": "",
-      "code": "",
-      "hw": ""
+      "slides": "lectures/110-F23-Lab-1.pdf",
+      "noteb": "",
+      "hw": "",
+      "lab": "lectures/110-F23-Lab-1.pdf",
+      "practice": "lectures/110-F23-Lab-1.pdf"
     },
     {
       "date": "2023-08-29T14:30:00",
@@ -34,8 +39,10 @@
       "topic": "Simplifying instructions and abstraction",
       "notes": "lectures/03-abstraction.pdf",
       "slides": "lectures/110-F23-4-Abstraction.pdf",
-      "code": "",
-      "hw": ""
+      "noteb": "",
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-08-31T14:30:00",
@@ -43,8 +50,10 @@
       "topic": "From algorithms to python",
       "notes": "lectures/04-algo-to-python.pdf",
       "slides": "lectures/110-F23-5-SimplePython.pdf",
-      "code": "",
-      "hw": ""
+      "noteb": "",
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-02T23:59:00",
@@ -53,7 +62,9 @@
       "notes": "",
       "slides": "",
       "noteb": "",     
-      "hw": "hw01 due"
+      "hw": "hw01 due",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-02T14:30:00",
@@ -62,7 +73,9 @@
       "notes": "",
       "slides": "",
       "noteb": "",     
-      "hw": ""
+      "hw": "",
+      "lab": "lectures/110-F23-5-SimplePython.pdf",
+      "practice": "lectures/110-F23-5-SimplePython.pdf"
     },
     {
       "date": "2023-09-05T14:30:00",
@@ -71,7 +84,9 @@
       "notes": "lectures/05-arithmetic.pdf",
       "slides": "lectures/110-F23-6-Types_Arithmetics.pdf",
       "noteb": "",
-      "hw": ""
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-07T14:30:00",
@@ -80,7 +95,9 @@
       "notes": "lectures/06-conditionals.pdf",
       "slides": "lectures/110-F23-7-Bool_Conditionals.pdf",
       "noteb": "",     
-      "hw": ""
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-09T23:59:00",
@@ -89,7 +106,9 @@
       "notes": "",
       "slides": "",
       "noteb": "",     
-      "hw": "hw02 due"
+      "hw": "hw02 due",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-09T14:30:00",
@@ -98,7 +117,9 @@
       "notes": "",
       "slides": "",
       "noteb": "",
-      "hw": ""
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-12T14:30:00",
@@ -107,7 +128,9 @@
       "notes": "",
       "slides": "",
       "noteb": "",
-      "hw": ""
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-14T14:30:00",
@@ -116,7 +139,9 @@
       "notes": "lectures/07-for-loops.pdf",
       "slides": "lectures/110-F23-8-ForLoops.pdf",
       "noteb": "",
-      "hw": ""
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },   
     {
       "date": "2023-09-16T14:30:00",
@@ -125,7 +150,9 @@
       "notes": "",
       "slides": "",
       "noteb": "",
-      "hw": ""
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-19T14:30:00",
@@ -134,7 +161,9 @@
       "notes": "",
       "slides": "",
       "noteb": "",
-      "hw": ""
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-21T14:30:00",
@@ -143,7 +172,9 @@
       "notes": "lectures/08-while-loops.pdf",
       "slides": "lectures/110-F23-9-WhileLoops.pdf",
       "noteb": "",
-      "hw": ""
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-23T23:59:00",
@@ -152,7 +183,9 @@
       "notes": "",
       "slides": "",
       "noteb": "",     
-      "hw": "hw03 due"
+      "hw": "hw03 due",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-23T14:30:00",
@@ -161,7 +194,9 @@
       "notes": "",
       "slides": "",
       "noteb": "",
-      "hw": ""
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-26T14:30:00",
@@ -169,8 +204,10 @@
       "topic": "Code tracing & debugging",
       "notes": "lectures/09-trace-debug.pdf",
       "slides": "lectures/110-F23-10-Debug_Loops.pdf",
-      "code": "",
-      "hw": ""
+      "noteb": "",
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-28T14:30:00",
@@ -179,7 +216,9 @@
       "notes": "lectures/10-lists-I.pdf",
       "slides": "lectures/110-F23-11-Lists_1.pdf",
       "noteb": "",
-      "hw": ""
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-30T23:59:00",
@@ -188,7 +227,9 @@
       "notes": "",
       "slides": "",
       "noteb": "",     
-      "hw": "hw04 due"
+      "hw": "hw04 due",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-09-30T14:30:00",
@@ -197,7 +238,9 @@
       "notes": "",
       "slides": "",
       "noteb": "",
-      "hw": ""
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },
     {
       "date": "2023-10-03T14:30:00",
