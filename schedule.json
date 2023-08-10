@@ -249,13 +249,15 @@
       "notes": "lectures/11-lists-II.pdf",
       "slides": "",
       "noteb": "",
-      "hw": ""
+      "hw": "",
+      "lab": "",
+      "practice": ""
     },      
     {
       "date": "2023-10-03T14:30:00",
       "type": "Lecture",      
       "topic": "Lists III, Problem solving",
-      "notes": "lectures/12-problem-solving.pdf",
+      "notes": "lectures/11-lists-II.pdf",
       "slides": "",
       "noteb": "",
       "hw": "",
@@ -539,9 +541,9 @@
     },
     {
       "date": "2023-11-23T14:30:00",
-      "type": "Lab",
-      "topic": "Lab13: Matplotlib + Project checkpoint",
-      "notes": "",
+      "type": "Lecture",
+      "topic": "Divide-and-Conquer approach",
+      "notes": "lectures/22-divide-and-conquer.pdf",
       "slides": "",
       "noteb": "",
       "hw": "",
@@ -550,9 +552,9 @@
     },
     {
       "date": "2023-11-26T14:30:00",
-      "type": "Lab",
-      "topic": "Lab14: Problem solving in python",
-      "notes": "",
+      "type": "Lecture",
+      "topic": "Algorithm complexity",
+      "notes": "lectures/23-complexity.pdf",
       "slides": "",
       "noteb": "",
       "hw": "",
