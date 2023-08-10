@@ -25,9 +25,9 @@
     {
       "date": "2023-08-24T14:30:00",
       "type": "Lab",
-      "topic": "Quiz01 + Lab01",
+      "topic": "Quiz01, Lab01: Problem solving ",
       "notes": "",
-      "slides": "lectures/110-F23-Lab-1.pdf",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "lab": "lectures/110-F23-Lab-1.pdf",
@@ -69,7 +69,7 @@
     {
       "date": "2023-08-31T14:30:00",
       "type": "Lab",
-      "topic": "lab02: Quiz + using autolab",
+      "topic": "Quiz02, Lab02: IDE, Autolab",
       "notes": "",
       "slides": "",
       "noteb": "",     
@@ -113,7 +113,7 @@
     {
       "date": "2023-09-07T14:30:00",
       "type": "Lab",
-      "topic": "lab03: Quiz + conditionals practice",
+      "topic": "Quiz03, Lab03: arithmetics, conditionals",
       "notes": "",
       "slides": "",
       "noteb": "",
@@ -146,7 +146,7 @@
     {
       "date": "2023-09-14T14:30:00",
       "type": "Lab",
-      "topic": "lab04: Quiz + for loops practice",
+      "topic": "Quiz04, Lab04: for loops",
       "notes": "",
       "slides": "",
       "noteb": "",
@@ -190,7 +190,7 @@
     {
       "date": "2023-09-21T14:30:00",
       "type": "Lab",
-      "topic": "lab05: Quiz + while loops practice",
+      "topic": "Quiz05, Lab05: while loops",
       "notes": "",
       "slides": "",
       "noteb": "",
@@ -234,7 +234,7 @@
     {
       "date": "2023-09-28T14:30:00",
       "type": "Lab",
-      "topic": "lab06: Quiz + lists practice",
+      "topic": "Quiz06, Lab06: lists",
       "notes": "",
       "slides": "",
       "noteb": "",
@@ -276,7 +276,7 @@
     {
       "date": "2023-10-05T14:30:00",
       "type": "Lab",
-      "topic": "lab07: Quiz + lists practice",
+      "topic": "Quiz07, Lab07: lists",
       "notes": "",
       "slides": "",
       "noteb": "",
@@ -331,7 +331,7 @@
     {
       "date": "2023-10-17T14:30:00",
       "type": "Lecture",
-      "topic": "Lab: Functions + Midterm review",
+      "topic": "Lab08: Functions + Midterm review",
       "notes": "",
       "slides": "",
       "noteb": "",
@@ -386,7 +386,7 @@
     {
       "date": "2023-10-26T14:30:00",
       "type": "Lab",
-      "topic": "lab09: Quiz + strings practice",
+      "topic": "Quiz08, Lab09: strings",
       "notes": "",
       "slides": "",
       "noteb": "",
@@ -430,7 +430,7 @@
     {
       "date": "2023-11-02T14:30:00",
       "type": "Lab",
-      "topic": "lab10: Quiz + dictionaries practice",
+      "topic": "Quiz09, Lab10: dictionaries",
       "notes": "",
       "slides": "",
       "noteb": "",
@@ -474,7 +474,7 @@
     {
       "date": "2023-11-09T14:30:00",
       "type": "Lab",
-      "topic": "lab10: Quiz + file practice",
+      "topic": "Quiz10, Lab11: I/O files",
       "notes": "",
       "slides": "",
       "noteb": "",
@@ -507,7 +507,7 @@
     {
       "date": "2023-11-16T14:30:00",
       "type": "Lecture",
-      "topic": "lab12: Quiz + Matplotlib and files practice",
+      "topic": "Quiz11, Lab12: Matplotlib, files",
       "notes": "",
       "slides": "",
       "noteb": "",
@@ -540,7 +540,7 @@
     {
       "date": "2023-11-23T14:30:00",
       "type": "Lab",
-      "topic": "lab: Matplotlib practice + Project checkpoint",
+      "topic": "Lab13: Matplotlib + Project checkpoint",
       "notes": "",
       "slides": "",
       "noteb": "",
@@ -551,7 +551,7 @@
     {
       "date": "2023-11-26T14:30:00",
       "type": "Lab",
-      "topic": "lab: Problem solving in python",
+      "topic": "Lab14: Problem solving in python",
       "notes": "",
       "slides": "",
       "noteb": "lectures/Final_hints.ipynb",
