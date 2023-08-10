@@ -1,7 +1,7 @@
 {
   "schedule": [
     {
-      "date": "2023-08-22T14:30:00",
+      "date": "2023-08-20T14:30:00",
       "type": "Lecture",
       "topic": "Introduction, fundamental concepts",
       "notes": "lectures/01-algorithm.pdf",
@@ -12,7 +12,7 @@
       "practice": ""
     },
     {
-      "date": "2023-08-24T14:30:00",
+      "date": "2023-08-22T14:30:00",
       "type": "Lecture",
       "topic": "Algorithms and abstraction",
       "notes": "lectures/02-algorithm2.pdf",
@@ -23,7 +23,7 @@
       "practice": ""
     },
     {
-      "date": "2023-08-26T14:30:00",
+      "date": "2023-08-24T14:30:00",
       "type": "Lab",
       "topic": "Quiz01 + Lab01",
       "notes": "",
@@ -34,7 +34,7 @@
       "practice": "lectures/110-F23-Lab-1.pdf"
     },
     {
-      "date": "2023-08-29T14:30:00",
+      "date": "2023-08-27T14:30:00",
       "type": "Lecture",
       "topic": "Simplifying instructions and abstraction",
       "notes": "lectures/03-abstraction.pdf",
@@ -45,7 +45,7 @@
       "practice": ""
     },
     {
-      "date": "2023-08-31T14:30:00",
+      "date": "2023-08-29T14:30:00",
       "type": "Lecture",
       "topic": "From algorithms to python",
       "notes": "lectures/04-algo-to-python.pdf",
@@ -56,7 +56,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-02T23:59:00",
+      "date": "2023-08-31T23:59:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
@@ -67,7 +67,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-02T14:30:00",
+      "date": "2023-08-31T14:30:00",
       "type": "Lab",
       "topic": "lab02: Quiz + using autolab",
       "notes": "",
@@ -78,7 +78,7 @@
       "practice": "lectures/110-F23-5-SimplePython.pdf"
     },
     {
-      "date": "2023-09-05T14:30:00",
+      "date": "2023-09-03T14:30:00",
       "type": "Lecture",
       "topic": "Arithmetic",
       "notes": "lectures/05-arithmetic.pdf",
@@ -89,7 +89,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-07T14:30:00",
+      "date": "2023-09-05T14:30:00",
       "type": "Lecture",
       "topic": "Conditionals",
       "notes": "lectures/06-conditionals.pdf",
@@ -100,7 +100,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-09T23:59:00",
+      "date": "2023-09-07T23:59:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
@@ -111,7 +111,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-09T14:30:00",
+      "date": "2023-09-07T14:30:00",
       "type": "Lab",
       "topic": "lab03: Quiz + conditionals practice",
       "notes": "",
@@ -122,7 +122,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-12T14:30:00",
+      "date": "2023-09-10T14:30:00",
       "type": "NoClass",
       "topic": "Break, no classes", 
       "notes": "",
@@ -133,7 +133,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-14T14:30:00",
+      "date": "2023-09-12T14:30:00",
       "type": "Lecture",
       "topic": "For Loops",
       "notes": "lectures/07-for-loops.pdf",
@@ -144,7 +144,7 @@
       "practice": ""
     },   
     {
-      "date": "2023-09-16T14:30:00",
+      "date": "2023-09-14T14:30:00",
       "type": "Lab",
       "topic": "lab04: Quiz + for loops practice",
       "notes": "",
@@ -155,7 +155,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-19T14:30:00",
+      "date": "2023-09-17T14:30:00",
       "type": "Exam",
       "topic": "Midterm I",
       "notes": "",
@@ -166,7 +166,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-21T14:30:00",
+      "date": "2023-09-19T14:30:00",
       "type": "Lecture",
       "topic": "While Loops",
       "notes": "lectures/08-while-loops.pdf",
@@ -177,7 +177,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-23T23:59:00",
+      "date": "2023-09-21T23:59:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
@@ -188,7 +188,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-23T14:30:00",
+      "date": "2023-09-21T14:30:00",
       "type": "Lab",
       "topic": "lab05: Quiz + while loops practice",
       "notes": "",
@@ -199,7 +199,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-26T14:30:00",
+      "date": "2023-09-24T14:30:00",
       "type": "Lecture",
       "topic": "Code tracing & debugging",
       "notes": "lectures/09-trace-debug.pdf",
@@ -210,7 +210,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-28T14:30:00",
+      "date": "2023-09-26T14:30:00",
       "type": "Lecture",
       "topic": "Lists I",
       "notes": "lectures/10-lists-I.pdf",
@@ -221,7 +221,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-30T23:59:00",
+      "date": "2023-09-28T23:59:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
@@ -232,7 +232,7 @@
       "practice": ""
     },
     {
-      "date": "2023-09-30T14:30:00",
+      "date": "2023-09-28T14:30:00",
       "type": "Lab",
       "topic": "lab06: Quiz + lists practice",
       "notes": "",
@@ -243,7 +243,7 @@
       "practice": ""
     },
     {
-      "date": "2023-10-03T14:30:00",
+      "date": "2023-10-01T14:30:00",
       "type": "Lecture",      
       "topic": "Lists II",
       "notes": "lectures/11-lists-II.pdf",
@@ -252,7 +252,7 @@
       "hw": ""
     },      
     {
-      "date": "2023-10-05T14:30:00",
+      "date": "2023-10-03T14:30:00",
       "type": "Lecture",      
       "topic": "Lists III, Problem solving",
       "notes": "lectures/12-problem-solving.pdf",
@@ -263,7 +263,7 @@
       "practice": ""
     },
     {
-      "date": "2023-10-07T23:59:00",
+      "date": "2023-10-05T23:59:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
@@ -274,9 +274,20 @@
       "practice": ""
     },
     {
-      "date": "2023-10-07T14:30:00",
+      "date": "2023-10-05T14:30:00",
       "type": "Lab",
       "topic": "lab07: Quiz + lists practice",
+      "notes": "",
+      "slides": "",
+      "noteb": "",
+      "hw": "",
+      "lab": "",
+      "practice": ""
+    },
+    {
+      "date": "2023-10-08T14:30:00",
+      "type": "NoClass",
+      "topic": "Spring break",
       "notes": "",
       "slides": "",
       "noteb": "",
@@ -307,18 +318,7 @@
       "practice": ""
     },
     {
-      "date": "2023-10-14T14:30:00",
-      "type": "NoClass",
-      "topic": "Spring break",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-10-17T14:30:00",
+      "date": "2023-10-15T14:30:00",
       "type": "Lecture",
       "topic": "Functions",
       "notes": "lectures/13-functions.pdf",
@@ -329,7 +329,7 @@
       "practice": ""
     },
     {
-      "date": "2023-10-19T14:30:00",
+      "date": "2023-10-17T14:30:00",
       "type": "Lecture",
       "topic": "Lab: Functions + Midterm review",
       "notes": "",
@@ -340,7 +340,7 @@
       "practice": ""
     },
     {
-      "date": "2023-10-21T14:30:00",
+      "date": "2023-10-19T14:30:00",
       "type": "Exam",
       "topic": "Midterm II",
       "notes": "",
@@ -351,7 +351,7 @@
       "practice": ""
     },
     {
-      "date": "2023-10-24T14:30:00",
+      "date": "2023-10-22T14:30:00",
       "type": "Lecture",
       "topic": "Strings I",
       "notes": "lectures/14-strings-I.pdf",
@@ -362,7 +362,7 @@
       "practice": ""
     },
     {
-      "date": "2023-10-26T14:30:00",
+      "date": "2023-10-24T14:30:00",
       "type": "Lecture",
       "topic": "Strings II",
       "notes": "lectures/15-strings-II.pdf",
@@ -373,7 +373,7 @@
       "practice": ""
     },
     {
-      "date": "2023-10-28T23:59:00",
+      "date": "2023-10-26T23:59:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
@@ -384,7 +384,7 @@
       "practice": ""
     },
     {
-      "date": "2023-10-28T14:30:00",
+      "date": "2023-10-26T14:30:00",
       "type": "Lab",
       "topic": "lab09: Quiz + strings practice",
       "notes": "",
@@ -395,7 +395,7 @@
       "practice": ""
     },
     {
-      "date": "2023-10-31T14:30:00",
+      "date": "2023-10-29T14:30:00",
       "type": "Lecture",
       "topic": "Dictionaries I",
       "notes": "lectures/16-dict-I.pdf",
@@ -406,7 +406,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-02T14:30:00",
+      "date": "2023-10-31T14:30:00",
       "type": "Lecture",
       "topic": "Dictionaries II",
       "notes": "lectures/17-dict-II.pdf",
@@ -417,7 +417,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-04T23:59:00",
+      "date": "2023-11-02T23:59:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
@@ -428,7 +428,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-04T14:30:00",
+      "date": "2023-11-02T14:30:00",
       "type": "Lab",
       "topic": "lab10: Quiz + dictionaries practice",
       "notes": "",
@@ -439,7 +439,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-07T14:30:00",
+      "date": "2023-11-05T14:30:00",
       "type": "Lecture",
       "topic": "Jupyter notebooks",
       "notes": "lectures/110-F23-19-Jupyter_notebooks.pdf",
@@ -450,7 +450,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-09T14:30:00",
+      "date": "2023-11-07T14:30:00",
       "type": "Lecture",
       "topic": "I/O Files I",
       "notes": "lectures/110-F23-20-IO_Files.pdf",
@@ -461,7 +461,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-11T23:59:00",
+      "date": "2023-11-09T23:59:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
@@ -472,7 +472,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-11T14:30:00",
+      "date": "2023-11-09T14:30:00",
       "type": "Lab",
       "topic": "lab10: Quiz + file practice",
       "notes": "",
@@ -483,7 +483,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-14T14:30:00",
+      "date": "2023-11-12T14:30:00",
       "type": "Lecture",
       "topic": "I/O Files II + notebook practice",
       "notes": "lectures/110-S21-20-IO_Files.pdf",
@@ -494,7 +494,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-16T14:30:00",
+      "date": "2023-11-14T14:30:00",
       "type": "Lecture",
       "topic": "Matplotlib I",
       "notes": "lectures/19-matplotlib.pdf",
@@ -505,7 +505,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-18T14:30:00",
+      "date": "2023-11-16T14:30:00",
       "type": "Lecture",
       "topic": "lab12: Quiz + Matplotlib and files practice",
       "notes": "",
@@ -516,7 +516,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-21T14:30:00",
+      "date": "2023-11-19T14:30:00",
       "type": "Lecture",
       "topic": "Midterm review",
       "notes": "",
@@ -527,7 +527,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-23T14:30:00",
+      "date": "2023-11-21T14:30:00",
       "type": "Exam",
       "topic": "Midterm III",
       "notes": "",
@@ -538,7 +538,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-25T14:30:00",
+      "date": "2023-11-23T14:30:00",
       "type": "Lab",
       "topic": "lab: Matplotlib practice + Project checkpoint",
       "notes": "",
@@ -549,7 +549,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-28T14:30:00",
+      "date": "2023-11-26T14:30:00",
       "type": "Lab",
       "topic": "lab: Problem solving in python",
       "notes": "",
@@ -560,7 +560,7 @@
       "practice": ""
     },
     {
-      "date": "2023-11-29T23:00:00",
+      "date": "2023-11-28T23:00:00",
       "type": "AsgnDue",
       "topic": "",
       "notes": "",
@@ -577,17 +577,6 @@
       "notes": "",
       "slides": "",
       "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-12-05T23:59:00",
-      "type": "AsgnDue",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",     
       "hw": "",
       "lab": "",
       "practice": ""
