@@ -78,7 +78,7 @@ function fillSchedule(data) {
       row.appendChild(td)
       tbody.appendChild(row)
       document.getElementById("scheduleTable").appendChild(tbody)
-      return
+      continue
     }
 
     // Date
