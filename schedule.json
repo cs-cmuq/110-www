@@ -45,6 +45,10 @@
       "practice": ""
     },
     {
+      "date": "2023-08-27T14:30:00",
+      "type": "Sep",
+    },
+    {
       "date": "2023-08-29T14:30:00",
       "type": "Lecture",
       "topic": "From algorithms to python",
