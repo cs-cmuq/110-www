@@ -72,9 +72,9 @@ function fillSchedule(data) {
       row.setAttribute("class", "table-info")
     }
     else if (type == "Sep") {
-      row.setAttribute("class", "table-warning")
+      row.setAttribute("class", "table-danger")
       var td = document.createElement("td")
-      td.innerHTML = "\n"
+      td.innerHTML = "\n\n\n"
       row.appendChild(td)
       row.appendChild(td)
       row.appendChild(td)
