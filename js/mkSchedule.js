@@ -72,7 +72,7 @@ function fillSchedule(data) {
       row.setAttribute("class", "table-info")
     }
     else if (type == "Sep") {
-      row.setAttribute("class", "table-danger")
+      row.setAttribute("class", "table-primary")
     }
 
     // Date
