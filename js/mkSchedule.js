@@ -74,7 +74,12 @@ function fillSchedule(data) {
     else if (type == "Sep") {
       row.setAttribute("class", "table-warning")
       var td = document.createElement("td")
-      td.innerHTML = "\n\n\n\n"
+      td.innerHTML = "\n"
+      row.appendChild(td)
+      row.appendChild(td)
+      row.appendChild(td)
+      row.appendChild(td)
+      row.appendChild(td)
       row.appendChild(td)
       tbody.appendChild(row)
       document.getElementById("scheduleTable").appendChild(tbody)
