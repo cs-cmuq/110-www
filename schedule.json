@@ -454,10 +454,10 @@
     {
       "date": "2023-11-07T14:30:00",
       "type": "Lecture",
-      "topic": "I/O Files II",
+      "topic": "I/O Files II, Jupyter notebooks",
       "notes": "lectures/18-files.pdf",
       "slides": "",
-      "noteb": "",
+      "noteb": "lectures/20-jupyter.zip",
       "hw": "",
       "lab": "",
       "practice": ""
@@ -475,10 +475,10 @@
     },
     {
       "date": "2023-11-09T14:30:00",
-      "type": "Lab",
-      "topic": "Lab11: I/O files, Jupyter notebooks",
+      "type": "NoClass",
+      "topic": "Community engagement day, no classes",
       "notes": "",
-      "slides": "lectures/20-jupyter.zip",
+      "slides": "",
       "noteb": "",
       "hw": "",
       "lab": "",
@@ -509,7 +509,7 @@
     {
       "date": "2023-11-16T14:30:00",
       "type": "Lecture",
-      "topic": "Lab12: Matplotlib, I/O files",
+      "topic": "Lab11: Matplotlib, I/O files",
       "notes": "",
       "slides": "",
       "noteb": "",
