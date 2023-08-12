@@ -73,22 +73,6 @@ function fillSchedule(data) {
     }
     else if (type == "Sep") {
       row.setAttribute("class", "table-danger")
-      var td = document.createElement("td")
-      td.innerHTML = " "
-      row.appendChild(td)
-      td.innerHTML = " "	
-      row.appendChild(td)
-      td.innerHTML = " "
-      row.appendChild(td)
-      td.innerHTML = " "
-      row.appendChild(td)
-      td.innerHTML = " "
-      row.appendChild(td)
-      td.innerHTML = " "
-      row.appendChild(td)
-      tbody.appendChild(row)
-      document.getElementById("scheduleTable").appendChild(tbody)
-      continue
     }
 
     // Date
