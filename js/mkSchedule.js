@@ -81,7 +81,10 @@ function fillSchedule(data) {
     var d = date.getDate()
     if (d < 10) {d = "0" + d}
     var td = document.createElement("td")
-    td.innerHTML = m + " " + d
+    if  (type == "Sep")
+      td.innerHTML = " "
+    else
+      td.innerHTML = m + " " + d
     row.appendChild(td)
 
     // Topic
