@@ -71,6 +71,15 @@ function fillSchedule(data) {
     else if (type == "AsgnDue") {
       row.setAttribute("class", "table-info")
     }
+    else if (type == "Sep") {
+      row.setAttribute("class", "table-dark")
+      var td = document.createElement("td")
+      td.innerHTML = "\n\n"
+      row.appendChild(td)
+      tbody.appendChild(row)
+      document.getElementById("scheduleTable").appendChild(tbody)
+      return
+    }
 
     // Date
     var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
