@@ -590,7 +590,7 @@
       "notes": "",
       "slides": "",
       "noteb": "",     
-      "hw": "hw08 due",
+	"hw": "hw08 due (Nov 10)",
       "lab": "",
       "practice": ""
     },
@@ -635,6 +635,17 @@
       "slides": "",
       "noteb": "",
       "hw": "",
+      "lab": "",
+      "practice": ""
+    },
+    {
+      "date": "2023-11-16T23:59:00",
+      "type": "AsgnDue",
+      "topic": "",
+      "notes": "",
+      "slides": "",
+      "noteb": "",     
+      "hw": "hw09 due",
       "lab": "",
       "practice": ""
     },
