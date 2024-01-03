@@ -1,763 +1,349 @@
 {
   "schedule": [
     {
-      "date": "2023-08-20T14:30:00",
+      "date": "2024-01-08T10:00:00",
+      "beginWeek": true,
       "type": "Lecture",
-      "topic": "Introduction, fundamental concepts",
+      "topic": "Course logistics and problem solving",
       "notes": "lectures/01-algorithm.pdf",
-      "slides": "lectures/110-F23-1-Intro.pdf",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "_slides": "lectures/110-F23-1-Intro.pdf"
     },
     {
-      "date": "2023-08-22T14:30:00",
+      "date": "2024-01-10T10:00:00",
       "type": "Lecture",
       "topic": "Algorithms and abstraction",
       "notes": "lectures/02-algorithm2.pdf",
-      "slides": "lectures/110-F23-2-Algorithms.pdf",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "_slides": "lectures/110-F23-2-Algorithms.pdf"
     },
     {
-      "date": "2023-08-24T14:30:00",
+      "date": "2024-01-11T10:00:00",
       "type": "Lab",
-      "topic": "Quiz01, Lab01: Problem solving ",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Quiz 01: Problem solving "
+    },
+    { 
+      "date": "2024-01-14T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 01 due",
+      "_hw": "handouts/hw01.zip"
     },
     {
-      "date": "2023-08-27T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },      
-    {
-      "date": "2023-08-27T14:30:00",
+      "date": "2024-01-15T10:00:00",
       "type": "Lecture",
       "topic": "Simplifying instructions and abstraction",
-      "notes": "lectures/03-abstraction.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "notes": "lectures/03-abstraction.pdf"
     },
     {
-      "date": "2023-08-29T14:30:00",
+      "date": "2024-01-17T10:00:00",
       "type": "Lecture",
       "topic": "From algorithms to python",
-      "notes": "lectures/04-algo-to-python.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "notes": "lectures/04-algo-to-python.pdf"
     },
     {
-      "date": "2023-08-31T23:59:00",
-      "type": "AsgnDue",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",     
-      "hw": "hw01 due",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-08-31T14:30:00",
+      "date": "2024-01-18T10:00:00",
       "type": "Lab",
-      "topic": "Quiz02, Lab02: IDE, Autolab",
-      "notes": "",
-      "slides": "",
-      "noteb": "",     
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Quiz 02: writing code<br>Lab 01",
+      "_lab": "handouts/lab01.zip"
     },
     {
-      "date": "2023-08-31T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "date": "2024-01-21T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 02 due",
+      "_hw": "handouts/hw02.zip"
     },      
     {
-      "date": "2023-09-03T14:30:00",
+      "date": "2024-01-22T10:00:00",
       "type": "Lecture",
       "topic": "Arithmetic",
-      "notes": "lectures/05-arithmetic.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "notes": "lectures/05-arithmetic.pdf"
     },
     {
-      "date": "2023-09-05T14:30:00",
+      "date": "2024-01-24T10:00:00",
       "type": "Lecture",
       "topic": "Conditionals",
-      "notes": "lectures/06-conditionals.pdf",
-      "slides": "",
-      "noteb": "",     
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "notes": "lectures/06-conditionals.pdf"
     },
     {
-      "date": "2023-09-07T23:59:00",
-      "type": "AsgnDue",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",     
-      "hw": "hw02 due",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-09-07T14:30:00",
+      "date": "2024-01-25T10:00:00",
       "type": "Lab",
-      "topic": "Quiz03, Lab03: arithmetics, conditionals",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Quiz 03: arithmetics, conditionals<br>Lab 02",
+      "_lab": "handouts/lab02.zip"
     },
     {
-      "date": "2023-00-07T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "date": "2024-01-28T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 03 due",
+      "_hw": "handouts/hw03.zip"
     },      
     {
-      "date": "2023-09-10T14:30:00",
-      "type": "NoClass",
-      "topic": "Break, no classes", 
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "date": "2024-01-29T10:00:00",
+      "type": "Lecture",
+      "topic": "<tt>for</tt> loops", 
+      "notes": "lectures/07-for-loops.pdf"
     },
     {
-      "date": "2023-09-12T14:30:00",
-      "type": "Lecture",
-      "topic": "For Loops",
-      "notes": "lectures/07-for-loops.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "date": "2024-01-31T10:00:00",
+      "type": "NoClass",
+      "topic": "Break - no lecture"
     },   
     {
-      "date": "2023-09-14T14:30:00",
-      "type": "Lab",
-      "topic": "Quiz04, Lab04: for loops",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },
+      "date": "2024-02-01T10:00:00",
+      "type": "NoClass",
+      "topic": "Break - no quiz or lab"
+    },   
     {
-      "date": "2023-09-14T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-09-17T14:30:00",
-      "type": "Exam",
-      "topic": "Midterm I",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-09-19T14:30:00",
+      "date": "2024-02-05T10:00:00",
+      "beginWeek": true,
       "type": "Lecture",
-      "topic": "While Loops",
-      "notes": "lectures/08-while-loops.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "<tt>while</tt> loops", 
+      "notes": "lectures/08-while-loops.pdf"
     },
     {
-      "date": "2023-09-21T23:59:00",
-      "type": "AsgnDue",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",     
-      "hw": "hw03 due",
-      "lab": "",
-      "practice": ""
+      "date": "2024-02-07T10:00:00",
+      "type": "Exam",
+      "topic": "Midterm I"
     },
     {
-      "date": "2023-09-21T14:30:00",
+      "date": "2024-02-08T10:00:00",
       "type": "Lab",
-      "topic": "Quiz05, Lab05: while loops",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Quiz 04: loops<br>Lab 03",
+      "_lab": "handouts/lab03.zip"
     },
     {
-      "date": "2023-09-21T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "date": "2024-02-11T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 04 due",
+      "_hw": "handouts/hw04.zip"
     },      
     {
-      "date": "2023-09-24T14:30:00",
+      "date": "2024-02-12T10:00:00",
       "type": "Lecture",
       "topic": "Code tracing & debugging",
-      "notes": "lectures/09-trace-debug.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "notes": "lectures/09-trace-debug.pdf"
     },
     {
-      "date": "2023-09-26T14:30:00",
+      "date": "2024-02-14T10:00:00",
       "type": "Lecture",
       "topic": "Lists I",
-      "notes": "lectures/10-lists-I.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "notes": "lectures/10-lists-I.pdf"
     },
     {
-      "date": "2023-09-28T23:59:00",
-      "type": "AsgnDue",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",     
-      "hw": "hw04 due",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-09-28T14:30:00",
+      "date": "2024-02-15T10:00:00",
       "type": "Lab",
-      "topic": "Quiz06, Lab06: lists",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Quiz 05: code tracing and lists<br>Lab 04",
+      "_lab": "handouts/lab04.zip"
     },
     {
-      "date": "2023-09-28T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },            
-    {
-      "date": "2023-10-01T14:30:00",
-      "type": "Lecture",      
-      "topic": "Lists II",
-      "notes": "lectures/11-lists-II.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "date": "2024-02-18T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 05 due",
+      "_hw": "handouts/hw05.zip"
     },      
     {
-      "date": "2023-10-03T14:30:00",
+      "date": "2024-02-19T10:00:00",
       "type": "Lecture",      
-      "topic": "Lists III, Problem solving",
-      "notes": "lectures/11-lists-II.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Lists II",
+      "notes": "lectures/11-lists-II.pdf"
+    },      
+    {
+      "date": "2024-02-21T10:00:00",
+      "type": "Lecture",      
+      "topic": "Problem solving",
+      "notes": "lectures/12-problem-solving.pdf"
     },
     {
-      "date": "2023-10-05T23:59:00",
-      "type": "AsgnDue",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",     
-      "hw": "hw05 due",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-10-05T14:30:00",
+      "date": "2024-02-22T10:00:00",
       "type": "Lab",
-      "topic": "Quiz07, Lab07: lists",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Quiz 06: lists<br>Lab 05",
+      "_lab": "handouts/lab05.zip"
     },
     {
-      "date": "2023-10-05T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },            
-    {
-      "date": "2023-10-08T14:30:00",
+      "date": "2024-02-26T10:00:00",
       "type": "NoClass",
-      "topic": "Fall break",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Spring break"
     },
     {
-      "date": "2023-10-10T14:30:00",
+      "date": "2024-02-28T10:00:00",
       "type": "NoClass",
-      "topic": "Fall break",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Spring break"
     },
     {
-      "date": "2023-10-12T14:30:00",
+      "date": "2024-02-29T10:00:00",
       "type": "NoClass",
-      "topic": "Fall break",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Spring break"
     },
     {
-      "date": "2023-10-12T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },            
+      "date": "2024-03-03T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 06 due",
+      "_hw": "handouts/hw06.zip"
+    },      
     {
-      "date": "2023-10-15T14:30:00",
+      "date": "2024-03-04T10:00:00",
       "type": "Lecture",
       "topic": "Functions",
-      "notes": "lectures/13-functions.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "notes": "lectures/13-functions.pdf"
     },
     {
-      "date": "2023-10-17T14:30:00",
-      "type": "Lecture",
-      "topic": "Lab08: functions + Midterm review",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-10-19T14:30:00",
+      "date": "2024-03-06T10:00:00",
       "type": "Exam",
-      "topic": "Midterm II",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Midterm II"
+    },     
+    {
+      "date": "2024-03-07T10:00:00",
+      "type": "Lab",
+      "topic": "Lab 06",
+      "_lab": "handouts/lab06.zip"
     },
     {
-      "date": "2023-10-19T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },            
-    {
-      "date": "2023-10-22T14:30:00",
+      "date": "2024-03-11T10:00:00",
+      "beginWeek": true,
       "type": "Lecture",
       "topic": "Strings I",
-      "notes": "lectures/14-strings-I.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "notes": "lectures/14-strings-I.pdf"
     },
     {
-      "date": "2023-10-24T14:30:00",
+      "date": "2024-03-13T10:00:00",
       "type": "Lecture",
       "topic": "Strings II",
-      "notes": "lectures/15-strings-II.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "notes": "lectures/15-strings-II.pdf"
     },
     {
-      "date": "2023-10-26T23:59:00",
-      "type": "AsgnDue",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",     
-      "hw": "hw06 due",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-10-26T14:30:00",
+      "date": "2024-03-14T10:00:00",
       "type": "Lab",
-      "topic": "Quiz08, Lab09: strings",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Quiz 07: strings<br>Lab 07",
+      "_lab": "handouts/lab07.zip"
     },
     {
-      "date": "2023-10-26T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },            
+      "date": "2024-03-17T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 07 due",
+      "_hw": "handouts/hw07.zip"
+    },                 
     {
-      "date": "2023-10-29T14:30:00",
+      "date": "2024-03-18T10:00:00",
       "type": "Lecture",
       "topic": "Dictionaries I",
-      "notes": "lectures/16-dict-I.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "notes": "lectures/16-dict-I.pdf"
     },
     {
-      "date": "2023-10-31T14:30:00",
+      "date": "2024-03-20T10:00:00",
       "type": "Lecture",
       "topic": "Dictionaries II",
-      "notes": "lectures/17-dict-II.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "notes": "lectures/17-dict-II.pdf"
     },
     {
-      "date": "2023-11-02T23:59:00",
-      "type": "AsgnDue",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",     
-      "hw": "hw07 due",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-11-02T14:30:00",
+      "date": "2024-03-21T10:00:00",
       "type": "Lab",
-      "topic": "Quiz09, Lab10: dictionaries",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Quiz 08: dictionaries<br>Lab 08",
+      "_lab": "handouts/lab08.zip"
     },
     {
-      "date": "2023-11-02T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },            
-    {
-      "date": "2023-11-05T14:30:00",
-      "type": "Lecture",
-      "topic": "I/O Files I",
-      "notes": "lectures/18-files.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-11-07T14:30:00",
-      "type": "Lecture",
-      "topic": "I/O Files II, Jupyter notebooks",
-      "notes": "lectures/18-files.pdf",
-      "slides": "",
-      "noteb": "lectures/20-jupyter.zip",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-11-09T23:59:00",
+      "date": "2024-03-24T20:00:00",
+      "beginWeek": true,
       "type": "AsgnDue",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",     
-	"hw": "hw08 due (Nov 10)",
-      "lab": "",
-      "practice": ""
+      "topic": "Homework 08 due",
+      "_hw": "handouts/hw08.zip"
+    },                 
+    {
+      "date": "2024-03-25T10:00:00",
+      "type": "Lecture",
+      "topic": "I/O & Files",
+      "notes": "lectures/18-files.pdf"
     },
     {
-      "date": "2023-11-09T14:30:00",
+      "date": "2024-03-27T10:00:00",
+      "type": "Exam",
+      "topic": "Midterm III"
+    },     
+    {
+      "date": "2024-03-28T10:00:00",
+      "type": "Lab",
+      "topic": "Lab 09",
+      "_lab": "handouts/lab09.zip"
+    },
+    {
+      "date": "2024-04-01T10:00:00",
+      "beginWeek": true,
+      "type": "Lecture",
+      "topic": "Matplot lib",
+      "notes": "lectures/19-matplotlib.pdf"
+    },
+    {
+      "date": "2024-04-03T10:00:00",
+      "type": "Lecture",
+      "topic": "Jupyter Notebooks",
+      "notes": "lectures/20-jupyter.zip"
+    },
+    {
+      "date": "2024-04-04T10:00:00",
+      "type": "Lab",
+      "topic": "Lab 10",
+      "_lab": "handouts/lab10.zip"
+    },
+    {
+      "date": "2024-04-08T10:00:00",
       "type": "NoClass",
-      "topic": "Community engagement day, no classes",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Eid Al-Fitr break"
     },
     {
-      "date": "2023-11-09T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },            
+      "date": "2024-04-10T10:00:00",
+      "type": "NoClass",
+      "topic": "Eid Al-Fitr break"
+    },
     {
-      "date": "2023-11-12T14:30:00",
+      "date": "2024-04-11T10:00:00",
+      "type": "NoClass",
+      "topic": "Eid Al-Fitr break"
+    },
+    {
+      "date": "2024-04-15T10:00:00",
+      "beginWeek": true,
       "type": "Lecture",
-      "topic": "Matplotlib I + notebook practice",
-      "notes": "lectures/19-matplotlib.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Graphs",
+      "notes": "lectures/21-graphs.zip"
     },
     {
-      "date": "2023-11-14T14:30:00",
+      "date": "2024-04-17T10:00:00",
       "type": "Lecture",
-      "topic": "Matplotlib II",
-      "notes": "lectures/19-matplotlib.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Divide & Conquer",
+      "notes": "lectures/22-divide-and-conquer.pdf"
     },
     {
-      "date": "2023-11-16T23:59:00",
+      "date": "2024-04-18T10:00:00",
       "type": "AsgnDue",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",     
-      "hw": "hw09 due",
-      "lab": "",
-      "practice": ""
-    },
+      "topic": "Lab 11: Project Checkpoint Interviews",
+      "_hw": "handouts/project.zip"
+    },                 
     {
-      "date": "2023-11-16T14:30:00",
-      "type": "Lab",
-      "topic": "Lab11: Matplotlib, I/O files",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-11-16T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },            
-    {
-      "date": "2023-11-19T14:30:00",
+      "date": "2024-04-22T10:00:00",
+      "beginWeek": true,
       "type": "Lecture",
-      "topic": "Midterm review",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
+      "topic": "Algorithm Complexity",
+      "notes": "lectures/23-complexity.pdf"
     },
     {
-      "date": "2023-11-21T14:30:00",
+      "date": "2024-04-24T10:00:00",
+      "beginWeek": true,
+      "type": "Lecture",
+      "topic": "Project Presentations I"
+    },
+    {
+      "date": "2024-04-25T10:00:00",
+      "beginWeek": true,
+      "type": "Lecture",
+      "topic": "Project Presentations II"
+    },
+    {
+      "date": "2024-04-28T10:00:00",
       "type": "Exam",
-      "topic": "Midterm III",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-11-23T14:30:00",
-      "type": "Lecture",
-      "topic": "Divide-and-Conquer approach",
-      "notes": "lectures/22-divide-and-conquer.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-11-23T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },            
-    {
-      "date": "2023-11-26T14:30:00",
-      "type": "Lecture",
-      "topic": "Algorithm complexity",
-      "notes": "lectures/23-complexity.pdf",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-11-28T23:00:00",
-      "type": "AsgnDue",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",     
-      "hw": "<b>Project notebook due</b>",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-11-30T14:30:00",
-      "type": "Exam",
-      "topic": "<b>Project interviews</b>",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    },
-    {
-      "date": "2023-11-30T14:30:00",
-      "type": "Sep",
-      "topic": "",
-      "notes": "",
-      "slides": "",
-      "noteb": "",
-      "hw": "",
-      "lab": "",
-      "practice": ""
-    }        
+      "topic": "Final Exam - date and time TBA"
+    }
   ]
 }
