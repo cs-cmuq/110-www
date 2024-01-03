@@ -5,15 +5,13 @@
       "beginWeek": true,
       "type": "Lecture",
       "topic": "Course logistics and problem solving",
-      "notes": "lectures/01-algorithm.pdf",
-      "_slides": "lectures/110-F23-1-Intro.pdf"
+      "notes": "lectures/01-algorithm.pdf"
     },
     {
       "date": "2024-01-10T10:00:00",
       "type": "Lecture",
       "topic": "Algorithms and abstraction",
-      "notes": "lectures/02-algorithm2.pdf",
-      "_slides": "lectures/110-F23-2-Algorithms.pdf"
+      "notes": "lectures/02-algorithm2.pdf"
     },
     {
       "date": "2024-01-11T10:00:00",
@@ -163,6 +161,7 @@
     },
     {
       "date": "2024-02-26T10:00:00",
+      "beginWeek": true,
       "type": "NoClass",
       "topic": "Spring break"
     },
@@ -289,6 +288,7 @@
     },
     {
       "date": "2024-04-08T10:00:00",
+      "beginWeek": true,
       "type": "NoClass",
       "topic": "Eid Al-Fitr break"
     },
@@ -330,18 +330,17 @@
     },
     {
       "date": "2024-04-24T10:00:00",
-      "beginWeek": true,
       "type": "Lecture",
       "topic": "Project Presentations I"
     },
     {
       "date": "2024-04-25T10:00:00",
-      "beginWeek": true,
       "type": "Lecture",
       "topic": "Project Presentations II"
     },
     {
       "date": "2024-04-28T10:00:00",
+      "beginWeek": true,
       "type": "Exam",
       "topic": "Final Exam - date and time TBA"
     }

@@ -4,7 +4,7 @@ $(document).ready(function() {
   })
 });
 
-function fillSchedule(datai, tableID) {
+function fillSchedule(data, tableID) {
 
   var thead = document.createElement("thead")
   
@@ -58,6 +58,7 @@ function fillSchedule(datai, tableID) {
     }
     else if (type == "AsgnDue") {
       cell_class = "table-info"
+    }
 
     // Date
     var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
@@ -108,7 +109,7 @@ function fillSchedule(datai, tableID) {
       hw_link = "<a href=\"" + day.hw + "\">" + link_name + "</a>"
     }
     
-    var content = [notes_link, slides_link, code_link, hw_link].filter(function(link){return link != ""}).join(", ")
+    var content = [notes_link, noteb_link, slides_link, hw_link].filter(function(link){return link != ""}).join(", ")
     td.innerHTML = content
     td.setAttribute("class", cell_class)
     row.appendChild(td)
