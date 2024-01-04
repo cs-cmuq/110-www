@@ -84,12 +84,12 @@
     {
       "date": "2024-01-31T10:00:00",
       "type": "NoClass",
-      "topic": "Break - no lecture"
+      "topic": "<i>Break - no lecture</i>"
     },   
     {
       "date": "2024-02-01T10:00:00",
       "type": "NoClass",
-      "topic": "Break - no quiz or lab"
+      "topic": "<i>Break - no quiz or lab</i>"
     },   
     {
       "date": "2024-02-05T10:00:00",
@@ -163,17 +163,17 @@
       "date": "2024-02-26T10:00:00",
       "beginWeek": true,
       "type": "NoClass",
-      "topic": "Spring break"
+      "topic": "<i>Spring break</i>"
     },
     {
       "date": "2024-02-28T10:00:00",
       "type": "NoClass",
-      "topic": "Spring break"
+      "topic": "<i>Spring break</i>"
     },
     {
       "date": "2024-02-29T10:00:00",
       "type": "NoClass",
-      "topic": "Spring break"
+      "topic": "<i>Spring break</i>"
     },
     {
       "date": "2024-03-03T20:00:00",
@@ -290,17 +290,17 @@
       "date": "2024-04-08T10:00:00",
       "beginWeek": true,
       "type": "NoClass",
-      "topic": "Eid Al-Fitr break"
+      "topic": "<i>Eid Al-Fitr break</i>"
     },
     {
       "date": "2024-04-10T10:00:00",
       "type": "NoClass",
-      "topic": "Eid Al-Fitr break"
+      "topic": "<i>Eid Al-Fitr break</i>"
     },
     {
       "date": "2024-04-11T10:00:00",
       "type": "NoClass",
-      "topic": "Eid Al-Fitr break"
+      "topic": "<i>Eid Al-Fitr break</i>"
     },
     {
       "date": "2024-04-15T10:00:00",
@@ -327,6 +327,11 @@
       "type": "Lecture",
       "topic": "Algorithm Complexity",
       "notes": "lectures/23-complexity.pdf"
+    },
+    {
+      "date": "2024-04-23T20:00:00",
+      "type": "AsgnDue",
+      "topic": "Project Due"
     },
     {
       "date": "2024-04-24T10:00:00",

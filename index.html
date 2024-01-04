@@ -11,59 +11,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta http-equiv='cache-control' content='no-cache'> 
-    <meta http-equiv='expires' content='0'> 
-    <meta http-equiv='pragma' content='no-cache'>
-
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
     <!-- For external link icon -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
     <!-- Makes the schedule table -->
     <script>document.write('<script src="js/mkSchedule.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');</script>
 
     <!--<script src="js/mkSchedule.js?<?=time()?"></script> -->
 
-    <style>
-    body {
-    position: relative;
-    font-size: 110%;
-    }
-    .section {
-      padding-top: 30px;
-    }
-    p {
-    //font-size: 110%;
-    }
-    .image-txt-container {
-    display:flex;
-    align-items:center;
-    flex-direction: row;
-    }
-    .navbar-custom {
-    color: #FFFFFF;
-    background-color: #FF8C11;
-    text-color: #CC3333;
-    }
-    </style>
   </head>
   <body data-spy="scroll" data-target="#main-navbar">
     
-    <nav id="main-navbar" class="navbar container navbar-expand-sm navbar-dark fixed-top navbar-custom">
+    <nav id="main-navbar" class="navbar container navbar-expand-lg navbar-dark bg-primary fixed-top">
       <!-- Navbar content -->
       <a class="navbar-brand" href="#main">15-110</a> <!-- Add course description and learning goals here -->
 
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#assessment">Assessment</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#schedule">Schedule</a>
           </li>
@@ -71,13 +47,7 @@
             <a class="nav-link" href="#staff">Staff</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#grading">Grading</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#assignments">Assignments</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#interviews">Interviews</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#tools">Tools</a>
@@ -85,17 +55,20 @@
           <li class="nav-item">
             <a class="nav-link" href="#policy">Policies</a>
           </li>
-          <li class="nav-item">
+          <!--li class="nav-item">
             <a class="nav-link" href="https://piazza.com/class/ljlg79kg2vc4sb" target="_blank">Piazza <i class="fa fa-external-link"></i></a>
-          </li>
+          </li-->
           <li class="nav-item">
-            <a class="nav-link" href="" target="_blank">Autolab <i class="fa fa-external-link"></i></a>
+            <a class="nav-link" href="https://www.gradescope.com/courses/693504" target="_blank">Gradescope <i class="fa fa-external-link"></i></a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <br><p>
+    <br>
+    <br>
+    <br>
+    <p>
     <div id="main" class="container section">
       <h1><b>15-110: Principles of Computing (Spring 2024)</b></h1>
       <img class="img-thumbnail float-right ml-4" style="margin-top: 50px; width:350px" alt="CS quote" src="cover-o.png">
@@ -134,7 +107,7 @@
         developed algorithm and code. 
       </p>
 
-      <h2><b>Learning goals</b></h2>
+      <b>Learning goals</b><br>
       
       <p class="text-justify">
         <ul>
@@ -165,24 +138,17 @@
         </ul>
       </p>
 
-    </div>
-
-    <div id="requisites" class="container section">
-        <h2><b>Pre-requisites</b></h2>
+      <b>Pre-requisites</b><br>
       <p>
         None.
       </p>
-    </div>
-
-    <div id="credits" class="container section">
-        <h2><b>Credits</b></h2>
+     
+      <b>Credits</b><br>
       <p>
         This is a 10 unit course.
       </p>
-    </div>
-
-    <div id="logistics" class="container section">
-        <h2><b>Place and time</b></h2>
+     
+      <b>Place and time</b><br>
       <p>
       <table class="table table-sm">
         <tbody>
@@ -201,24 +167,33 @@
         </tbody>
       </table>
       </p>
-    </div>
+     
+      <b>All class communication, office hours, discussions, and assignment handouts will be on a <a href="https://discord.com/">Discord</a> server. 
+      Make sure you sign in as soon as you receive the invitation.</b>
  
-    <div id="grading" class="container section">
+    </div>
+    
+    <br>
+    <br>
+
+    <div id="assessment" class="container section">
       <h2><b>Assessment</b></h2>
         
           <ul>
-            <li><b>Homeworks + Interviews: 18%</b> </li>
+            <li><b>Homeworks + Interviews: 20%</b> </li>
             <ul>
-              <li> Weekly, except on exam weeks </li>
-              <li> Grade divided into: submitted and autograded files (8%) + interview (10%) </li>
+              <li> Mostly weekly (see dates on the schedule) </li>
               <li> <span class="text-danger">To be solved individually </span> (check the course policy on collaboration) </li>
-              <li> <span class="text-danger">Submission of files on Autolab due on Sundays, at 9am</span> </li>
-              <li> <span class="text-danger">Interviews conducted by CAs during the week of the submission</span> </li>
+              <li> Grade divided into: submitted files (10%) + interview (10%) </li>
+              <ul>
+                <li> Files are submitted on <a href="https://www.gradescope.com/courses/693504" target"_blank">Gradescope</a> </li>
+                <li> <span class="text-danger">Read interview instructions below</span> </li>
+              </ul>
             </ul>
-            <li><b>Quizzes: 18%</b> </li>
+            <li><b>Quizzes: 20%</b> </li>
             <ul>
-              <li> Weekly, except on exam weeks </li>
-              <li> Administered at the beginning of the lecture or lab </li>
+              <li> Mostly weekly (see dates on the schedule) </li>
+              <li> Administered at the beginning of the lab </li>
               <li> Individual and closed book, written  </li>
               <li> Good practice for exams! </li>
             </ul>
@@ -229,20 +204,23 @@
             </ul>
             <li><b>Project: 10%</b> </li>
             <li><b>Final exam: 20%</b></li>
-	    <li><b>Attendance and Participation: 4%</b></li>
           </ul>     
     </div>
    
+    <br>
+
     <div id="schedule" class="container section">
-      <h2><b>Schedule (Subject to changes)</b></h2>
+      <h2><b>Schedule (subject to changes)</b></h2>
       <p>
-        In the table below, labs are in blue, exams are in red and the next
-        lecture/lab is orange. Green days are in the past, and grey days have no lectures.
+        In the table below, labs and quizzes are in green, exams are in orange, and assignment due dates are in pink.
       </p>
       <table class="table table-sm" id="scheduleTable">
       </table>
     </div>
       
+    <br>
+    <br>
+
     <div id="staff" class="container section">
       <h2><b>Staff</b></h2>
       <div class="row">
@@ -264,24 +242,22 @@
       <div class="row">
         <div class="col">
           <div class="card border-warning">
-            <div class="card-header"> TBA (CA)</div>
+            <div class="card-header"> Raman Saparkhan (CA)</div>
             <div class="card-body">
               <p class="card-text">
               Office: ARC <br>
-              Office hours: See discord <br>
-              E-mail: <a href="mailto:@andrew.cmu.edu">@andrew.cmu.edu</a>
+              E-mail: <a href="mailto:rsaparkh@andrew.cmu.edu">rsaparkh@andrew.cmu.edu</a>
               </p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card border-warning">
-            <div class="card-header"> TBA (CA)</div>
+            <div class="card-header"> Huda Joad (CA)</div>
             <div class="card-body">
               <p class="card-text">
               Office: ARC<br>
-              Office hours: See discord <br>
-              E-mail: <a href="mailto:@andrew.cmu.edu">@andrew.cmu.edu</a>
+              E-mail: <a href="mailto:hjoad@andrew.cmu.edu">hjoad@andrew.cmu.edu</a>
               </p>
             </div>
           </div>
@@ -292,24 +268,22 @@
       <div class="row">
         <div class="col">
           <div class="card border-warning">
-            <div class="card-header">TBA (CA)</div>
+            <div class="card-header">Eman Ansar (CA)</div>
             <div class="card-body">
               <p class="card-text">
               Office: ARC<br>
-              Office hours: See discord <br>
-              E-mail: <a href="mailto:@cmu.edu">@cmu.edu</a>
+              E-mail: <a href="mailto:eansar@andrew.cmu.edu">eansar@andrew.cmu.edu</a>
               </p>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card border-warning">
-            <div class="card-header">TBA (CA)</div>
+            <div class="card-header">Dana Al Disi (CA)</div>
             <div class="card-body">
               <p class="card-text">
               Office: ARC<br>
-              Office hours: See discord <br>
-              E-mail: <a href="mailto:@andrew.cmu.edu">@andrew.cmu.edu</a>
+              E-mail: <a href="mailto:aaldisi@andrew.cmu.edu">aaldisi@andrew.cmu.edu</a>
               </p>
             </div>
           </div>
@@ -323,13 +297,13 @@
 
 
     <div id="assignments" class="container section">
-      <h2><b>Homework Assignments</b></h2>
-        
+      <h2><b>Assignments</b></h2>
+      <br>
+
       <h3>Getting the Assignments</h3>
+      
       <p>
-        The writeup and starter files for each homework will be posted in
-        <a href="">Autolab</a> on Thursdays (the availability of the files will be announced on
-	<a href="https://piazza.com/class/ljlg79kg2vc4sb" target="_blank">Piazza</a>).
+        The instructions and starter files for each assignment will be posted on Discord.
       </p>
 
       <p>
@@ -341,94 +315,87 @@
       </p>
       <br>
 
-      <h3>Homework Grading</h3>
-
-      <p>
-	<b>Each homework will be graded in two parts,</b> one based on the autograding, and one based on
-	<span class="text-danger"><b>homework interviews carried out by the Course Assistants during
-	the weekly meetings scheduled with the students.</b></span> All the autograded scores will
-	weight for the 8% of the final grade, while the scores from the interviews will weight for
-	the 10% of the final grade. The modality for grading the two parts is discussed below.</p>
-	
-      
-      <h3>Submitting the Assignments for Autograding</h3>
+      <h3>Submitting the Assignments</h3>
 
       <p>
         You will need to submit a <code>.py</code> (or a <code>zip</code>) file 
-        containing your solution.
+        containing your solution on <a href="https://www.gradescope.com/courses/693504" target="_blank">Gradescope</a>.
       </p>
 
       <p>
-        The file with your solution will have to be submitted to
-        <a href="">Autolab</a>.
-        It will immediately run a series of tests on your code and give you a
-        score with some feedback. Make sure to check it! If your code does not
+        There is an autograder that will immediately run a series of tests on 
+        your code and let you know if your solutions passed the tests or not. 
+        Make sure to check it! If your code does not
         pass all tests, you can submit it again until the deadline. <span
-        class="text-danger"><b>You are limited to a total of 10 submissions
+        class="text-danger"><b>You are limited to a total of 5 submissions
         for each assignment.</b></span> 
       </p>
 
       <p>
-        The score received on Autolab may not reflect your final score for the assignment that will
-        be shown in Autolab, since the course staff will check the code
+        The score received on Gradescope may not reflect your final score for the assignment, 
+        since the course staff will check the code
         for <a href="resources/style.pdf">style</a> and for code similarity between students, to
         ensure that you are not violating rules of academic integrity.
       </p>
+      <br>
 
-      
-      <h3>Homework Interviews</h3>
+      <h3 id="interviews">Homework Interviews</h3>
 
       <p>
         After submitting the homework, the course staff will conduct interviews to evaluate your
-        understanding of the solutions. The interview will be carried out during the (mandatory!)
-        weekly meeting that thet student will have scheduled with her/his CA Tutor. During the
-        interview, one of the homework tasks will be randomly chosen and you will have to solve it
-        live. Each interview will take at most 15 minutes.</p>
+        understanding of the solutions. The interview will be carried out every week at the same time
+        and it will be scheduled at the beginning of the semester.
+        During the interview, one of the homework tasks will be randomly chosen and you will have to solve it
+        live <span class="text-danger">on paper</span>. Each interview will take at most 15 minutes.
+      </p>
 
       <p>
-	The rubric for evaluating the interviews with a grade score between 0 and 100 is as follows:
+	The rubric for evaluating the interviews with a grade score between 0 (no show) and 5 is as follows:
 
       <ol>
       <li> Code is mostly incomplete or incorrect, explanation does not show understanding of what
-      is going on: 0 &lt; score &le; 20  </li>
+      is going on. </li>
       <li> Code and logic are only partially correct, explanation does not show a solid understanding of
-      what is going on:  20 &lt; score &le; 40 </li>
+      what is going on. </li>
       <li> Code is more or less correct, still with some errors, explanation is not fully
-      satisfactory: 40 &lt; score &le; 60 </li>
-      <li> Code looks good, minor issues, little misunderstandings in the explanation: 60 &lt; score &le; 80 </li>
-      <li> Code is basically correct, clear and didactic explanation: 80 &lt; score &le; 100   </li>
+      satisfactory. </li>
+      <li> Code looks good, minor issues, little misunderstandings in the explanation. </li>
+      <li> Code is correct, clear and didactic explanation. </li>
       </ol>
       </p>
 
       <p>
-      <span class="text-danger"><b>If the student doesn't meet with the tutoring CA for the
-      interview during the week, the homework grade for the interview part will be 0.</b></span>
+        The course staff might also ask for small variations of a problem to gauge understanding. In
+        particular, we encourage you to not be afraid to say wrong things, you can always correct
+        yourself!
       </p>
-
-      <p>
-	Note that IF your submitted homework systematically achieves a high grade, while your
+      <!--
+	Note that if your submitted homework systematically achieves a high grade, while your
 	performance at the interview is systematically very bad, this will naturally raise up a
 	warning in terms of <span class="text-danger"><b>violation of academic integrity </b></span>
 	(you are clearly receiving an authorized help for the homework submission!)
-
+      -->
 	
-      The course staff might also ask for small variations of a problem to gauge understanding. In
-      particular, we encourage you to not be afraid to say wrong things, you can always correct
-      yourself!
+      <p>
+	Together with writing the code, you should also strive for a clear, concise, and didactic
+        explanation of the solution logic.  Think that you are explaining your solution to someone who
+        is one month behind you in this course.
       </p>
 
       <p>
-	Together with writing the code, you should also strive for a clear, concise, and didactic
-      explanation of the solution logic.  Think that you are explaining your solution to someone who
-      is one month behind you in this course.
+        Note that if you are getting too much help with the homeworks, to the point that you are not
+        able to solve it again during the interviews, you will consistently loose up to half of
+        the homework grade. So make sure you are actually understanding what you are doing, and not
+        copying it.
       </p>
 
-      <h4>Rules of Conduct</h4>
+      <b>Rules of Conduct</b>
 
       <p>
       <ul>
         <li> You cannot consult extra material, it is only you and your brain. </li>
         <li> You can ask clarification questions, but we might not answer if they give away the solution. </li>
+        <!-- Uncomment if interviews are online 
         <li> If your interview is online: </li>
           <ul>
             <li> you must share your desktop and have your writing or
@@ -436,7 +403,6 @@
             <li> unless you have a video waiver, you must have your
             camera on. </li>
           </ul>
-        <!-- Uncomment if interviews are online 
         <li> You should share your desktop for coding tasks. Written tasks can be solved on a digital or physical white paper. </li>
         <li> You should have lab handout and programming/writing environment ready before starting the interview. </li>
         -->
@@ -448,39 +414,25 @@
 
     </div>
 
-    <div id="quizzes" class="container section">
-      <h2><b>Quizzes (in-class)</b></h2>
-
-      <p>
-        The text with the questions of each Quiz will be available on paper sheets distributed at the
-        beginning of the Quiz assignment in the classroom. Each quiz will address questions about the
-        the topics discussed during the week. </p>
-	
-      <p><span class="text-danger"><b>Quizzes must be answered exclusively using pen and paper!
-	You are not allowed to use devices, computers, books, notes, ... </b></span></p>
-
-      <!--<p>At the end of the time given for answering the questions, you will use your phone to scan your answers on the
-	paper and you will submit on Canvas the scanned document in a <code>pdf</code> format.
-      </p> -->
-      
-    </div>
-      
+    <br>
     
     <div id="tools" class="container section">
       <h2><b>Tools</b></h2>
       <p>
       Set up your your programming environment by installing
-      the <a
-      href="https://www.anaconda.com/products/individual">Anaconda</a>
-      distribution (Pyhton 3.9 version):
+      the <a href="https://www.anaconda.com/products/individual" target="_blank">Anaconda</a>
+      distribution (Pyhton 3.11 version):
       <ul>
-	<li> <a href="https://repo.anaconda.com/archive/Anaconda3-2021.11-MacOSX-x86_64.pkg">For MacOS </a></li>
-        <li> <a href="https://repo.anaconda.com/archive/Anaconda3-2021.11-Windows-x86_64.exe">For Windows </a></li>
-        <li> <a href="https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh">For Linux </a></li>
+	<li> <a href="https://repo.anaconda.com/archive/Anaconda3-2023.09-0-MacOSX-x86_64.pkg" target="_blank">For MacOS </a></li>
+	<li> <a href="https://repo.anaconda.com/archive/Anaconda3-2023.09-0-MacOSX-arm64.pkg" target="_blank">For MacOS </a> with M1 processor</li>
+        <li> <a href="https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Windows-x86_64.exe" target="_blank">For Windows </a></li>
+        <li> <a href="https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh" target="_blank">For Linux </a></li>
       </ul>
       
       The download is big, so make sure you are at a place with fast and 
       reliable internet connection.
+
+      If you need help with the installation, ask on Discord or contact the course staff.
 
       Once installed, you can start the <code>Anaconda-Navigator</code> and launch from there
       the <code>Spyder</code> editor, which you will use to develop and test your python code.
@@ -488,6 +440,7 @@
 
     </div>
     
+    <br>
       
     <div id="policy" class="container section">
       <h2><b>Policies</b></h2>

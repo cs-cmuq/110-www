@@ -45,10 +45,10 @@ function fillSchedule(data, tableID) {
     var cell_class = ""
 
     if (type == "Lecture") {
-      cell_class = "table-secondary"
+      cell_class = "table-light"
     }
     else if (type == "Lab") {
-      cell_class = "table-primary"
+      cell_class = "table-success"
     }
     else if (type == "NoClass") {
       cell_class = "table-active"
@@ -57,7 +57,7 @@ function fillSchedule(data, tableID) {
       cell_class = "table-danger"
     }
     else if (type == "AsgnDue") {
-      cell_class = "table-info"
+      cell_class = "table-secondary"
     }
 
     // Date
