@@ -1,0 +1,353 @@
+{
+  "schedule": [
+    {
+      "date": "2024-01-08T10:00:00",
+      "beginWeek": true,
+      "type": "Lecture",
+      "topic": "Course logistics and problem solving",
+      "notes": "lectures/01-algorithm.pdf"
+    },
+    {
+      "date": "2024-01-10T10:00:00",
+      "type": "Lecture",
+      "topic": "Algorithms and abstraction",
+      "notes": "lectures/02-algorithm2.pdf"
+    },
+    {
+      "date": "2024-01-11T10:00:00",
+      "type": "Lab",
+      "topic": "Quiz 01: Problem solving "
+    },
+    { 
+      "date": "2024-01-14T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 01 due",
+      "_hw": "handouts/hw01.zip"
+    },
+    {
+      "date": "2024-01-15T10:00:00",
+      "type": "Lecture",
+      "topic": "Simplifying instructions and abstraction",
+      "notes": "lectures/03-abstraction.pdf"
+    },
+    {
+      "date": "2024-01-17T10:00:00",
+      "type": "Lecture",
+      "topic": "From algorithms to python",
+      "notes": "lectures/04-algo-to-python.pdf"
+    },
+    {
+      "date": "2024-01-18T10:00:00",
+      "type": "Lab",
+      "topic": "Quiz 02: writing code<br>Lab 01",
+      "_lab": "handouts/lab01.zip"
+    },
+    {
+      "date": "2024-01-21T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 02 due",
+      "_hw": "handouts/hw02.zip"
+    },      
+    {
+      "date": "2024-01-22T10:00:00",
+      "type": "Lecture",
+      "topic": "Arithmetic",
+      "notes": "lectures/05-arithmetic.pdf"
+    },
+    {
+      "date": "2024-01-24T10:00:00",
+      "type": "Lecture",
+      "topic": "Conditionals",
+      "notes": "lectures/06-conditionals.pdf"
+    },
+    {
+      "date": "2024-01-25T10:00:00",
+      "type": "Lab",
+      "topic": "Quiz 03: arithmetics, conditionals<br>Lab 02",
+      "_lab": "handouts/lab02.zip"
+    },
+    {
+      "date": "2024-01-28T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 03 due",
+      "_hw": "handouts/hw03.zip"
+    },      
+    {
+      "date": "2024-01-29T10:00:00",
+      "type": "Lecture",
+      "topic": "<tt>for</tt> loops", 
+      "notes": "lectures/07-for-loops.pdf"
+    },
+    {
+      "date": "2024-01-31T10:00:00",
+      "type": "NoClass",
+      "topic": "<i>Break - no lecture</i>"
+    },   
+    {
+      "date": "2024-02-01T10:00:00",
+      "type": "NoClass",
+      "topic": "<i>Break - no quiz or lab</i>"
+    },   
+    {
+      "date": "2024-02-05T10:00:00",
+      "beginWeek": true,
+      "type": "Lecture",
+      "topic": "<tt>while</tt> loops", 
+      "notes": "lectures/08-while-loops.pdf"
+    },
+    {
+      "date": "2024-02-07T10:00:00",
+      "type": "Exam",
+      "topic": "Midterm I"
+    },
+    {
+      "date": "2024-02-08T10:00:00",
+      "type": "Lab",
+      "topic": "Quiz 04: loops<br>Lab 03",
+      "_lab": "handouts/lab03.zip"
+    },
+    {
+      "date": "2024-02-11T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 04 due",
+      "_hw": "handouts/hw04.zip"
+    },      
+    {
+      "date": "2024-02-12T10:00:00",
+      "type": "Lecture",
+      "topic": "Code tracing & debugging",
+      "notes": "lectures/09-trace-debug.pdf"
+    },
+    {
+      "date": "2024-02-14T10:00:00",
+      "type": "Lecture",
+      "topic": "Lists I",
+      "notes": "lectures/10-lists-I.pdf"
+    },
+    {
+      "date": "2024-02-15T10:00:00",
+      "type": "Lab",
+      "topic": "Quiz 05: code tracing and lists<br>Lab 04",
+      "_lab": "handouts/lab04.zip"
+    },
+    {
+      "date": "2024-02-18T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 05 due",
+      "_hw": "handouts/hw05.zip"
+    },      
+    {
+      "date": "2024-02-19T10:00:00",
+      "type": "Lecture",      
+      "topic": "Lists II",
+      "notes": "lectures/11-lists-II.pdf"
+    },      
+    {
+      "date": "2024-02-21T10:00:00",
+      "type": "Lecture",      
+      "topic": "Problem solving",
+      "notes": "lectures/12-problem-solving.pdf"
+    },
+    {
+      "date": "2024-02-22T10:00:00",
+      "type": "Lab",
+      "topic": "Quiz 06: lists<br>Lab 05",
+      "_lab": "handouts/lab05.zip"
+    },
+    {
+      "date": "2024-02-26T10:00:00",
+      "beginWeek": true,
+      "type": "NoClass",
+      "topic": "<i>Spring break</i>"
+    },
+    {
+      "date": "2024-02-28T10:00:00",
+      "type": "NoClass",
+      "topic": "<i>Spring break</i>"
+    },
+    {
+      "date": "2024-02-29T10:00:00",
+      "type": "NoClass",
+      "topic": "<i>Spring break</i>"
+    },
+    {
+      "date": "2024-03-03T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 06 due",
+      "_hw": "handouts/hw06.zip"
+    },      
+    {
+      "date": "2024-03-04T10:00:00",
+      "type": "Lecture",
+      "topic": "Functions",
+      "notes": "lectures/13-functions.pdf"
+    },
+    {
+      "date": "2024-03-06T10:00:00",
+      "type": "Exam",
+      "topic": "Midterm II"
+    },     
+    {
+      "date": "2024-03-07T10:00:00",
+      "type": "Lab",
+      "topic": "Lab 06",
+      "_lab": "handouts/lab06.zip"
+    },
+    {
+      "date": "2024-03-11T10:00:00",
+      "beginWeek": true,
+      "type": "Lecture",
+      "topic": "Strings I",
+      "notes": "lectures/14-strings-I.pdf"
+    },
+    {
+      "date": "2024-03-13T10:00:00",
+      "type": "Lecture",
+      "topic": "Strings II",
+      "notes": "lectures/15-strings-II.pdf"
+    },
+    {
+      "date": "2024-03-14T10:00:00",
+      "type": "Lab",
+      "topic": "Quiz 07: strings<br>Lab 07",
+      "_lab": "handouts/lab07.zip"
+    },
+    {
+      "date": "2024-03-17T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 07 due",
+      "_hw": "handouts/hw07.zip"
+    },                 
+    {
+      "date": "2024-03-18T10:00:00",
+      "type": "Lecture",
+      "topic": "Dictionaries I",
+      "notes": "lectures/16-dict-I.pdf"
+    },
+    {
+      "date": "2024-03-20T10:00:00",
+      "type": "Lecture",
+      "topic": "Dictionaries II",
+      "notes": "lectures/17-dict-II.pdf"
+    },
+    {
+      "date": "2024-03-21T10:00:00",
+      "type": "Lab",
+      "topic": "Quiz 08: dictionaries<br>Lab 08",
+      "_lab": "handouts/lab08.zip"
+    },
+    {
+      "date": "2024-03-24T20:00:00",
+      "beginWeek": true,
+      "type": "AsgnDue",
+      "topic": "Homework 08 due",
+      "_hw": "handouts/hw08.zip"
+    },                 
+    {
+      "date": "2024-03-25T10:00:00",
+      "type": "Lecture",
+      "topic": "I/O & Files",
+      "notes": "lectures/18-files.pdf"
+    },
+    {
+      "date": "2024-03-27T10:00:00",
+      "type": "Exam",
+      "topic": "Midterm III"
+    },     
+    {
+      "date": "2024-03-28T10:00:00",
+      "type": "Lab",
+      "topic": "Lab 09",
+      "_lab": "handouts/lab09.zip"
+    },
+    {
+      "date": "2024-04-01T10:00:00",
+      "beginWeek": true,
+      "type": "Lecture",
+      "topic": "Matplot lib",
+      "notes": "lectures/19-matplotlib.pdf"
+    },
+    {
+      "date": "2024-04-03T10:00:00",
+      "type": "Lecture",
+      "topic": "Jupyter Notebooks",
+      "notes": "lectures/20-jupyter.zip"
+    },
+    {
+      "date": "2024-04-04T10:00:00",
+      "type": "Lab",
+      "topic": "Lab 10",
+      "_lab": "handouts/lab10.zip"
+    },
+    {
+      "date": "2024-04-08T10:00:00",
+      "beginWeek": true,
+      "type": "NoClass",
+      "topic": "<i>Eid Al-Fitr break</i>"
+    },
+    {
+      "date": "2024-04-10T10:00:00",
+      "type": "NoClass",
+      "topic": "<i>Eid Al-Fitr break</i>"
+    },
+    {
+      "date": "2024-04-11T10:00:00",
+      "type": "NoClass",
+      "topic": "<i>Eid Al-Fitr break</i>"
+    },
+    {
+      "date": "2024-04-15T10:00:00",
+      "beginWeek": true,
+      "type": "Lecture",
+      "topic": "Graphs",
+      "notes": "lectures/21-graphs.zip"
+    },
+    {
+      "date": "2024-04-17T10:00:00",
+      "type": "Lecture",
+      "topic": "Divide & Conquer",
+      "notes": "lectures/22-divide-and-conquer.pdf"
+    },
+    {
+      "date": "2024-04-18T10:00:00",
+      "type": "AsgnDue",
+      "topic": "Lab 11: Project Checkpoint Interviews",
+      "_hw": "handouts/project.zip"
+    },                 
+    {
+      "date": "2024-04-22T10:00:00",
+      "beginWeek": true,
+      "type": "Lecture",
+      "topic": "Algorithm Complexity",
+      "notes": "lectures/23-complexity.pdf"
+    },
+    {
+      "date": "2024-04-23T20:00:00",
+      "type": "AsgnDue",
+      "topic": "Project Due"
+    },
+    {
+      "date": "2024-04-24T10:00:00",
+      "type": "Lecture",
+      "topic": "Project Presentations I"
+    },
+    {
+      "date": "2024-04-25T10:00:00",
+      "type": "Lecture",
+      "topic": "Project Presentations II"
+    },
+    {
+      "date": "2024-04-29T08:30:00",
+      "beginWeek": true,
+      "type": "Exam",
+      "topic": "Final Exam - April 29, 8:30 to 11:30"
+    }
+  ]
+}
